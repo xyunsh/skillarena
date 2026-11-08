@@ -25,7 +25,7 @@
     },
     {
       "id": "mobile-app",
-      "title": "Mobile app screen",
+      "title": "Mobile app",
       "text": "The \"My Plants\" home screen of a plant care app, designed for a phone screen. At the top, a greeting and how many plants need watering today; a list of plant cards, each with the plant's name, species, next watering time, and a \"Watered\" button; a bottom navigation bar with 4 tabs; and an \"Add plant\" floating action button in the bottom-right corner."
     },
     {

@@ -27,7 +27,7 @@ export const runConfig = {
   briefTitles: {
     'saas-landing': 'SaaS landing page',
     dashboard: 'Analytics dashboard',
-    'mobile-app': 'Mobile app screen',
+    'mobile-app': 'Mobile app',
     'signup-form': 'Sign-up form',
     'skillarena-home': 'SkillArena itself',
   } as Record<string, string>,
