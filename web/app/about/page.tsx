@@ -117,8 +117,9 @@ export default function About() {
                     <li>All briefs are original and fictional. Names, numbers and testimonials in the generated pages are placeholders.</li>
                     <li>“Open live page” runs the generated HTML in a sandboxed iframe that cannot access this site.</li>
                     <li>
-                        Privacy: we count page views and a few clicks (install copy, outbound links, form sends) ourselves, without cookies or third-party scripts. IP addresses are not stored; visitors
-                        are counted with a hash that changes daily. Nothing is sent if your browser has Do Not Track or Global Privacy Control turned on.
+                        Privacy: we count page views and a few clicks (install copy, outbound links, form sends) ourselves, without cookies. IP addresses are not stored; visitors are counted
+                        with a hash that changes daily. Nothing is sent if your browser has Do Not Track or Global Privacy Control turned on. The site is served through Cloudflare, which may
+                        add its own cookie-free Web Analytics script.
                     </li>
                 </ul>
             </div>

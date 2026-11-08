@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-07T15:04:23.054Z",
+  "checkedAt": "2026-11-08T03:16:11.008Z",
   "skills": {
     "anthropic-frontend-design": {
       "head": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
@@ -9,11 +9,21 @@
       "scripts": []
     },
     "ui-ux-pro-max": {
-      "head": "b7d5353e0130feb8c5574ef1251f8a1db1873ccb",
-      "changed": false,
+      "head": "4f2dbb67e64969a9a30ab00742f2d55d66ddec2b",
+      "changed": true,
       "gone": false,
-      "files": [],
-      "scripts": []
+      "files": [
+        "SKILL.md",
+        "data/catalog-summary.json",
+        "data/data-provenance.json",
+        "data/ux-guidelines.csv",
+        "references/quick-reference.md",
+        "scripts/tests/fixtures/relevance-thresholds.json",
+        "scripts/tests/test_ime_composition.py"
+      ],
+      "scripts": [
+        "scripts/tests/test_ime_composition.py"
+      ]
     },
     "taste-skill": {
       "head": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
@@ -139,14 +149,14 @@
       "scripts": []
     },
     "better-ui": {
-      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "head": "157da62016338e8693dcff93d47154a9e36f2157",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "better-typography": {
-      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "head": "157da62016338e8693dcff93d47154a9e36f2157",
       "changed": false,
       "gone": false,
       "files": [],
@@ -209,10 +219,14 @@
       "scripts": []
     },
     "impeccable": {
-      "head": "687bc381bc9091bf252c0a05303640561014a425",
-      "changed": false,
+      "head": "924bbd194d02e5e15a227e75b5901fb0d7a4ecad",
+      "changed": true,
       "gone": false,
-      "files": [],
+      "files": [
+        "SKILL.md",
+        "scripts/VERSION",
+        "scripts/engine-checksums.txt"
+      ],
       "scripts": []
     },
     "anthropic-canvas-design": {
@@ -223,7 +237,7 @@
       "scripts": []
     },
     "uupm-banner-design": {
-      "head": "b7d5353e0130feb8c5574ef1251f8a1db1873ccb",
+      "head": "4f2dbb67e64969a9a30ab00742f2d55d66ddec2b",
       "changed": false,
       "gone": false,
       "files": [],
@@ -328,21 +342,21 @@
       "scripts": []
     },
     "jakub-better-layout": {
-      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "head": "157da62016338e8693dcff93d47154a9e36f2157",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "jakub-better-writing": {
-      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "head": "157da62016338e8693dcff93d47154a9e36f2157",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "jakub-variant": {
-      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "head": "157da62016338e8693dcff93d47154a9e36f2157",
       "changed": false,
       "gone": false,
       "files": [],
