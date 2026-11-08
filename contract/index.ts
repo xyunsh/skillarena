@@ -149,6 +149,9 @@ export const Manifest = z.object({
     skills: z.array(SkillRow),
     /** runs[briefId][skillId] = runs in order. */
     runs: z.record(z.string(), z.record(z.string(), z.array(Run))),
+    /** Live pages (config/live-briefs/): live[briefId][skillId] = runs in order. Not counted in totals. */
+    live: z.record(z.string(), z.record(z.string(), z.array(Run))).optional(),
+    liveTotals: z.object({ calls: z.number(), costUsd: z.number() }).optional(),
 });
 export type Manifest = z.infer<typeof Manifest>;
 

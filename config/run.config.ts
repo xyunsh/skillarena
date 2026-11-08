@@ -41,4 +41,14 @@ You may load web fonts or icons from public CDNs. Do not load any other external
 Use placeholder content that fits the brief. Do not use real company logos or real people's photos.
 Output only the HTML, starting with <!DOCTYPE html>. No explanation.`;
 
+/**
+ * System prompt for live briefs (config/live-briefs/): pages meant to be published and used, which
+ * render real data from the endpoints their brief names. Replaces SYSTEM_BASE; the skill text follows as usual.
+ */
+export const SYSTEM_LIVE = `You are building a single, working web page from a product brief. It will be published and used by real visitors.
+Return ONE complete, self-contained HTML file (inline CSS and JS).
+You may load web fonts or icons from public CDNs. The only other network requests allowed are the ones the brief names.
+Render the real data the brief describes; do not invent content that the data provides. Do not use real company logos or real people's photos.
+Output only the HTML, starting with <!DOCTYPE html>. No explanation.`;
+
 export const BASELINE_ID = 'baseline';

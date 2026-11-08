@@ -4,6 +4,7 @@ export const ui = {
   'nav.matrix': 'Matrix',
   'nav.compare': 'Compare',
   'nav.about': 'About',
+  'nav.live': 'Live pages',
   'nav.waitlist': 'Waitlist',
 
   'home.title': 'See what a UI skill builds before you install it',

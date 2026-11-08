@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "daisyui",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "bf3bac3a397b543e55641ecb2d60a2ed961f09ec",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T21:53:21.639Z",
+  "inputTokens": 37067,
+  "outputTokens": 10202,
+  "costUsd": 0.50057,
+  "durationMs": 81827,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T22:05:41.925Z",
+    "fullPageHeight": 2546,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -64,6 +64,8 @@ interface RawManifest {
     briefs: Brief[];
     runs: Record<string, Record<string, Run[]>>;
     totals: { calls: number; costUsd: number };
+    live?: Record<string, Record<string, Run[]>>;
+    liveTotals?: { calls: number; costUsd: number };
 }
 
 const raw = readJson<RawManifest>('manifest.json', {
@@ -102,6 +104,10 @@ export const skills: ShownSkill[] = raw.skills
 const shown = new Set(skills.map((s) => s.id));
 export const briefs = raw.briefs;
 export const runsFor = (briefId: string, skillId: string): Run[] => (shown.has(skillId) ? raw.runs[briefId]?.[skillId] ?? [] : []);
+/** The live SkillArena page a skill built (first ok run of the live brief), if any. */
+export const LIVE_BRIEF = 'skillarena-live';
+export const liveRunFor = (skillId: string): Run | null =>
+    (shown.has(skillId) ? raw.live?.[LIVE_BRIEF]?.[skillId]?.find((r) => r.status === 'ok' && r.base) : null) ?? null;
 const visibleRuns = briefs.flatMap((b) => skills.flatMap((s) => runsFor(b.id, s.id)));
 /** The manifest with totals recomputed over visible skills only. */
 export const manifest = {

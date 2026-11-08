@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "emil-design-eng",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T21:52:51.847Z",
+  "inputTokens": 12133,
+  "outputTokens": 17684,
+  "costUsd": 0.45074,
+  "durationMs": 137988,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T22:05:42.084Z",
+    "fullPageHeight": 2434,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

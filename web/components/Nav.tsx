@@ -1,6 +1,9 @@
 import { InlineScript } from './InlineScript';
 import { ui } from '~/lib/copy';
+import { liveRunFor, skills } from '~/lib/data';
 import { API } from '~/lib/env';
+
+const hasLive = skills.some((s) => liveRunFor(s.id));
 
 const nav = [
     { href: '/', k: 'nav.matrix' },
@@ -25,6 +28,11 @@ export function Nav() {
                     {ui[n.k]}
                 </a>
             ))}
+            {hasLive && (
+                <a href="/live/" data-nav="">
+                    {ui['nav.live']}
+                </a>
+            )}
             {API && <a href="/#waitlist">{ui['nav.waitlist']}</a>}
             <InlineScript code={current} />
         </nav>

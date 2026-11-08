@@ -264,3 +264,12 @@ details.brief-text p { white-space: pre-wrap; background: var(--surface); border
 .skill-meta .tag { height: 20px; display: inline-flex; align-items: center; }
 .install-link { display: inline-flex; align-items: center; gap: 4px; height: 20px; padding: 0 2px; color: var(--ink-2); font-size: 11.5px; font-weight: 500; text-decoration: none; border-radius: 4px; }
 .install-link:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
+
+/* Live pages gallery (/live/) */
+.live-grid { list-style: none; margin: 24px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.live-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.live-shot { display: block; aspect-ratio: 16 / 10; background: #ebebe7; border-bottom: 1px solid var(--line); overflow: hidden; }
+.live-shot img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.live-shot:hover img { opacity: .92; }
+.live-body { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px 14px; }
+.live-open { margin-top: 4px; font-weight: 600; font-size: 14px; }

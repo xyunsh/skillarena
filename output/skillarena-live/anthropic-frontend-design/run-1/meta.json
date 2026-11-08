@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "anthropic-frontend-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "ca45fc496a3436251f191354091d557da31c15b5",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T21:50:47.614Z",
+  "inputTokens": 5171,
+  "outputTokens": 15021,
+  "costUsd": 0.34178,
+  "durationMs": 124231,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T22:05:31.047Z",
+    "fullPageHeight": 2468,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -98,22 +98,29 @@ export interface Brief {
   id: string;
   text: string;
   title: string;
+  /** From config/live-briefs/: a working page with real data, generated with SYSTEM_LIVE; not part of the matrix. */
+  live?: boolean;
 }
 
+/** Live briefs: pages meant to be published and used (not compared in the matrix). Generated only when named with --brief. */
+export const LIVE_BRIEFS_DIR = path.join(CONFIG_DIR, 'live-briefs');
+
 /** Briefs in the order of runConfig.briefTitles, then any other .md files alphabetically. */
-export function loadBriefs(): Brief[] {
+export function loadBriefs(dir = BRIEFS_DIR): Brief[] {
+  if (!fs.existsSync(dir)) return [];
   const order = Object.keys(runConfig.briefTitles);
   const rank = (id: string) => (order.includes(id) ? order.indexOf(id) : order.length);
   return fs
-    .readdirSync(BRIEFS_DIR)
+    .readdirSync(dir)
     .filter((f) => f.endsWith('.md'))
     .sort((a, b) => rank(a.replace(/\.md$/, '')) - rank(b.replace(/\.md$/, '')) || a.localeCompare(b))
     .map((f) => {
       const id = f.replace(/\.md$/, '');
       return {
         id,
-        text: fs.readFileSync(path.join(BRIEFS_DIR, f), 'utf8'),
+        text: fs.readFileSync(path.join(dir, f), 'utf8'),
         title: runConfig.briefTitles[id] ?? id,
+        ...(dir === LIVE_BRIEFS_DIR ? { live: true } : {}),
       };
     });
 }

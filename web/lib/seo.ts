@@ -1,6 +1,6 @@
 // Shared helpers for page metadata and the machine-readable endpoints (sitemap, robots, llms.txt, results.json).
 import type { Metadata } from 'next';
-import { briefs, manifest, runsFor, skills } from './data';
+import { briefs, liveRunFor, manifest, runsFor, skills } from './data';
 
 export const SITE = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://skillarena.dev').replace(/\/+$/, '');
 export const abs = (p: string) => new URL(p, SITE + '/').href;
@@ -11,6 +11,7 @@ export const pages = () => [
     { path: '/compare/', priority: 0.8 },
     { path: '/about/', priority: 0.7 },
     { path: '/try/', priority: 0.5 },
+    ...(skills.some((s) => liveRunFor(s.id)) ? [{ path: '/live/', priority: 0.7 }] : []),
     ...skills.map((s) => ({ path: `/skill/${s.id}/`, priority: s.isBaseline ? 0.5 : 0.8 })),
 ];
 

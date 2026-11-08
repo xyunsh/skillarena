@@ -8,7 +8,7 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
-import { BASELINE_ID, DATA_DIR, PUBLIC_DIR, listRunDirs, loadEnv, loadBriefs, loadSkills, loadVendorInfo, readMeta, runConfig, type RunMeta } from './lib.ts';
+import { BASELINE_ID, DATA_DIR, PUBLIC_DIR, listRunDirs, loadEnv, loadBriefs, LIVE_BRIEFS_DIR, loadSkills, loadVendorInfo, readMeta, runConfig, type RunMeta } from './lib.ts';
 
 /** Files of a run that the site serves (from web/public/runs/, or from R2 when ASSET_BASE is set). */
 export const PUBLIC_FILES = ['index.html', 'desktop.webp', 'desktop-full.webp', 'mobile.webp', 'thumb-desktop.webp', 'thumb-mobile.webp', 'og.jpg'];
@@ -120,14 +120,25 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
   const models = new Set<string>();
   let latest = '';
 
+  // Live pages (config/live-briefs/): working SkillArena pages per skill, shown in the gallery, not in the matrix totals.
+  const liveIds = new Set(loadBriefs(LIVE_BRIEFS_DIR).map((b) => b.id));
+  const live: Record<string, Record<string, ManifestRun[]>> = {};
+  const liveTotals = { calls: 0, costUsd: 0 };
+
   for (const r of listRunDirs()) {
-    if (!known.has(r.skillId) || !briefs.some((b) => b.id === r.briefId)) continue;
+    const isLive = liveIds.has(r.briefId);
+    if (!known.has(r.skillId) || (!isLive && !briefs.some((b) => b.id === r.briefId))) continue;
     const meta = readMeta(r.dir);
     if (!meta) continue;
+    if (isLive) {
+      liveTotals.calls++;
+      liveTotals.costUsd += meta.costUsd;
+    } else {
     totalCost += meta.costUsd;
     totalCalls++;
     models.add(meta.model);
     if (meta.generatedAt > latest) latest = meta.generatedAt;
+    }
 
     // With ASSET_BASE the files are on the asset domain, so a clone with only meta.json still has screenshots.
     const hasShots = meta.status === 'ok' && (assetBase ? !!meta.screenshots : fs.existsSync(path.join(r.dir, 'thumb-desktop.webp')));
@@ -145,7 +156,7 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
       base = `${assetBase}/runs/${rel.split(path.sep).join('/')}/`;
       localDirs.set(base, r.dir);
     }
-    ((runs[r.briefId] ??= {})[r.skillId] ??= []).push({
+    (((isLive ? live : runs)[r.briefId] ??= {})[r.skillId] ??= []).push({
       run: r.run,
       status: meta.status,
       error: meta.error,
@@ -159,7 +170,7 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
       hasShots,
     });
   }
-  for (const b of Object.values(runs)) for (const list of Object.values(b)) list.sort((a, c) => a.run - c.run);
+  for (const b of [...Object.values(runs), ...Object.values(live)]) for (const list of Object.values(b)) list.sort((a, c) => a.run - c.run);
 
   // Default Open Graph image: grid of first-run thumbnails (baseline row + first skills).
   const ogDir = path.join(PUBLIC_DIR, 'og');
@@ -196,6 +207,8 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
     briefs: briefs.map((b) => ({ id: b.id, title: b.title, text: b.text.trim() })),
     skills: skillRows,
     runs,
+    live,
+    liveTotals: { calls: liveTotals.calls, costUsd: Number(liveTotals.costUsd.toFixed(4)) },
   };
   const out = path.join(DATA_DIR, 'manifest.json');
   fs.mkdirSync(path.dirname(out), { recursive: true });

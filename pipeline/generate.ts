@@ -17,6 +17,7 @@ import {
   ROOT,
   VENDOR_DIR,
   loadBriefs,
+  LIVE_BRIEFS_DIR,
   loadEnv,
   loadSkills,
   loadVendorInfo,
@@ -29,7 +30,7 @@ import {
   writeMeta,
   type RunMeta,
 } from './lib.ts';
-import { SYSTEM_BASE } from '../config/run.config.ts';
+import { SYSTEM_BASE, SYSTEM_LIVE } from '../config/run.config.ts';
 
 interface Condition {
   skillId: string;
@@ -130,7 +131,7 @@ const CLI_PROMPTS = path.join(ROOT, 'vendor', '.cli-prompts');
 function callCli(cond: Condition, briefText: string): Promise<CallResult> {
   fs.mkdirSync(CLI_CWD, { recursive: true });
   fs.mkdirSync(CLI_PROMPTS, { recursive: true });
-  const sysFile = path.join(CLI_PROMPTS, `${cond.skillId}.txt`);
+  const sysFile = path.join(CLI_PROMPTS, `${cond.skillId}${cond.system.startsWith(SYSTEM_LIVE) ? '.live' : ''}.txt`);
   fs.writeFileSync(sysFile, cond.system);
   const args = [
     '-p',
@@ -214,7 +215,9 @@ async function confirm(question: string) {
 
 export async function generate(cli: ReturnType<typeof parseCli>) {
   loadEnv();
-  const briefs = loadBriefs().filter((b) => !cli.briefs.length || cli.briefs.includes(b.id));
+  // Live briefs (config/live-briefs/) run only when named, and swap SYSTEM_BASE for SYSTEM_LIVE.
+  const briefs = [...loadBriefs(), ...loadBriefs(LIVE_BRIEFS_DIR).filter((b) => cli.briefs.includes(b.id))]
+    .filter((b) => !cli.briefs.length || cli.briefs.includes(b.id));
   for (const id of cli.briefs) if (!briefs.some((b) => b.id === id)) console.warn(`! brief "${id}" not found in config/briefs/`);
   const { conditions, problems } = buildConditions(cli.skills);
   problems.forEach((p) => console.warn(`! ${p}`));
@@ -232,7 +235,7 @@ export async function generate(cli: ReturnType<typeof parseCli>) {
           skipped++;
           continue;
         }
-        jobs.push({ cond, brief, run, dir });
+        jobs.push({ cond: brief.live ? { ...cond, system: SYSTEM_LIVE + cond.system.slice(SYSTEM_BASE.length) } : cond, brief, run, dir });
       }
 
   const estIn = jobs.reduce((a, j) => a + approxTokens(j.cond.system) + approxTokens(j.brief.text), 0);
