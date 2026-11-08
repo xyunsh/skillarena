@@ -253,10 +253,10 @@ details.brief-text p { white-space: pre-wrap; background: var(--surface); border
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
 /* Skill row header in the matrix: name, owner, then stars / featured / install on one quiet line. */
-.matrix th .owner { display: flex; align-items: center; gap: 6px; margin-top: 6px; min-width: 0; color: var(--ink-2); font-size: 12px; font-weight: 400; text-decoration: none; }
-.matrix th .owner img, .matrix th .owner-dot { width: 16px; height: 16px; flex: none; border-radius: 50%; background: var(--line); box-shadow: 0 0 0 1px rgba(0, 0, 0, .06); }
-.matrix th .owner-name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.matrix th .owner:hover .owner-name { color: var(--ink); text-decoration: underline; }
+.matrix th .owner, .live-card .owner { display: flex; align-items: center; gap: 6px; margin-top: 6px; min-width: 0; color: var(--ink-2); font-size: 12px; font-weight: 400; text-decoration: none; }
+.matrix th .owner img, .matrix th .owner-dot, .live-card .owner img, .live-card .owner-dot { width: 16px; height: 16px; flex: none; border-radius: 50%; background: var(--line); box-shadow: 0 0 0 1px rgba(0, 0, 0, .06); }
+.matrix th .owner-name, .live-card .owner-name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.matrix th .owner:hover .owner-name, .live-card .owner:hover .owner-name { color: var(--ink); text-decoration: underline; }
 .skill-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-top: 8px; font-weight: 400; }
 .stars { display: inline-flex; align-items: center; gap: 3px; height: 20px; padding: 0 7px; border: 1px solid var(--line); border-radius: 999px; background: #fafaf8; color: var(--ink-2); font-size: 11px; font-weight: 500; font-variant-numeric: tabular-nums; }
 .stars svg { color: #c27c0e; }
@@ -271,5 +271,11 @@ details.brief-text p { white-space: pre-wrap; background: var(--surface); border
 .live-shot { display: block; aspect-ratio: 16 / 10; background: #ebebe7; border-bottom: 1px solid var(--line); overflow: hidden; }
 .live-shot img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .live-shot:hover img { opacity: .92; }
-.live-body { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px 14px; }
-.live-open { margin-top: 4px; font-weight: 600; font-size: 14px; }
+.live-body { display: flex; flex-direction: column; flex: 1; padding: 14px 16px 16px; }
+.live-card .skill-name { font-size: 16px; font-weight: 650; line-height: 1.3; color: var(--ink); text-decoration: none; }
+.live-card .skill-name:hover { text-decoration: underline; }
+.live-meta { display: flex; align-items: center; gap: 8px; min-width: 0; margin-top: 8px; }
+.live-meta .owner { margin-top: 0; font-size: 13px; }
+.live-open { align-self: flex-start; margin-top: auto; padding-top: 14px; color: var(--ink); font-size: 14px; font-weight: 600; text-decoration: none; }
+.live-open span { display: inline-block; padding: 6px 12px; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); }
+.live-open:hover span { border-color: var(--ink-3); }

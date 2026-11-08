@@ -37,20 +37,18 @@ export default function Live() {
                                 <a className="skill-name" href={`/skill/${s.id}/`}>
                                     {s.name}
                                 </a>
-                                {s.isBaseline ? (
-                                    <div className="skill-meta">
+                                <div className="live-meta">
+                                    {s.isBaseline ? (
                                         <span className="tag">control group</span>
-                                    </div>
-                                ) : (
-                                    <>
-                                        <GithubOwner skill={s} />
-                                        <div className="skill-meta">
+                                    ) : (
+                                        <>
+                                            <GithubOwner skill={s} />
                                             <Stars skill={s} />
-                                        </div>
-                                    </>
-                                )}
+                                        </>
+                                    )}
+                                </div>
                                 <a className="live-open" href={`${r.base}index.html?ref=gallery`}>
-                                    Open live page →
+                                    <span>Open live page →</span>
                                 </a>
                             </div>
                         </li>
