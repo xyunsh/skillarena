@@ -37,6 +37,15 @@ export interface ManifestRun {
  */
 export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean } = {}) {
   const briefs = loadBriefs();
+  // GitHub owner, avatar and stars per repo (yarn github-meta).
+  const githubFile = path.join(DATA_DIR, 'github.json');
+  const github: Record<string, { repo: string; owner: { login: string; name: string | null; type: string; url: string; avatar: string | null }; stars: number; fetchedAt: string }> =
+    fs.existsSync(githubFile) ? JSON.parse(fs.readFileSync(githubFile, 'utf8')).repos ?? {} : {};
+  const githubFor = (repo: string | null) => {
+    const m = /github\.com\/([^/]+)\/([^/.]+)/.exec(repo ?? '');
+    const g = m ? github[`${m[1]}/${m[2]}`.toLowerCase()] : undefined;
+    return g ? { owner: g.owner.login, ownerName: g.owner.name, ownerUrl: g.owner.url, avatar: g.owner.avatar, stars: g.stars, starsAt: g.fetchedAt } : null;
+  };
   const prevFile = path.join(DATA_DIR, 'manifest.json');
   const prev = new Map<string, { description?: string; referencesInlined?: boolean }>(
     fs.existsSync(prevFile) ? (JSON.parse(fs.readFileSync(prevFile, 'utf8')).skills ?? []).map((x: { id: string }) => [x.id, x]) : [],
@@ -75,6 +84,7 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
       usage: null as string | null,
       install: [] as { label: string; commands: string; note: string | null }[],
       referencesInlined: false,
+      github: null as ReturnType<typeof githubFor>,
       isBaseline: true,
     },
     ...skills.flatMap((s) => {
@@ -96,6 +106,7 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
           usage: s.usage ?? null,
           install: (s.install ?? []).map((i) => ({ label: i.label, commands: i.commands.trim(), note: i.note ?? null })),
           referencesInlined: info ? info.inlinedReferences.length > 0 : !!before?.referencesInlined,
+          github: githubFor(s.repo),
           isBaseline: false,
         },
       ];

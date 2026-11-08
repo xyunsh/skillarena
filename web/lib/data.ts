@@ -47,6 +47,7 @@ export interface SkillRow {
     usage: string | null;
     install: InstallMethod[];
     referencesInlined: boolean;
+    github?: { owner: string; ownerName: string | null; ownerUrl: string; avatar: string | null; stars: number; starsAt: string } | null;
 }
 export interface Brief {
     id: string;
@@ -134,4 +135,6 @@ export const manualInstall = (s: SkillRow) =>
               'rm -rf "$tmp"',
           ].join('\n')
         : null;
+/** 54170 → "54.2k". */
+export const fmtStars = (n: number) => (n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, '')}k` : String(n));
 export const fmtDate = (iso: string | null | undefined) => (iso ? iso.slice(0, 10) : '—');

@@ -17,6 +17,7 @@ export function GET() {
     skills: skills.map((s) => ({
       id: s.id, name: s.name, author: s.author, isBaseline: s.isBaseline, description: s.description,
       repo: s.repo, commit: s.commit, path: s.path, license: s.license, page: u(`/skill/${s.id}/`),
+      github: s.github ? { owner: s.github.owner, ownerName: s.github.ownerName, stars: s.github.stars, starsAt: s.github.starsAt } : null,
     })),
     runs: skills.flatMap((s) => briefs.flatMap((b) => runsFor(b.id, s.id).map((r) => ({
       skill: s.id, brief: b.id, run: r.run, status: r.status, model: r.model, generatedAt: r.generatedAt,

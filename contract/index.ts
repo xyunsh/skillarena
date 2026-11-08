@@ -129,6 +129,11 @@ export const SkillRow = z.object({
     usage: z.string().nullable(),
     install: z.array(InstallMethod),
     referencesInlined: z.boolean(),
+    /** The repo on GitHub (yarn github-meta): owner login and name, avatar served by the site, stars when fetched. */
+    github: z
+        .object({ owner: z.string(), ownerName: z.string().nullable(), ownerUrl: z.string(), avatar: z.string().nullable(), stars: z.number().int(), starsAt: z.string() })
+        .nullable()
+        .optional(),
 });
 export type SkillRow = z.infer<typeof SkillRow>;
 export const Brief = z.object({ id: z.string(), title: z.string(), text: z.string() });

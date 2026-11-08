@@ -1,0 +1,365 @@
+{
+  "checkedAt": "2026-11-08T04:09:36.542Z",
+  "repos": {
+    "addyosmani/agent-skills": {
+      "repo": "addyosmani/agent-skills",
+      "owner": {
+        "login": "addyosmani",
+        "name": "Addy Osmani",
+        "type": "User",
+        "url": "https://github.com/addyosmani",
+        "avatar": "/avatars/addyosmani.png"
+      },
+      "stars": 113923,
+      "fetchedAt": "2026-11-08T04:09:25.301Z"
+    },
+    "addyosmani/web-quality-skills": {
+      "repo": "addyosmani/web-quality-skills",
+      "owner": {
+        "login": "addyosmani",
+        "name": "Addy Osmani",
+        "type": "User",
+        "url": "https://github.com/addyosmani",
+        "avatar": "/avatars/addyosmani.png"
+      },
+      "stars": 3054,
+      "fetchedAt": "2026-11-08T04:09:30.044Z"
+    },
+    "antfu/design": {
+      "repo": "antfu/design",
+      "owner": {
+        "login": "antfu",
+        "name": "Anthony Fu",
+        "type": "User",
+        "url": "https://github.com/antfu",
+        "avatar": "/avatars/antfu.png"
+      },
+      "stars": 87,
+      "fetchedAt": "2026-11-08T04:09:31.848Z"
+    },
+    "anthropics/skills": {
+      "repo": "anthropics/skills",
+      "owner": {
+        "login": "anthropics",
+        "name": "Anthropic",
+        "type": "Organization",
+        "url": "https://github.com/anthropics",
+        "avatar": "/avatars/anthropics.png"
+      },
+      "stars": 188883,
+      "fetchedAt": "2026-11-08T04:09:19.919Z"
+    },
+    "arla6ka/skills": {
+      "repo": "arla6ka/design.how",
+      "owner": {
+        "login": "arla6ka",
+        "name": "Arlan Marat",
+        "type": "User",
+        "url": "https://github.com/arla6ka",
+        "avatar": "/avatars/arla6ka.png"
+      },
+      "stars": 274,
+      "fetchedAt": "2026-11-08T04:09:34.039Z"
+    },
+    "bencium/bencium-marketplace": {
+      "repo": "bencium/bencium-marketplace",
+      "owner": {
+        "login": "bencium",
+        "name": "Bence Csernak",
+        "type": "User",
+        "url": "https://github.com/bencium",
+        "avatar": "/avatars/bencium.png"
+      },
+      "stars": 489,
+      "fetchedAt": "2026-11-08T04:09:24.216Z"
+    },
+    "dammyjay93/interface-design": {
+      "repo": "Dammyjay93/interface-design",
+      "owner": {
+        "login": "Dammyjay93",
+        "name": "Oyindamola Akinleye",
+        "type": "User",
+        "url": "https://github.com/Dammyjay93",
+        "avatar": "/avatars/dammyjay93.png"
+      },
+      "stars": 5936,
+      "fetchedAt": "2026-11-08T04:09:22.236Z"
+    },
+    "danilaa1/compact-landing-skill": {
+      "repo": "danielwh2/compact-landing-skill",
+      "owner": {
+        "login": "danielwh2",
+        "name": "Daniel",
+        "type": "User",
+        "url": "https://github.com/danielwh2",
+        "avatar": "/avatars/danielwh2.png"
+      },
+      "stars": 37,
+      "fetchedAt": "2026-11-08T04:09:35.043Z"
+    },
+    "ehmo/platform-design-skills": {
+      "repo": "ehmo/platform-design-skills",
+      "owner": {
+        "login": "ehmo",
+        "name": "Rasty Turek",
+        "type": "User",
+        "url": "https://github.com/ehmo",
+        "avatar": "/avatars/ehmo.png"
+      },
+      "stars": 638,
+      "fetchedAt": "2026-11-08T04:09:22.784Z"
+    },
+    "elayadesign/ai-design-skills": {
+      "repo": "elayadesign/ai-design-skills",
+      "owner": {
+        "login": "elayadesign",
+        "name": "Elaya",
+        "type": "User",
+        "url": "https://github.com/elayadesign",
+        "avatar": "/avatars/elayadesign.png"
+      },
+      "stars": 14860,
+      "fetchedAt": "2026-11-08T04:09:29.721Z"
+    },
+    "emilkowalski/skills": {
+      "repo": "emilkowalski/skills",
+      "owner": {
+        "login": "emilkowalski",
+        "name": "Emil Kowalski",
+        "type": "User",
+        "url": "https://github.com/emilkowalski",
+        "avatar": "/avatars/emilkowalski.png"
+      },
+      "stars": 54425,
+      "fetchedAt": "2026-11-08T04:09:25.812Z"
+    },
+    "flornkm/shadow-plugin": {
+      "repo": "flornkm/shadow-plugin",
+      "owner": {
+        "login": "flornkm",
+        "name": "Florian Kiem",
+        "type": "User",
+        "url": "https://github.com/flornkm",
+        "avatar": "/avatars/flornkm.png"
+      },
+      "stars": 149,
+      "fetchedAt": "2026-11-08T04:09:34.307Z"
+    },
+    "flornkm/skills": {
+      "repo": "flornkm/skills",
+      "owner": {
+        "login": "flornkm",
+        "name": "Florian Kiem",
+        "type": "User",
+        "url": "https://github.com/flornkm",
+        "avatar": "/avatars/flornkm.png"
+      },
+      "stars": 115,
+      "fetchedAt": "2026-11-08T04:09:31.294Z"
+    },
+    "greensock/gsap-skills": {
+      "repo": "greensock/gsap-skills",
+      "owner": {
+        "login": "greensock",
+        "name": "GreenSock",
+        "type": "Organization",
+        "url": "https://github.com/greensock",
+        "avatar": "/avatars/greensock.png"
+      },
+      "stars": 18069,
+      "fetchedAt": "2026-11-08T04:09:28.948Z"
+    },
+    "iart-ai/web-animation-skills": {
+      "repo": "iart-ai/web-animation-skills",
+      "owner": {
+        "login": "iart-ai",
+        "name": null,
+        "type": "Organization",
+        "url": "https://github.com/iart-ai",
+        "avatar": "/avatars/iart-ai.png"
+      },
+      "stars": 81,
+      "fetchedAt": "2026-11-08T04:09:32.447Z"
+    },
+    "ibelick/ui-skills": {
+      "repo": "ibelick/ui-skills",
+      "owner": {
+        "login": "ibelick",
+        "name": "Julien Thibeaut",
+        "type": "User",
+        "url": "https://github.com/ibelick",
+        "avatar": "/avatars/ibelick.png"
+      },
+      "stars": 10784,
+      "fetchedAt": "2026-11-08T04:09:21.663Z"
+    },
+    "jakubkrehel/skills": {
+      "repo": "jakubkrehel/skills",
+      "owner": {
+        "login": "jakubkrehel",
+        "name": "Jakub Krehel",
+        "type": "User",
+        "url": "https://github.com/jakubkrehel",
+        "avatar": "/avatars/jakubkrehel.png"
+      },
+      "stars": 11546,
+      "fetchedAt": "2026-11-08T04:09:23.575Z"
+    },
+    "kemiljk/skills": {
+      "repo": "kemiljk/skills",
+      "owner": {
+        "login": "kemiljk",
+        "name": "Karl",
+        "type": "User",
+        "url": "https://github.com/kemiljk",
+        "avatar": "/avatars/kemiljk.png"
+      },
+      "stars": 66,
+      "fetchedAt": "2026-11-08T04:09:26.860Z"
+    },
+    "leonxlnx/taste-skill": {
+      "repo": "Leonxlnx/taste-skill",
+      "owner": {
+        "login": "Leonxlnx",
+        "name": "Leon Lin",
+        "type": "User",
+        "url": "https://github.com/Leonxlnx",
+        "avatar": "/avatars/leonxlnx.png"
+      },
+      "stars": 111705,
+      "fetchedAt": "2026-11-08T04:09:21.012Z"
+    },
+    "leonxlnx/taste-skill-classics": {
+      "repo": "Leonxlnx/taste-skill-classics",
+      "owner": {
+        "login": "Leonxlnx",
+        "name": "Leon Lin",
+        "type": "User",
+        "url": "https://github.com/Leonxlnx",
+        "avatar": "/avatars/leonxlnx.png"
+      },
+      "stars": 35,
+      "fetchedAt": "2026-11-08T04:09:23.027Z"
+    },
+    "mengto/skills": {
+      "repo": "MengTo/Skills",
+      "owner": {
+        "login": "MengTo",
+        "name": "Meng To",
+        "type": "User",
+        "url": "https://github.com/MengTo",
+        "avatar": "/avatars/mengto.png"
+      },
+      "stars": 7299,
+      "fetchedAt": "2026-11-08T04:09:26.316Z"
+    },
+    "mickadesign/fluid-functionalism": {
+      "repo": "mickadesign/fluid-functionalism",
+      "owner": {
+        "login": "mickadesign",
+        "name": "Micka.design",
+        "type": "User",
+        "url": "https://github.com/mickadesign",
+        "avatar": "/avatars/mickadesign.png"
+      },
+      "stars": 1139,
+      "fetchedAt": "2026-11-08T04:09:30.614Z"
+    },
+    "millionco/skills": {
+      "repo": "millionco/skills",
+      "owner": {
+        "login": "millionco",
+        "name": "Million Software, Inc.",
+        "type": "Organization",
+        "url": "https://github.com/millionco",
+        "avatar": "/avatars/millionco.png"
+      },
+      "stars": 34,
+      "fetchedAt": "2026-11-08T04:09:35.850Z"
+    },
+    "mrstev3n/balise-skills": {
+      "repo": "mrstev3n/balise-skills",
+      "owner": {
+        "login": "mrstev3n",
+        "name": "Steven H-A",
+        "type": "User",
+        "url": "https://github.com/mrstev3n",
+        "avatar": "/avatars/mrstev3n.png"
+      },
+      "stars": 12,
+      "fetchedAt": "2026-11-08T04:09:33.043Z"
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "owner": {
+        "login": "nextlevelbuilder",
+        "name": "Next Level Builder",
+        "type": "Organization",
+        "url": "https://github.com/nextlevelbuilder",
+        "avatar": "/avatars/nextlevelbuilder.png"
+      },
+      "stars": 146588,
+      "fetchedAt": "2026-11-08T04:09:20.528Z"
+    },
+    "nutlope/hallmark": {
+      "repo": "Nutlope/hallmark",
+      "owner": {
+        "login": "Nutlope",
+        "name": "Hassan El Mghari",
+        "type": "User",
+        "url": "https://github.com/Nutlope",
+        "avatar": "/avatars/nutlope.png"
+      },
+      "stars": 50366,
+      "fetchedAt": "2026-11-08T04:09:27.873Z"
+    },
+    "pbakaus/impeccable": {
+      "repo": "pbakaus/impeccable",
+      "owner": {
+        "login": "pbakaus",
+        "name": "Paul Bakaus",
+        "type": "User",
+        "url": "https://github.com/pbakaus",
+        "avatar": "/avatars/pbakaus.png"
+      },
+      "stars": 105645,
+      "fetchedAt": "2026-11-08T04:09:27.323Z"
+    },
+    "prototyperai/prototyper-ui": {
+      "repo": "PrototyperAI/prototyper-ui",
+      "owner": {
+        "login": "PrototyperAI",
+        "name": "Prototyper",
+        "type": "Organization",
+        "url": "https://github.com/PrototyperAI",
+        "avatar": "/avatars/prototyperai.png"
+      },
+      "stars": 7,
+      "fetchedAt": "2026-11-08T04:09:36.542Z"
+    },
+    "saadeghi/daisyui": {
+      "repo": "saadeghi/daisyui",
+      "owner": {
+        "login": "saadeghi",
+        "name": "Pouya Saadeghi",
+        "type": "User",
+        "url": "https://github.com/saadeghi",
+        "avatar": "/avatars/saadeghi.png"
+      },
+      "stars": 42763,
+      "fetchedAt": "2026-11-08T04:09:28.393Z"
+    },
+    "wshobson/agents": {
+      "repo": "wshobson/agents",
+      "owner": {
+        "login": "wshobson",
+        "name": "Seth Hobson",
+        "type": "User",
+        "url": "https://github.com/wshobson",
+        "avatar": "/avatars/wshobson.png"
+      },
+      "stars": 42292,
+      "fetchedAt": "2026-11-08T04:09:24.703Z"
+    }
+  }
+}

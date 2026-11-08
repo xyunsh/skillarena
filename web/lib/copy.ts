@@ -22,6 +22,7 @@ export const ui = {
 
   'skill.author': 'Author',
   'skill.repo': 'Repository',
+  'skill.stars': 'GitHub stars',
   'skill.commit': 'Commit',
   'skill.source': 'Tested source',
   'skill.license': 'License',

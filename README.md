@@ -56,6 +56,8 @@ yarn pipeline -- --mock                          # placeholder HTML, no model ca
 
 Steps on their own: `yarn fetch-skills`, `yarn generate`, `yarn screenshot`, `yarn manifest [-- --ready-only]`, `yarn og`.
 
+`yarn github-meta` records each skill repo's owner (login and name), avatar and star count in `web/data/github.json`, and downloads the avatars into `web/public/avatars/` so the site serves them itself (visitors never load images from GitHub). `yarn manifest` merges them into each skill; star counts carry the date they were fetched. Uses `GITHUB_TOKEN` when set.
+
 - **Idempotent:** runs with status `ok` or `invalid_html` are skipped; `failed` runs (API errors) are retried.
 - **Cost safety:** `generate` prints the call count and estimated cost, asks before more than one call, refuses estimates over `budgetUsd` ($30) and stops when spend reaches it.
 - **`--ready-only`** leaves out skills that still have unfinished runs, so the site can be rebuilt while a batch is generating. A truncated run (`invalid_html`) counts as finished and is shown as “Generation failed”.

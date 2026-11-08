@@ -1,3 +1,4 @@
+import { GithubOwner } from '~/components/GithubOwner';
 import { JsonLd } from '~/components/JsonLd';
 import { Status } from '~/components/Status';
 import { Waitlist } from '~/components/Waitlist';
@@ -87,9 +88,7 @@ export default function Home() {
                                             {s.isBaseline ? (
                                                 <span className="tag">control group</span>
                                             ) : (
-                                                <a href={s.homepage ?? s.repo ?? '#'} rel="noopener" target="_blank" title={`${s.name} on GitHub`}>
-                                                    {s.author} ↗
-                                                </a>
+                                                <GithubOwner skill={s} />
                                             )}
                                         </span>
                                         {s.featured && <span className="tag tag-featured">Featured</span>}

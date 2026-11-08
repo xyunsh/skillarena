@@ -22,6 +22,7 @@
     "fetch-skills": "tsx pipeline/fetch-skills.ts",
     "functions:dev": "yarn build && wrangler pages dev web/out --kv WAITLIST",
     "generate": "tsx pipeline/generate.ts",
+    "github-meta": "tsx pipeline/github-meta.ts",
     "manifest": "tsx pipeline/build-manifest.ts",
     "og": "tsx pipeline/og.ts",
     "pipeline": "tsx pipeline/run-all.ts",

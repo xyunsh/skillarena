@@ -107,7 +107,10 @@ export default async function SkillPage({ params }: Params) {
                       url: skill.homepage ?? skill.repo ?? undefined,
                       license: skill.license ?? undefined,
                       version: skill.commit ?? undefined,
-                      author: { '@type': 'Person', name: skill.author },
+                      author: skill.github
+                          ? { '@type': 'Person', name: skill.github.ownerName || skill.author, url: skill.github.ownerUrl }
+                          : { '@type': 'Person', name: skill.author },
+                      ...(skill.github ? { interactionStatistic: { '@type': 'InteractionCounter', interactionType: 'https://schema.org/LikeAction', userInteractionCount: skill.github.stars } } : {}),
                       applicationCategory: 'Agent skill (SKILL.md) for AI coding agents such as Claude Code',
                       subjectOf: { '@type': 'WebPage', url: pageUrl },
                   },
@@ -138,7 +141,24 @@ export default async function SkillPage({ params }: Params) {
                     {!skill.isBaseline && (
                         <>
                             <dt>{ui['skill.author']}</dt>
-                            <dd>{skill.author}</dd>
+                            <dd>
+                                {skill.github ? (
+                                    <a className="gh-owner" href={skill.github.ownerUrl} rel="noopener" target="_blank">
+                                        {skill.github.avatar && <img src={skill.github.avatar} alt="" width={20} height={20} className="gh-avatar" />}
+                                        <span>{skill.github.ownerName || skill.author}</span>
+                                    </a>
+                                ) : (
+                                    skill.author
+                                )}
+                            </dd>
+                            {skill.github && (
+                                <>
+                                    <dt>{ui['skill.stars']}</dt>
+                                    <dd>
+                                        {skill.github.stars.toLocaleString('en')} <span className="muted small">on {skill.github.starsAt.slice(0, 10)}</span>
+                                    </dd>
+                                </>
+                            )}
                             <dt>{ui['skill.repo']}</dt>
                             <dd>
                                 <a href={skill.homepage ?? skill.repo ?? '#'} rel="noopener" target="_blank">
