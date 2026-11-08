@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "emil-break-ui",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T11:16:24.688Z",
+  "inputTokens": 9450,
+  "outputTokens": 13435,
+  "costUsd": 0.27512,
+  "durationMs": 105708,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:38:24.751Z",
+    "fullPageHeight": 1131,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

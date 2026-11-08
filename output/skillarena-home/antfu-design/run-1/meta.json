@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "antfu-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2df66b0830c6e51f0087caeee6ee3de401172199",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T13:26:15.525Z",
+  "inputTokens": 17536,
+  "outputTokens": 20742,
+  "costUsd": 0.55512,
+  "durationMs": 159411,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:55:56.213Z",
+    "fullPageHeight": 3576,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

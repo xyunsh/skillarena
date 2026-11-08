@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-skeuomorphic-ui",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T07:33:39.402Z",
+  "inputTokens": 3073,
+  "outputTokens": 13970,
+  "costUsd": 0.28452,
+  "durationMs": 109571,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:30:34.498Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

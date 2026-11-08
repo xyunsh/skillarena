@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "gsap-performance",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T07:12:28.770Z",
+  "inputTokens": 2615,
+  "outputTokens": 11059,
+  "costUsd": 0.22624,
+  "durationMs": 89082,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:26:59.219Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

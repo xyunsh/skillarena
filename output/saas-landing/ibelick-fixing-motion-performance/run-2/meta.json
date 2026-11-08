@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "ibelick-fixing-motion-performance",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T04:24:16.805Z",
+  "inputTokens": 2984,
+  "outputTokens": 12604,
+  "costUsd": 0.25719,
+  "durationMs": 99326,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:34:25.728Z",
+    "fullPageHeight": 3856,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

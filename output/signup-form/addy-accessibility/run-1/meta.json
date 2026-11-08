@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "addy-accessibility",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T11:58:59.225Z",
+  "inputTokens": 13153,
+  "outputTokens": 12060,
+  "costUsd": 0.34642,
+  "durationMs": 94562,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:50:50.751Z",
+    "fullPageHeight": 1388,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

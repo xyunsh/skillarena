@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "platform-design-web",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:39:24.995Z",
+  "inputTokens": 17565,
+  "outputTokens": 13719,
+  "costUsd": 0.28464,
+  "durationMs": 107473,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:39:27.905Z",
+    "fullPageHeight": 1329,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

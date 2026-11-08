@@ -1,0 +1,583 @@
+{
+  "checkedAt": "2026-11-07T15:04:23.054Z",
+  "skills": {
+    "anthropic-frontend-design": {
+      "head": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "ui-ux-pro-max": {
+      "head": "b7d5353e0130feb8c5574ef1251f8a1db1873ccb",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "taste-skill": {
+      "head": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+      "changed": true,
+      "gone": false,
+      "files": [
+        "SKILL.md",
+        "assets/layout/check.mjs",
+        "assets/layout/deal.mjs",
+        "assets/layout/hero-centred.html",
+        "assets/layout/hero-collage.html",
+        "assets/layout/hero-editorial.html",
+        "assets/layout/hero-film.html",
+        "assets/layout/hero-photo.html",
+        "assets/layout/hero-place.html",
+        "assets/layout/hero-product.html",
+        "assets/layout/hero-split.html",
+        "assets/layout/hero-statement.html",
+        "assets/layout/hero-triptych.html",
+        "assets/layout/hero-word.html",
+        "assets/layout/heroes.json",
+        "assets/layout/layout-check.js",
+        "assets/layout/layout.css",
+        "assets/layout/layout.js",
+        "assets/moments/_demo/demo.css",
+        "assets/moments/_demo/in-page-service.html",
+        "assets/moments/_demo/in-page.html",
+        "assets/moments/closing-lift/demo.html",
+        "assets/moments/counter-rolls/demo.html",
+        "assets/moments/counter-rolls/meta.json",
+        "assets/moments/counter-rolls/moment.js",
+        "assets/moments/cursor-spotlight/demo.html",
+        "assets/moments/gallery.html",
+        "assets/moments/headline-arrives/meta.json",
+        "assets/moments/index.json",
+        "assets/moments/lib.js",
+        "assets/moments/lines-rise/meta.json",
+        "assets/moments/moments.js",
+        "assets/moments/photo-chapters/demo.html",
+        "assets/moments/photo-chapters/meta.json",
+        "assets/moments/photo-chapters/moment.css",
+        "assets/moments/photo-chapters/moment.js",
+        "assets/moments/picture-develops/demo-film.html",
+        "assets/moments/picture-develops/meta.json",
+        "assets/moments/picture-develops/moment.css",
+        "assets/moments/picture-develops/moment.js",
+        "assets/moments/pinned-chapters/meta.json",
+        "assets/moments/pinned-chapters/moment.css",
+        "assets/moments/window-parallax/meta.json",
+        "assets/moments/word-highlight/meta.json",
+        "assets/moments/word-highlight/moment.js",
+        "assets/moments/word-rotate/meta.json",
+        "assets/motion/motion.css",
+        "assets/motion/motion.js",
+        "assets/objects/product-render/README.md",
+        "assets/starter.html"
+      ],
+      "scripts": [
+        "assets/layout/check.mjs",
+        "assets/layout/deal.mjs",
+        "assets/layout/layout-check.js",
+        "assets/layout/layout.js",
+        "assets/moments/counter-rolls/moment.js",
+        "assets/moments/lib.js",
+        "assets/moments/moments.js",
+        "assets/moments/photo-chapters/moment.js",
+        "assets/moments/picture-develops/moment.js",
+        "assets/moments/word-highlight/moment.js",
+        "assets/motion/motion.js",
+        "assets/system.js",
+        "scripts/consistency.mjs",
+        "scripts/copy-lint.mjs",
+        "scripts/effects.mjs",
+        "scripts/gate.mjs",
+        "scripts/icons.mjs",
+        "scripts/moments.mjs",
+        "scripts/perf.mjs",
+        "scripts/photos.mjs",
+        "scripts/shoot.mjs",
+        "scripts/start.mjs"
+      ]
+    },
+    "baseline-ui": {
+      "head": "97dea9e747ea94d5671ef1468cbb8f9bd5f32542",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "interface-design": {
+      "head": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "platform-design-web": {
+      "head": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "taste-brutalist": {
+      "head": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "taste-minimalist": {
+      "head": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "taste-soft": {
+      "head": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "better-ui": {
+      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "better-typography": {
+      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "bencium-innovative": {
+      "head": "5de46a39b4640fa419560cd0b67e4c4b50dac802",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "interaction-design": {
+      "head": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "frontend-ui-engineering": {
+      "head": "301b02b12bff98e4688e6984af6556802322bbde",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-design-eng": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "apple-design": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-animate": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-landing-page": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "humane-functionalism": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "impeccable": {
+      "head": "687bc381bc9091bf252c0a05303640561014a425",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "anthropic-canvas-design": {
+      "head": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "uupm-banner-design": {
+      "head": "b7d5353e0130feb8c5574ef1251f8a1db1873ccb",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-animation-performance": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-mobile-native": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-prototype": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-pick-ui-library": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-remove-animations": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-break-ui": {
+      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "hallmark": {
+      "head": "407fa689f4a276f2fd389208d271d0fef08f5058",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "daisyui": {
+      "head": "bf3bac3a397b543e55641ecb2d60a2ed961f09ec",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "gsap-core": {
+      "head": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "gsap-scrolltrigger": {
+      "head": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "gsap-plugins": {
+      "head": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "gsap-timeline": {
+      "head": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "gsap-performance": {
+      "head": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "elaya-landing-page-design": {
+      "head": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "jakub-better-layout": {
+      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "jakub-better-writing": {
+      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "jakub-variant": {
+      "head": "f41f027797f77cb1594a5c718aeee3e6a7fe99ba",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "ibelick-fixing-accessibility": {
+      "head": "97dea9e747ea94d5671ef1468cbb8f9bd5f32542",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "ibelick-fixing-motion-performance": {
+      "head": "97dea9e747ea94d5671ef1468cbb8f9bd5f32542",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "ibelick-fixing-metadata": {
+      "head": "97dea9e747ea94d5671ef1468cbb8f9bd5f32542",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-no-ai-design-slop": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-build-awwwards-quality-sites": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-design-first-ui-prompting": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-product-proof-saas": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-pricing-page": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-editorial-tech": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-agency-grid-layout-minimal": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-beautiful-shadows": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-cinematic-scroll-storytelling": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-orange-clean-paper-saas": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-skeuomorphic-ui": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-glass-dark-ui": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-cinematic-gsap-lenis-motion-system": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-tailwindcss": {
+      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "addy-accessibility": {
+      "head": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "addy-performance": {
+      "head": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "fluid-functionalism": {
+      "head": "7e6ae290dd8f5a7657ae4a433a42e165bac3ece4",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "prefer-container-queries": {
+      "head": "cf1c0094e1826230623ecdb6e7b3c44bdfc593c3",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "antfu-design": {
+      "head": "2df66b0830c6e51f0087caeee6ee3de401172199",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "iart-micro-interaction": {
+      "head": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "iart-page-transition-animation": {
+      "head": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "iart-glassmorphism": {
+      "head": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "iart-accessible-animation": {
+      "head": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "kemiljk-design-engineering": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "kemiljk-modern-css-html": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "kemiljk-fluid-design": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "kemiljk-real-content-design": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "kemiljk-interface-affordances": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "kemiljk-interaction-contracts": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "balise-ux-writing": {
+      "head": "f596a61fa8f4471054b1ed75d17bc6699db4572d",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    }
+  }
+}

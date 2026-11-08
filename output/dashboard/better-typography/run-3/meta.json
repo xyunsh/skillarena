@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "better-typography",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T00:48:33.075Z",
+  "inputTokens": 12380,
+  "outputTokens": 15126,
+  "costUsd": 0.30951,
+  "durationMs": 117816,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:54:49.705Z",
+    "fullPageHeight": 1207,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

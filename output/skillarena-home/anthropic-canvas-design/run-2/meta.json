@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "anthropic-canvas-design",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T12:19:39.531Z",
+  "inputTokens": 5080,
+  "outputTokens": 19091,
+  "costUsd": 0.42245,
+  "durationMs": 160087,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:56:05.294Z",
+    "fullPageHeight": 5428,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

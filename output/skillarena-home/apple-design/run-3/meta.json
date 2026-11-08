@@ -1,0 +1,26 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "apple-design",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T01:47:25.987Z",
+  "inputTokens": 9158,
+  "outputTokens": 16157,
+  "costUsd": 0.3295,
+  "durationMs": 129240,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:59:12.995Z",
+    "fullPageHeight": 3376,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

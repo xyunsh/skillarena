@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "jakub-better-writing",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T11:28:46.377Z",
+  "inputTokens": 5425,
+  "outputTokens": 14151,
+  "costUsd": 0.32641,
+  "durationMs": 113755,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:52:59.422Z",
+    "fullPageHeight": 1323,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

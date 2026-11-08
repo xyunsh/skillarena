@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "anthropic-canvas-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T06:54:36.044Z",
+  "inputTokens": 5028,
+  "outputTokens": 8476,
+  "costUsd": 0.20974,
+  "durationMs": 69814,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:25:40.822Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

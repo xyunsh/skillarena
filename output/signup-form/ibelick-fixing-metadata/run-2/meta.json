@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "ibelick-fixing-metadata",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:35:31.195Z",
+  "inputTokens": 2547,
+  "outputTokens": 9872,
+  "costUsd": 0.21781,
+  "durationMs": 82424,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:52:41.598Z",
+    "fullPageHeight": 1181,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

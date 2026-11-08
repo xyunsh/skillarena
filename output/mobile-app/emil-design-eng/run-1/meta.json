@@ -1,0 +1,26 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "emil-design-eng",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T01:13:24.203Z",
+  "inputTokens": 10821,
+  "outputTokens": 16678,
+  "costUsd": 0.34253,
+  "durationMs": 139115,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:56:13.630Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

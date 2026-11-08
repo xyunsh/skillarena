@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "ibelick-fixing-accessibility",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T07:18:13.413Z",
+  "inputTokens": 2696,
+  "outputTokens": 8784,
+  "costUsd": 0.18072,
+  "durationMs": 68792,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:27:52.571Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

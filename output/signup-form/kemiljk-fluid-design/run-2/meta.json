@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "kemiljk-fluid-design",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:11:47.444Z",
+  "inputTokens": 3781,
+  "outputTokens": 16524,
+  "costUsd": 0.33575,
+  "durationMs": 133111,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:53:20.334Z",
+    "fullPageHeight": 1215,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

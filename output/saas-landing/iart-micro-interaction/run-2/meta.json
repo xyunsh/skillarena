@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "iart-micro-interaction",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T04:57:44.323Z",
+  "inputTokens": 9042,
+  "outputTokens": 12666,
+  "costUsd": 0.25966,
+  "durationMs": 101487,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:33:54.812Z",
+    "fullPageHeight": 3277,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

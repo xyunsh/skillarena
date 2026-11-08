@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "addy-performance",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T06:27:43.636Z",
+  "inputTokens": 10096,
+  "outputTokens": 11270,
+  "costUsd": 0.30616,
+  "durationMs": 94094,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:19:58.961Z",
+    "fullPageHeight": 1101,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

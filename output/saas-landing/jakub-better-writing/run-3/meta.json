@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "jakub-better-writing",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T04:18:27.352Z",
+  "inputTokens": 5441,
+  "outputTokens": 13324,
+  "costUsd": 0.27211,
+  "durationMs": 107126,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:34:43.121Z",
+    "fullPageHeight": 4223,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

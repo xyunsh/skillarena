@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "platform-design-web",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:17:04.742Z",
+  "inputTokens": 17565,
+  "outputTokens": 19090,
+  "costUsd": 0.39206,
+  "durationMs": 146560,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:35:03.876Z",
+    "fullPageHeight": 1491,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

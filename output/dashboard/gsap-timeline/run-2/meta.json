@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "gsap-timeline",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T05:37:54.774Z",
+  "inputTokens": 2838,
+  "outputTokens": 14686,
+  "costUsd": 0.2988,
+  "durationMs": 116512,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:21:40.258Z",
+    "fullPageHeight": 1272,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

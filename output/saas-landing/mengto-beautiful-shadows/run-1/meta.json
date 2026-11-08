@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "mengto-beautiful-shadows",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T04:39:37.213Z",
+  "inputTokens": 2305,
+  "outputTokens": 11295,
+  "costUsd": 0.24433,
+  "durationMs": 84294,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:35:47.805Z",
+    "fullPageHeight": 3836,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

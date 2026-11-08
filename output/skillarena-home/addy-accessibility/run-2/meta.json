@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "addy-accessibility",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T13:23:30.080Z",
+  "inputTokens": 13210,
+  "outputTokens": 15985,
+  "costUsd": 0.32687,
+  "durationMs": 120803,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:55:41.674Z",
+    "fullPageHeight": 4142,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

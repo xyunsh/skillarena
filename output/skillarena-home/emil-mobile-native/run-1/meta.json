@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "emil-mobile-native",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T12:23:50.785Z",
+  "inputTokens": 7309,
+  "outputTokens": 14196,
+  "costUsd": 0.34238,
+  "durationMs": 109082,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:56:51.062Z",
+    "fullPageHeight": 3867,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

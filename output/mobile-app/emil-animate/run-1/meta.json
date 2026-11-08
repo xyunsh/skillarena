@@ -1,0 +1,26 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "emil-animate",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:16:40.063Z",
+  "inputTokens": 8597,
+  "outputTokens": 8574,
+  "costUsd": 0.18002,
+  "durationMs": 74962,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:56:06.779Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

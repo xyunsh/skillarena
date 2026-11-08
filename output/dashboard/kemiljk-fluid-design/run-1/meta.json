@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "kemiljk-fluid-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T06:42:50.371Z",
+  "inputTokens": 3783,
+  "outputTokens": 28263,
+  "costUsd": 0.59552,
+  "durationMs": 238676,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:23:03.006Z",
+    "fullPageHeight": 1227,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

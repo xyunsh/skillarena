@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "anthropic-frontend-design",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "ca45fc496a3436251f191354091d557da31c15b5",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:13:50.376Z",
+  "inputTokens": 3852,
+  "outputTokens": 11894,
+  "costUsd": 0.24316,
+  "durationMs": 103518,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:34:13.545Z",
+    "fullPageHeight": 1365,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

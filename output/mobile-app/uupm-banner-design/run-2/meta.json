@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "uupm-banner-design",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b7d5353e0130feb8c5574ef1251f8a1db1873ccb",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T06:55:45.859Z",
+  "inputTokens": 6063,
+  "outputTokens": 7657,
+  "costUsd": 0.15886,
+  "durationMs": 62556,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:30:54.002Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "mengto-glass-dark-ui",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T04:47:14.569Z",
+  "inputTokens": 2483,
+  "outputTokens": 14094,
+  "costUsd": 0.28688,
+  "durationMs": 107875,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:36:53.320Z",
+    "fullPageHeight": 4436,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

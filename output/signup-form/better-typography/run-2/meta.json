@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "better-typography",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:23:39.545Z",
+  "inputTokens": 12381,
+  "outputTokens": 12330,
+  "costUsd": 0.25358,
+  "durationMs": 100019,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:58:19.551Z",
+    "fullPageHeight": 1193,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

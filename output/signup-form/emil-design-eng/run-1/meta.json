@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "emil-design-eng",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T01:27:50.397Z",
+  "inputTokens": 10814,
+  "outputTokens": 13745,
+  "costUsd": 0.28381,
+  "durationMs": 107979,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:58:39.112Z",
+    "fullPageHeight": 1017,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

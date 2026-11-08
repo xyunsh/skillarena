@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "jakub-better-layout",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:46:56.316Z",
+  "inputTokens": 7845,
+  "outputTokens": 13263,
+  "costUsd": 0.27135,
+  "durationMs": 104710,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:59:08.257Z",
+    "fullPageHeight": 3097,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "emil-pick-ui-library",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T05:25:35.673Z",
+  "inputTokens": 2793,
+  "outputTokens": 13439,
+  "costUsd": 0.27385,
+  "durationMs": 105192,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:20:56.668Z",
+    "fullPageHeight": 1144,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

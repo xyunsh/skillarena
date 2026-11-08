@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "mengto-glass-dark-ui",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T13:15:55.117Z",
+  "inputTokens": 2528,
+  "outputTokens": 11966,
+  "costUsd": 0.24435,
+  "durationMs": 94367,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T14:01:25.926Z",
+    "fullPageHeight": 4568,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

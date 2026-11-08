@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "kemiljk-modern-css-html",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:11:29.730Z",
+  "inputTokens": 3291,
+  "outputTokens": 9138,
+  "costUsd": 0.18794,
+  "durationMs": 72065,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:53:41.971Z",
+    "fullPageHeight": 1007,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "elaya-landing-page-design",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:25:46.209Z",
+  "inputTokens": 9581,
+  "outputTokens": 22271,
+  "costUsd": 0.45186,
+  "durationMs": 180168,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:51:18.863Z",
+    "fullPageHeight": 3589,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

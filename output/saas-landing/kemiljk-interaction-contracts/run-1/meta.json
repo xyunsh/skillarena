@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "kemiljk-interaction-contracts",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T05:12:35.136Z",
+  "inputTokens": 2486,
+  "outputTokens": 17228,
+  "costUsd": 0.36444,
+  "durationMs": 133197,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:35:06.893Z",
+    "fullPageHeight": 4287,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "baseline-ui",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:02:05.149Z",
+  "inputTokens": 2372,
+  "outputTokens": 11458,
+  "costUsd": 0.23417,
+  "durationMs": 88277,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-06T23:06:14.776Z",
+    "fullPageHeight": 3053,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false
+  }
+}

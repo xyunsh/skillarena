@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "taste-soft",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:44:45.130Z",
+  "inputTokens": 5379,
+  "outputTokens": 16075,
+  "costUsd": 0.32708,
+  "durationMs": 125689,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:39:53.712Z",
+    "fullPageHeight": 1573,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

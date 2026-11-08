@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "gsap-core",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:18:42.080Z",
+  "inputTokens": 6940,
+  "outputTokens": 9879,
+  "costUsd": 0.20349,
+  "durationMs": 78642,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:51:26.239Z",
+    "fullPageHeight": 1075,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

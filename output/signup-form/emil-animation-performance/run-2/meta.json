@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "emil-animation-performance",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:08:01.755Z",
+  "inputTokens": 6029,
+  "outputTokens": 12506,
+  "costUsd": 0.25582,
+  "durationMs": 100595,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:38:18.140Z",
+    "fullPageHeight": 1155,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

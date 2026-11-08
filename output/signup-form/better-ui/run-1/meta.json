@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "better-ui",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:21:09.385Z",
+  "inputTokens": 13520,
+  "outputTokens": 21237,
+  "costUsd": 0.43419,
+  "durationMs": 174508,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:58:26.192Z",
+    "fullPageHeight": 1170,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

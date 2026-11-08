@@ -1,0 +1,53 @@
+# Skills on ui-skills.com judged not useful for SkillArena's page briefs (npm run discover leaves them out).
+# One per line: owner/repo (whole repo) or owner/repo#skill. Text after "# " is a comment.
+mattpocock/skills          # engineering workflow (TDD, PRDs, bugs)
+DietrichGebert/ponytail    # code review / tech debt
+Graphify-Labs/graphify     # knowledge graphs
+Egonex-AI/Understand-Anything  # codebase analysis
+vercel/next.js             # framework config
+vercel/turborepo           # monorepo tooling
+tt-a1i/archify             # architecture diagrams
+heygen-com/hyperframes     # video
+latent-spaces/brag         # launch videos
+slidevjs/slidev            # slide decks
+zarazhangrui/frontend-slides  # slide decks
+vercel-labs/agent-browser  # browser automation
+microsoft/playwright-cli   # testing
+millionco/react-doctor     # React code audits
+vueuse/vueuse              # Vue composables
+vuejs-ai/skills            # Vue code style
+antfu/skills               # JS tooling
+rolldown/tsdown            # bundler
+remix-run/agent-skills     # React Router
+Dimillian/Skills           # Swift / React perf
+callstackincubator/agent-skills  # React Native
+sveltejs/ai-tools          # Svelte code
+figma/mcp-server-guide     # Figma MCP (needs tools)
+remotion-dev/skills        # video (no license)
+CloudAI-X/threejs-skills   # 3D engine reference
+wheresryan22/anatomy       # isometric SVG figures
+lucasmarkes/hairline       # line illustrations
+rossark0/rossark-motion-skill  # character animation
+superdesigndev/treg        # growth research
+humanlayer/skills          # React prop types
+nextlevelbuilder/ui-ux-pro-max-skill#slides
+nextlevelbuilder/ui-ux-pro-max-skill#brand          # scripts
+nextlevelbuilder/ui-ux-pro-max-skill#design         # scripts
+nextlevelbuilder/ui-ux-pro-max-skill#design-system  # scripts
+nextlevelbuilder/ui-ux-pro-max-skill#ui-styling     # scripts
+shadcn-ui/ui               # project CLI workflow
+addyosmani/agent-skills#api-and-interface-design
+addyosmani/agent-skills#browser-testing-with-devtools
+pbakaus/impeccable         # sub-commands of a script-based skill
+Nutlope/hallmark           # scripts
+mickadesign/fluid-functionalism  # scripts
+oil-oil/oil-ui             # scripts
+diip3sh/feel               # scripts
+Leonxlnx/taste-skill       # one SKILL.md (taste-skill, already listed, skipped for scripts); variants aren't separate skills
+saadeghi/daisyui#daisyui-colors   # not separate skills in the repo
+saadeghi/daisyui#daisyui-config
+saadeghi/daisyui#daisyui-install
+saadeghi/daisyui#daisyui-usage
+emilkowalski/skills#animate-expo  # React Native
+emilkowalski/skills#ask-sonner    # library how-to
+emilkowalski/skills#write-swift   # Swift

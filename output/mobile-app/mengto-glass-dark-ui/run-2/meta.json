@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-glass-dark-ui",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T07:35:00.635Z",
+  "inputTokens": 2476,
+  "outputTokens": 11804,
+  "costUsd": 0.2411,
+  "durationMs": 94368,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:29:59.628Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

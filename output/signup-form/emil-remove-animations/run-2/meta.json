@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "emil-remove-animations",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:15:29.494Z",
+  "inputTokens": 4999,
+  "outputTokens": 9850,
+  "costUsd": 0.20252,
+  "durationMs": 76931,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:38:49.380Z",
+    "fullPageHeight": 1121,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

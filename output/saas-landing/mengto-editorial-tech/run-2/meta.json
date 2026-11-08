@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "mengto-editorial-tech",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T04:37:33.752Z",
+  "inputTokens": 2452,
+  "outputTokens": 15951,
+  "costUsd": 0.32403,
+  "durationMs": 123461,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:36:42.000Z",
+    "fullPageHeight": 6030,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

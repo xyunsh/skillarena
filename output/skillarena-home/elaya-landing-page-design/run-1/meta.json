@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "elaya-landing-page-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T12:43:46.668Z",
+  "inputTokens": 9635,
+  "outputTokens": 24004,
+  "costUsd": 0.55715,
+  "durationMs": 189647,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:56:27.952Z",
+    "fullPageHeight": 6175,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

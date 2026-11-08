@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "daisyui",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "bf3bac3a397b543e55641ecb2d60a2ed961f09ec",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T07:06:20.320Z",
+  "inputTokens": 35752,
+  "outputTokens": 5134,
+  "costUsd": 0.11435,
+  "durationMs": 43579,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:26:00.094Z",
+    "fullPageHeight": 1020,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

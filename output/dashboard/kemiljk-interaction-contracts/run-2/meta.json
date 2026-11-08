@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "kemiljk-interaction-contracts",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T06:49:42.785Z",
+  "inputTokens": 2472,
+  "outputTokens": 17928,
+  "costUsd": 0.36358,
+  "durationMs": 142498,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:23:12.887Z",
+    "fullPageHeight": 1176,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

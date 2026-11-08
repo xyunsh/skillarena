@@ -1,0 +1,18 @@
+{
+  "briefId": "dashboard",
+  "skillId": "emil-prototype",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T16:46:50.642Z",
+  "inputTokens": 61429,
+  "outputTokens": 65658,
+  "costUsd": 1.75247,
+  "durationMs": 555478,
+  "status": "invalid_html",
+  "error": "truncated at max_tokens=48000",
+  "stopReason": "max_tokens",
+  "backend": "claude-cli",
+  "costIsEstimate": true
+}

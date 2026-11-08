@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "jakub-variant",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T04:20:14.965Z",
+  "inputTokens": 6011,
+  "outputTokens": 15959,
+  "costUsd": 0.36726,
+  "durationMs": 123870,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:34:43.580Z",
+    "fullPageHeight": 4216,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

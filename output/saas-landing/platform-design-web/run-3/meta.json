@@ -1,0 +1,26 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "platform-design-web",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:05:35.197Z",
+  "inputTokens": 17582,
+  "outputTokens": 15194,
+  "costUsd": 0.31194,
+  "durationMs": 116147,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:38:04.948Z",
+    "fullPageHeight": 4107,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "humane-functionalism",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:04:29.514Z",
+  "inputTokens": 6161,
+  "outputTokens": 16678,
+  "costUsd": 0.34157,
+  "durationMs": 143441,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:55:21.915Z",
+    "fullPageHeight": 1330,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

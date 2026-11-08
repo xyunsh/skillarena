@@ -1,0 +1,26 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "better-typography",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:07:37.975Z",
+  "inputTokens": 12383,
+  "outputTokens": 7771,
+  "costUsd": 0.16467,
+  "durationMs": 63820,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:55:53.812Z",
+    "fullPageHeight": 908,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

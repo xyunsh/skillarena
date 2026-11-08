@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "jakub-variant",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T07:17:07.526Z",
+  "inputTokens": 5997,
+  "outputTokens": 15379,
+  "costUsd": 0.35555,
+  "durationMs": 125624,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:28:24.498Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

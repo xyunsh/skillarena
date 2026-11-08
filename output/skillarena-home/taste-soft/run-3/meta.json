@@ -1,0 +1,26 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "taste-soft",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:57:58.553Z",
+  "inputTokens": 5437,
+  "outputTokens": 44005,
+  "costUsd": 0.88573,
+  "durationMs": 380943,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:41:00.780Z",
+    "fullPageHeight": 6727,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

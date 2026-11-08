@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "iart-accessible-animation",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T06:37:30.967Z",
+  "inputTokens": 8745,
+  "outputTokens": 32142,
+  "costUsd": 0.71279,
+  "durationMs": 273596,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:21:41.342Z",
+    "fullPageHeight": 1197,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

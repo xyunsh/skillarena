@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "anthropic-canvas-design",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T03:52:56.391Z",
+  "inputTokens": 5036,
+  "outputTokens": 12699,
+  "costUsd": 0.29426,
+  "durationMs": 102970,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:31:25.529Z",
+    "fullPageHeight": 4882,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

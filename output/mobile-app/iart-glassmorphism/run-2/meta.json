@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "iart-glassmorphism",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T07:46:14.668Z",
+  "inputTokens": 10125,
+  "outputTokens": 11801,
+  "costUsd": 0.24255,
+  "durationMs": 97047,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:27:32.572Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

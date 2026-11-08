@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "interface-design",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:16:44.780Z",
+  "inputTokens": 11169,
+  "outputTokens": 27397,
+  "costUsd": 0.55469,
+  "durationMs": 229673,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:34:51.518Z",
+    "fullPageHeight": 1372,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

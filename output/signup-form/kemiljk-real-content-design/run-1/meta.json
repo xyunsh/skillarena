@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "kemiljk-real-content-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T12:12:57.521Z",
+  "inputTokens": 2580,
+  "outputTokens": 14385,
+  "costUsd": 0.30833,
+  "durationMs": 116610,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:53:46.353Z",
+    "fullPageHeight": 1247,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "mengto-no-ai-design-slop",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:55:57.046Z",
+  "inputTokens": 9275,
+  "outputTokens": 15404,
+  "costUsd": 0.31446,
+  "durationMs": 127741,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T14:01:35.772Z",
+    "fullPageHeight": 3985,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "balise-ux-writing",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "f596a61fa8f4471054b1ed75d17bc6699db4572d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T13:47:14.140Z",
+  "inputTokens": 13596,
+  "outputTokens": 14722,
+  "costUsd": 0.4032,
+  "durationMs": 114746,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:56:11.978Z",
+    "fullPageHeight": 4733,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

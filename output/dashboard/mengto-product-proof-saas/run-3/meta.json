@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "mengto-product-proof-saas",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T06:02:25.463Z",
+  "inputTokens": 2557,
+  "outputTokens": 25264,
+  "costUsd": 0.5103,
+  "durationMs": 199347,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:24:55.409Z",
+    "fullPageHeight": 1401,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "mengto-design-first-ui-prompting",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T13:00:09.134Z",
+  "inputTokens": 2397,
+  "outputTokens": 13147,
+  "costUsd": 0.26797,
+  "durationMs": 104767,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T14:01:06.918Z",
+    "fullPageHeight": 3927,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

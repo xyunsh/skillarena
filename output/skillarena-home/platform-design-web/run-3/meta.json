@@ -1,0 +1,26 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "platform-design-web",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:53:05.718Z",
+  "inputTokens": 17628,
+  "outputTokens": 13256,
+  "costUsd": 0.27322,
+  "durationMs": 106582,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:40:31.290Z",
+    "fullPageHeight": 4349,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

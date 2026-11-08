@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "emil-animation-performance",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T12:22:13.681Z",
+  "inputTokens": 6087,
+  "outputTokens": 11697,
+  "costUsd": 0.28263,
+  "durationMs": 97103,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:56:35.445Z",
+    "fullPageHeight": 2949,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "gsap-plugins",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T12:40:00.241Z",
+  "inputTokens": 9983,
+  "outputTokens": 20958,
+  "costUsd": 0.42568,
+  "durationMs": 174715,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:57:40.243Z",
+    "fullPageHeight": 4494,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

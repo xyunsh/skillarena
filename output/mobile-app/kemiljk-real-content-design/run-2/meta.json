@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "kemiljk-real-content-design",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T10:59:04.337Z",
+  "inputTokens": 2584,
+  "outputTokens": 8413,
+  "costUsd": 0.17332,
+  "durationMs": 73013,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:29:03.920Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

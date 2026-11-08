@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "ibelick-fixing-metadata",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T05:54:26.416Z",
+  "inputTokens": 2550,
+  "outputTokens": 12122,
+  "costUsd": 0.2475,
+  "durationMs": 97205,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:22:31.206Z",
+    "fullPageHeight": 1256,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

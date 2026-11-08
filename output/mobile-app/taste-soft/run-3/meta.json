@@ -1,0 +1,26 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "taste-soft",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:34:36.532Z",
+  "inputTokens": 5383,
+  "outputTokens": 16759,
+  "costUsd": 0.34078,
+  "durationMs": 143003,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:43:00.253Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

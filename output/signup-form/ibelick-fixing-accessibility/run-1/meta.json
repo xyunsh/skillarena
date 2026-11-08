@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "ibelick-fixing-accessibility",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:30:56.193Z",
+  "inputTokens": 2699,
+  "outputTokens": 9428,
+  "costUsd": 0.21014,
+  "durationMs": 75552,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:52:32.860Z",
+    "fullPageHeight": 1168,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

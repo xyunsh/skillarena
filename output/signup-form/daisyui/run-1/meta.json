@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "daisyui",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "bf3bac3a397b543e55641ecb2d60a2ed961f09ec",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T11:17:26.549Z",
+  "inputTokens": 35753,
+  "outputTokens": 9320,
+  "costUsd": 0.47242,
+  "durationMs": 75530,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:38:06.829Z",
+    "fullPageHeight": 1506,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

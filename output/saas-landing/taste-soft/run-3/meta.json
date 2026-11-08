@@ -1,0 +1,26 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "taste-soft",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:09:52.201Z",
+  "inputTokens": 5399,
+  "outputTokens": 18311,
+  "costUsd": 0.37187,
+  "durationMs": 145221,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:38:38.962Z",
+    "fullPageHeight": 6266,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

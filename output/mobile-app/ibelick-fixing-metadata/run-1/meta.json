@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "ibelick-fixing-metadata",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T07:20:01.799Z",
+  "inputTokens": 2549,
+  "outputTokens": 7611,
+  "costUsd": 0.1726,
+  "durationMs": 62546,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:27:54.015Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

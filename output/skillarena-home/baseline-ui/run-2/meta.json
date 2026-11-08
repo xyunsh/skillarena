@@ -1,0 +1,24 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "baseline-ui",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:49:16.385Z",
+  "inputTokens": 2415,
+  "outputTokens": 10457,
+  "costUsd": 0.21417,
+  "durationMs": 79735,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-06T23:07:48.949Z",
+    "fullPageHeight": 3536,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false
+  }
+}

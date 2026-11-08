@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "emil-mobile-native",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:09:52.942Z",
+  "inputTokens": 7253,
+  "outputTokens": 11135,
+  "costUsd": 0.22867,
+  "durationMs": 91649,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:38:32.226Z",
+    "fullPageHeight": 1081,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

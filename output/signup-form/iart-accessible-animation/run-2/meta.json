@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "iart-accessible-animation",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:08:42.663Z",
+  "inputTokens": 8742,
+  "outputTokens": 13933,
+  "costUsd": 0.28491,
+  "durationMs": 109707,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:52:00.145Z",
+    "fullPageHeight": 1198,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

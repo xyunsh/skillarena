@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "mengto-cinematic-scroll-storytelling",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:47:49.440Z",
+  "inputTokens": 6019,
+  "outputTokens": 22442,
+  "costUsd": 0.45456,
+  "durationMs": 181544,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:54:24.043Z",
+    "fullPageHeight": 1717,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

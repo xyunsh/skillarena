@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "balise-ux-writing",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "f596a61fa8f4471054b1ed75d17bc6699db4572d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T11:04:24.697Z",
+  "inputTokens": 13542,
+  "outputTokens": 8730,
+  "costUsd": 0.18183,
+  "durationMs": 75126,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:25:52.008Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

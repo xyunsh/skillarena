@@ -1,0 +1,26 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "taste-brutalist",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:05:36.595Z",
+  "inputTokens": 4361,
+  "outputTokens": 14740,
+  "costUsd": 0.32968,
+  "durationMs": 127960,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:38:12.463Z",
+    "fullPageHeight": 4126,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

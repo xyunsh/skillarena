@@ -1,0 +1,19 @@
+SkillArena results data and briefs
+
+Copyright (c) 2026 xyunsh and SkillArena contributors
+
+The following are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0):
+
+- the briefs in config/briefs/
+- the run metadata in output/**/meta.json
+- the build data in web/data/ (manifest.json, upstream.json)
+- the screenshots, generated pages and preview images published at https://assets.skillarena.dev/runs/
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: credit "SkillArena (skillarena.dev)" and link to https://skillarena.dev where practical.
+
+Not covered: the skills themselves (SKILL.md and their files). They belong to their authors under their own
+licenses, are linked from each skill page at the tested commit, and are not included in this repository.
+The generated pages were produced by a model following those skills; they are not official output of any
+skill's author.

@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "humane-functionalism",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:33:42.409Z",
+  "inputTokens": 6158,
+  "outputTokens": 11663,
+  "costUsd": 0.24125,
+  "durationMs": 96678,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:58:52.057Z",
+    "fullPageHeight": 1435,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

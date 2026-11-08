@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "ibelick-fixing-motion-performance",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T12:53:10.125Z",
+  "inputTokens": 3029,
+  "outputTokens": 13230,
+  "costUsd": 0.26975,
+  "durationMs": 108271,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:59:00.852Z",
+    "fullPageHeight": 3850,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

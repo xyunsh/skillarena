@@ -1,0 +1,26 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "humane-functionalism",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T00:44:12.264Z",
+  "inputTokens": 6174,
+  "outputTokens": 16804,
+  "costUsd": 0.34185,
+  "durationMs": 143006,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:57:41.766Z",
+    "fullPageHeight": 3647,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

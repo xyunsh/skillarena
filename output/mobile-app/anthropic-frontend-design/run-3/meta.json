@@ -1,0 +1,26 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "anthropic-frontend-design",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "ca45fc496a3436251f191354091d557da31c15b5",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:28:25.251Z",
+  "inputTokens": 3857,
+  "outputTokens": 8176,
+  "costUsd": 0.16881,
+  "durationMs": 77510,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:35:35.978Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

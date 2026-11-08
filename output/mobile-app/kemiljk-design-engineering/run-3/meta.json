@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "kemiljk-design-engineering",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T07:49:54.268Z",
+  "inputTokens": 1699,
+  "outputTokens": 13089,
+  "costUsd": 0.26664,
+  "durationMs": 99192,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:28:31.084Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

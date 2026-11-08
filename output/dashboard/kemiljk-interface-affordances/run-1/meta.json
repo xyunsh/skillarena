@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "kemiljk-interface-affordances",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T06:47:27.026Z",
+  "inputTokens": 1710,
+  "outputTokens": 16674,
+  "costUsd": 0.34715,
+  "durationMs": 128201,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:23:15.497Z",
+    "fullPageHeight": 1206,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "jakub-better-layout",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T11:27:50.215Z",
+  "inputTokens": 7788,
+  "outputTokens": 10784,
+  "costUsd": 0.22174,
+  "durationMs": 85174,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:52:54.366Z",
+    "fullPageHeight": 1120,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

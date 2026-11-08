@@ -1,0 +1,26 @@
+node_modules/
+.yarn/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Fetched skills, repo / page caches (never committed: skill contents are not republished)
+vendor/
+
+# Run assets live on the asset domain (npm run fetch-assets downloads them); git keeps meta.json only
+output/**/*
+!output/**/
+!output/**/meta.json
+
+# Site build
+web/.next/
+web/out/
+web/next-env.d.ts
+web/tsconfig.tsbuildinfo
+web/public/runs/
+web/data/site-settings.json
+
+# Generated share images (npm run share)
+share/
+.wrangler/

@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "iart-glassmorphism",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T06:35:32.784Z",
+  "inputTokens": 10121,
+  "outputTokens": 15613,
+  "costUsd": 0.39322,
+  "durationMs": 124783,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:21:53.486Z",
+    "fullPageHeight": 1156,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

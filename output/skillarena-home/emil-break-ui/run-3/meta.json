@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "emil-break-ui",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:32:54.441Z",
+  "inputTokens": 9503,
+  "outputTokens": 17688,
+  "costUsd": 0.36018,
+  "durationMs": 143134,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:56:46.506Z",
+    "fullPageHeight": 6317,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

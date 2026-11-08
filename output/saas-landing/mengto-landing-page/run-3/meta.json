@@ -1,0 +1,26 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "mengto-landing-page",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T00:43:14.071Z",
+  "inputTokens": 3134,
+  "outputTokens": 16476,
+  "costUsd": 0.33468,
+  "durationMs": 132118,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:58:00.470Z",
+    "fullPageHeight": 5878,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

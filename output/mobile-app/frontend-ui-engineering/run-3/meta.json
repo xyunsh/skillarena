@@ -1,0 +1,26 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "frontend-ui-engineering",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T01:13:18.100Z",
+  "inputTokens": 5572,
+  "outputTokens": 11312,
+  "costUsd": 0.23188,
+  "durationMs": 90133,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:56:22.246Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

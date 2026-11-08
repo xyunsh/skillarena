@@ -1,0 +1,26 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "humane-functionalism",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:19:54.058Z",
+  "inputTokens": 6158,
+  "outputTokens": 10147,
+  "costUsd": 0.20866,
+  "durationMs": 89759,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:56:26.303Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "kemiljk-design-engineering",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T06:39:32.338Z",
+  "inputTokens": 1700,
+  "outputTokens": 22281,
+  "costUsd": 0.45052,
+  "durationMs": 169970,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:23:00.439Z",
+    "fullPageHeight": 1288,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

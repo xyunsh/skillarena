@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "kemiljk-interface-affordances",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T12:15:38.190Z",
+  "inputTokens": 1713,
+  "outputTokens": 9568,
+  "costUsd": 0.19624,
+  "durationMs": 74478,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:53:34.089Z",
+    "fullPageHeight": 1089,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

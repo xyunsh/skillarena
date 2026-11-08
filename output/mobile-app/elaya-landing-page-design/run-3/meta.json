@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "elaya-landing-page-design",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T07:13:10.497Z",
+  "inputTokens": 9587,
+  "outputTokens": 14809,
+  "costUsd": 0.30265,
+  "durationMs": 117940,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:26:06.423Z",
+    "fullPageHeight": 1228,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

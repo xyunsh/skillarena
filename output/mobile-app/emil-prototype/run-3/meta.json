@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "emil-prototype",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T06:58:24.018Z",
+  "inputTokens": 6686,
+  "outputTokens": 45249,
+  "costUsd": 0.91085,
+  "durationMs": 382792,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:26:39.690Z",
+    "fullPageHeight": 976,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

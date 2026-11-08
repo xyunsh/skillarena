@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "mengto-pricing-page",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T06:03:47.389Z",
+  "inputTokens": 3358,
+  "outputTokens": 13792,
+  "costUsd": 0.28104,
+  "durationMs": 112766,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:24:46.978Z",
+    "fullPageHeight": 1167,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

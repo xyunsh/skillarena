@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "mengto-skeuomorphic-ui",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T13:14:30.417Z",
+  "inputTokens": 3126,
+  "outputTokens": 16090,
+  "costUsd": 0.32693,
+  "durationMs": 126719,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T14:02:07.965Z",
+    "fullPageHeight": 3433,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

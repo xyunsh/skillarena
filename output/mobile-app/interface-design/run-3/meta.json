@@ -1,0 +1,26 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "interface-design",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:29:42.764Z",
+  "inputTokens": 11173,
+  "outputTokens": 10896,
+  "costUsd": 0.22467,
+  "durationMs": 96689,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:36:13.281Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

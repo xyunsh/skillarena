@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "iart-page-transition-animation",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T04:59:25.811Z",
+  "inputTokens": 7710,
+  "outputTokens": 11782,
+  "costUsd": 0.24174,
+  "durationMs": 93016,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:34:02.463Z",
+    "fullPageHeight": 4102,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

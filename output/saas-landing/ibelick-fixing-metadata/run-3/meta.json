@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "ibelick-fixing-metadata",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T04:25:56.132Z",
+  "inputTokens": 2561,
+  "outputTokens": 11165,
+  "costUsd": 0.22834,
+  "durationMs": 88264,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:34:19.855Z",
+    "fullPageHeight": 3916,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

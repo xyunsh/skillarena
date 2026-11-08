@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "mengto-editorial-tech",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:43:30.885Z",
+  "inputTokens": 2439,
+  "outputTokens": 13635,
+  "costUsd": 0.2922,
+  "durationMs": 111542,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:54:37.414Z",
+    "fullPageHeight": 1958,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

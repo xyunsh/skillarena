@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "taste-brutalist",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:41:33.391Z",
+  "inputTokens": 4352,
+  "outputTokens": 11918,
+  "costUsd": 0.24377,
+  "durationMs": 96356,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:39:38.311Z",
+    "fullPageHeight": 1115,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

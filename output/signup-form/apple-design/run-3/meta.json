@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "apple-design",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T01:30:08.501Z",
+  "inputTokens": 9100,
+  "outputTokens": 12870,
+  "costUsd": 0.26371,
+  "durationMs": 102562,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:58:06.835Z",
+    "fullPageHeight": 1078,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

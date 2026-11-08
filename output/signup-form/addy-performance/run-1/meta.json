@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "addy-performance",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:00:31.290Z",
+  "inputTokens": 10101,
+  "outputTokens": 10566,
+  "costUsd": 0.29212,
+  "durationMs": 86787,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:50:57.879Z",
+    "fullPageHeight": 1232,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

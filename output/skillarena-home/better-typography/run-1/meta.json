@@ -1,0 +1,26 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "better-typography",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:36:09.107Z",
+  "inputTokens": 12435,
+  "outputTokens": 17719,
+  "costUsd": 0.36404,
+  "durationMs": 143693,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:59:29.699Z",
+    "fullPageHeight": 5077,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

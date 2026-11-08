@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "jakub-variant",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:50:18.002Z",
+  "inputTokens": 6049,
+  "outputTokens": 14824,
+  "costUsd": 0.34486,
+  "durationMs": 114588,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:59:23.895Z",
+    "fullPageHeight": 4347,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

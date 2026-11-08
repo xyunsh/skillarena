@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "emil-remove-animations",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T04:02:10.070Z",
+  "inputTokens": 5016,
+  "outputTokens": 11731,
+  "costUsd": 0.24018,
+  "durationMs": 91527,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:32:35.185Z",
+    "fullPageHeight": 4283,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

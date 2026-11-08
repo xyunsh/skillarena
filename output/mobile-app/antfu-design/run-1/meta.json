@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "antfu-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2df66b0830c6e51f0087caeee6ee3de401172199",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T07:42:27.601Z",
+  "inputTokens": 17485,
+  "outputTokens": 13235,
+  "costUsd": 0.40457,
+  "durationMs": 101102,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:25:34.336Z",
+    "fullPageHeight": 955,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

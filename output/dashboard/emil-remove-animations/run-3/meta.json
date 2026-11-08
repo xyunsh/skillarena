@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "emil-remove-animations",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T05:29:07.407Z",
+  "inputTokens": 4994,
+  "outputTokens": 11479,
+  "costUsd": 0.23507,
+  "durationMs": 91438,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:21:09.142Z",
+    "fullPageHeight": 1025,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

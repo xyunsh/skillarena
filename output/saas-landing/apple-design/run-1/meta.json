@@ -1,0 +1,26 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "apple-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T00:38:36.628Z",
+  "inputTokens": 9118,
+  "outputTokens": 17177,
+  "costUsd": 0.41648,
+  "durationMs": 132585,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:56:46.281Z",
+    "fullPageHeight": 4226,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

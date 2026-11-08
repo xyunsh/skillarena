@@ -1,0 +1,26 @@
+{
+  "briefId": "signup-form",
+  "skillId": "taste-minimalist",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:42:54.238Z",
+  "inputTokens": 4491,
+  "outputTokens": 14944,
+  "costUsd": 0.30429,
+  "durationMs": 113373,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:39:45.140Z",
+    "fullPageHeight": 1777,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

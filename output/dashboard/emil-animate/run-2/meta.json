@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "emil-animate",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T01:00:22.595Z",
+  "inputTokens": 8587,
+  "outputTokens": 18383,
+  "costUsd": 0.37389,
+  "durationMs": 145622,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:55:02.232Z",
+    "fullPageHeight": 1132,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

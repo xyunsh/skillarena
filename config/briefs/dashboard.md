@@ -1,0 +1,1 @@
+An operations dashboard for the owner of a coffee chain with 4 locations. Show three metric cards: today's revenue, number of orders, and average order value; a line chart of revenue over the last 30 days; a bar chart comparing sales across locations; a table of the top 5 best-selling items; and a date range picker. Use hard-coded sample data.

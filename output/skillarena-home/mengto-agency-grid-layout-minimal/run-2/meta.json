@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "mengto-agency-grid-layout-minimal",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T13:07:33.309Z",
+  "inputTokens": 2433,
+  "outputTokens": 13852,
+  "costUsd": 0.28204,
+  "durationMs": 112969,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T14:00:17.472Z",
+    "fullPageHeight": 5403,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

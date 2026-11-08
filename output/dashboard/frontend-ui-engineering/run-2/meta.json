@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "frontend-ui-engineering",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T00:54:11.042Z",
+  "inputTokens": 5567,
+  "outputTokens": 18046,
+  "costUsd": 0.36655,
+  "durationMs": 144446,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:55:14.812Z",
+    "fullPageHeight": 1255,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

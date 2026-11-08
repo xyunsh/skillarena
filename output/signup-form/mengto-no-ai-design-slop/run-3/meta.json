@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "mengto-no-ai-design-slop",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T11:36:53.619Z",
+  "inputTokens": 9218,
+  "outputTokens": 11659,
+  "costUsd": 0.23952,
+  "durationMs": 98833,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:54:53.678Z",
+    "fullPageHeight": 1202,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

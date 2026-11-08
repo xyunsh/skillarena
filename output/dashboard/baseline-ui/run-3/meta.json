@@ -1,0 +1,24 @@
+{
+  "briefId": "dashboard",
+  "skillId": "baseline-ui",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:15:33.898Z",
+  "inputTokens": 2358,
+  "outputTokens": 11704,
+  "costUsd": 0.23909,
+  "durationMs": 90842,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-06T23:04:45.146Z",
+    "fullPageHeight": 1172,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false
+  }
+}

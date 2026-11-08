@@ -1,0 +1,26 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "baseline",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": null,
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T21:59:50.352Z",
+  "inputTokens": 1037,
+  "outputTokens": 11187,
+  "costUsd": 0.23203,
+  "durationMs": 92515,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:37:13.151Z",
+    "fullPageHeight": 4345,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

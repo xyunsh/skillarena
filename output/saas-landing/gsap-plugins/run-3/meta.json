@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "gsap-plugins",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T04:09:58.259Z",
+  "inputTokens": 9943,
+  "outputTokens": 19740,
+  "costUsd": 0.40133,
+  "durationMs": 151583,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:33:05.667Z",
+    "fullPageHeight": 5191,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

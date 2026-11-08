@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "antfu-design",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2df66b0830c6e51f0087caeee6ee3de401172199",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:03:18.003Z",
+  "inputTokens": 17482,
+  "outputTokens": 16532,
+  "costUsd": 0.33864,
+  "durationMs": 133058,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:51:04.331Z",
+    "fullPageHeight": 1040,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "daisyui",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "bf3bac3a397b543e55641ecb2d60a2ed961f09ec",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T04:04:21.800Z",
+  "inputTokens": 35762,
+  "outputTokens": 8782,
+  "costUsd": 0.46173,
+  "durationMs": 66495,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:31:34.629Z",
+    "fullPageHeight": 3285,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

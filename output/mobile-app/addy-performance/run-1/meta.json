@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "addy-performance",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T07:40:54.196Z",
+  "inputTokens": 10100,
+  "outputTokens": 5252,
+  "costUsd": 0.18583,
+  "durationMs": 44477,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:25:27.736Z",
+    "fullPageHeight": 985,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

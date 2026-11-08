@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "emil-animation-performance",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T03:54:39.361Z",
+  "inputTokens": 6044,
+  "outputTokens": 13587,
+  "costUsd": 0.32008,
+  "durationMs": 102474,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:31:53.913Z",
+    "fullPageHeight": 4228,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

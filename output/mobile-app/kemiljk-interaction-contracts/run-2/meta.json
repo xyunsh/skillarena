@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "kemiljk-interaction-contracts",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T11:03:01.825Z",
+  "inputTokens": 2477,
+  "outputTokens": 13602,
+  "costUsd": 0.27707,
+  "durationMs": 113951,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:28:44.155Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

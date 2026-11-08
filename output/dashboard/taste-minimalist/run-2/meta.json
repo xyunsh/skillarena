@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "taste-minimalist",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-06T22:21:41.691Z",
+  "inputTokens": 4489,
+  "outputTokens": 25273,
+  "costUsd": 0.51087,
+  "durationMs": 198639,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:35:18.979Z",
+    "fullPageHeight": 1860,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

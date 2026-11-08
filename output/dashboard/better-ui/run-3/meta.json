@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "better-ui",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T00:46:35.270Z",
+  "inputTokens": 13524,
+  "outputTokens": 19043,
+  "costUsd": 0.38811,
+  "durationMs": 144668,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:54:56.090Z",
+    "fullPageHeight": 1348,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

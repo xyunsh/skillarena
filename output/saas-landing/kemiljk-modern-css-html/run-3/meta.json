@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "kemiljk-modern-css-html",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T05:07:08.144Z",
+  "inputTokens": 3302,
+  "outputTokens": 15064,
+  "costUsd": 0.30646,
+  "durationMs": 112260,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:35:29.380Z",
+    "fullPageHeight": 4230,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 10,
+    "blockedRequests": []
+  }
+}

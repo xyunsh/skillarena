@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "balise-ux-writing",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "f596a61fa8f4471054b1ed75d17bc6699db4572d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T12:18:15.307Z",
+  "inputTokens": 13538,
+  "outputTokens": 10478,
+  "costUsd": 0.21678,
+  "durationMs": 83659,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T13:51:11.049Z",
+    "fullPageHeight": 1202,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

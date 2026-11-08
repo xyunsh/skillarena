@@ -1,0 +1,26 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "better-ui",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-07T00:28:50.557Z",
+  "inputTokens": 13532,
+  "outputTokens": 15492,
+  "costUsd": 0.41809,
+  "durationMs": 118497,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:57:12.311Z",
+    "fullPageHeight": 4091,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

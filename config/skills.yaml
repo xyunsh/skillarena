@@ -1,0 +1,1001 @@
+# SkillArena skill list.
+# `commit` is written automatically by `npm run fetch-skills` (pinned on first fetch).
+# Delete a commit value to re-pin to the latest default-branch commit.
+# `installName` is the skill's frontmatter name (folder name for a manual install, and its slash command).
+# `install` lists the install methods documented in the skill's own README; the site adds a manual
+# "exact tested version" install from repo + commit + path automatically.
+- id: anthropic-frontend-design
+  name: Frontend Design
+  author: Anthropic
+  repo: https://github.com/anthropics/skills
+  path: skills/frontend-design
+  commit: ca45fc496a3436251f191354091d557da31c15b5
+  license: Apache-2.0
+  homepage: https://github.com/anthropics/skills/tree/main/skills/frontend-design
+  installName: frontend-design
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: Claude Code plugin marketplace
+      commands: |-
+        /plugin marketplace add anthropics/skills
+        /plugin install example-skills@anthropic-agent-skills
+      note: Installs the example-skills plugin, which includes frontend-design. Run
+        these inside Claude Code.
+- id: ui-ux-pro-max
+  name: UI/UX Pro Max
+  author: nextlevelbuilder
+  repo: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  path: .claude/skills/ui-ux-pro-max
+  commit: b7d5353e0130feb8c5574ef1251f8a1db1873ccb
+  license: MIT
+  homepage: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+- id: taste-skill
+  name: Taste Skill
+  author: Leonxlnx
+  repo: https://github.com/Leonxlnx/taste-skill
+  path: skills/taste-skill
+  commit: 9b4bf937a1f69348126959c15d2f99a73e65699b
+  license: MIT
+  homepage: https://github.com/Leonxlnx/taste-skill
+- id: baseline-ui
+  name: Baseline UI
+  author: ibelick (ui-skills)
+  repo: https://github.com/ibelick/ui-skills
+  path: skills/baseline-ui
+  commit: 00db7d656719c399c091f3ea138c6f42a7fa4d98
+  license: MIT
+  homepage: https://github.com/ibelick/ui-skills
+  installName: baseline-ui
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: ui-skills CLI
+      commands: npx ui-skills get baseline-ui
+      note: The CLI from the author's README for fetching skills from the
+        ui-skills.com registry.
+- id: interface-design
+  name: Interface Design
+  author: Dammyjay93
+  repo: https://github.com/Dammyjay93/interface-design
+  path: .claude/skills/interface-design
+  commit: 2f9be3206855bcb2d1d0af262c8bae25cba6658d
+  license: MIT
+  homepage: https://github.com/Dammyjay93/interface-design
+  installName: interface-design
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI (recommended by the author)
+      commands: npx skills add https://github.com/dammyjay93/interface-design --skill
+        interface-design --agent claude-code -g
+    - label: Claude Code plugin marketplace
+      commands: |-
+        /plugin marketplace add Dammyjay93/interface-design
+        /plugin menu
+      note: Select interface-design from the menu, then restart Claude Code.
+- id: platform-design-web
+  name: Platform Design (Web)
+  author: ehmo
+  repo: https://github.com/ehmo/platform-design-skills
+  path: skills/web
+  commit: dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9
+  license: MIT
+  homepage: https://github.com/ehmo/platform-design-skills
+  installName: web-design-guidelines
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add ehmo/platform-design-skills
+      note: Installs the whole platform-design-skills set (web, iOS, Android and
+        more); this page tests the web skill.
+- id: taste-brutalist
+  name: Brutalist (taste-skill classics)
+  author: Leonxlnx
+  repo: https://github.com/Leonxlnx/taste-skill-classics
+  path: skills/brutalist-skill
+  commit: 5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305
+  license: MIT
+  homepage: https://github.com/Leonxlnx/taste-skill-classics
+  installName: industrial-brutalist-ui
+  usage: Opt-in — Claude Code only uses it when you call it by name, e.g.
+    /industrial-brutalist-ui.
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add https://github.com/Leonxlnx/taste-skill-classics
+        --skill "industrial-brutalist-ui"
+    - label: Claude Code plugin (installs all seven taste-skill classics)
+      commands: |-
+        /plugin marketplace add Leonxlnx/taste-skill-classics
+        /plugin install taste-skill-classics@taste-skill-classics
+- id: taste-minimalist
+  name: Minimalist (taste-skill classics)
+  author: Leonxlnx
+  repo: https://github.com/Leonxlnx/taste-skill-classics
+  path: skills/minimalist-skill
+  commit: 5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305
+  license: MIT
+  homepage: https://github.com/Leonxlnx/taste-skill-classics
+  installName: minimalist-ui
+  usage: Opt-in — Claude Code only uses it when you call it by name, e.g.
+    /minimalist-ui.
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add https://github.com/Leonxlnx/taste-skill-classics
+        --skill "minimalist-ui"
+    - label: Claude Code plugin (installs all seven taste-skill classics)
+      commands: |-
+        /plugin marketplace add Leonxlnx/taste-skill-classics
+        /plugin install taste-skill-classics@taste-skill-classics
+- id: taste-soft
+  name: Soft (taste-skill classics)
+  author: Leonxlnx
+  repo: https://github.com/Leonxlnx/taste-skill-classics
+  path: skills/soft-skill
+  commit: 5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305
+  license: MIT
+  homepage: https://github.com/Leonxlnx/taste-skill-classics
+  installName: high-end-visual-design
+  usage: Opt-in — Claude Code only uses it when you call it by name, e.g.
+    /high-end-visual-design.
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add https://github.com/Leonxlnx/taste-skill-classics
+        --skill "high-end-visual-design"
+    - label: Claude Code plugin (installs all seven taste-skill classics)
+      commands: |-
+        /plugin marketplace add Leonxlnx/taste-skill-classics
+        /plugin install taste-skill-classics@taste-skill-classics
+
+# Added 2026-11-06 from the ui-skills.com catalog (featured and most-starred authors), page-building skills only.
+- id: better-ui
+  name: Better UI
+  author: jakubkrehel
+  repo: https://github.com/jakubkrehel/skills
+  path: skills/better-ui
+  license: MIT
+  homepage: https://github.com/jakubkrehel/skills/tree/main/skills/better-ui
+  installName: better-ui
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add jakubkrehel/skills --skill better-ui
+    - label: Claude Code plugin marketplace
+      commands: |-
+        /plugin marketplace add jakubkrehel/skills
+        /plugin install interfaces@interfaces
+      note: Installs the interfaces plugin, which includes better-ui and the author’s
+        other skills. Run these inside Claude Code.
+  commit: 60bf140e43c98b248e6594487384ec967e89d98a
+- id: better-typography
+  name: Better Typography
+  author: jakubkrehel
+  repo: https://github.com/jakubkrehel/skills
+  path: skills/better-typography
+  license: MIT
+  homepage: https://github.com/jakubkrehel/skills/tree/main/skills/better-typography
+  installName: better-typography
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add jakubkrehel/skills --skill better-typography
+    - label: Claude Code plugin marketplace
+      commands: |-
+        /plugin marketplace add jakubkrehel/skills
+        /plugin install interfaces@interfaces
+      note: Installs the interfaces plugin, which includes better-typography and the
+        author’s other skills. Run these inside Claude Code.
+  commit: 60bf140e43c98b248e6594487384ec967e89d98a
+- id: bencium-innovative
+  name: Innovative UX Designer
+  author: bencium
+  repo: https://github.com/bencium/bencium-marketplace
+  path: bencium-innovative-ux-designer/skills/bencium-innovative-ux-designer
+  license: MIT
+  homepage: https://github.com/bencium/bencium-marketplace/tree/main/bencium-innovative-ux-designer/skills/bencium-innovative-ux-designer
+  installName: bencium-innovative-ux-designer
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add bencium/bencium-marketplace --skill
+        bencium-innovative-ux-designer
+    - label: Claude Code plugin marketplace
+      commands: |-
+        /plugin marketplace add bencium/bencium-marketplace
+        /plugin install bencium-innovative-ux-designer@bencium-marketplace
+  commit: 5de46a39b4640fa419560cd0b67e4c4b50dac802
+- id: interaction-design
+  name: Interaction Design
+  author: wshobson
+  repo: https://github.com/wshobson/agents
+  path: plugins/ui-design/skills/interaction-design
+  license: MIT
+  homepage: https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/interaction-design
+  installName: interaction-design
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add wshobson/agents --skill interaction-design
+    - label: Claude Code plugin marketplace
+      commands: |-
+        /plugin marketplace add wshobson/agents
+        /plugin install ui-design@claude-code-workflows
+      note: Installs the ui-design plugin, which includes interaction-design. Run
+        these inside Claude Code.
+  commit: 4bde3168b43c0655c4d00ea2726e631719908a6d
+- id: frontend-ui-engineering
+  name: Frontend UI Engineering
+  author: addyosmani
+  repo: https://github.com/addyosmani/agent-skills
+  path: skills/frontend-ui-engineering
+  license: MIT
+  homepage: https://github.com/addyosmani/agent-skills/tree/main/skills/frontend-ui-engineering
+  installName: frontend-ui-engineering
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add addyosmani/agent-skills --skill frontend-ui-engineering
+    - label: Claude Code plugin marketplace
+      commands: |-
+        /plugin marketplace add addyosmani/agent-skills
+        /plugin install agent-skills@addy-agent-skills
+      note: Installs all of the author’s agent skills. Run these inside Claude Code.
+  commit: 301b02b12bff98e4688e6984af6556802322bbde
+- id: emil-design-eng
+  name: Design Engineering (Emil Kowalski)
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/emil-design-eng
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/emil-design-eng
+  installName: emil-design-eng
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill emil-design-eng
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: apple-design
+  name: Apple Design for the Web
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/apple-design
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/apple-design
+  installName: apple-design
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill apple-design
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: emil-animate
+  name: Animate
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/animate
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/animate
+  installName: animate
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill animate
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: mengto-landing-page
+  name: Landing Page
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/landing-page
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/landing-page
+  installName: landing-page
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill landing-page
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: humane-functionalism
+  name: Humane Functionalism
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/humane-functionalism
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/main/skills/humane-functionalism
+  installName: humane-functionalism
+  # Install methods from the author's README (they install the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill humane-functionalism
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: impeccable
+  name: Impeccable
+  author: pbakaus
+  repo: https://github.com/pbakaus/impeccable
+  path: .claude/skills/impeccable
+  license: Apache-2.0
+  homepage: https://github.com/pbakaus/impeccable
+  commit: 687bc381bc9091bf252c0a05303640561014a425
+  # Scan finding reviewed 2026-11-07: "do not show findings to the user until synthesis" is workflow ordering.
+  scanReviewed: 687bc381bc9091bf252c0a05303640561014a425
+
+- id: anthropic-canvas-design
+  name: "Canvas Design"
+  author: anthropics
+  repo: https://github.com/anthropics/skills
+  path: skills/canvas-design
+  license: Apache-2.0
+  homepage: https://github.com/anthropics/skills/tree/main/skills/canvas-design
+  installName: canvas-design
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add anthropics/skills --skill canvas-design
+  commit: 2c5958ecac7cee2b583967a2c4981d0f4a75c579
+- id: uupm-banner-design
+  name: "Banner Design"
+  author: nextlevelbuilder
+  repo: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  path: .claude/skills/banner-design
+  license: MIT
+  homepage: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/banner-design
+  installName: banner-design
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill banner-design
+  commit: b7d5353e0130feb8c5574ef1251f8a1db1873ccb
+- id: emil-animation-performance
+  name: "Animation Performance"
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/animation-performance
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/animation-performance
+  installName: animation-performance
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill animation-performance
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: emil-mobile-native
+  name: "Mobile Native"
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/mobile-native
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/mobile-native
+  installName: mobile-native
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill mobile-native
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: emil-prototype
+  name: "Prototype"
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/prototype
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/prototype
+  installName: prototype
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill prototype
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: emil-pick-ui-library
+  name: "Pick UI Library"
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/pick-ui-library
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/pick-ui-library
+  installName: pick-ui-library
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill pick-ui-library
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: emil-remove-animations
+  name: "Remove Animations"
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/remove-animations
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/remove-animations
+  installName: remove-animations
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill remove-animations
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+  # Scan finding reviewed 2026-11-07: quotes "ignore previous instructions" as an example of text to flag (defensive).
+  scanReviewed: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: emil-break-ui
+  name: "Break UI"
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/break-ui
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/main/skills/break-ui
+  installName: break-ui
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill break-ui
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+  # Scan finding reviewed 2026-11-07: same defensive line; U+200D is inside an emoji test case in CATALOG.md.
+  scanReviewed: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: hallmark
+  name: "Hallmark"
+  author: Nutlope
+  repo: https://github.com/Nutlope/hallmark
+  path: skills/hallmark
+  license: MIT
+  homepage: https://github.com/Nutlope/hallmark/tree/main/skills/hallmark
+  installName: hallmark
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add Nutlope/hallmark --skill hallmark
+  commit: 407fa689f4a276f2fd389208d271d0fef08f5058
+- id: daisyui
+  name: "Daisyui"
+  author: saadeghi
+  repo: https://github.com/saadeghi/daisyui
+  path: skills/daisyui
+  license: MIT
+  homepage: https://github.com/saadeghi/daisyui/tree/main/skills/daisyui
+  installName: daisyui
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add saadeghi/daisyui --skill daisyui
+  commit: bf3bac3a397b543e55641ecb2d60a2ed961f09ec
+- id: gsap-core
+  name: "Gsap Core"
+  author: greensock
+  repo: https://github.com/greensock/gsap-skills
+  path: skills/gsap-core
+  license: MIT
+  homepage: https://github.com/greensock/gsap-skills/tree/main/skills/gsap-core
+  installName: gsap-core
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add greensock/gsap-skills --skill gsap-core
+  commit: aed9cfd3277740755f6bfc1155c7aa645403b760
+- id: gsap-scrolltrigger
+  name: "Gsap Scrolltrigger"
+  author: greensock
+  repo: https://github.com/greensock/gsap-skills
+  path: skills/gsap-scrolltrigger
+  license: MIT
+  homepage: https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger
+  installName: gsap-scrolltrigger
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add greensock/gsap-skills --skill gsap-scrolltrigger
+  commit: aed9cfd3277740755f6bfc1155c7aa645403b760
+- id: gsap-plugins
+  name: "Gsap Plugins"
+  author: greensock
+  repo: https://github.com/greensock/gsap-skills
+  path: skills/gsap-plugins
+  license: MIT
+  homepage: https://github.com/greensock/gsap-skills/tree/main/skills/gsap-plugins
+  installName: gsap-plugins
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add greensock/gsap-skills --skill gsap-plugins
+  commit: aed9cfd3277740755f6bfc1155c7aa645403b760
+- id: gsap-timeline
+  name: "Gsap Timeline"
+  author: greensock
+  repo: https://github.com/greensock/gsap-skills
+  path: skills/gsap-timeline
+  license: MIT
+  homepage: https://github.com/greensock/gsap-skills/tree/main/skills/gsap-timeline
+  installName: gsap-timeline
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add greensock/gsap-skills --skill gsap-timeline
+  commit: aed9cfd3277740755f6bfc1155c7aa645403b760
+- id: gsap-performance
+  name: "Gsap Performance"
+  author: greensock
+  repo: https://github.com/greensock/gsap-skills
+  path: skills/gsap-performance
+  license: MIT
+  homepage: https://github.com/greensock/gsap-skills/tree/main/skills/gsap-performance
+  installName: gsap-performance
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add greensock/gsap-skills --skill gsap-performance
+  commit: aed9cfd3277740755f6bfc1155c7aa645403b760
+- id: elaya-landing-page-design
+  name: "Landing Page Design"
+  author: elayadesign
+  repo: https://github.com/elayadesign/ai-design-skills
+  path: skills/landing-page-design
+  license: MIT
+  homepage: https://github.com/elayadesign/ai-design-skills/tree/main/skills/landing-page-design
+  installName: landing-page-design
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add elayadesign/ai-design-skills --skill landing-page-design
+  commit: 456d9e0d3e2d84c748bb143c6ca3d90c45e16213
+- id: jakub-better-layout
+  name: "Better Layout"
+  author: jakubkrehel
+  repo: https://github.com/jakubkrehel/skills
+  path: skills/better-layout
+  license: MIT
+  homepage: https://github.com/jakubkrehel/skills/tree/main/skills/better-layout
+  installName: better-layout
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add jakubkrehel/skills --skill better-layout
+  commit: 60bf140e43c98b248e6594487384ec967e89d98a
+- id: jakub-better-writing
+  name: "Better Writing"
+  author: jakubkrehel
+  repo: https://github.com/jakubkrehel/skills
+  path: skills/better-writing
+  license: MIT
+  homepage: https://github.com/jakubkrehel/skills/tree/main/skills/better-writing
+  installName: better-writing
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add jakubkrehel/skills --skill better-writing
+  commit: 60bf140e43c98b248e6594487384ec967e89d98a
+- id: jakub-variant
+  name: "Variant"
+  author: jakubkrehel
+  repo: https://github.com/jakubkrehel/skills
+  path: skills/variant
+  license: MIT
+  homepage: https://github.com/jakubkrehel/skills/tree/main/skills/variant
+  installName: variant
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add jakubkrehel/skills --skill variant
+  commit: 60bf140e43c98b248e6594487384ec967e89d98a
+- id: ibelick-fixing-accessibility
+  name: "Fixing Accessibility"
+  author: ibelick
+  repo: https://github.com/ibelick/ui-skills
+  path: skills/fixing-accessibility
+  license: MIT
+  homepage: https://github.com/ibelick/ui-skills/tree/main/skills/fixing-accessibility
+  installName: fixing-accessibility
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add ibelick/ui-skills --skill fixing-accessibility
+  commit: 00db7d656719c399c091f3ea138c6f42a7fa4d98
+- id: ibelick-fixing-motion-performance
+  name: "Fixing Motion Performance"
+  author: ibelick
+  repo: https://github.com/ibelick/ui-skills
+  path: skills/fixing-motion-performance
+  license: MIT
+  homepage: https://github.com/ibelick/ui-skills/tree/main/skills/fixing-motion-performance
+  installName: fixing-motion-performance
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add ibelick/ui-skills --skill fixing-motion-performance
+  commit: 00db7d656719c399c091f3ea138c6f42a7fa4d98
+- id: ibelick-fixing-metadata
+  name: "Fixing Metadata"
+  author: ibelick
+  repo: https://github.com/ibelick/ui-skills
+  path: skills/fixing-metadata
+  license: MIT
+  homepage: https://github.com/ibelick/ui-skills/tree/main/skills/fixing-metadata
+  installName: fixing-metadata
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add ibelick/ui-skills --skill fixing-metadata
+  commit: 00db7d656719c399c091f3ea138c6f42a7fa4d98
+- id: mengto-no-ai-design-slop
+  name: "No Ai Design Slop"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/ui/no-ai-design-slop
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/ui/no-ai-design-slop
+  installName: no-ai-design-slop
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill no-ai-design-slop
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-build-awwwards-quality-sites
+  name: "Build Awwwards Quality Sites"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/build-awwwards-quality-sites
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/build-awwwards-quality-sites
+  installName: build-awwwards-quality-sites
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill build-awwwards-quality-sites
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-design-first-ui-prompting
+  name: "Design First UI Prompting"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/ui/design-first-ui-prompting
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/ui/design-first-ui-prompting
+  installName: design-first-ui-prompting
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill design-first-ui-prompting
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-product-proof-saas
+  name: "Product Proof Saas"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/product-proof-saas
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/product-proof-saas
+  installName: product-proof-saas
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill product-proof-saas
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-pricing-page
+  name: "Pricing Page"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/pricing-page
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/pricing-page
+  installName: pricing-page
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill pricing-page
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-editorial-tech
+  name: "Editorial Tech"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/editorial-tech
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/editorial-tech
+  installName: editorial-tech
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill editorial-tech
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-agency-grid-layout-minimal
+  name: "Agency Grid Layout Minimal"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/agency-grid-layout-minimal
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/agency-grid-layout-minimal
+  installName: agency-grid-layout-minimal
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill agency-grid-layout-minimal
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-beautiful-shadows
+  name: "Beautiful Shadows"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/beautiful-shadows
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/beautiful-shadows
+  installName: beautiful-shadows
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill beautiful-shadows
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-cinematic-scroll-storytelling
+  name: "Cinematic Scroll Storytelling"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/cinematic-scroll-storytelling
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/cinematic-scroll-storytelling
+  installName: cinematic-scroll-storytelling
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill cinematic-scroll-storytelling
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-orange-clean-paper-saas
+  name: "Orange Clean Paper Saas"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/orange-clean-paper-saas
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/orange-clean-paper-saas
+  installName: orange-clean-paper-saas
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill orange-clean-paper-saas
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-skeuomorphic-ui
+  name: "Skeuomorphic UI"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/skeuomorphic-ui
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/skeuomorphic-ui
+  installName: skeuomorphic-ui
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill skeuomorphic-ui
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-glass-dark-ui
+  name: "Glass Dark UI"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/glass-dark-ui
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/glass-dark-ui
+  installName: glass-dark-ui
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill glass-dark-ui
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-cinematic-gsap-lenis-motion-system
+  name: "Cinematic Gsap Lenis Motion System"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/cinematic-gsap-lenis-motion-system
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/cinematic-gsap-lenis-motion-system
+  installName: cinematic-gsap-lenis-motion-system
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill cinematic-gsap-lenis-motion-system
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-tailwindcss
+  name: "Tailwindcss"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/tailwindcss
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/main/agent-skills/web-design/tailwindcss
+  installName: tailwindcss
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill tailwindcss
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: addy-accessibility
+  name: "Accessibility"
+  author: addyosmani
+  repo: https://github.com/addyosmani/web-quality-skills
+  path: skills/accessibility
+  license: MIT
+  homepage: https://github.com/addyosmani/web-quality-skills/tree/main/skills/accessibility
+  installName: accessibility
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add addyosmani/web-quality-skills --skill accessibility
+  commit: afa8da942115f2961fdbfa80807ea0b232ff6c00
+- id: addy-performance
+  name: "Performance"
+  author: addyosmani
+  repo: https://github.com/addyosmani/web-quality-skills
+  path: skills/performance
+  license: MIT
+  homepage: https://github.com/addyosmani/web-quality-skills/tree/main/skills/performance
+  installName: performance
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add addyosmani/web-quality-skills --skill performance
+  commit: afa8da942115f2961fdbfa80807ea0b232ff6c00
+- id: fluid-functionalism
+  name: "Fluid Functionalism"
+  author: mickadesign
+  repo: https://github.com/mickadesign/fluid-functionalism
+  path: skills/fluid-functionalism
+  license: MIT
+  homepage: https://github.com/mickadesign/fluid-functionalism/tree/main/skills/fluid-functionalism
+  installName: fluid-functionalism
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add mickadesign/fluid-functionalism --skill
+        fluid-functionalism
+  commit: 7e6ae290dd8f5a7657ae4a433a42e165bac3ece4
+- id: prefer-container-queries
+  name: "Prefer Container Queries"
+  author: flornkm
+  repo: https://github.com/flornkm/skills
+  path: skills/prefer-container-queries
+  license: MIT
+  homepage: https://github.com/flornkm/skills/tree/main/skills/prefer-container-queries
+  installName: prefer-container-queries
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add flornkm/skills --skill prefer-container-queries
+  commit: cf1c0094e1826230623ecdb6e7b3c44bdfc593c3
+- id: antfu-design
+  name: "Antfu Design"
+  author: antfu
+  repo: https://github.com/antfu/design
+  path: skills/antfu-design
+  license: MIT
+  homepage: https://github.com/antfu/design/tree/main/skills/antfu-design
+  installName: antfu-design
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add antfu/design --skill antfu-design
+  commit: 2df66b0830c6e51f0087caeee6ee3de401172199
+- id: iart-micro-interaction
+  name: "Micro Interaction"
+  author: iart-ai
+  repo: https://github.com/iart-ai/web-animation-skills
+  path: skills/micro-interaction
+  license: MIT
+  homepage: https://github.com/iart-ai/web-animation-skills/tree/main/skills/micro-interaction
+  installName: micro-interaction
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add iart-ai/web-animation-skills --skill micro-interaction
+  commit: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+- id: iart-page-transition-animation
+  name: "Page Transition Animation"
+  author: iart-ai
+  repo: https://github.com/iart-ai/web-animation-skills
+  path: skills/page-transition-animation
+  license: MIT
+  homepage: https://github.com/iart-ai/web-animation-skills/tree/main/skills/page-transition-animation
+  installName: page-transition-animation
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add iart-ai/web-animation-skills --skill
+        page-transition-animation
+  commit: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+- id: iart-glassmorphism
+  name: "Glassmorphism"
+  author: iart-ai
+  repo: https://github.com/iart-ai/web-animation-skills
+  path: skills/glassmorphism
+  license: MIT
+  homepage: https://github.com/iart-ai/web-animation-skills/tree/main/skills/glassmorphism
+  installName: glassmorphism
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add iart-ai/web-animation-skills --skill glassmorphism
+  commit: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+- id: iart-accessible-animation
+  name: "Accessible Animation"
+  author: iart-ai
+  repo: https://github.com/iart-ai/web-animation-skills
+  path: skills/accessible-animation
+  license: MIT
+  homepage: https://github.com/iart-ai/web-animation-skills/tree/main/skills/accessible-animation
+  installName: accessible-animation
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add iart-ai/web-animation-skills --skill accessible-animation
+  commit: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+- id: kemiljk-design-engineering
+  name: "Design Engineering"
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/design-engineering
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/main/skills/design-engineering
+  installName: design-engineering
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill design-engineering
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: kemiljk-modern-css-html
+  name: "Modern Css Html"
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/modern-css-html
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/main/skills/modern-css-html
+  installName: modern-css-html
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill modern-css-html
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: kemiljk-fluid-design
+  name: "Fluid Design"
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/fluid-design
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/main/skills/fluid-design
+  installName: fluid-design
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill fluid-design
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: kemiljk-real-content-design
+  name: "Real Content Design"
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/real-content-design
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/main/skills/real-content-design
+  installName: real-content-design
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill real-content-design
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: kemiljk-interface-affordances
+  name: "Interface Affordances"
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/interface-affordances
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/main/skills/interface-affordances
+  installName: interface-affordances
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill interface-affordances
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: kemiljk-interaction-contracts
+  name: "Interaction Contracts"
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/interaction-contracts
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/main/skills/interaction-contracts
+  installName: interaction-contracts
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill interaction-contracts
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: balise-ux-writing
+  name: "Balise Ux Writing"
+  author: mrstev3n
+  repo: https://github.com/mrstev3n/balise-skills
+  path: skills/balise-ux-writing
+  license: Apache-2.0
+  homepage: https://github.com/mrstev3n/balise-skills/tree/main/skills/balise-ux-writing
+  installName: balise-ux-writing
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add mrstev3n/balise-skills --skill balise-ux-writing
+  commit: f596a61fa8f4471054b1ed75d17bc6699db4572d

@@ -1,0 +1,26 @@
+{
+  "briefId": "dashboard",
+  "skillId": "apple-design",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T00:57:58.965Z",
+  "inputTokens": 9100,
+  "outputTokens": 24113,
+  "costUsd": 0.48859,
+  "durationMs": 191785,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T01:54:36.738Z",
+    "fullPageHeight": 1319,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0
+  }
+}

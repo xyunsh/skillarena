@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-beautiful-shadows",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-07T07:29:24.526Z",
+  "inputTokens": 2292,
+  "outputTokens": 11372,
+  "costUsd": 0.23239,
+  "durationMs": 84822,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-07T11:29:17.265Z",
+    "fullPageHeight": 908,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}
