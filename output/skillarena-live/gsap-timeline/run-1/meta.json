@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "gsap-timeline",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:21:09.373Z",
+  "inputTokens": 4214,
+  "outputTokens": 11228,
+  "costUsd": 0.25826,
+  "durationMs": 87368,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:13:49.691Z",
+    "fullPageHeight": 2475,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

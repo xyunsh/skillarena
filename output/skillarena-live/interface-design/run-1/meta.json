@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "interface-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:10:49.562Z",
+  "inputTokens": 12542,
+  "outputTokens": 15729,
+  "costUsd": 0.41491,
+  "durationMs": 127888,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:14:37.197Z",
+    "fullPageHeight": 2621,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

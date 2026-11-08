@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "kemiljk-real-content-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:39:37.817Z",
+  "inputTokens": 3955,
+  "outputTokens": 11810,
+  "costUsd": 0.26783,
+  "durationMs": 93726,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:15:13.000Z",
+    "fullPageHeight": 24143,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

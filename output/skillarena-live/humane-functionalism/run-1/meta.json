@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "humane-functionalism",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T22:15:13.384Z",
+  "inputTokens": 7532,
+  "outputTokens": 13818,
+  "costUsd": 0.33661,
+  "durationMs": 112171,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:13:55.984Z",
+    "fullPageHeight": 2452,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "mengto-webgl-landing-steering",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T23:07:23.253Z",
+  "inputTokens": 4418,
+  "outputTokens": 14747,
+  "costUsd": 0.33028,
+  "durationMs": 116382,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:18:48.565Z",
+    "fullPageHeight": 25009,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "flornkm-webgl-components",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "cf1c0094e1826230623ecdb6e7b3c44bdfc593c3",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:43:17.466Z",
+  "inputTokens": 8782,
+  "outputTokens": 18135,
+  "costUsd": 0.43295,
+  "durationMs": 143273,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:13:32.024Z",
+    "fullPageHeight": 27479,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

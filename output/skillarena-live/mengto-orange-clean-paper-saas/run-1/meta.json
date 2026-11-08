@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "mengto-orange-clean-paper-saas",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:28:41.438Z",
+  "inputTokens": 3750,
+  "outputTokens": 16880,
+  "costUsd": 0.36759,
+  "durationMs": 131784,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:18:00.857Z",
+    "fullPageHeight": 27796,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

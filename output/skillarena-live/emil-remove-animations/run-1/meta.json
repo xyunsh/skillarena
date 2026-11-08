@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "emil-remove-animations",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:18:22.751Z",
+  "inputTokens": 6373,
+  "outputTokens": 11320,
+  "costUsd": 0.27738,
+  "durationMs": 86574,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:13:23.924Z",
+    "fullPageHeight": 21937,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

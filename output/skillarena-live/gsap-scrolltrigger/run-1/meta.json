@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "gsap-scrolltrigger",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:19:39.849Z",
+  "inputTokens": 9771,
+  "outputTokens": 12679,
+  "costUsd": 0.33174,
+  "durationMs": 101888,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:13:49.836Z",
+    "fullPageHeight": 2661,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

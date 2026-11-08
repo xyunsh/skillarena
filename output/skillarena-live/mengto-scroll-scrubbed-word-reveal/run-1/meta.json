@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "mengto-scroll-scrubbed-word-reveal",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T23:03:54.100Z",
+  "inputTokens": 4759,
+  "outputTokens": 15156,
+  "costUsd": 0.34118,
+  "durationMs": 125014,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:18:13.419Z",
+    "fullPageHeight": 27270,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "mengto-gooey-blob-system",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T23:06:26.153Z",
+  "inputTokens": 2874,
+  "outputTokens": 18008,
+  "costUsd": 0.38314,
+  "durationMs": 145938,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:17:15.710Z",
+    "fullPageHeight": 27717,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

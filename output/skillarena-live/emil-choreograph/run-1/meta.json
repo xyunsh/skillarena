@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "emil-choreograph",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T22:41:09.046Z",
+  "inputTokens": 11827,
+  "outputTokens": 16208,
+  "costUsd": 0.41877,
+  "durationMs": 125721,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:13:12.051Z",
+    "fullPageHeight": 2682,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

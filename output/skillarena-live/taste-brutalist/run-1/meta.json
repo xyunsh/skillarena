@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "taste-brutalist",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:12:16.320Z",
+  "inputTokens": 5718,
+  "outputTokens": 14256,
+  "costUsd": 0.33086,
+  "durationMs": 111149,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:19:01.834Z",
+    "fullPageHeight": 27669,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

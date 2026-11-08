@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "mengto-animation-on-scroll",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:46:56.956Z",
+  "inputTokens": 3758,
+  "outputTokens": 12160,
+  "costUsd": 0.27326,
+  "durationMs": 93430,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:15:23.891Z",
+    "fullPageHeight": 2672,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

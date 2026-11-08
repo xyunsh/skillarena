@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "taste-minimalist",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:12:29.028Z",
+  "inputTokens": 5866,
+  "outputTokens": 18046,
+  "costUsd": 0.40784,
+  "durationMs": 139655,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:19:08.825Z",
+    "fullPageHeight": 3835,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

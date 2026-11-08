@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "baseline",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": null,
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:10:49.551Z",
+  "inputTokens": 2399,
+  "outputTokens": 10919,
+  "costUsd": 0.23756,
+  "durationMs": 86768,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:12:40.185Z",
+    "fullPageHeight": 30892,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

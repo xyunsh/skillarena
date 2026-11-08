@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "prototyper-build-primitive",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "eff1e06fa43a1fc3ba4e940b43b7ba0fa5b72339",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:46:22.845Z",
+  "inputTokens": 20862,
+  "outputTokens": 16945,
+  "costUsd": 0.50579,
+  "durationMs": 131928,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:18:59.690Z",
+    "fullPageHeight": 2590,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

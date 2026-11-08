@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "addy-best-practices",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T22:41:42.811Z",
+  "inputTokens": 10346,
+  "outputTokens": 12409,
+  "costUsd": 0.33094,
+  "durationMs": 94655,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:12:12.362Z",
+    "fullPageHeight": 2245,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

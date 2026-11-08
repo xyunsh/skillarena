@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "emil-pick-ui-library",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:18:00.785Z",
+  "inputTokens": 4167,
+  "outputTokens": 12754,
+  "costUsd": 0.28841,
+  "durationMs": 99064,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:13:13.579Z",
+    "fullPageHeight": 2299,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

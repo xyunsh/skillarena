@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "ibelick-fixing-metadata",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T22:23:13.750Z",
+  "inputTokens": 3919,
+  "outputTokens": 11327,
+  "costUsd": 0.25788,
+  "durationMs": 87255,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T23:14:26.603Z",
+    "fullPageHeight": 27005,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}
