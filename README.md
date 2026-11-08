@@ -1,6 +1,32 @@
 # SkillArena
 
-**See what a UI skill builds before you install it.** SkillArena gives every UI skill (a `SKILL.md` for AI coding agents such as Claude Code) the same product briefs and the same model, and shows the generated pages next to a **no-skill control group**. Live at **[skillarena.dev](https://skillarena.dev)**.
+**See what a UI skill builds before you install it.**
+
+SkillArena gives every UI skill (a `SKILL.md` for AI coding agents such as Claude Code, Cursor or Codex) the same product briefs and the same model, and shows the generated pages next to a **no-skill control group**. Browse it at **[skillarena.dev](https://skillarena.dev/?ref=github)**.
+
+[![One landing page brief: no skill, Brutalist, Apple Design for the Web and Humane Functionalism, side by side](.github/readme/saas-landing.jpg)](https://skillarena.dev/compare/?ref=github)
+
+<sub>One brief, four results: run 1 of 3 for each, Claude Opus 5.5. [Compare any two skills →](https://skillarena.dev/compare/?ref=github)</sub>
+
+## How it works
+
+- **5 fixed briefs**: a SaaS landing page, an analytics dashboard, a mobile app screen, a sign-up form, and SkillArena's own home page. Each is sent word for word.
+- **One model, default settings**: every page comes from Claude Opus 5.5. The only thing that changes between rows is which `SKILL.md` goes into the system prompt. One row has no skill at all.
+- **3 runs per skill and brief, all shown**, so you see the variation and not a cherry-picked best.
+- **Pinned and reproducible**: each skill is fetched at a fixed commit, and its page has install commands for that exact version. Skills that need to run bundled scripts are skipped and listed in [`skipped.md`](skipped.md).
+- **No ranking**: you look and decide. All runs, token counts and costs are in [`results.json`](https://skillarena.dev/results.json).
+
+## What the results show so far
+
+From the published set of 67 skills plus the control group, 1,020 pages (November 2026):
+
+- **Skills change the look much more than the words.** On the landing page brief, 183 of 204 pages open with “Stop asking…”, a phrase the brief never uses.
+- **More instructions don't always mean more output.** With no skill, the model averaged 12.6k output tokens per page; 12 of the 67 skills came in under that.
+- **One screenshot is not enough.** The same skill on the same brief went from 17k to 44k output tokens across its three runs.
+
+Want a skill tested? [Open an issue](https://github.com/xyunsh/skillarena/issues/new?title=Add%20skill%3A%20) with a link to its `SKILL.md`. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## What's in this repository
 
 This repository holds everything behind the published results:
 
@@ -12,8 +38,6 @@ This repository holds everything behind the published results:
 | `web/` | The site: Next.js static export, no client-side framework runtime |
 | `contract/` | zod schemas for the public API and the build data (manifest, display settings) |
 | `functions/` | Reference implementation of the public API as Cloudflare Pages Functions |
-
-It is not a ranking. Model output varies from run to run, so every pair is generated three times; judge a skill by its runs together.
 
 ## Quick start: build the site from the published results
 
