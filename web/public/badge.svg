@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="20" role="img" aria-label="SkillArena: compare vs no skill">
+  <title>SkillArena: compare vs no skill</title>
+  <linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
+  <clipPath id="r"><rect width="180" height="20" rx="3" fill="#fff"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="70" height="20" fill="#1d1d20"/>
+    <rect x="70" width="110" height="20" fill="#c2410c"/>
+    <rect width="180" height="20" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" text-rendering="geometricPrecision">
+    <text x="35" y="15" fill="#010101" fill-opacity=".3" textLength="58" lengthAdjust="spacingAndGlyphs">SkillArena</text>
+    <text x="35" y="14" textLength="58" lengthAdjust="spacingAndGlyphs">SkillArena</text>
+    <text x="125" y="15" fill="#010101" fill-opacity=".3" textLength="98" lengthAdjust="spacingAndGlyphs">compare vs no skill</text>
+    <text x="125" y="14" textLength="98" lengthAdjust="spacingAndGlyphs">compare vs no skill</text>
+  </g>
+</svg>

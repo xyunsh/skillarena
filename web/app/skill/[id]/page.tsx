@@ -291,6 +291,26 @@ export default async function SkillPage({ params }: Params) {
                 </section>
             )}
 
+            {!skill.isBaseline && (
+                <section className="badge-box" aria-labelledby="badge-title" style={{ margin: '0 0 28px' }}>
+                    <div className="install-method">
+                        <div className="method-head">
+                            <h3 id="badge-title">Badge for your README</h3>
+                            <button type="button" className="btn copy" data-copy>
+                                {ui['install.copy']}
+                            </button>
+                        </div>
+                        <p className="small muted" style={{ margin: '0 0 10px' }}>
+                            Is this your skill? Link people to these results.{' '}
+                            <img src="/badge.svg" alt="SkillArena: compare vs no skill" width={180} height={20} style={{ verticalAlign: 'middle' }} />
+                        </p>
+                        <pre className="code">
+                            <code>{`[![SkillArena: compare vs no skill](${abs('/badge.svg')})](${abs(`/skill/${skill.id}/`)}?ref=badge)`}</code>
+                        </pre>
+                    </div>
+                </section>
+            )}
+
             <div className="toolbar" id="results">
                 <div className="seg" role="group" aria-label="View">
                     <button type="button" data-set-view="desktop" aria-pressed="true">
