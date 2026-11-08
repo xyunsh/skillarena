@@ -1,3 +1,4 @@
+import { CoffeeIcon, COFFEE_URL } from '~/components/CoffeeLink';
 import { JsonLd } from '~/components/JsonLd';
 import { ui } from '~/lib/copy';
 import { briefs, manifest, skills } from '~/lib/data';
@@ -109,6 +110,19 @@ export default function About() {
                         </div>
                     ))}
                 </dl>
+
+                <h2>Support SkillArena</h2>
+                <p>
+                    SkillArena is built by a father of three after the kids are asleep. The site is free and open source, with no ads, and every
+                    generated page costs real money that comes out of his own pocket (about ${Math.round(manifest.totals.costUsd + (manifest.liveTotals?.costUsd ?? 0))} so far).
+                    If it saved you from installing the wrong skill, a coffee helps pay for the next round of skills and model updates.
+                </p>
+                <p>
+                    <a className="gh-link coffee-link coffee-cta" href={COFFEE_URL} rel="noopener" target="_blank">
+                        <CoffeeIcon />
+                        Buy me a coffee
+                    </a>
+                </p>
 
                 <h2>Disclaimer</h2>
                 <ul>

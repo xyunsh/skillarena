@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
+import { CoffeeLink } from '~/components/CoffeeLink';
 import { GithubLink } from '~/components/GithubLink';
 import { InlineScript } from '~/components/InlineScript';
 import { Logo } from '~/components/Logo';
@@ -36,7 +37,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     <div className="wrap header-inner">
                         <Logo />
                         <Nav />
-                        <GithubLink />
+                        <div className="header-links">
+                            <CoffeeLink />
+                            <GithubLink />
+                        </div>
                     </div>
                 </header>
                 {banner && (

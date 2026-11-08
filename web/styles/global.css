@@ -39,8 +39,12 @@ code, .mono { font-family: var(--mono); font-size: .9em; }
 .site-header nav { display: flex; gap: 4px; flex: 1; overflow-x: auto; }
 .site-header nav a { text-decoration: none; padding: 6px 10px; border-radius: 6px; color: var(--ink-2); white-space: nowrap; }
 .site-header nav a:hover, .site-header nav a[aria-current='page'] { color: var(--ink); background: #ebebe7; }
-.gh-link { display: inline-flex; align-items: center; gap: 6px; flex: none; margin-left: auto; padding: 6px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); color: var(--ink); font-size: 13px; font-weight: 500; text-decoration: none; }
+.header-links { display: flex; align-items: center; gap: 8px; flex: none; margin-left: auto; }
+.gh-link { display: inline-flex; align-items: center; gap: 6px; flex: none; padding: 6px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); color: var(--ink); font-size: 13px; font-weight: 500; text-decoration: none; }
 .gh-link:hover { border-color: var(--ink-3); }
+.coffee-link svg { color: #c27c0e; }
+.coffee-link:hover { background: #fff8e6; border-color: #e7c27a; }
+.coffee-cta { padding: 9px 16px; font-size: 15px; font-weight: 600; text-decoration: none !important; }
 .site-footer { border-top: 1px solid var(--line); margin-top: 64px; padding: 24px 0 40px; color: var(--ink-3); font-size: 13px; }
 .site-footer p { margin: 0 0 4px; }
 
