@@ -1,4 +1,4 @@
-import { GithubOwner } from '~/components/GithubOwner';
+import { GithubOwner, Stars } from '~/components/GithubOwner';
 import { JsonLd } from '~/components/JsonLd';
 import { Status } from '~/components/Status';
 import { Waitlist } from '~/components/Waitlist';
@@ -84,18 +84,24 @@ export default function Home() {
                                         <a className="skill-name" href={`/skill/${s.id}/`}>
                                             {s.isBaseline ? 'No skill' : s.name}
                                         </a>
-                                        <span className="by">
-                                            {s.isBaseline ? (
+                                        {s.isBaseline ? (
+                                            <div className="skill-meta">
                                                 <span className="tag">control group</span>
-                                            ) : (
+                                            </div>
+                                        ) : (
+                                            <>
                                                 <GithubOwner skill={s} />
-                                            )}
-                                        </span>
-                                        {s.featured && <span className="tag tag-featured">Featured</span>}
-                                        {!s.isBaseline && (
-                                            <a className="by install-link" href={`/skill/${s.id}/#install`}>
-                                                Install
-                                            </a>
+                                                <div className="skill-meta">
+                                                    <Stars skill={s} />
+                                                    {s.featured && <span className="tag tag-featured">Featured</span>}
+                                                    <a className="install-link" href={`/skill/${s.id}/#install`}>
+                                                        <svg width="11" height="11" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                                                            <path fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" d="M8 2v8m-3.5-3.5L8 10l3.5-3.5M3 13.5h10" />
+                                                        </svg>
+                                                        Install
+                                                    </a>
+                                                </div>
+                                            </>
                                         )}
                                     </th>
                                     {briefs.map((b) => {
