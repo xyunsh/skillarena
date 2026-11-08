@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "prototyper-build-primitive",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "eff1e06fa43a1fc3ba4e940b43b7ba0fa5b72339",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:25:29.357Z",
+  "inputTokens": 19498,
+  "outputTokens": 10785,
+  "costUsd": 0.37168,
+  "durationMs": 85146,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:16:53.236Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

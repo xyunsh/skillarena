@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "mengto-funky-purple-container-tech",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T05:03:32.194Z",
+  "inputTokens": 2504,
+  "outputTokens": 16946,
+  "costUsd": 0.34401,
+  "durationMs": 131344,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:21:44.902Z",
+    "fullPageHeight": 4949,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

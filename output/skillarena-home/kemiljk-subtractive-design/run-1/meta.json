@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "kemiljk-subtractive-design",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T13:26:44.305Z",
+  "inputTokens": 1705,
+  "outputTokens": 5296,
+  "costUsd": 0.11955,
+  "durationMs": 46810,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:32:36.182Z",
+    "fullPageHeight": 3106,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

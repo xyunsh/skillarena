@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "mengto-staggered-word-reveal",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T05:22:41.850Z",
+  "inputTokens": 3110,
+  "outputTokens": 12824,
+  "costUsd": 0.28135,
+  "durationMs": 97292,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:24:05.202Z",
+    "fullPageHeight": 4784,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

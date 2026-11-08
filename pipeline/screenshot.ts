@@ -45,10 +45,13 @@ async function revealByScrolling(page: Page, maxHeight: number) {
     await new Promise((r) => setTimeout(r, 500));
     scrollTo(0, 0);
     // App-like pages scroll inside their own container (e.g. a phone frame): scroll those too.
+    // Capped like the page itself: an infinite-scroll container would otherwise grow forever.
+    let containers = 0;
     for (const el of document.querySelectorAll('*')) {
       const cs = getComputedStyle(el);
       if (!/(auto|scroll)/.test(cs.overflowY) || el.scrollHeight <= el.clientHeight + 40 || el.clientHeight < 200) continue;
-      for (let y = 0; y < el.scrollHeight; y += Math.round(el.clientHeight * 0.8)) {
+      if (++containers > 5) break;
+      for (let y = 0; y < Math.min(el.scrollHeight, max); y += Math.round(el.clientHeight * 0.8)) {
         el.scrollTop = y;
         await new Promise((r) => setTimeout(r, 120));
       }
@@ -125,7 +128,12 @@ export async function screenshot(cli: ReturnType<typeof parseCli>) {
     await pool(runs, 3, async (r) => {
       const tag = `${r.briefId}/${r.skillId}/run-${r.run}`;
       try {
-        const info = await shoot(browser, r.dir);
+        // A page that never settles (busy loop, endless growth) must not stall the whole batch.
+        let timer: NodeJS.Timeout | undefined;
+        const info = await Promise.race([
+          shoot(browser, r.dir),
+          new Promise<never>((_, reject) => { timer = setTimeout(() => reject(new Error('timed out after 3 min')), 180_000); }),
+        ]).finally(() => clearTimeout(timer));
         const meta = readMeta(r.dir)!;
         meta.screenshots = { takenAt: new Date().toISOString(), ...info };
         writeMeta(r.dir, meta);

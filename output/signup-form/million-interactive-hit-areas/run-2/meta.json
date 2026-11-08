@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "million-interactive-hit-areas",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "462b78424e14ba6895a717733e1d57191dd9912f",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T12:09:56.785Z",
+  "inputTokens": 2744,
+  "outputTokens": 7480,
+  "costUsd": 0.1547,
+  "durationMs": 64827,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:31:10.581Z",
+    "fullPageHeight": 1005,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

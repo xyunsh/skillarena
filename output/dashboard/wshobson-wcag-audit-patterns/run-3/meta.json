@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "wshobson-wcag-audit-patterns",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T05:37:16.871Z",
+  "inputTokens": 6358,
+  "outputTokens": 15239,
+  "costUsd": 0.31063,
+  "durationMs": 116529,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:11:10.900Z",
+    "fullPageHeight": 1464,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

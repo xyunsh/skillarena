@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "addy-core-web-vitals",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T07:16:25.019Z",
+  "inputTokens": 10043,
+  "outputTokens": 9576,
+  "costUsd": 0.27186,
+  "durationMs": 77680,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:11:17.963Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

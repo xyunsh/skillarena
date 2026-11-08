@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "prototyper-build-primitive",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "eff1e06fa43a1fc3ba4e940b43b7ba0fa5b72339",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T12:11:05.306Z",
+  "inputTokens": 19498,
+  "outputTokens": 14400,
+  "costUsd": 0.29648,
+  "durationMs": 113914,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:31:21.621Z",
+    "fullPageHeight": 1216,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

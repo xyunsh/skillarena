@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "addy-core-web-vitals",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T13:15:13.996Z",
+  "inputTokens": 10099,
+  "outputTokens": 13371,
+  "costUsd": 0.27403,
+  "durationMs": 105535,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:31:37.191Z",
+    "fullPageHeight": 4255,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

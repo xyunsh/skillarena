@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-clean-minimal-beige-light-mode",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:30:43.519Z",
+  "inputTokens": 2292,
+  "outputTokens": 8104,
+  "costUsd": 0.1671,
+  "durationMs": 66773,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:13:24.487Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -999,3 +999,746 @@
     - label: skills.sh CLI
       commands: npx skills add mrstev3n/balise-skills --skill balise-ux-writing
   commit: f596a61fa8f4471054b1ed75d17bc6699db4572d
+- id: emil-choreograph
+  name: "Choreograph"
+  author: emilkowalski
+  repo: https://github.com/emilkowalski/skills
+  path: skills/choreograph
+  license: MIT
+  homepage: https://github.com/emilkowalski/skills/tree/HEAD/skills/choreograph
+  installName: choreograph
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add emilkowalski/skills --skill choreograph
+  commit: c8a79627b59d72d764d6ab6f2c87c09a48169833
+  # Scan finding reviewed 2026-11-08: quotes "ignore previous instructions" as an example of text to flag (defensive).
+  scanReviewed: c8a79627b59d72d764d6ab6f2c87c09a48169833
+- id: wshobson-wcag-audit-patterns
+  name: "WCAG Audit Patterns"
+  author: wshobson
+  repo: https://github.com/wshobson/agents
+  path: plugins/accessibility-compliance/skills/wcag-audit-patterns
+  license: MIT
+  homepage: https://github.com/wshobson/agents/tree/HEAD/plugins/accessibility-compliance/skills/wcag-audit-patterns
+  installName: wcag-audit-patterns
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add wshobson/agents --skill wcag-audit-patterns
+  commit: 4bde3168b43c0655c4d00ea2726e631719908a6d
+- id: addy-best-practices
+  name: "Best Practices"
+  author: Addy Osmani
+  repo: https://github.com/addyosmani/web-quality-skills
+  path: skills/best-practices
+  license: MIT
+  homepage: https://github.com/addyosmani/web-quality-skills/tree/HEAD/skills/best-practices
+  installName: best-practices
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add addyosmani/web-quality-skills --skill best-practices
+  commit: afa8da942115f2961fdbfa80807ea0b232ff6c00
+- id: addy-core-web-vitals
+  name: "Core Web Vitals"
+  author: Addy Osmani
+  repo: https://github.com/addyosmani/web-quality-skills
+  path: skills/core-web-vitals
+  license: MIT
+  homepage: https://github.com/addyosmani/web-quality-skills/tree/HEAD/skills/core-web-vitals
+  installName: core-web-vitals
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add addyosmani/web-quality-skills --skill core-web-vitals
+  commit: afa8da942115f2961fdbfa80807ea0b232ff6c00
+- id: addy-seo
+  name: "SEO"
+  author: Addy Osmani
+  repo: https://github.com/addyosmani/web-quality-skills
+  path: skills/seo
+  license: MIT
+  homepage: https://github.com/addyosmani/web-quality-skills/tree/HEAD/skills/seo
+  installName: seo
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add addyosmani/web-quality-skills --skill seo
+  commit: afa8da942115f2961fdbfa80807ea0b232ff6c00
+- id: arla-glaze
+  name: "Glaze"
+  author: arla6ka
+  repo: https://github.com/arla6ka/skills
+  path: systems/glaze
+  license: MIT
+  homepage: https://github.com/arla6ka/skills/tree/HEAD/systems/glaze
+  installName: glaze
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add arla6ka/skills --skill glaze
+  commit: 419fa5af1721eebfab9e0062a630de36ffd0b342
+- id: arla-lime
+  name: "Lime"
+  author: arla6ka
+  repo: https://github.com/arla6ka/skills
+  path: systems/lime
+  license: MIT
+  homepage: https://github.com/arla6ka/skills/tree/HEAD/systems/lime
+  installName: lime
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add arla6ka/skills --skill lime
+  commit: 419fa5af1721eebfab9e0062a630de36ffd0b342
+- id: arla-quartz
+  name: "Quartz"
+  author: arla6ka
+  repo: https://github.com/arla6ka/skills
+  path: systems/quartz
+  license: MIT
+  homepage: https://github.com/arla6ka/skills/tree/HEAD/systems/quartz
+  installName: quartz
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add arla6ka/skills --skill quartz
+  commit: 419fa5af1721eebfab9e0062a630de36ffd0b342
+- id: arla-sodium
+  name: "Sodium"
+  author: arla6ka
+  repo: https://github.com/arla6ka/skills
+  path: systems/sodium
+  license: MIT
+  homepage: https://github.com/arla6ka/skills/tree/HEAD/systems/sodium
+  installName: sodium
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add arla6ka/skills --skill sodium
+  commit: 419fa5af1721eebfab9e0062a630de36ffd0b342
+- id: flornkm-smooth-shadow-ring
+  name: "Smooth Shadow Ring"
+  author: flornkm
+  repo: https://github.com/flornkm/shadow-plugin
+  path: .claude/skills/smooth-shadow-ring
+  license: MIT
+  homepage: https://github.com/flornkm/shadow-plugin/tree/HEAD/.claude/skills/smooth-shadow-ring
+  installName: smooth-shadow-ring
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add flornkm/shadow-plugin --skill smooth-shadow-ring
+  commit: da27869da759283fa0e9dc1353449aa474b8bad0
+- id: flornkm-webgl-components
+  name: "WEBGL Components"
+  author: flornkm
+  repo: https://github.com/flornkm/skills
+  path: skills/webgl-components
+  license: MIT
+  homepage: https://github.com/flornkm/skills/tree/HEAD/skills/webgl-components
+  installName: webgl-components
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add flornkm/skills --skill webgl-components
+  commit: cf1c0094e1826230623ecdb6e7b3c44bdfc593c3
+- id: iart-svg-animation
+  name: "SVG Animation"
+  author: iart-ai
+  repo: https://github.com/iart-ai/web-animation-skills
+  path: skills/svg-animation
+  license: MIT
+  homepage: https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/svg-animation
+  installName: svg-animation
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add iart-ai/web-animation-skills --skill svg-animation
+  commit: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+- id: iart-gsap-web
+  name: "GSAP Web"
+  author: iart-ai
+  repo: https://github.com/iart-ai/web-animation-skills
+  path: skills/gsap-web
+  license: MIT
+  homepage: https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/gsap-web
+  installName: gsap-web
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add iart-ai/web-animation-skills --skill gsap-web
+  commit: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+- id: iart-60fps-animation
+  name: "60fps Animation"
+  author: iart-ai
+  repo: https://github.com/iart-ai/web-animation-skills
+  path: skills/60fps-animation
+  license: MIT
+  homepage: https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/60fps-animation
+  installName: 60fps-animation
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add iart-ai/web-animation-skills --skill 60fps-animation
+  commit: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+- id: iart-ascii-animation
+  name: "Ascii Animation"
+  author: iart-ai
+  repo: https://github.com/iart-ai/web-animation-skills
+  path: skills/ascii-animation
+  license: MIT
+  homepage: https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/ascii-animation
+  installName: ascii-animation
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add iart-ai/web-animation-skills --skill ascii-animation
+  commit: b6dba3eb759726845a44163ff0bad70dd9e7fbb6
+- id: kemiljk-semantic-html-first
+  name: "Semantic Html First"
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/semantic-html-first
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/HEAD/skills/semantic-html-first
+  installName: semantic-html-first
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill semantic-html-first
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: kemiljk-subtractive-design
+  name: "Subtractive Design"
+  author: kemiljk
+  repo: https://github.com/kemiljk/skills
+  path: skills/subtractive-design
+  license: MIT
+  homepage: https://github.com/kemiljk/skills/tree/HEAD/skills/subtractive-design
+  installName: subtractive-design
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add kemiljk/skills --skill subtractive-design
+  commit: 87129c9747468e380adc28a98226fdffcd55ce9b
+- id: compact-landing
+  name: "Compact Landing"
+  author: Danilaa1
+  repo: https://github.com/Danilaa1/compact-landing-skill
+  path: skills/compact-landing
+  license: MIT
+  homepage: https://github.com/Danilaa1/compact-landing-skill/tree/HEAD/skills/compact-landing
+  installName: compact-landing
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add Danilaa1/compact-landing-skill --skill compact-landing
+  commit: 1d79ea7832d16b88151ccf48e05d97014d139ebb
+- id: million-interactive-hit-areas
+  name: "Interactive Hit Areas"
+  author: millionco
+  repo: https://github.com/millionco/skills
+  path: skills/interactive-hit-areas
+  license: MIT
+  homepage: https://github.com/millionco/skills/tree/HEAD/skills/interactive-hit-areas
+  installName: interactive-hit-areas
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add millionco/skills --skill interactive-hit-areas
+  commit: 462b78424e14ba6895a717733e1d57191dd9912f
+- id: prototyper-build-primitive
+  name: "Build Primitive"
+  author: PrototyperAI
+  repo: https://github.com/PrototyperAI/prototyper-ui
+  path: apps/docs/skill/build-primitive
+  license: MIT
+  homepage: https://github.com/PrototyperAI/prototyper-ui/tree/HEAD/apps/docs/skill/build-primitive
+  installName: build-primitive
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add PrototyperAI/prototyper-ui --skill build-primitive
+  commit: eff1e06fa43a1fc3ba4e940b43b7ba0fa5b72339
+- id: mengto-animation-on-scroll
+  name: "Animation On Scroll"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/animation-on-scroll
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/animation-on-scroll
+  installName: animation-on-scroll
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill animation-on-scroll
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-animation-systems
+  name: "Animation Systems"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/animation-systems
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/animation-systems
+  installName: animation-systems
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill animation-systems
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-blue-cloudy-clean-modern
+  name: "Blue Cloudy Clean Modern"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/blue-cloudy-clean-modern
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/blue-cloudy-clean-modern
+  installName: blue-cloudy-clean-modern
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill blue-cloudy-clean-modern
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-clean-minimal-beige-light-mode
+  name: "Clean Minimal Beige Light Mode"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/clean-minimal-beige-light-mode
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/clean-minimal-beige-light-mode
+  installName: clean-minimal-beige-light-mode
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill clean-minimal-beige-light-mode
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-dark-blue-contrasting-clean
+  name: "Dark Blue Contrasting Clean"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/dark-blue-contrasting-clean
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/dark-blue-contrasting-clean
+  installName: dark-blue-contrasting-clean
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill dark-blue-contrasting-clean
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-editorial-portfolio-chapters
+  name: "Editorial Portfolio Chapters"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/editorial-portfolio-chapters
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/editorial-portfolio-chapters
+  installName: editorial-portfolio-chapters
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill editorial-portfolio-chapters
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-light-mode-paper-technical
+  name: "Light Mode Paper Technical"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/light-mode-paper-technical
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/light-mode-paper-technical
+  installName: light-mode-paper-technical
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill light-mode-paper-technical
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-operational-enterprise-ai
+  name: "Operational Enterprise Ai"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/operational-enterprise-ai
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/operational-enterprise-ai
+  installName: operational-enterprise-ai
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill operational-enterprise-ai
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-atmosphere-background
+  name: "Atmosphere Background"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/atmosphere-background
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/atmosphere-background
+  installName: atmosphere-background
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill atmosphere-background
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-background-grid-webgl
+  name: "Background Grid WEBGL"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/background-grid-webgl
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/background-grid-webgl
+  installName: background-grid-webgl
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill background-grid-webgl
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-blue-laser-clean-glass-layout
+  name: "Blue Laser Clean Glass Layout"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/blue-laser-clean-glass-layout
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/blue-laser-clean-glass-layout
+  installName: blue-laser-clean-glass-layout
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill blue-laser-clean-glass-layout
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-book-serif-index
+  name: "Book Serif Index"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/book-serif-index
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/book-serif-index
+  installName: book-serif-index
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill book-serif-index
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-bright-green-tech-system-webgl
+  name: "Bright Green Tech System WEBGL"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/bright-green-tech-system-webgl
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/bright-green-tech-system-webgl
+  installName: bright-green-tech-system-webgl
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill bright-green-tech-system-webgl
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-css-border-gradient
+  name: "CSS Border Gradient"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/css-border-gradient
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/css-border-gradient
+  installName: css-border-gradient
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill css-border-gradient
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-dark-glass-clean-layout
+  name: "Dark Glass Clean Layout"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/dark-glass-clean-layout
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/dark-glass-clean-layout
+  installName: dark-glass-clean-layout
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill dark-glass-clean-layout
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-dither-laser-dark-mode
+  name: "Dither Laser Dark Mode"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/dither-laser-dark-mode
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/dither-laser-dark-mode
+  installName: dither-laser-dark-mode
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill dither-laser-dark-mode
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-documentary-brutalist-agency
+  name: "Documentary Brutalist Agency"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/documentary-brutalist-agency
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/documentary-brutalist-agency
+  installName: documentary-brutalist-agency
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill documentary-brutalist-agency
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-editorial-service-booking
+  name: "Editorial Service Booking"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/editorial-service-booking
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/editorial-service-booking
+  installName: editorial-service-booking
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill editorial-service-booking
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-framed-grid-layout
+  name: "Framed Grid Layout"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/framed-grid-layout
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/framed-grid-layout
+  installName: framed-grid-layout
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill framed-grid-layout
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-framed-tech-dark-border-gradient
+  name: "Framed Tech Dark Border Gradient"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/framed-tech-dark-border-gradient
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/framed-tech-dark-border-gradient
+  installName: framed-tech-dark-border-gradient
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill framed-tech-dark-border-gradient
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-funky-purple-container-tech
+  name: "Funky Purple Container Tech"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/funky-purple-container-tech
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/funky-purple-container-tech
+  installName: funky-purple-container-tech
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill funky-purple-container-tech
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-glass-dark-mode-clock
+  name: "Glass Dark Mode Clock"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/glass-dark-mode-clock
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/glass-dark-mode-clock
+  installName: glass-dark-mode-clock
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill glass-dark-mode-clock
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-high-contrast-skeuomorphic-clean
+  name: "High Contrast Skeuomorphic Clean"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/high-contrast-skeuomorphic-clean
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/high-contrast-skeuomorphic-clean
+  installName: high-contrast-skeuomorphic-clean
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill high-contrast-skeuomorphic-clean
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-horizontal-scroll-scenes
+  name: "Horizontal Scroll Scenes"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/horizontal-scroll-scenes
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/horizontal-scroll-scenes
+  installName: horizontal-scroll-scenes
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill horizontal-scroll-scenes
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-image-first-grid-layout
+  name: "Image First Grid Layout"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/image-first-grid-layout
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/image-first-grid-layout
+  installName: image-first-grid-layout
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill image-first-grid-layout
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-masked-reveal
+  name: "Masked Reveal"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/masked-reveal
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/masked-reveal
+  installName: masked-reveal
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill masked-reveal
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-mesh-gradient-dark-blue-clean
+  name: "Mesh Gradient Dark Blue Clean"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/mesh-gradient-dark-blue-clean
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/mesh-gradient-dark-blue-clean
+  installName: mesh-gradient-dark-blue-clean
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill mesh-gradient-dark-blue-clean
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-nested-container-clean-agency
+  name: "Nested Container Clean Agency"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/nested-container-clean-agency
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/nested-container-clean-agency
+  installName: nested-container-clean-agency
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill nested-container-clean-agency
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-progressive-blur
+  name: "Progressive Blur"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/progressive-blur
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/progressive-blur
+  installName: progressive-blur
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill progressive-blur
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-scroll-scrubbed-word-reveal
+  name: "Scroll Scrubbed Word Reveal"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/scroll-scrubbed-word-reveal
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/scroll-scrubbed-word-reveal
+  installName: scroll-scrubbed-word-reveal
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill scroll-scrubbed-word-reveal
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-split-layout-technical
+  name: "Split Layout Technical"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/split-layout-technical
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/split-layout-technical
+  installName: split-layout-technical
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill split-layout-technical
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-staggered-word-reveal
+  name: "Staggered Word Reveal"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/staggered-word-reveal
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/staggered-word-reveal
+  installName: staggered-word-reveal
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill staggered-word-reveal
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-tech-green-dark-mode-modern
+  name: "Tech Green Dark Mode Modern"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/tech-green-dark-mode-modern
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/tech-green-dark-mode-modern
+  installName: tech-green-dark-mode-modern
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill tech-green-dark-mode-modern
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-technical-wireframe-info-layout
+  name: "Technical Wireframe Info Layout"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/technical-wireframe-info-layout
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/technical-wireframe-info-layout
+  installName: technical-wireframe-info-layout
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill technical-wireframe-info-layout
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-gooey-blob-system
+  name: "Gooey Blob System"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/gooey-blob-system
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/gooey-blob-system
+  installName: gooey-blob-system
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill gooey-blob-system
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-gsap-scrolltrigger-storytelling
+  name: "GSAP Scrolltrigger Storytelling"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/gsap-scrolltrigger-storytelling
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/gsap-scrolltrigger-storytelling
+  installName: gsap-scrolltrigger-storytelling
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill gsap-scrolltrigger-storytelling
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c
+- id: mengto-webgl-landing-steering
+  name: "WEBGL Landing Steering"
+  author: MengTo
+  repo: https://github.com/MengTo/Skills
+  path: agent-skills/web-design/webgl-landing-steering
+  license: MIT
+  homepage: https://github.com/MengTo/Skills/tree/HEAD/agent-skills/web-design/webgl-landing-steering
+  installName: webgl-landing-steering
+  # From ui-skills.com (installs the latest version, not the pinned commit).
+  install:
+    - label: skills.sh CLI
+      commands: npx skills add MengTo/Skills --skill webgl-landing-steering
+  commit: 5ea1661a0e05d82b054553daaa6baf6d0233c33c

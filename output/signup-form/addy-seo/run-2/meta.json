@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "addy-seo",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T08:22:38.092Z",
+  "inputTokens": 7917,
+  "outputTokens": 10580,
+  "costUsd": 0.21777,
+  "durationMs": 87175,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:25:18.337Z",
+    "fullPageHeight": 1442,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

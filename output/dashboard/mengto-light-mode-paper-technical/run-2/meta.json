@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "mengto-light-mode-paper-technical",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T06:06:43.613Z",
+  "inputTokens": 2427,
+  "outputTokens": 21535,
+  "costUsd": 0.45011,
+  "durationMs": 169700,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:09:26.729Z",
+    "fullPageHeight": 1427,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "addy-seo",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T13:16:59.532Z",
+  "inputTokens": 7970,
+  "outputTokens": 13255,
+  "costUsd": 0.27127,
+  "durationMs": 108286,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:31:44.550Z",
+    "fullPageHeight": 3465,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

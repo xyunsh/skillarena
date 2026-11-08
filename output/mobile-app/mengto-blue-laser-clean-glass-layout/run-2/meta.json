@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-blue-laser-clean-glass-layout",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:37:38.961Z",
+  "inputTokens": 2552,
+  "outputTokens": 15118,
+  "costUsd": 0.30746,
+  "durationMs": 121459,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:12:59.453Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

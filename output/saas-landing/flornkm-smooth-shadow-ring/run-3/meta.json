@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "flornkm-smooth-shadow-ring",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "da27869da759283fa0e9dc1353449aa474b8bad0",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T04:16:32.182Z",
+  "inputTokens": 2668,
+  "outputTokens": 17109,
+  "costUsd": 0.34727,
+  "durationMs": 132775,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:17:42.711Z",
+    "fullPageHeight": 4300,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

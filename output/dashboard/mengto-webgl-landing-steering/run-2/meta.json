@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "mengto-webgl-landing-steering",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:10:57.418Z",
+  "inputTokens": 3054,
+  "outputTokens": 14808,
+  "costUsd": 0.30133,
+  "durationMs": 115545,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:10:45.887Z",
+    "fullPageHeight": 1202,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

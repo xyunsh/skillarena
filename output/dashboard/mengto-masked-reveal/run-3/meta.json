@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "mengto-masked-reveal",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T06:48:56.558Z",
+  "inputTokens": 2698,
+  "outputTokens": 15060,
+  "costUsd": 0.30631,
+  "durationMs": 117293,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:09:36.537Z",
+    "fullPageHeight": 1550,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "kemiljk-semantic-html-first",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T13:25:23.028Z",
+  "inputTokens": 1860,
+  "outputTokens": 9671,
+  "costUsd": 0.20829,
+  "durationMs": 81276,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:32:29.047Z",
+    "fullPageHeight": 4108,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

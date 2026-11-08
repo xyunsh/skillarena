@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "flornkm-webgl-components",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "cf1c0094e1826230623ecdb6e7b3c44bdfc593c3",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T12:05:04.929Z",
+  "inputTokens": 7412,
+  "outputTokens": 14983,
+  "costUsd": 0.35895,
+  "durationMs": 124958,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:25:43.489Z",
+    "fullPageHeight": 1159,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

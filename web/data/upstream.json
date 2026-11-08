@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-08T03:16:11.008Z",
+  "checkedAt": "2026-11-08T21:31:39.140Z",
   "skills": {
     "anthropic-frontend-design": {
       "head": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
@@ -170,7 +170,7 @@
       "scripts": []
     },
     "interaction-design": {
-      "head": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+      "head": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
       "changed": false,
       "gone": false,
       "files": [],
@@ -184,28 +184,28 @@
       "scripts": []
     },
     "emil-design-eng": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "apple-design": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "emil-animate": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-landing-page": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
@@ -244,42 +244,42 @@
       "scripts": []
     },
     "emil-animation-performance": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "emil-mobile-native": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "emil-prototype": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "emil-pick-ui-library": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "emil-remove-animations": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "emil-break-ui": {
-      "head": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
       "changed": false,
       "gone": false,
       "files": [],
@@ -293,7 +293,7 @@
       "scripts": []
     },
     "daisyui": {
-      "head": "bf3bac3a397b543e55641ecb2d60a2ed961f09ec",
+      "head": "f832adddd5c2b458bda4b0da8816b31a5b17731e",
       "changed": false,
       "gone": false,
       "files": [],
@@ -384,98 +384,98 @@
       "scripts": []
     },
     "mengto-no-ai-design-slop": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-build-awwwards-quality-sites": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-design-first-ui-prompting": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-product-proof-saas": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-pricing-page": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-editorial-tech": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-agency-grid-layout-minimal": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-beautiful-shadows": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-cinematic-scroll-storytelling": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-orange-clean-paper-saas": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-skeuomorphic-ui": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-glass-dark-ui": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-cinematic-gsap-lenis-motion-system": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
       "scripts": []
     },
     "mengto-tailwindcss": {
-      "head": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],
@@ -496,10 +496,13 @@
       "scripts": []
     },
     "fluid-functionalism": {
-      "head": "7e6ae290dd8f5a7657ae4a433a42e165bac3ece4",
-      "changed": false,
+      "head": "2bfb830023e46ea9bcf5d326e015d4511ab9ef38",
+      "changed": true,
       "gone": false,
-      "files": [],
+      "files": [
+        "references/components.md",
+        "references/craft.md"
+      ],
       "scripts": []
     },
     "prefer-container-queries": {
@@ -588,6 +591,405 @@
     },
     "balise-ux-writing": {
       "head": "f596a61fa8f4471054b1ed75d17bc6699db4572d",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "emil-choreograph": {
+      "head": "5206a950b715e0cabe7043ea0b2304332b91494e",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "wshobson-wcag-audit-patterns": {
+      "head": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "addy-best-practices": {
+      "head": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "addy-core-web-vitals": {
+      "head": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "addy-seo": {
+      "head": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "arla-glaze": {
+      "head": "419fa5af1721eebfab9e0062a630de36ffd0b342",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "arla-lime": {
+      "head": "419fa5af1721eebfab9e0062a630de36ffd0b342",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "arla-quartz": {
+      "head": "419fa5af1721eebfab9e0062a630de36ffd0b342",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "arla-sodium": {
+      "head": "419fa5af1721eebfab9e0062a630de36ffd0b342",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "flornkm-smooth-shadow-ring": {
+      "head": "da27869da759283fa0e9dc1353449aa474b8bad0",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "flornkm-webgl-components": {
+      "head": "cf1c0094e1826230623ecdb6e7b3c44bdfc593c3",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "iart-svg-animation": {
+      "head": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "iart-gsap-web": {
+      "head": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "iart-60fps-animation": {
+      "head": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "iart-ascii-animation": {
+      "head": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "kemiljk-semantic-html-first": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "kemiljk-subtractive-design": {
+      "head": "87129c9747468e380adc28a98226fdffcd55ce9b",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "compact-landing": {
+      "head": "1d79ea7832d16b88151ccf48e05d97014d139ebb",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "million-interactive-hit-areas": {
+      "head": "462b78424e14ba6895a717733e1d57191dd9912f",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "prototyper-build-primitive": {
+      "head": "eff1e06fa43a1fc3ba4e940b43b7ba0fa5b72339",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-animation-on-scroll": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-animation-systems": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-blue-cloudy-clean-modern": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-clean-minimal-beige-light-mode": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-dark-blue-contrasting-clean": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-editorial-portfolio-chapters": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-light-mode-paper-technical": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-operational-enterprise-ai": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-atmosphere-background": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-background-grid-webgl": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-blue-laser-clean-glass-layout": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-book-serif-index": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-bright-green-tech-system-webgl": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-css-border-gradient": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-dark-glass-clean-layout": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-dither-laser-dark-mode": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-documentary-brutalist-agency": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-editorial-service-booking": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-framed-grid-layout": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-framed-tech-dark-border-gradient": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-funky-purple-container-tech": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-glass-dark-mode-clock": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-high-contrast-skeuomorphic-clean": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-horizontal-scroll-scenes": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-image-first-grid-layout": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-masked-reveal": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-mesh-gradient-dark-blue-clean": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-nested-container-clean-agency": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-progressive-blur": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-scroll-scrubbed-word-reveal": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-split-layout-technical": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-staggered-word-reveal": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-tech-green-dark-mode-modern": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-technical-wireframe-info-layout": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-gooey-blob-system": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-gsap-scrolltrigger-storytelling": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
+      "changed": false,
+      "gone": false,
+      "files": [],
+      "scripts": []
+    },
+    "mengto-webgl-landing-steering": {
+      "head": "d6324a05ca03ce5f6cdba519318d92176dbc43d2",
       "changed": false,
       "gone": false,
       "files": [],

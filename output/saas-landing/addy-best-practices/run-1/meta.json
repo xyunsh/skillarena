@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "addy-best-practices",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T04:11:56.154Z",
+  "inputTokens": 8995,
+  "outputTokens": 13182,
+  "costUsd": 0.33559,
+  "durationMs": 99229,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:17:06.542Z",
+    "fullPageHeight": 3994,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

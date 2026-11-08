@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "addy-core-web-vitals",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T08:21:25.410Z",
+  "inputTokens": 10044,
+  "outputTokens": 12434,
+  "costUsd": 0.25527,
+  "durationMs": 100683,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:25:11.303Z",
+    "fullPageHeight": 1349,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

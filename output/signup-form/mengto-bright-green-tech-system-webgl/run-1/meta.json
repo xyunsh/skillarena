@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "mengto-bright-green-tech-system-webgl",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T12:30:13.449Z",
+  "inputTokens": 2471,
+  "outputTokens": 22935,
+  "costUsd": 0.47846,
+  "durationMs": 189659,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:27:19.547Z",
+    "fullPageHeight": 1262,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

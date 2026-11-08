@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "flornkm-smooth-shadow-ring",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "da27869da759283fa0e9dc1353449aa474b8bad0",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T08:23:13.905Z",
+  "inputTokens": 2655,
+  "outputTokens": 10224,
+  "costUsd": 0.22571,
+  "durationMs": 84893,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:25:30.299Z",
+    "fullPageHeight": 1095,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

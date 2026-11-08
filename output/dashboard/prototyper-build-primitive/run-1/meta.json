@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "prototyper-build-primitive",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "eff1e06fa43a1fc3ba4e940b43b7ba0fa5b72339",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T05:50:56.331Z",
+  "inputTokens": 19492,
+  "outputTokens": 36179,
+  "costUsd": 0.87951,
+  "durationMs": 290064,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:10:58.975Z",
+    "fullPageHeight": 1291,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

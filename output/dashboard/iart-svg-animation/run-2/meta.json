@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "iart-svg-animation",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T05:45:11.943Z",
+  "inputTokens": 8412,
+  "outputTokens": 12002,
+  "costUsd": 0.24629,
+  "durationMs": 93236,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:05:37.363Z",
+    "fullPageHeight": 1108,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

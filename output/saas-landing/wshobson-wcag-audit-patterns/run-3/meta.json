@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "wshobson-wcag-audit-patterns",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T04:11:50.671Z",
+  "inputTokens": 6367,
+  "outputTokens": 12988,
+  "costUsd": 0.26557,
+  "durationMs": 98887,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:25:04.359Z",
+    "fullPageHeight": 3845,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

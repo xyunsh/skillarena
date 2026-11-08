@@ -1,0 +1,27 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "million-interactive-hit-areas",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "462b78424e14ba6895a717733e1d57191dd9912f",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T13:27:48.836Z",
+  "inputTokens": 2800,
+  "outputTokens": 9646,
+  "costUsd": 0.19804,
+  "durationMs": 79955,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:40:18.734Z",
+    "fullPageHeight": 2858,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

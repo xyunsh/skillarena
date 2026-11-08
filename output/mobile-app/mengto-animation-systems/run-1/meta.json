@@ -1,0 +1,18 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-animation-systems",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:27:49.100Z",
+  "inputTokens": 3119,
+  "outputTokens": 11393,
+  "costUsd": 0.2528,
+  "durationMs": 90765,
+  "status": "invalid_html",
+  "error": "no <!DOCTYPE html>…</html> block in output",
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true
+}

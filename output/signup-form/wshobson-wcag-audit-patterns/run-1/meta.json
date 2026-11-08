@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "wshobson-wcag-audit-patterns",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T08:17:40.381Z",
+  "inputTokens": 6358,
+  "outputTokens": 10189,
+  "costUsd": 0.25464,
+  "durationMs": 80454,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:31:21.580Z",
+    "fullPageHeight": 1416,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

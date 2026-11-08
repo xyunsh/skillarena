@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "flornkm-webgl-components",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "cf1c0094e1826230623ecdb6e7b3c44bdfc593c3",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:19:37.552Z",
+  "inputTokens": 7419,
+  "outputTokens": 14806,
+  "costUsd": 0.30218,
+  "durationMs": 120165,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:11:45.396Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

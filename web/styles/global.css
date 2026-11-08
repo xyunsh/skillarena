@@ -31,10 +31,10 @@ code, .mono { font-family: var(--mono); font-size: .9em; }
 
 /* Header / footer */
 .site-header { border-bottom: 1px solid var(--line); background: var(--bg); position: sticky; top: 0; z-index: 20; }
-.header-inner { display: flex; align-items: center; gap: 20px; height: 56px; }
-.brand { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; flex-shrink: 0; }
+.header-inner { display: flex; align-items: center; gap: 20px; height: 64px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
 .brand-mark { display: block; flex-shrink: 0; }
-.brand-word { font-weight: 800; font-size: 17px; letter-spacing: -0.03em; }
+.brand-word { font-weight: 800; font-size: 22px; letter-spacing: -0.035em; }
 .brand-a { color: var(--brand); }
 .site-header nav { display: flex; gap: 4px; flex: 1; overflow-x: auto; }
 .site-header nav a { text-decoration: none; padding: 6px 10px; border-radius: 6px; color: var(--ink-2); white-space: nowrap; }
@@ -224,7 +224,9 @@ details.brief-text p { white-space: pre-wrap; background: var(--surface); border
   .brief-cards { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; margin: 12px -20px 0; padding: 0 20px 6px; }
   .brief-card { flex: 0 0 82%; scroll-snap-align: start; }
   .header-inner { flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 8px; gap: 6px 12px; }
-  .brand { flex: 1; }
+  .brand { flex: 1; gap: 8px; }
+  .brand-mark { width: 26px; height: 26px; }
+  .brand-word { font-size: 19px; }
   .site-header nav { order: 3; flex-basis: 100%; margin: 0 -10px; }
   .gh-link-text { display: none; }
   .gh-link { padding: 6px 8px; }

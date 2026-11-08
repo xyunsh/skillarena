@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "million-interactive-hit-areas",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "462b78424e14ba6895a717733e1d57191dd9912f",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:25:21.907Z",
+  "inputTokens": 2750,
+  "outputTokens": 8143,
+  "costUsd": 0.16799,
+  "durationMs": 66987,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:16:51.697Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

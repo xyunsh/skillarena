@@ -4,7 +4,7 @@ export function Logo() {
     const o = { fill: 'none', stroke: '#fff', strokeOpacity: 0.55, strokeWidth: 1.4 } as const;
     return (
         <a className="brand" href="/" aria-label="SkillArena home">
-            <svg className="brand-mark" width="22" height="22" aria-hidden="true" focusable="false" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <svg className="brand-mark" width="30" height="30" aria-hidden="true" focusable="false" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <rect width="32" height="32" rx="8" fill="#18181b" />
                 <rect x="6.5" y="6.5" width="5" height="5" rx="1.2" {...o} />
                 <rect x="13.5" y="6.5" width="5" height="5" rx="1.2" {...o} />

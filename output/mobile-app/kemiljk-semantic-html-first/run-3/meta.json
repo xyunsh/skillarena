@@ -1,0 +1,27 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "kemiljk-semantic-html-first",
+  "run": 3,
+  "model": "claude-opus-5-5",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:24:21.545Z",
+  "inputTokens": 1811,
+  "outputTokens": 7003,
+  "costUsd": 0.14501,
+  "durationMs": 56709,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:12:07.982Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-light-mode-paper-technical",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T07:33:16.332Z",
+  "inputTokens": 5014,
+  "outputTokens": 406,
+  "costUsd": 0.03385,
+  "durationMs": 12208,
+  "status": "invalid_html",
+  "error": "truncated at max_tokens=48000",
+  "stopReason": "max_tokens",
+  "backend": "claude-cli",
+  "costIsEstimate": true
+}

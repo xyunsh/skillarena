@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "addy-seo",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T04:15:06.741Z",
+  "inputTokens": 7929,
+  "outputTokens": 11110,
+  "costUsd": 0.22837,
+  "durationMs": 85440,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:17:25.336Z",
+    "fullPageHeight": 4165,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "iart-svg-animation",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T04:19:48.449Z",
+  "inputTokens": 8426,
+  "outputTokens": 14560,
+  "costUsd": 0.29746,
+  "durationMs": 111680,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:18:05.602Z",
+    "fullPageHeight": 4451,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

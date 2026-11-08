@@ -1,0 +1,27 @@
+{
+  "briefId": "signup-form",
+  "skillId": "iart-svg-animation",
+  "run": 2,
+  "model": "claude-opus-5-5",
+  "skillCommit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-08T12:05:04.935Z",
+  "inputTokens": 8416,
+  "outputTokens": 14154,
+  "costUsd": 0.3504,
+  "durationMs": 117772,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:25:52.294Z",
+    "fullPageHeight": 1174,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

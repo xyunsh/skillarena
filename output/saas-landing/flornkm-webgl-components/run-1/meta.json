@@ -1,0 +1,27 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "flornkm-webgl-components",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "cf1c0094e1826230623ecdb6e7b3c44bdfc593c3",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T04:16:47.519Z",
+  "inputTokens": 7428,
+  "outputTokens": 23938,
+  "costUsd": 0.53818,
+  "durationMs": 190010,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:17:47.315Z",
+    "fullPageHeight": 3946,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

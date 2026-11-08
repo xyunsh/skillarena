@@ -1,0 +1,27 @@
+{
+  "briefId": "dashboard",
+  "skillId": "flornkm-webgl-components",
+  "run": 1,
+  "model": "claude-opus-5-5",
+  "skillCommit": "cf1c0094e1826230623ecdb6e7b3c44bdfc593c3",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-08T05:43:21.263Z",
+  "inputTokens": 7414,
+  "outputTokens": 15772,
+  "costUsd": 0.37474,
+  "durationMs": 124692,
+  "status": "ok",
+  "error": null,
+  "stopReason": "end_turn",
+  "backend": "claude-cli",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-08T15:05:23.979Z",
+    "fullPageHeight": 1257,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}
