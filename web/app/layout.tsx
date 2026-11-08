@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
+import { GithubLink } from '~/components/GithubLink';
 import { InlineScript } from '~/components/InlineScript';
 import { Logo } from '~/components/Logo';
 import { Nav } from '~/components/Nav';
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     <div className="wrap header-inner">
                         <Logo />
                         <Nav />
+                        <GithubLink />
                     </div>
                 </header>
                 {banner && (
