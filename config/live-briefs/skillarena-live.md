@@ -3,7 +3,7 @@ SkillArena (skillarena.dev) is a website that compares UI skills for AI coding a
 Build SkillArena's home page as a real, working page that will be published and used by visitors. It must render the site's real data at runtime, not placeholder content.
 
 Page content:
-- A header with the SkillArena name and links to Matrix (#matrix), About (#about) and Waitlist (#waitlist).
+- A header with the SkillArena logo and name as one link to the main site (`<a href="https://skillarena.dev/">`), plus links to Matrix (#matrix), About (#about) and Waitlist (#waitlist). The brand link must work in the same tab before data loads and when it fails to load. Keep its absolute URL in the HTML and let the browser follow the link directly, without a `target` attribute or JavaScript interception.
 - A hero that explains the idea in one or two sentences and shows the real totals (skills, briefs, pages generated, model).
 - A matrix (#matrix): one row per skill, the no-skill control group first, then the other skills in the order given. Each row shows the skill name (linked to its `url`), author, and stars when present. One column per brief, with the brief title in the column header; each cell shows that skill's thumbnail for that brief, or a quiet "no screenshot" state when it is null. Mobile-first briefs have tall phone thumbnails. There are more than 100 rows: keep the page fast (lazy-load images with loading="lazy", set width and height so the layout does not jump) and let the matrix scroll sideways on narrow screens. Add a text filter above the matrix that narrows rows by skill name or author.
 - A short About section (#about): same brief, same model, only the skill changes; three runs per pair; links open the full results on skillarena.dev.
