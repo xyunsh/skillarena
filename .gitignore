@@ -13,6 +13,11 @@ output/**/*
 !output/**/
 !output/**/meta.json
 
+# Pages from external generators (pipeline/external-jobs.ts): same rule, meta.json only
+output-ext/**/*
+!output-ext/**/
+!output-ext/**/meta.json
+
 # Site build
 web/.next/
 web/out/

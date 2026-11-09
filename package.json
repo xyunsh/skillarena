@@ -32,7 +32,8 @@
     "share": "tsx pipeline/share.ts",
     "typecheck": "tsc --noEmit && yarn workspace skillarena-web typecheck",
     "upload-assets": "tsx pipeline/upload-assets.ts",
-    "upstream": "tsx pipeline/upstream.ts"
+    "upstream": "tsx pipeline/upstream.ts",
+    "external-jobs": "tsx pipeline/external-jobs.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.6.0",
