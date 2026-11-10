@@ -15,7 +15,7 @@ export const ui = {
   'home.cellNote': 'Each cell shows run 1 of 3. Click a cell to see all runs, or a column title to read its brief.',
   'home.skill': 'Skill',
   'home.search': 'Search skills',
-  'home.searchPlaceholder': 'Search skills by name or author…  (press /)',
+  'home.searchPlaceholder': 'Search skills or authors  ( / )',
   'home.searchEmpty': 'No skill matches. Try a shorter word, or an author such as “emil” or “mengto”.',
   'home.scrollHint': 'Scroll sideways to see all briefs →',
   'home.stats': 'generations · total generation cost',

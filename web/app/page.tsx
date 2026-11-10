@@ -96,14 +96,16 @@ export default function Home() {
             </section>
 
             <section className="results" id="results" aria-label="Results">
-                <div className="skill-search">
-                    <label className="sr-only" htmlFor="skill-q">
-                        {ui['home.search']}
-                    </label>
-                    <input id="skill-q" type="search" placeholder={ui['home.searchPlaceholder']} autoComplete="off" spellCheck={false} />
-                    <span className="muted small" id="skill-q-count" aria-live="polite"></span>
+                <div className="matrix-toolbar">
+                    <p className="muted small cell-note">{ui['home.cellNote']}</p>
+                    <div className="skill-search">
+                        <span className="muted small" id="skill-q-count" aria-live="polite"></span>
+                        <label className="sr-only" htmlFor="skill-q">
+                            {ui['home.search']}
+                        </label>
+                        <input id="skill-q" type="search" placeholder={ui['home.searchPlaceholder']} autoComplete="off" spellCheck={false} />
+                    </div>
                 </div>
-                <p className="muted small cell-note">{ui['home.cellNote']}</p>
                 <p className="scroll-hint">{ui['home.scrollHint']}</p>
                 <div className="matrix-scroll">
                     <table className="matrix">
