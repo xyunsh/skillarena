@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-11-08T23:21:34.986Z",
+  "builtAt": "2026-11-10T17:21:13.264Z",
   "lastGeneratedAt": "2026-11-08T14:41:24.193Z",
   "models": [
     "claude-opus-5-5"
@@ -28156,9 +28156,9 @@
           "generatedAt": "2026-11-08T22:17:05.555Z",
           "costUsd": 0.38971,
           "outputTokens": 16035,
-          "fullPageTruncated": false,
+          "fullPageTruncated": true,
           "base": "https://assets.skillarena.dev/runs/skillarena-live/emil-mobile-native/run-1/",
-          "v": "b83b9544",
+          "v": "0413661e",
           "hasShots": true
         }
       ],
@@ -29328,7 +29328,7 @@
           "outputTokens": 13612,
           "fullPageTruncated": false,
           "base": "https://assets.skillarena.dev/runs/skillarena-live/mengto-progressive-blur/run-1/",
-          "v": "a2e26c83",
+          "v": "ca712275",
           "hasShots": true
         }
       ],

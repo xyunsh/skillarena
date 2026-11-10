@@ -23,5 +23,8 @@
     "scrolledForReveal": true,
     "hiddenAfterScroll": 0,
     "blockedRequests": []
-  }
+  },
+  "patches": [
+    "thumb-live-v1"
+  ]
 }

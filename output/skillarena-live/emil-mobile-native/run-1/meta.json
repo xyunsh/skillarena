@@ -16,12 +16,16 @@
   "backend": "claude-cli",
   "costIsEstimate": true,
   "screenshots": {
-    "takenAt": "2026-11-08T23:13:09.339Z",
-    "fullPageHeight": 2128,
-    "fullPageTruncated": false,
+    "takenAt": "2026-11-10T17:19:14.617Z",
+    "fullPageHeight": 26137,
+    "fullPageTruncated": true,
     "networkIdleTimedOut": false,
     "scrolledForReveal": true,
     "hiddenAfterScroll": 0,
     "blockedRequests": []
-  }
+  },
+  "patches": [
+    "thumb-live-v1",
+    "fix-baseline-append-v1"
+  ]
 }

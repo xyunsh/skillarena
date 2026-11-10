@@ -280,6 +280,17 @@ details.brief-text p { white-space: pre-wrap; background: var(--surface); border
 .live-card .skill-name:hover { text-decoration: underline; }
 .live-meta { display: flex; align-items: center; gap: 8px; min-width: 0; margin-top: 8px; }
 .live-meta .owner { margin-top: 0; font-size: 13px; }
-.live-open { align-self: flex-start; margin-top: auto; padding-top: 14px; color: var(--ink); font-size: 14px; font-weight: 600; text-decoration: none; }
-.live-open span { display: inline-block; padding: 6px 12px; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); }
-.live-open:hover span { border-color: var(--ink-3); }
+
+/* Thumbnails that have a live page (matrix cells, /live/ cards): an "Open live page" button appears on hover
+   and keyboard focus, always shown where there is no hover (touch). See SPEC 10.6. */
+.thumb-wrap { position: relative; }
+.thumb-wrap.mobile { max-width: 140px; }
+.thumb-live { position: absolute; left: 50%; bottom: 10px; transform: translate(-50%, 4px); opacity: 0; pointer-events: none; z-index: 2;
+  display: inline-flex; align-items: center; gap: 4px; padding: 5px 10px; border: 0; border-radius: 999px; background: rgba(17, 17, 17, .86); color: #fff;
+  font: 600 12px/1.2 inherit; font-family: inherit; white-space: nowrap; text-decoration: none; cursor: pointer; box-shadow: 0 2px 8px rgba(0, 0, 0, .18);
+  transition: opacity .15s, transform .15s; }
+.thumb-wrap:hover .thumb-live, .thumb-wrap:focus-within .thumb-live { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.thumb-live:hover { background: #000; }
+.thumb-live:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+@media (hover: none) { .thumb-live { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; } }
+.thumb-wrap.mobile .thumb-live { bottom: 8px; padding: 4px 8px; font-size: 11px; }

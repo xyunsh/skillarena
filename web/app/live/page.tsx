@@ -1,4 +1,5 @@
 import { GithubOwner, Stars } from '~/components/GithubOwner';
+import { ui } from '~/lib/copy';
 import { asset, liveRunFor, manifest, skills } from '~/lib/data';
 import { meta } from '~/lib/seo';
 
@@ -30,9 +31,14 @@ export default function Live() {
                 <ul className="live-grid">
                     {list.map(({ s, r }) => (
                         <li key={s.id} className="live-card">
-                            <a className="live-shot" href={`${r.base}index.html?ref=gallery`} aria-label={`Open the SkillArena page built with ${s.name}`}>
-                                {r.hasShots ? <img src={asset(r, 'thumb-desktop.webp')} alt="" width={600} height={375} loading="lazy" /> : null}
-                            </a>
+                            <div className="thumb-wrap">
+                                <a className="live-shot" href={`${r.base}index.html?ref=gallery`} target="_blank" rel="noopener" aria-label={`Open the SkillArena page built with ${s.name}`}>
+                                    {r.hasShots ? <img src={asset(r, 'thumb-desktop.webp')} alt="" width={600} height={375} loading="lazy" /> : null}
+                                </a>
+                                <a className="thumb-live" href={`${r.base}index.html?ref=gallery`} target="_blank" rel="noopener" tabIndex={-1} aria-hidden="true">
+                                    {ui['action.open']} ↗
+                                </a>
+                            </div>
                             <div className="live-body">
                                 <a className="skill-name" href={`/skill/${s.id}/`}>
                                     {s.name}
@@ -47,9 +53,6 @@ export default function Live() {
                                         </>
                                     )}
                                 </div>
-                                <a className="live-open" href={`${r.base}index.html?ref=gallery`}>
-                                    <span>Open live page →</span>
-                                </a>
                             </div>
                         </li>
                     ))}

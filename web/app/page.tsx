@@ -111,6 +111,7 @@ export default function Home() {
                                         return (
                                             <td key={b.id} className={mobile ? 'col-mobile' : undefined}>
                                                 {first?.hasShots ? (
+                                                    <div className={mobile ? 'thumb-wrap mobile' : 'thumb-wrap'}>
                                                     <a className={mobile ? 'cell mobile' : 'cell'} href={`/skill/${s.id}/#${b.id}`} aria-label={alt}>
                                                         <img
                                                             src={asset(first, mobile ? 'thumb-mobile.webp' : 'thumb-desktop.webp')}
@@ -122,6 +123,16 @@ export default function Home() {
                                                             fetchPriority={row === 0 ? 'high' : undefined}
                                                         />
                                                     </a>
+                                                    <button
+                                                        type="button"
+                                                        className="thumb-live"
+                                                        data-live-src={asset(first, 'index.html')}
+                                                        data-live-title={`${s.isBaseline ? 'No skill' : s.name} · ${b.title} · run ${first.run}`}
+                                                        data-live-view={mobile ? 'mobile' : 'desktop'}
+                                                    >
+                                                        {ui['action.open']}
+                                                    </button>
+                                                    </div>
                                                 ) : (
                                                     <a href={`/skill/${s.id}/#${b.id}`} style={{ textDecoration: 'none' }}>
                                                         <Status run={first} compact />
