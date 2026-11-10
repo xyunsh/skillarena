@@ -52,6 +52,7 @@ export const ui = {
   'view.desktop': 'Desktop',
   'view.mobile': 'Mobile',
   'action.open': 'Open live page',
+  'action.fullscreen': 'Full screen',
   'action.full': 'Full-page screenshot',
   'action.close': 'Close',
   'action.truncated': 'truncated at 8000px',

@@ -112,6 +112,27 @@ export const liveDialogScript = `(function () {
     if (e.key === 'ArrowLeft' && !prev.disabled) { e.preventDefault(); step(-1); }
     if (e.key === 'ArrowRight' && !next.disabled) { e.preventDefault(); step(1); }
   });
+  // Full screen: the Fullscreen API on the dialog where available; otherwise (iOS Safari) the dialog fills the viewport.
+  var full = document.getElementById('live-full');
+  function isFull() { return document.fullscreenElement === dlg || dlg.classList.contains('is-max'); }
+  function syncFull() { full.setAttribute('aria-pressed', String(isFull())); }
+  function toggleFull() {
+    if (document.fullscreenElement === dlg) document.exitFullscreen();
+    else if (dlg.classList.contains('is-max')) dlg.classList.remove('is-max');
+    else if (dlg.requestFullscreen) dlg.requestFullscreen().catch(function () { dlg.classList.add('is-max'); syncFull(); });
+    else dlg.classList.add('is-max');
+    syncFull();
+  }
+  full.addEventListener('click', toggleFull);
+  document.addEventListener('fullscreenchange', syncFull);
+  dlg.addEventListener('keydown', function (e) {
+    if ((e.key === 'f' || e.key === 'F') && !e.metaKey && !e.ctrlKey && !e.altKey) { e.preventDefault(); toggleFull(); }
+  });
+  dlg.addEventListener('close', function () {
+    if (document.fullscreenElement === dlg) document.exitFullscreen();
+    dlg.classList.remove('is-max');
+    syncFull();
+  });
   document.getElementById('live-close').addEventListener('click', function () { dlg.close(); });
   // Following the skill link: close first, so a link to this same page (a skill page) lands on the section.
   document.getElementById('live-title').addEventListener('click', function (e) { if (e.target.closest('a')) dlg.close(); });
