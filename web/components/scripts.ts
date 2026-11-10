@@ -73,7 +73,14 @@ export const liveDialogScript = `(function () {
       t.setAttribute('aria-pressed', String(b === p.brief));
       t.disabled = !find(p.skill, b, p.run);
     });
-    document.getElementById('live-title').textContent = [p.name, tab ? tab.getAttribute('data-brief-title') : p.brief, 'run ' + p.run].filter(Boolean).join(' · ');
+    // Title: the skill name links to its detail page (at this brief), then brief and run.
+    var title = document.getElementById('live-title');
+    title.replaceChildren();
+    var a = document.createElement('a');
+    a.className = 'live-skill';
+    a.href = '/skill/' + encodeURIComponent(p.skill) + '/#' + encodeURIComponent(p.brief);
+    a.textContent = p.name || p.skill;
+    title.append(a, document.createTextNode(' · ' + (tab ? tab.getAttribute('data-brief-title') : p.brief) + ' · run ' + p.run));
     var list = inBrief(), i = list.indexOf(p);
     if (i < 0) i = list.findIndex(function (q) { return q.skill === p.skill; });
     document.getElementById('live-count').textContent = list.length > 1 ? (i + 1) + ' / ' + list.length : '';
@@ -106,6 +113,8 @@ export const liveDialogScript = `(function () {
     if (e.key === 'ArrowRight' && !next.disabled) { e.preventDefault(); step(1); }
   });
   document.getElementById('live-close').addEventListener('click', function () { dlg.close(); });
+  // Following the skill link: close first, so a link to this same page (a skill page) lands on the section.
+  document.getElementById('live-title').addEventListener('click', function (e) { if (e.target.closest('a')) dlg.close(); });
   dlg.addEventListener('close', function () { frame.src = 'about:blank'; });
   dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
 })();`;
