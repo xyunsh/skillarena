@@ -25,7 +25,7 @@
     "blockedRequests": []
   },
   "patches": [
-    "thumb-live-v1",
-    "fix-baseline-append-v1"
+    "fix-baseline-append-v1",
+    "thumb-live-v2"
   ]
 }

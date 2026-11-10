@@ -3,7 +3,10 @@ import { JsonLd } from '~/components/JsonLd';
 import { Status } from '~/components/Status';
 import { Waitlist } from '~/components/Waitlist';
 import { ui } from '~/lib/copy';
-import { asset, briefs, isMobileFirst, manifest, runsFor, skills } from '~/lib/data';
+import { asset, briefs, isMobileFirst, liveRunFor, manifest, runsFor, skills } from '~/lib/data';
+
+/** The brief whose cells link to the skill's working live page instead of the static generation. */
+const HOME_BRIEF = 'skillarena-home';
 import { abs, meta } from '~/lib/seo';
 
 const real = skills.filter((s) => !s.isBaseline);
@@ -123,15 +126,22 @@ export default function Home() {
                                                             fetchPriority={row === 0 ? 'high' : undefined}
                                                         />
                                                     </a>
-                                                    <button
-                                                        type="button"
-                                                        className="thumb-live"
-                                                        data-live-src={asset(first, 'index.html')}
-                                                        data-live-title={`${s.isBaseline ? 'No skill' : s.name} · ${b.title} · run ${first.run}`}
-                                                        data-live-view={mobile ? 'mobile' : 'desktop'}
-                                                    >
-                                                        {ui['action.open']}
-                                                    </button>
+                                                    {b.id === HOME_BRIEF && liveRunFor(s.id) ? (
+                                                        // "SkillArena itself": the working live page this skill built (/live/), in a new tab.
+                                                        <a className="thumb-live" href={`${liveRunFor(s.id)!.base}index.html?ref=matrix`} target="_blank" rel="noopener">
+                                                            {ui['action.open']} ↗
+                                                        </a>
+                                                    ) : (
+                                                        <button
+                                                            type="button"
+                                                            className="thumb-live"
+                                                            data-live-src={asset(first, 'index.html')}
+                                                            data-live-title={`${s.isBaseline ? 'No skill' : s.name} · ${b.title} · run ${first.run}`}
+                                                            data-live-view={mobile ? 'mobile' : 'desktop'}
+                                                        >
+                                                            {ui['action.open']}
+                                                        </button>
+                                                    )}
                                                     </div>
                                                 ) : (
                                                     <a href={`/skill/${s.id}/#${b.id}`} style={{ textDecoration: 'none' }}>
