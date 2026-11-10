@@ -2,8 +2,41 @@ import { GithubOwner, Stars } from '~/components/GithubOwner';
 import { JsonLd } from '~/components/JsonLd';
 import { Status } from '~/components/Status';
 import { Waitlist } from '~/components/Waitlist';
+import { InlineScript } from '~/components/InlineScript';
 import { ui } from '~/lib/copy';
 import { asset, briefs, isMobileFirst, liveRunFor, manifest, runsFor, skills } from '~/lib/data';
+
+/**
+ * Skill search above the matrix: filters rows by name, id, author or description (every word must match).
+ * The no-skill row always stays as the reference. The query is kept in ?q= so a filtered matrix can be shared;
+ * "/" focuses the box.
+ */
+const searchScript = `(function () {
+  var q = document.getElementById('skill-q'), count = document.getElementById('skill-q-count'), empty = document.getElementById('skill-q-empty');
+  if (!q) return;
+  var rows = [].slice.call(document.querySelectorAll('.matrix tbody tr[data-search]'));
+  var total = rows.filter(function (r) { return !r.classList.contains('baseline'); }).length;
+  function apply() {
+    var words = q.value.toLowerCase().trim().split(/\\s+/).filter(Boolean), n = 0;
+    rows.forEach(function (r) {
+      var base = r.classList.contains('baseline');
+      var hit = base || words.every(function (w) { return r.getAttribute('data-search').indexOf(w) >= 0; });
+      r.hidden = !hit;
+      if (hit && !base) n++;
+    });
+    count.textContent = words.length ? n + ' of ' + total + ' skills' : '';
+    empty.hidden = !words.length || n > 0;
+    var u = new URL(location.href);
+    if (words.length) u.searchParams.set('q', q.value.trim()); else u.searchParams.delete('q');
+    history.replaceState(null, '', u.pathname + u.search + u.hash);
+  }
+  var init = new URLSearchParams(location.search).get('q');
+  if (init) { q.value = init; apply(); }
+  q.addEventListener('input', apply);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && !/input|textarea|select/i.test((document.activeElement || {}).tagName || '') && !document.querySelector('dialog[open]')) { e.preventDefault(); q.focus(); }
+  });
+})();`;
 
 /** The brief whose cells link to the skill's working live page instead of the static generation. */
 const HOME_BRIEF = 'skillarena-home';
@@ -63,6 +96,13 @@ export default function Home() {
             </section>
 
             <section className="results" id="results" aria-label="Results">
+                <div className="skill-search">
+                    <label className="sr-only" htmlFor="skill-q">
+                        {ui['home.search']}
+                    </label>
+                    <input id="skill-q" type="search" placeholder={ui['home.searchPlaceholder']} autoComplete="off" spellCheck={false} />
+                    <span className="muted small" id="skill-q-count" aria-live="polite"></span>
+                </div>
                 <p className="muted small cell-note">{ui['home.cellNote']}</p>
                 <p className="scroll-hint">{ui['home.scrollHint']}</p>
                 <div className="matrix-scroll">
@@ -82,7 +122,11 @@ export default function Home() {
                         </thead>
                         <tbody>
                             {skills.map((s, row) => (
-                                <tr key={s.id} className={s.isBaseline ? 'baseline' : undefined}>
+                                <tr
+                                    key={s.id}
+                                    className={s.isBaseline ? 'baseline' : undefined}
+                                    data-search={[s.name, s.id, s.author, s.github?.ownerName, s.github?.owner, s.description].filter(Boolean).join(' ').toLowerCase()}
+                                >
                                     <th scope="row">
                                         <a className="skill-name" href={`/skill/${s.id}/`}>
                                             {s.isBaseline ? 'No skill' : s.name}
@@ -128,7 +172,17 @@ export default function Home() {
                                                     </a>
                                                     {b.id === HOME_BRIEF && liveRunFor(s.id) ? (
                                                         // "SkillArena itself": the working live page this skill built (/live/), in a new tab.
-                                                        <a className="thumb-live" href={`${liveRunFor(s.id)!.base}index.html?ref=matrix`} target="_blank" rel="noopener">
+                                                        <a
+                                                            className="thumb-live"
+                                                            href={`${liveRunFor(s.id)!.base}index.html?ref=matrix`}
+                                                            target="_blank"
+                                                            rel="noopener"
+                                                            data-live-href={`${liveRunFor(s.id)!.base}index.html?ref=matrix`}
+                                                            data-live-skill={s.id}
+                                                            data-live-brief={b.id}
+                                                            data-live-run="1"
+                                                            data-live-name={s.isBaseline ? 'No skill' : s.name}
+                                                        >
                                                             {ui['action.open']} ↗
                                                         </a>
                                                     ) : (
@@ -136,8 +190,10 @@ export default function Home() {
                                                             type="button"
                                                             className="thumb-live"
                                                             data-live-src={asset(first, 'index.html')}
-                                                            data-live-title={`${s.isBaseline ? 'No skill' : s.name} · ${b.title} · run ${first.run}`}
-                                                            data-live-view={mobile ? 'mobile' : 'desktop'}
+                                                            data-live-skill={s.id}
+                                                            data-live-brief={b.id}
+                                                            data-live-run={String(first.run)}
+                                                            data-live-name={s.isBaseline ? 'No skill' : s.name}
                                                         >
                                                             {ui['action.open']}
                                                         </button>
@@ -155,7 +211,11 @@ export default function Home() {
                             ))}
                         </tbody>
                     </table>
+                    <p className="muted skill-search-empty" id="skill-q-empty" hidden>
+                        {ui['home.searchEmpty']}
+                    </p>
                 </div>
+                <InlineScript code={searchScript} />
             </section>
 
             <section className="briefs" id="briefs" aria-labelledby="briefs-title">

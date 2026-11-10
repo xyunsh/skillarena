@@ -26,48 +26,84 @@ export const trackingScript = (api: string) => `(function () {
   } catch (e) {}
 })();`;
 
-/** "Open live page" dialog: sandboxed iframe, previous / next through the page's live buttons, width toggle. */
+/**
+ * "Open live page" dialog: sandboxed iframe with one tab per brief.
+ * Every element with data-live-skill / data-live-brief / data-live-run and a source (data-live-src, which opens
+ * the dialog on click, or data-live-href, a plain link) registers a page. The tabs switch the brief for the same
+ * skill and run; previous / next move through the other pages of the current brief (skills on the matrix, runs
+ * on a skill page). Mobile-first briefs open at phone width.
+ */
 export const liveDialogScript = `(function () {
   var dlg = document.getElementById('live-dialog');
   var frame = document.getElementById('live-frame');
-  function setWidth(w) {
-    dlg.dataset.width = w;
-    dlg.querySelectorAll('[data-live-width]').forEach(function (b) {
-      b.setAttribute('aria-pressed', String(b.getAttribute('data-live-width') === w));
+  var prev = document.getElementById('live-prev'), next = document.getElementById('live-next');
+  var tabs = [].slice.call(dlg.querySelectorAll('[data-live-brief-tab]'));
+  var pages = [], cur = null;
+  function src(el) { return el.getAttribute('data-live-src') || el.getAttribute('data-live-href'); }
+  function collect() {
+    pages = [].slice.call(document.querySelectorAll('[data-live-skill]')).filter(function (el) { return !dlg.contains(el) && src(el) && !el.closest('[hidden]'); }).map(function (el) {
+      return { el: el, skill: el.getAttribute('data-live-skill'), brief: el.getAttribute('data-live-brief'), run: el.getAttribute('data-live-run'), name: el.getAttribute('data-live-name') || '', src: src(el) };
     });
   }
-  var list = [], idx = 0;
-  var prev = document.getElementById('live-prev'), next = document.getElementById('live-next');
-  function show(i) {
-    var btn = list[i];
-    if (!btn) return;
-    idx = i;
-    frame.src = btn.getAttribute('data-live-src');
-    document.getElementById('live-title').textContent = btn.getAttribute('data-live-title') || '';
+  function find(skill, brief, run) {
+    var any = null;
+    for (var i = 0; i < pages.length; i++) {
+      var p = pages[i];
+      if (p.skill !== skill || p.brief !== brief) continue;
+      if (p.run === run) return p;
+      if (!any) any = p;
+    }
+    return any;
+  }
+  // Pages of the current brief: one per skill (same run) when the page shows several skills, else every run.
+  function inBrief() {
+    var all = pages.filter(function (p) { return p.brief === cur.brief; });
+    var skills = all.map(function (p) { return p.skill; }).filter(function (x, i, a) { return a.indexOf(x) === i; });
+    var list = skills.length > 1 ? skills.map(function (k) { return find(k, cur.brief, cur.run); }) : all;
+    return list.filter(function (p, i, a) { return p && a.findIndex(function (q) { return q && q.skill === p.skill && q.run === p.run; }) === i; });
+  }
+  function show(p) {
+    if (!p) return;
+    cur = p;
+    frame.src = p.src;
+    var tab = tabs.filter(function (t) { return t.getAttribute('data-live-brief-tab') === p.brief; })[0];
+    dlg.dataset.width = tab && tab.getAttribute('data-mobile') ? 'mobile' : 'desktop';
+    tabs.forEach(function (t) {
+      var b = t.getAttribute('data-live-brief-tab');
+      t.setAttribute('aria-pressed', String(b === p.brief));
+      t.disabled = !find(p.skill, b, p.run);
+    });
+    document.getElementById('live-title').textContent = [p.name, tab ? tab.getAttribute('data-brief-title') : p.brief, 'run ' + p.run].filter(Boolean).join(' · ');
+    var list = inBrief(), i = list.indexOf(p);
+    if (i < 0) i = list.findIndex(function (q) { return q.skill === p.skill; });
     document.getElementById('live-count').textContent = list.length > 1 ? (i + 1) + ' / ' + list.length : '';
     prev.disabled = i <= 0;
     next.disabled = i >= list.length - 1;
     prev.hidden = next.hidden = list.length < 2;
   }
+  function step(d) {
+    var list = inBrief(), i = list.findIndex(function (q) { return q.skill === cur.skill && q.run === cur.run; });
+    if (i < 0) i = list.findIndex(function (q) { return q.skill === cur.skill; });
+    show(list[i + d]);
+  }
   document.addEventListener('click', function (e) {
     var btn = e.target.closest && e.target.closest('[data-live-src]');
     if (btn && !dlg.contains(btn)) {
       e.preventDefault();
-      list = [].slice.call(document.querySelectorAll('[data-live-src]')).filter(function (b) { return !dlg.contains(b) && b.offsetParent !== null; });
-      setWidth(btn.getAttribute('data-live-view') === 'mobile' ? 'mobile' : 'desktop');
-      show(Math.max(0, list.indexOf(btn)));
+      collect();
+      show(pages.filter(function (p) { return p.el === btn; })[0]);
       dlg.showModal();
-      if (window.saTrack) saTrack('live_open', btn.getAttribute('data-live-title') || '');
+      if (window.saTrack) saTrack('live_open', document.getElementById('live-title').textContent);
       return;
     }
-    var wb = e.target.closest && e.target.closest('[data-live-width]');
-    if (wb) setWidth(wb.getAttribute('data-live-width'));
+    var tab = e.target.closest && e.target.closest('[data-live-brief-tab]');
+    if (tab && cur && !tab.disabled) show(find(cur.skill, tab.getAttribute('data-live-brief-tab'), cur.run));
   });
-  prev.addEventListener('click', function () { show(idx - 1); });
-  next.addEventListener('click', function () { show(idx + 1); });
+  prev.addEventListener('click', function () { step(-1); });
+  next.addEventListener('click', function () { step(1); });
   dlg.addEventListener('keydown', function (e) {
-    if (e.key === 'ArrowLeft' && !prev.disabled) { e.preventDefault(); show(idx - 1); }
-    if (e.key === 'ArrowRight' && !next.disabled) { e.preventDefault(); show(idx + 1); }
+    if (e.key === 'ArrowLeft' && !prev.disabled) { e.preventDefault(); step(-1); }
+    if (e.key === 'ArrowRight' && !next.disabled) { e.preventDefault(); step(1); }
   });
   document.getElementById('live-close').addEventListener('click', function () { dlg.close(); });
   dlg.addEventListener('close', function () { frame.src = 'about:blank'; });

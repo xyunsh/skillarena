@@ -54,7 +54,7 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
         var briefObj = D.briefs.find(function (b) { return b.id === brief; });
         var head = '<div class="pane-head"><h2>' + label + ' · ' + esc(title) + '</h2><span class="actions" style="display:flex;gap:6px">' +
           '<a class="btn" href="/skill/' + encodeURIComponent(skillId) + '/#' + encodeURIComponent(brief) + '">' + esc(D.text.details) + '</a>' +
-          (r && r.hasShots ? '<button type="button" class="btn" data-live-src="' + r.base + 'index.html?v=' + r.v + '" data-live-view="' + state.view + '" data-live-title="' + esc(title + ' · ' + briefObj.title + ' · run ' + run) + '">' + esc(D.text.open) + '</button>' : '') +
+          (r && r.hasShots ? '<button type="button" class="btn" data-live-src="' + r.base + 'index.html?v=' + r.v + '" data-live-skill="' + esc(skillId) + '" data-live-brief="' + esc(brief) + '" data-live-run="' + run + '" data-live-name="' + esc(title) + '">' + esc(D.text.open) + '</button>' : '') +
           '</span></div>';
         var body;
         if (r && r.hasShots) {

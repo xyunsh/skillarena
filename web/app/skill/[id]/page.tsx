@@ -41,7 +41,6 @@ const pageScript = `(function () {
     var v = b.getAttribute('data-set-view');
     page.dataset.view = v;
     page.querySelectorAll('[data-set-view]').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-    page.querySelectorAll('[data-live-view]').forEach(function (x) { x.setAttribute('data-live-view', v); });
   });
   page.addEventListener('click', function (e) {
     var c = e.target.closest('[data-copy]');
@@ -369,7 +368,7 @@ export default async function SkillPage({ params }: Params) {
                                                 <a className="btn v-desktop" href={asset(r, 'desktop-full.webp')} target="_blank" rel="noopener" title={r.fullPageTruncated ? 'truncated at 8000px' : undefined}>
                                                     {ui['action.full']}
                                                 </a>
-                                                <button type="button" className="btn" data-live-src={asset(r, 'index.html')} data-live-title={`${displayName} · ${b.title} · run ${r.run}`} data-live-view="desktop">
+                                                <button type="button" className="btn" data-live-src={asset(r, 'index.html')} data-live-skill={skill.id} data-live-brief={b.id} data-live-run={String(r.run)} data-live-name={displayName}>
                                                     {ui['action.open']}
                                                 </button>
                                             </span>

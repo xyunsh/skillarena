@@ -7,7 +7,7 @@ import { Logo } from '~/components/Logo';
 import { Nav } from '~/components/Nav';
 import { liveDialogScript, trackingScript } from '~/components/scripts';
 import { ui } from '~/lib/copy';
-import { siteSettings } from '~/lib/data';
+import { briefs, isMobileFirst, siteSettings } from '~/lib/data';
 import { API } from '~/lib/env';
 import { SITE } from '~/lib/seo';
 import '~/styles/global.css';
@@ -70,13 +70,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                             </button>
                         </div>
                         <span className="live-title" id="live-title"></span>
-                        <div className="seg" role="group">
-                            <button type="button" data-live-width="desktop" aria-pressed="true">
-                                {ui['view.desktop']}
-                            </button>
-                            <button type="button" data-live-width="mobile" aria-pressed="false">
-                                {ui['view.mobile']}
-                            </button>
+                        <div className="seg live-briefs" role="group" aria-label="Brief">
+                            {briefs.map((b) => (
+                                <button key={b.id} type="button" data-live-brief-tab={b.id} data-brief-title={b.title} data-mobile={isMobileFirst(b.id) ? '1' : undefined} aria-pressed="false">
+                                    {b.title}
+                                </button>
+                            ))}
                         </div>
                         <button type="button" className="btn" id="live-close">
                             {ui['action.close']}

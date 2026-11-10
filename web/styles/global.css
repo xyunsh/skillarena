@@ -294,3 +294,16 @@ details.brief-text p { white-space: pre-wrap; background: var(--surface); border
 .thumb-live:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 @media (hover: none) { .thumb-live { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; } }
 .thumb-wrap.mobile .thumb-live { bottom: 8px; padding: 4px 8px; font-size: 11px; }
+
+/* Preview dialog: one tab per brief (replaces the desktop / mobile toggle; mobile-first briefs open at phone width). */
+.live-briefs { flex: none; max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+.live-briefs button { white-space: nowrap; }
+.live-briefs button:disabled { opacity: .4; cursor: default; }
+.live-bar .live-title { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+@media (max-width: 900px) { .live-briefs { order: 10; flex-basis: 100%; } }
+
+/* Skill search above the matrix */
+.skill-search { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 0 0 12px; }
+.skill-search input { width: min(420px, 100%); height: 40px; padding: 0 14px 0 38px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 13px center; color: var(--ink); font: inherit; font-size: 15px; }
+.skill-search input:focus { outline: 2px solid var(--ink); outline-offset: 1px; border-color: transparent; }
+.skill-search-empty { padding: 20px 4px; }
