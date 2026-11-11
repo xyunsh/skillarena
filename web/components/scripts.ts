@@ -65,6 +65,8 @@ export const compareTrayScript = `(function () {
     go.setAttribute('aria-disabled', String(!ok));
     document.getElementById('cmp-tray-hint').textContent = ok ? (items.length < MAX ? 'Add up to ' + MAX + ' skills.' : 'The list is full (' + MAX + ').') : 'Add one more skill to compare.';
     if (!items.length) open(false);
+    // Elements tagged data-cmp-skill (the matrix rows) get .in-compare while their skill is in the list.
+    document.querySelectorAll('[data-cmp-skill]').forEach(function (el) { el.classList.toggle('in-compare', idx(el.getAttribute('data-cmp-skill')) >= 0); });
     document.dispatchEvent(new CustomEvent('sa-cmp'));
   }
   window.saCmp = {

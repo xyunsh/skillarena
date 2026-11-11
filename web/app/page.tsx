@@ -127,6 +127,7 @@ export default function Home() {
                                 <tr
                                     key={s.id}
                                     className={s.isBaseline ? 'baseline' : undefined}
+                                    data-cmp-skill={s.id}
                                     data-search={[s.name, s.id, s.author, s.github?.ownerName, s.github?.owner, s.description].filter(Boolean).join(' ').toLowerCase()}
                                 >
                                     <th scope="row">

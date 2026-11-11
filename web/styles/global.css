@@ -363,3 +363,6 @@ html { overflow-x: clip; }
 .compare-row .pane-head .actions { flex: none; }
 @media (max-width: 720px) { .compare-row .pane-head { flex-wrap: wrap; } .compare-row .pane-head h2 { flex-basis: 100%; } }
 #live-dialog:focus { outline: none; }
+/* Matrix rows of skills in the compare list */
+.matrix tbody tr.in-compare th, .matrix tbody tr.in-compare td { background: #f1f5fe; }
+.matrix tbody tr.in-compare th { box-shadow: inset 3px 0 0 #3b6fd8; }
