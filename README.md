@@ -18,10 +18,10 @@ SkillArena gives every UI skill (a `SKILL.md` for AI coding agents such as Claud
 
 ## What the results show so far
 
-From the published set of 67 skills plus the control group, 1,020 pages (November 2026):
+From the published set of 117 skills plus the control group, 1,770 pages (November 2026):
 
-- **Skills change the look much more than the words.** On the landing page brief, 183 of 204 pages open with “Stop asking…”, a phrase the brief never uses.
-- **More instructions don't always mean more output.** With no skill, the model averaged 12.6k output tokens per page; 12 of the 67 skills came in under that.
+- **Skills change the look much more than the words.** On the landing page brief, 317 of 354 pages open with “Stop asking…”, a phrase the brief never uses. Only 2 skills avoided it in all three runs.
+- **More instructions don't always mean more output.** With no skill, the model averaged 12.6k output tokens per page; 21 of the 117 skills came in under that. It also depends on the brief: on the mobile app screen 114 of 117 skills wrote more than no skill, on the dashboard 82 wrote less.
 - **One screenshot is not enough.** The same skill on the same brief went from 17k to 44k output tokens across its three runs.
 
 Want a skill tested? [Open an issue](https://github.com/xyunsh/skillarena/issues/new?title=Add%20skill%3A%20) with a link to its `SKILL.md`. See [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -154,7 +154,7 @@ The site calls three public endpoints under `NEXT_PUBLIC_API_URL` (for example `
 - `web/data/manifest.json`: every skill, brief and run (status, model, tokens, list-price cost, screenshot URLs). Also served as `/results.json`, with `/llms.txt` and `/llms-full.txt` for LLMs.
 - SkillArena never republishes skill contents: only the name, author, description, repository link, commit and license.
 
-The published set: 67 skills plus the control group × 5 briefs × 3 runs = 1020 pages generated with Claude Opus 5.5 (1019 ok, 1 truncated). Generation went through the Claude Code CLI on a subscription; the list-price estimate for the set on display is $342.
+The published set: 117 skills plus the control group × 5 briefs × 3 runs = 1770 pages generated with Claude Opus 5.5 (1766 ok, 4 truncated). Generation went through the Claude Code CLI on a subscription; the list-price estimate for the set on display is $594.
 
 ## License
 
