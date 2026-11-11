@@ -42,8 +42,9 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
       if (q.get('brief') && has(selBrief, q.get('brief'))) selBrief.value = q.get('brief');
       if (q.get('run') && has(selRun, q.get('run'))) selRun.value = q.get('run');
       if (q.get('view') === 'mobile') state.view = 'mobile';
-      // ?skills=a,b,c[,d] (from the compare list): 3–4 skills side by side; 2 use the A / B pickers.
-      var list = (q.get('skills') || '').split(',').filter(function (id, i, a) { return id && has(selA, id) && a.indexOf(id) === i; }).slice(0, 4);
+      // ?skills=a,b,c,… (from the compare list): 3–12 skills in a row of fixed-width panes that scrolls sideways;
+      // 2 use the A / B pickers.
+      var list = (q.get('skills') || '').split(',').filter(function (id, i, a) { return id && has(selA, id) && a.indexOf(id) === i; }).slice(0, 12);
       if (list.length === 2) { selA.value = list[0]; selB.value = list[1]; }
       if (list.length < 3) list = [];
       var grid = $('cmp-grid'), title = $('cmp-title'), title2 = title.textContent;
@@ -57,7 +58,7 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
         var r = list.find(function (x) { return x.run === run; });
         var title = skillName(skillId);
         var briefObj = D.briefs.find(function (b) { return b.id === brief; });
-        var head = '<div class="pane-head"><h2>' + label + ' · ' + esc(title) + '</h2><span class="actions" style="display:flex;gap:6px">' +
+        var head = '<div class="pane-head"><h2 title="' + esc(title) + '">' + label + ' · ' + esc(title) + '</h2><span class="actions" style="display:flex;gap:6px">' +
           '<a class="btn" href="/skill/' + encodeURIComponent(skillId) + '/#' + encodeURIComponent(brief) + '">' + esc(D.text.details) + '</a>' +
           (r && r.hasShots ? '<button type="button" class="btn" data-live-src="' + r.base + 'index.html?v=' + r.v + '" data-live-skill="' + esc(skillId) + '" data-live-brief="' + esc(brief) + '" data-live-run="' + run + '" data-live-name="' + esc(title) + '">' + esc(D.text.open) + '</button>' : '') +
           '</span></div>';
@@ -75,13 +76,13 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
       function render() {
         var multi = list.length >= 3, ids = multi ? list : [selA.value, selB.value];
         [selA, selB, $('cmp-swap')].forEach(function (el) { (el.closest('label') || el).hidden = multi; });
-        title.textContent = multi ? 'Compare ' + ['', '', 'two', 'three', 'four'][list.length] + ' skills' : title2;
-        grid.className = 'compare-grid' + (multi ? ' n' + list.length : '');
+        title.textContent = multi ? 'Compare ' + (['', '', 'two', 'three', 'four', 'five', 'six'][list.length] || list.length) + ' skills' : title2;
+        grid.className = 'compare-grid' + (multi ? ' compare-row' : '');
         while (grid.children.length > ids.length) grid.lastElementChild.remove();
         while (grid.children.length < ids.length) { var s = document.createElement('section'); s.className = 'pane'; s.setAttribute('aria-live', 'polite'); grid.append(s); }
         ids.forEach(function (id, i) {
           var el = grid.children[i];
-          renderPane(el, 'ABCD'[i], id);
+          renderPane(el, String.fromCharCode(65 + i), id);
           if (multi) el.querySelector('.actions').insertAdjacentHTML('beforeend', '<button type="button" class="btn pane-rm" data-pane-rm="' + i + '" aria-label="Remove ' + esc(skillName(id)) + ' from the comparison" title="Remove">×</button>');
         });
         var b = D.briefs.find(function (x) { return x.id === selBrief.value; });

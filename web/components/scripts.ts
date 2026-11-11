@@ -27,13 +27,13 @@ export const trackingScript = (api: string) => `(function () {
 })();`;
 
 /**
- * Compare list ("cart"): skills added from the live dialog, kept in localStorage (per browser, up to 4), shown in a
+ * Compare list ("cart"): skills added from the live dialog, kept in localStorage (per browser, up to 12), shown in a
  * floating tray at the bottom right. "Compare" opens /compare/ with them. window.saCmp is the API the dialog uses;
  * changes fire a 'sa-cmp' event on document. The tray moves into the dialog while it is open (a modal dialog is in
  * the top layer, so anything outside it is hidden and inert).
  */
 export const compareTrayScript = `(function () {
-  var KEY = 'sa_compare', MAX = 4;
+  var KEY = 'sa_compare', MAX = 12;
   var tray = document.getElementById('cmp-tray'), panel = document.getElementById('cmp-tray-panel');
   var toggle = document.getElementById('cmp-tray-toggle'), listEl = document.getElementById('cmp-tray-list');
   var go = document.getElementById('cmp-tray-go'), autoClose = 0;
