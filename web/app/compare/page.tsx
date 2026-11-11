@@ -42,6 +42,11 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
       if (q.get('brief') && has(selBrief, q.get('brief'))) selBrief.value = q.get('brief');
       if (q.get('run') && has(selRun, q.get('run'))) selRun.value = q.get('run');
       if (q.get('view') === 'mobile') state.view = 'mobile';
+      // ?skills=a,b,c[,d] (from the compare list): 3–4 skills side by side; 2 use the A / B pickers.
+      var list = (q.get('skills') || '').split(',').filter(function (id, i, a) { return id && has(selA, id) && a.indexOf(id) === i; }).slice(0, 4);
+      if (list.length === 2) { selA.value = list[0]; selB.value = list[1]; }
+      if (list.length < 3) list = [];
+      var grid = $('cmp-grid'), title = $('cmp-title'), title2 = title.textContent;
 
       function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
       function skillName(id) { var s = D.skills.find(function (x) { return x.id === id; }); return !s ? id : s.isBaseline ? D.text.baseline : s.name; }
@@ -68,21 +73,37 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
       }
 
       function render() {
-        renderPane($('pane-a'), 'A', selA.value);
-        renderPane($('pane-b'), 'B', selB.value);
+        var multi = list.length >= 3, ids = multi ? list : [selA.value, selB.value];
+        [selA, selB, $('cmp-swap')].forEach(function (el) { (el.closest('label') || el).hidden = multi; });
+        title.textContent = multi ? 'Compare ' + ['', '', 'two', 'three', 'four'][list.length] + ' skills' : title2;
+        grid.className = 'compare-grid' + (multi ? ' n' + list.length : '');
+        while (grid.children.length > ids.length) grid.lastElementChild.remove();
+        while (grid.children.length < ids.length) { var s = document.createElement('section'); s.className = 'pane'; s.setAttribute('aria-live', 'polite'); grid.append(s); }
+        ids.forEach(function (id, i) {
+          var el = grid.children[i];
+          renderPane(el, 'ABCD'[i], id);
+          if (multi) el.querySelector('.actions').insertAdjacentHTML('beforeend', '<button type="button" class="btn pane-rm" data-pane-rm="' + i + '" aria-label="Remove ' + esc(skillName(id)) + ' from the comparison" title="Remove">×</button>');
+        });
         var b = D.briefs.find(function (x) { return x.id === selBrief.value; });
         $('cmp-brief-text').textContent = b ? b.text : '';
         document.querySelectorAll('[data-cmp-view]').forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-cmp-view') === state.view)); });
-        var p = new URLSearchParams({ a: selA.value, b: selB.value, brief: selBrief.value });
+        var p = new URLSearchParams(multi ? { skills: list.join(','), brief: selBrief.value } : { a: selA.value, b: selB.value, brief: selBrief.value });
         if (selRun.value !== '1') p.set('run', selRun.value);
         if (state.view !== 'desktop') p.set('view', state.view);
         history.replaceState(null, '', '/compare/?' + p.toString());
         if (window.saTrack && window.__cmpSeen !== p.toString()) { if (window.__cmpSeen) saTrack('compare'); window.__cmpSeen = p.toString(); }
-        var tryIds = [selA.value, selB.value].filter(function (id, i, a) { return id !== 'baseline' && a.indexOf(id) === i; });
+        var tryIds = ids.filter(function (id, i, a) { return id !== 'baseline' && a.indexOf(id) === i; });
         $('cmp-try').href = '/try/' + (tryIds.length ? '?skills=' + encodeURIComponent(tryIds.join(',')) : '');
       }
 
       [selA, selB, selBrief, selRun].forEach(function (s) { s.addEventListener('change', render); });
+      grid.addEventListener('click', function (e) {
+        var rm = e.target.closest && e.target.closest('[data-pane-rm]');
+        if (!rm) return;
+        list.splice(Number(rm.getAttribute('data-pane-rm')), 1);
+        if (list.length === 2) { selA.value = list[0]; selB.value = list[1]; list = []; }
+        render();
+      });
       $('cmp-swap').addEventListener('click', function () { var t = selA.value; selA.value = selB.value; selB.value = t; render(); });
       document.querySelectorAll('[data-cmp-view]').forEach(function (b) {
         b.addEventListener('click', function () { state.view = b.getAttribute('data-cmp-view'); render(); });
@@ -96,7 +117,7 @@ export default function Compare() {
         <div className="wrap">
             <JsonLd />
             <section className="hero" style={{ paddingBottom: 0 }}>
-                <h1>{ui['compare.title']}</h1>
+                <h1 id="cmp-title">{ui['compare.title']}</h1>
             </section>
 
             <form className="compare-controls" id="cmp-form">
@@ -170,7 +191,7 @@ export default function Compare() {
                 <span id="cmp-brief-text"></span>
             </blockquote>
 
-            <div className="compare-grid">
+            <div className="compare-grid" id="cmp-grid">
                 <section className="pane" id="pane-a" aria-live="polite"></section>
                 <section className="pane" id="pane-b" aria-live="polite"></section>
             </div>

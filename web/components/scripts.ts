@@ -27,6 +27,77 @@ export const trackingScript = (api: string) => `(function () {
 })();`;
 
 /**
+ * Compare list ("cart"): skills added from the live dialog, kept in localStorage (per browser, up to 4), shown in a
+ * floating tray at the bottom right. "Compare" opens /compare/ with them. window.saCmp is the API the dialog uses;
+ * changes fire a 'sa-cmp' event on document. The tray moves into the dialog while it is open (a modal dialog is in
+ * the top layer, so anything outside it is hidden and inert).
+ */
+export const compareTrayScript = `(function () {
+  var KEY = 'sa_compare', MAX = 4;
+  var tray = document.getElementById('cmp-tray'), panel = document.getElementById('cmp-tray-panel');
+  var toggle = document.getElementById('cmp-tray-toggle'), listEl = document.getElementById('cmp-tray-list');
+  var go = document.getElementById('cmp-tray-go'), autoClose = 0;
+  function load() { try { var v = JSON.parse(localStorage.getItem(KEY) || '[]'); return Array.isArray(v) ? v.filter(function (x) { return x && typeof x.skill === 'string'; }).slice(0, MAX) : []; } catch (e) { return []; } }
+  var items = load();
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(items)); } catch (e) {} }
+  function idx(skill) { for (var i = 0; i < items.length; i++) if (items[i].skill === skill) return i; return -1; }
+  function open(v) { panel.hidden = !v; toggle.setAttribute('aria-expanded', String(v)); }
+  function href() {
+    var last = items[items.length - 1] || {}, p = new URLSearchParams();
+    if (items.length === 2) { p.set('a', items[0].skill); p.set('b', items[1].skill); }
+    else p.set('skills', items.map(function (x) { return x.skill; }).join(','));
+    if (last.brief) p.set('brief', last.brief);
+    if (last.run && last.run !== '1') p.set('run', last.run);
+    return '/compare/?' + p.toString();
+  }
+  function render() {
+    tray.hidden = !items.length;
+    toggle.querySelector('.cmp-tray-n').textContent = items.length;
+    listEl.replaceChildren.apply(listEl, items.map(function (x) {
+      var li = document.createElement('li'), a = document.createElement('a'), rm = document.createElement('button');
+      a.href = '/skill/' + encodeURIComponent(x.skill) + '/'; a.textContent = x.name || x.skill;
+      rm.type = 'button'; rm.className = 'cmp-tray-rm'; rm.setAttribute('data-cmp-rm', x.skill);
+      rm.setAttribute('aria-label', 'Remove ' + (x.name || x.skill)); rm.textContent = '×';
+      li.append(a, rm); return li;
+    }));
+    var ok = items.length >= 2;
+    go.href = ok ? href() : '#';
+    go.setAttribute('aria-disabled', String(!ok));
+    document.getElementById('cmp-tray-hint').textContent = ok ? (items.length < MAX ? 'Add up to ' + MAX + ' skills.' : 'The list is full (' + MAX + ').') : 'Add one more skill to compare.';
+    if (!items.length) open(false);
+    document.dispatchEvent(new CustomEvent('sa-cmp'));
+  }
+  window.saCmp = {
+    max: MAX,
+    has: function (skill) { return idx(skill) >= 0; },
+    full: function () { return items.length >= MAX; },
+    toggle: function (it) {
+      var i = idx(it.skill);
+      if (i >= 0) items.splice(i, 1);
+      else if (items.length < MAX) {
+        items.push({ skill: it.skill, name: it.name || '', brief: it.brief || '', run: it.run || '1' });
+        if (window.saTrack) saTrack('compare_add', it.skill);
+        // Show the list for a moment so the add is visible; it folds back unless the pointer is on it.
+        if (panel.hidden) { open(true); clearTimeout(autoClose); autoClose = setTimeout(function () { if (!tray.matches(':hover')) open(false); }, 2500); }
+      }
+      save(); render();
+    },
+  };
+  toggle.addEventListener('click', function () { clearTimeout(autoClose); open(panel.hidden); });
+  tray.addEventListener('click', function (e) {
+    var rm = e.target.closest && e.target.closest('[data-cmp-rm]');
+    if (rm) { var i = idx(rm.getAttribute('data-cmp-rm')); if (i >= 0) { items.splice(i, 1); save(); render(); } }
+  });
+  go.addEventListener('click', function (e) { if (go.getAttribute('aria-disabled') === 'true') e.preventDefault(); });
+  document.getElementById('cmp-tray-clear').addEventListener('click', function () { items = []; save(); render(); });
+  // Another tab changed the list.
+  window.addEventListener('storage', function (e) { if (e.key === KEY) { items = load(); render(); } });
+  var dlg = document.getElementById('live-dialog');
+  new MutationObserver(function () { (dlg.open ? dlg : document.body).append(tray); }).observe(dlg, { attributes: true, attributeFilter: ['open'] });
+  render();
+})();`;
+
+/**
  * "Open live page" dialog: sandboxed iframe with one tab per brief.
  * Every element with data-live-skill / data-live-brief / data-live-run and a source (data-live-src, which opens
  * the dialog on click, or data-live-href, a plain link) registers a page. The tabs switch the brief for the same
@@ -87,7 +158,20 @@ export const liveDialogScript = `(function () {
     prev.disabled = i <= 0;
     next.disabled = i >= list.length - 1;
     prev.hidden = next.hidden = list.length < 2;
+    syncCmp();
   }
+  // "Add to compare": the current skill into the compare list (compareTrayScript).
+  var cmpBtn = document.getElementById('live-cmp');
+  function syncCmp() {
+    if (!cur || !window.saCmp) return;
+    var on = saCmp.has(cur.skill);
+    cmpBtn.setAttribute('aria-pressed', String(on));
+    cmpBtn.disabled = !on && saCmp.full();
+    cmpBtn.title = on ? 'Remove from the compare list' : cmpBtn.disabled ? 'The compare list is full (' + saCmp.max + ' skills)' : 'Add this skill to the compare list';
+    cmpBtn.querySelector('.live-cmp-text').textContent = on ? 'In compare' : 'Add to compare';
+  }
+  cmpBtn.addEventListener('click', function () { if (cur && window.saCmp) saCmp.toggle(cur); });
+  document.addEventListener('sa-cmp', syncCmp);
   function step(d) {
     var list = inBrief(), i = list.findIndex(function (q) { return q.skill === cur.skill && q.run === cur.run; });
     if (i < 0) i = list.findIndex(function (q) { return q.skill === cur.skill; });

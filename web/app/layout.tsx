@@ -5,7 +5,7 @@ import { GithubLink } from '~/components/GithubLink';
 import { InlineScript } from '~/components/InlineScript';
 import { Logo } from '~/components/Logo';
 import { Nav } from '~/components/Nav';
-import { liveDialogScript, trackingScript } from '~/components/scripts';
+import { compareTrayScript, liveDialogScript, trackingScript } from '~/components/scripts';
 import { ui } from '~/lib/copy';
 import { briefs, isMobileFirst, siteSettings } from '~/lib/data';
 import { API } from '~/lib/env';
@@ -77,6 +77,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                                 </button>
                             ))}
                         </div>
+                        <button type="button" className="btn" id="live-cmp" aria-pressed="false">
+                            <svg className="live-cmp-plus" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
+                                <path d="M12 5v14M5 12h14" />
+                            </svg>
+                            <svg className="live-cmp-check" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12.5l4.5 4.5L19 7.5" />
+                            </svg>
+                            <span className="live-cmp-text">Add to compare</span>
+                        </button>
                         <button type="button" className="btn" id="live-full" aria-pressed="false" title="Full screen (F)">
                             <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3" />
@@ -92,6 +101,30 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                         <iframe id="live-frame" title="Generated page" sandbox="allow-scripts" referrerPolicy="no-referrer"></iframe>
                     </div>
                 </dialog>
+                <aside id="cmp-tray" className="cmp-tray" aria-label="Compare list" hidden>
+                    <div id="cmp-tray-panel" className="cmp-tray-panel" hidden>
+                        <div className="cmp-tray-head">
+                            <strong>Compare list</strong>
+                            <button type="button" className="cmp-tray-clear" id="cmp-tray-clear">
+                                Clear
+                            </button>
+                        </div>
+                        <ol id="cmp-tray-list" className="cmp-tray-list"></ol>
+                        <p className="cmp-tray-hint small muted" id="cmp-tray-hint"></p>
+                        <a className="btn btn-primary cmp-tray-go" id="cmp-tray-go" href="/compare/">
+                            Compare side by side →
+                        </a>
+                    </div>
+                    <button type="button" className="cmp-tray-pill" id="cmp-tray-toggle" aria-expanded="false" aria-controls="cmp-tray-panel">
+                        <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <rect x="3" y="4" width="7.5" height="16" rx="1.5" />
+                            <rect x="13.5" y="4" width="7.5" height="16" rx="1.5" />
+                        </svg>
+                        Compare
+                        <span className="cmp-tray-n">0</span>
+                    </button>
+                </aside>
+                <InlineScript code={compareTrayScript} />
                 <InlineScript code={liveDialogScript} />
             </body>
         </html>
