@@ -324,14 +324,16 @@ details.brief-text p { white-space: pre-wrap; background: var(--surface); border
 @media (max-width: 900px) { .live-full-text { display: none; } }
 
 /* Compare list: "Add to compare" in the live dialog, and a floating tray at the bottom right. */
-#live-cmp { display: inline-flex; align-items: center; gap: 6px; }
-#live-cmp .live-cmp-check, #live-cmp[aria-pressed='true'] .live-cmp-plus { display: none; }
-#live-cmp[aria-pressed='true'] .live-cmp-check { display: block; }
-#live-cmp[aria-pressed='true'] { background: var(--ink); color: #fff; border-color: var(--ink); }
-#live-cmp:disabled { opacity: .45; cursor: default; }
-@media (max-width: 900px) { .live-cmp-text { display: none; } }
 .cmp-tray { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); z-index: 30; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; font-size: 14px; }
-.cmp-tray[hidden], .cmp-tray-panel[hidden] { display: none; }
+.cmp-tray[hidden], .cmp-tray-panel[hidden], .cmp-tray-row [hidden] { display: none; }
+.cmp-tray-row { display: flex; align-items: center; gap: 8px; }
+/* "Add to compare" (live dialog only): a white pill next to the Compare pill; blue once added, like the matrix rows. */
+.cmp-tray-add { display: inline-flex; align-items: center; gap: 7px; padding: 10px 16px 10px 13px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; box-shadow: 0 6px 20px rgb(0 0 0 / .18); }
+.cmp-tray-add:hover { border-color: #c9c9c3; }
+.cmp-tray-add .live-cmp-check, .cmp-tray-add[aria-pressed='true'] .live-cmp-plus { display: none; }
+.cmp-tray-add[aria-pressed='true'] .live-cmp-check { display: block; }
+.cmp-tray-add[aria-pressed='true'] { background: #f1f5fe; border-color: #3b6fd8; color: #2a55b5; }
+.cmp-tray-add:disabled { opacity: .55; cursor: default; }
 .cmp-tray-pill { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px 10px 12px; border: 0; border-radius: 999px; background: var(--ink); color: #fff; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; box-shadow: 0 6px 20px rgb(0 0 0 / .22); }
 .cmp-tray-pill:hover { background: #333; }
 .cmp-tray-n { min-width: 22px; height: 22px; padding: 0 6px; border-radius: 11px; background: #fff; color: var(--ink); font-size: 12px; line-height: 22px; text-align: center; font-variant-numeric: tabular-nums; }

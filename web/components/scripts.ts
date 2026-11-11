@@ -37,10 +37,14 @@ export const compareTrayScript = `(function () {
   var tray = document.getElementById('cmp-tray'), panel = document.getElementById('cmp-tray-panel');
   var toggle = document.getElementById('cmp-tray-toggle'), listEl = document.getElementById('cmp-tray-list');
   var go = document.getElementById('cmp-tray-go'), autoClose = 0;
+  var dlg = document.getElementById('live-dialog'), add = document.getElementById('live-cmp');
   function load() { try { var v = JSON.parse(localStorage.getItem(KEY) || '[]'); return Array.isArray(v) ? v.filter(function (x) { return x && typeof x.skill === 'string'; }).slice(0, MAX) : []; } catch (e) { return []; } }
   var items = load();
   function save() { try { localStorage.setItem(KEY, JSON.stringify(items)); } catch (e) {} }
   function idx(skill) { for (var i = 0; i < items.length; i++) if (items[i].skill === skill) return i; return -1; }
+  // The tray shows when the list has skills, and always while the live dialog is open ("Add to compare" sits
+  // next to the Compare pill there).
+  function vis() { tray.hidden = !items.length && !dlg.open; toggle.hidden = !items.length; add.hidden = !dlg.open; }
   function open(v) { panel.hidden = !v; toggle.setAttribute('aria-expanded', String(v)); }
   function href() {
     var last = items[items.length - 1] || {}, p = new URLSearchParams();
@@ -51,7 +55,7 @@ export const compareTrayScript = `(function () {
     return '/compare/?' + p.toString();
   }
   function render() {
-    tray.hidden = !items.length;
+    vis();
     toggle.querySelector('.cmp-tray-n').textContent = items.length;
     listEl.replaceChildren.apply(listEl, items.map(function (x) {
       var li = document.createElement('li'), a = document.createElement('a'), rm = document.createElement('button');
@@ -94,8 +98,7 @@ export const compareTrayScript = `(function () {
   document.getElementById('cmp-tray-clear').addEventListener('click', function () { items = []; save(); render(); });
   // Another tab changed the list.
   window.addEventListener('storage', function (e) { if (e.key === KEY) { items = load(); render(); } });
-  var dlg = document.getElementById('live-dialog');
-  new MutationObserver(function () { (dlg.open ? dlg : document.body).append(tray); }).observe(dlg, { attributes: true, attributeFilter: ['open'] });
+  new MutationObserver(function () { (dlg.open ? dlg : document.body).append(tray); vis(); }).observe(dlg, { attributes: true, attributeFilter: ['open'] });
   render();
 })();`;
 
@@ -169,7 +172,7 @@ export const liveDialogScript = `(function () {
     var on = saCmp.has(cur.skill);
     cmpBtn.setAttribute('aria-pressed', String(on));
     cmpBtn.disabled = !on && saCmp.full();
-    cmpBtn.title = on ? 'Remove from the compare list' : cmpBtn.disabled ? 'The compare list is full (' + saCmp.max + ' skills)' : 'Add this skill to the compare list';
+    cmpBtn.title = on ? 'Remove from the compare list (C)' : cmpBtn.disabled ? 'The compare list is full (' + saCmp.max + ' skills)' : 'Add this skill to the compare list (C)';
     cmpBtn.querySelector('.live-cmp-text').textContent = on ? 'In compare' : 'Add to compare';
   }
   cmpBtn.addEventListener('click', function () { if (cur && window.saCmp) saCmp.toggle(cur); });
@@ -204,6 +207,7 @@ export const liveDialogScript = `(function () {
     if (!dialogKey(e)) return;
     if (e.key === 'ArrowLeft' && !prev.disabled) { e.preventDefault(); step(-1); }
     if (e.key === 'ArrowRight' && !next.disabled) { e.preventDefault(); step(1); }
+    if ((e.key === 'c' || e.key === 'C') && !cmpBtn.disabled) { e.preventDefault(); cmpBtn.click(); }
   });
   // Keys pressed while the generated page has focus go to that (cross-origin) page and never reach us. Take focus
   // back when the page grabbed it on its own (on load, or without the pointer over it) and when the pointer leaves
