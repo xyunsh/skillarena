@@ -58,7 +58,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     </div>
                 </footer>
 
-                <dialog id="live-dialog" aria-label="Generated page">
+                <dialog id="live-dialog" aria-label="Generated page" tabIndex={-1}>
                     <div className="live-bar">
                         <div className="live-nav" role="group" aria-label="Browse generated pages">
                             <button type="button" className="btn" id="live-prev" aria-label="Previous page" title="Previous (←)">

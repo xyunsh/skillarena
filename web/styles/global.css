@@ -362,3 +362,4 @@ html { overflow-x: clip; }
 .compare-row .pane-head h2 { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .compare-row .pane-head .actions { flex: none; }
 @media (max-width: 720px) { .compare-row .pane-head { flex-wrap: wrap; } .compare-row .pane-head h2 { flex-basis: 100%; } }
+#live-dialog:focus { outline: none; }

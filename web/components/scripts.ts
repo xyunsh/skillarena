@@ -192,10 +192,26 @@ export const liveDialogScript = `(function () {
   });
   prev.addEventListener('click', function () { step(-1); });
   next.addEventListener('click', function () { step(1); });
-  dlg.addEventListener('keydown', function (e) {
+  // Keys are read on the document, not the dialog: when the focused control turns disabled (› on the last page,
+  // a brief tab, "Add to compare" when the list is full) focus falls back to <body>, outside the dialog.
+  function dialogKey(e) {
+    if (!dlg.open || e.defaultPrevented || e.metaKey || e.ctrlKey || e.altKey) return false;
+    return !(e.target.closest && e.target.closest('input, textarea, select, [contenteditable]'));
+  }
+  document.addEventListener('keydown', function (e) {
+    if (!dialogKey(e)) return;
     if (e.key === 'ArrowLeft' && !prev.disabled) { e.preventDefault(); step(-1); }
     if (e.key === 'ArrowRight' && !next.disabled) { e.preventDefault(); step(1); }
   });
+  // Keys pressed while the generated page has focus go to that (cross-origin) page and never reach us. Take focus
+  // back when the page grabbed it on its own (on load, or without the pointer over it) and when the pointer leaves
+  // it: arrows scroll the page under the pointer, and switch pages everywhere else.
+  var overFrame = false;
+  function reclaim() { if (dlg.open && !overFrame && document.activeElement === frame) dlg.focus({ preventScroll: true }); }
+  frame.addEventListener('mouseenter', function () { overFrame = true; });
+  frame.addEventListener('mouseleave', function () { overFrame = false; reclaim(); });
+  frame.addEventListener('load', reclaim);
+  window.addEventListener('blur', function () { setTimeout(reclaim, 0); });
   // Full screen: the Fullscreen API on the dialog where available; otherwise (iOS Safari) the dialog fills the viewport.
   var full = document.getElementById('live-full');
   function isFull() { return document.fullscreenElement === dlg || dlg.classList.contains('is-max'); }
@@ -209,8 +225,8 @@ export const liveDialogScript = `(function () {
   }
   full.addEventListener('click', toggleFull);
   document.addEventListener('fullscreenchange', syncFull);
-  dlg.addEventListener('keydown', function (e) {
-    if ((e.key === 'f' || e.key === 'F') && !e.metaKey && !e.ctrlKey && !e.altKey) { e.preventDefault(); toggleFull(); }
+  document.addEventListener('keydown', function (e) {
+    if (dialogKey(e) && (e.key === 'f' || e.key === 'F')) { e.preventDefault(); toggleFull(); }
   });
   dlg.addEventListener('close', function () {
     if (document.fullscreenElement === dlg) document.exitFullscreen();
