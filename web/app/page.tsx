@@ -145,7 +145,7 @@ export default function Home() {
                                                     <Stars skill={s} />
                                                     {s.featured && <span className="tag tag-featured">Featured</span>}
                                                     {s.workflow && (
-                                                        <a className="tag tag-workflow" href={`/skill/${s.id}/`} title="A multi-stage, human-in-the-loop workflow: these single-pass pages do not test its intended process">
+                                                        <a className="tag tag-workflow" href={`/skill/${s.id}/`} title="Designed as a staged, human-in-the-loop process: these pages show its one-shot look, not the full workflow">
                                                             Multi-stage
                                                         </a>
                                                     )}

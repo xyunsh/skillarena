@@ -89,12 +89,12 @@ export default function About() {
 
                 <h2 id="multi-stage">Single-pass and multi-stage skills</h2>
                 <p>
-                    SkillArena tests one thing: what a skill does to a single model call that has to return one complete page. Most UI skills are written for that. Some are not. They describe a
-                    process over several rounds with a person in the loop, for example generating several directions, letting a person choose one, and only then building the result.
+                    SkillArena shows what a skill does to a single request for a complete page. That is the most common way people use a UI skill: ask for a page, then judge its look and style.
                 </p>
                 <p>
-                    A single call skips those rounds, so for these skills the pages here show how their instructions shape one-shot output, not how well their workflow works. They are marked
-                    “Multi-stage” in the matrix, and their pages describe the intended process. Compare them with that in mind, and don’t read their results as a verdict on the skill.
+                    Some skills are designed as a staged process with a person in the loop, for example several design directions, a person choosing one, and only then the finished work. For
+                    these, the one-shot pages here are still a useful view of their style, but not of the full workflow, which can produce different results. They are marked “Multi-stage” in the
+                    matrix, and their pages describe the intended process.
                 </p>
 
                 <h2>Results vary</h2>
