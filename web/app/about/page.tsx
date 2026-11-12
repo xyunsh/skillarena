@@ -141,9 +141,18 @@ export default function About() {
                     <li>All briefs are original and fictional. Names, numbers and testimonials in the generated pages are placeholders.</li>
                     <li>“Open live page” runs the generated HTML in a sandboxed iframe that cannot access this site.</li>
                     <li>
+                        Skill authors can ask for a correction, a note about how their skill is meant to be used, or removal from SkillArena: email{' '}
+                        <a href="mailto:hello@skillarena.dev">hello@skillarena.dev</a>.
+                    </li>
+                    <li>
                         Privacy: we count page views and a few clicks (install copy, outbound links, form sends) ourselves, without cookies. IP addresses are not stored; visitors are counted
                         with a hash that changes daily. Nothing is sent if your browser has Do Not Track or Global Privacy Control turned on. The site is served through Cloudflare, which may
                         add its own cookie-free Web Analytics script.
+                    </li>
+                    <li>
+                        Waitlist and early-access forms: we keep the email address and answers you send, plus your country and browser language. No IP address. We use them only
+                        to contact you about SkillArena and never share or sell them. To see or delete what we hold about you, email{' '}
+                        <a href="mailto:hello@skillarena.dev">hello@skillarena.dev</a>.
                     </li>
                 </ul>
             </div>

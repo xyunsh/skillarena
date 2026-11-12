@@ -80,6 +80,7 @@ export const ui = {
   'wl.role.other': 'Other',
   'wl.need': 'What do you need? (optional, one sentence)',
   'wl.submit': 'Join the waitlist',
+  'form.privacy': 'We only use your email to contact you about SkillArena, and never share it. To be removed, email hello@skillarena.dev.',
   'wl.sending': 'Sending…',
   'wl.ok': 'Thanks! You’re on the list.',
   'wl.dup': 'You’re already on the list. Thanks!',

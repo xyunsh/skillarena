@@ -374,3 +374,4 @@ html { overflow-x: clip; }
 .workflow-note { margin: 0 0 12px; padding: 10px 12px; border: 1px solid #c9d8f6; border-left: 3px solid #3b6fd8; border-radius: 8px; background: #f3f7fe; color: var(--ink); font-size: 13px; line-height: 1.55; }
 .workflow-note a { color: #2a55b5; }
 h2[id] { scroll-margin-top: 84px; }
+.form-privacy { margin: 8px 0 0; }

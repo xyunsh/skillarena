@@ -1,5 +1,6 @@
 import { JsonLd } from '~/components/JsonLd';
 import { InlineScript } from '~/components/InlineScript';
+import { ui } from '~/lib/copy';
 import { skills } from '~/lib/data';
 import { API } from '~/lib/env';
 import { meta } from '~/lib/seo';
@@ -182,6 +183,7 @@ export default function Try() {
                                 Request early access
                             </button>
                         </div>
+                        <p className="form-privacy small muted">{ui['form.privacy']}</p>
                         <p className="form-msg" id="try-msg" role="status" aria-live="polite"></p>
                     </form>
                     <InlineScript code={script} />

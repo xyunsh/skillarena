@@ -95,6 +95,7 @@ export function Waitlist() {
                         {ui['wl.submit']}
                     </button>
                 </div>
+                <p className="form-privacy small muted">{ui['form.privacy']}</p>
                 <p className="form-msg" id="wl-msg" role="status" aria-live="polite"></p>
             </form>
             <InlineScript code={script} />
