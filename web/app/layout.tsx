@@ -18,6 +18,8 @@ export const metadata: Metadata = {
     alternates: {
         types: { 'text/plain': '/llms.txt', 'application/json': '/results.json' },
     },
+    // Bing Webmaster Tools site verification (keep it, or the site becomes unverified).
+    verification: { other: { 'msvalidate.01': 'AB4458953E731726605E5088E0C4367D' } },
 };
 export const viewport: Viewport = { themeColor: '#f6f6f4', width: 'device-width', initialScale: 1 };
 
