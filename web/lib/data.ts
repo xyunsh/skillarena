@@ -45,6 +45,8 @@ export interface SkillRow {
     homepage: string | null;
     installName: string | null;
     usage: string | null;
+    /** Multi-stage, human-in-the-loop skill: one line on its intended process (single-call results skip it). */
+    workflow?: string | null;
     install: InstallMethod[];
     referencesInlined: boolean;
     github?: { owner: string; ownerName: string | null; ownerUrl: string; avatar: string | null; stars: number; starsAt: string } | null;

@@ -368,3 +368,9 @@ html { overflow-x: clip; }
 /* Matrix rows of skills in the compare list */
 .matrix tbody tr.in-compare th, .matrix tbody tr.in-compare td { background: #f1f5fe; }
 .matrix tbody tr.in-compare th { box-shadow: inset 3px 0 0 #3b6fd8; }
+/* Multi-stage, human-in-the-loop skills: matrix badge and skill-page notice */
+.tag-workflow { background: #eef3fd; color: #2a55b5; text-decoration: none; }
+.tag-workflow:hover { text-decoration: underline; }
+.workflow-note { margin: 0 0 12px; padding: 10px 12px; border: 1px solid #c9d8f6; border-left: 3px solid #3b6fd8; border-radius: 8px; background: #f3f7fe; color: var(--ink); font-size: 13px; line-height: 1.55; }
+.workflow-note a { color: #2a55b5; }
+h2[id] { scroll-margin-top: 84px; }

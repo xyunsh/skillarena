@@ -194,6 +194,9 @@
   license: MIT
   homepage: https://github.com/bencium/bencium-marketplace/tree/main/bencium-innovative-ux-designer/skills/bencium-innovative-ux-designer
   installName: bencium-innovative-ux-designer
+  # Pointed out by the author (2026-11-12): a staged process, not a one-shot page generator.
+  workflow: Ten typography-led HTML design directions (A–J) for a person to judge by eye, an explicit choice to
+    lock one, then production work built from the locked direction.
   # Install methods from the author's README (they install the latest version, not the pinned commit).
   install:
     - label: skills.sh CLI

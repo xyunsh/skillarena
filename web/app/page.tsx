@@ -144,6 +144,11 @@ export default function Home() {
                                                 <div className="skill-meta">
                                                     <Stars skill={s} />
                                                     {s.featured && <span className="tag tag-featured">Featured</span>}
+                                                    {s.workflow && (
+                                                        <a className="tag tag-workflow" href={`/skill/${s.id}/`} title="A multi-stage, human-in-the-loop workflow: these single-pass pages do not test its intended process">
+                                                            Multi-stage
+                                                        </a>
+                                                    )}
                                                     <a className="install-link" href={`/skill/${s.id}/#install`}>
                                                         <svg width="11" height="11" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
                                                             <path fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" d="M8 2v8m-3.5-3.5L8 10l3.5-3.5M3 13.5h10" />

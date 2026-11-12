@@ -134,6 +134,12 @@ export default async function SkillPage({ params }: Params) {
                         )}
                     </h1>
                     {skill.isBaseline ? <p className="muted">{ui['skill.baselineNote']}</p> : skill.description && <p className="muted">{skill.description}</p>}
+                    {skill.workflow && (
+                        <div className="workflow-note" role="note">
+                            <strong>Multi-stage, human-in-the-loop skill.</strong> Its intended process: {skill.workflow} SkillArena gives every skill one call for one complete page, so the
+                            results here show how its instructions shape a single-pass page. They do not test the workflow it was designed for. <a href="/about/#multi-stage">More on this</a>
+                        </div>
+                    )}
                     {!skill.isBaseline && <p className="note">{ui['skill.disclaimer']}</p>}
                 </div>
                 <dl className="facts">

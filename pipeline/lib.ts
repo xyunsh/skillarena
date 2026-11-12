@@ -30,6 +30,11 @@ export interface SkillEntry {
   installName?: string;
   /** One line on how the skill is triggered, if it is not picked up automatically. */
   usage?: string;
+  /**
+   * Set for multi-stage, human-in-the-loop skills (several rounds, a person choosing between them): one line on the
+   * intended process. SkillArena makes one call for one page, which skips that process; the site says so.
+   */
+  workflow?: string;
   /** Commit whose scan findings (npm run scan) a person has read and accepted; generate refuses unreviewed high findings. */
   scanReviewed?: string;
   /** Install methods from the skill's own README. */

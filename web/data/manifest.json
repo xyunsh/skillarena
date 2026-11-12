@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-11-10T17:21:13.264Z",
+  "builtAt": "2026-11-12T13:59:13.049Z",
   "lastGeneratedAt": "2026-11-08T14:41:24.193Z",
   "models": [
     "claude-opus-5-5"
@@ -52,6 +52,7 @@
       "path": null,
       "installName": null,
       "usage": null,
+      "workflow": null,
       "install": [],
       "referencesInlined": false,
       "github": null,
@@ -69,6 +70,7 @@
       "path": "skills/frontend-design",
       "installName": "frontend-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "Claude Code plugin marketplace",
@@ -99,6 +101,7 @@
       "path": "skills/baseline-ui",
       "installName": "baseline-ui",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "ui-skills CLI",
@@ -129,6 +132,7 @@
       "path": ".claude/skills/interface-design",
       "installName": "interface-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI (recommended by the author)",
@@ -164,6 +168,7 @@
       "path": "skills/web",
       "installName": "web-design-guidelines",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -194,6 +199,7 @@
       "path": "skills/brutalist-skill",
       "installName": "industrial-brutalist-ui",
       "usage": "Opt-in — Claude Code only uses it when you call it by name, e.g. /industrial-brutalist-ui.",
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -229,6 +235,7 @@
       "path": "skills/minimalist-skill",
       "installName": "minimalist-ui",
       "usage": "Opt-in — Claude Code only uses it when you call it by name, e.g. /minimalist-ui.",
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -264,6 +271,7 @@
       "path": "skills/soft-skill",
       "installName": "high-end-visual-design",
       "usage": "Opt-in — Claude Code only uses it when you call it by name, e.g. /high-end-visual-design.",
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -299,6 +307,7 @@
       "path": "skills/better-ui",
       "installName": "better-ui",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -334,6 +343,7 @@
       "path": "skills/better-typography",
       "installName": "better-typography",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -369,6 +379,7 @@
       "path": "bencium-innovative-ux-designer/skills/bencium-innovative-ux-designer",
       "installName": "bencium-innovative-ux-designer",
       "usage": null,
+      "workflow": "Ten typography-led HTML design directions (A–J) for a person to judge by eye, an explicit choice to lock one, then production work built from the locked direction.",
       "install": [
         {
           "label": "skills.sh CLI",
@@ -404,6 +415,7 @@
       "path": "plugins/ui-design/skills/interaction-design",
       "installName": "interaction-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -439,6 +451,7 @@
       "path": "skills/frontend-ui-engineering",
       "installName": "frontend-ui-engineering",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -474,6 +487,7 @@
       "path": "skills/emil-design-eng",
       "installName": "emil-design-eng",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -504,6 +518,7 @@
       "path": "skills/apple-design",
       "installName": "apple-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -534,6 +549,7 @@
       "path": "skills/animate",
       "installName": "animate",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -564,6 +580,7 @@
       "path": "agent-skills/web-design/landing-page",
       "installName": "landing-page",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -594,6 +611,7 @@
       "path": "skills/humane-functionalism",
       "installName": "humane-functionalism",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -624,6 +642,7 @@
       "path": "skills/canvas-design",
       "installName": "canvas-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -654,6 +673,7 @@
       "path": ".claude/skills/banner-design",
       "installName": "banner-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -684,6 +704,7 @@
       "path": "skills/animation-performance",
       "installName": "animation-performance",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -714,6 +735,7 @@
       "path": "skills/mobile-native",
       "installName": "mobile-native",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -744,6 +766,7 @@
       "path": "skills/prototype",
       "installName": "prototype",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -774,6 +797,7 @@
       "path": "skills/pick-ui-library",
       "installName": "pick-ui-library",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -804,6 +828,7 @@
       "path": "skills/remove-animations",
       "installName": "remove-animations",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -834,6 +859,7 @@
       "path": "skills/break-ui",
       "installName": "break-ui",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -864,6 +890,7 @@
       "path": "skills/daisyui",
       "installName": "daisyui",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -894,6 +921,7 @@
       "path": "skills/gsap-core",
       "installName": "gsap-core",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -924,6 +952,7 @@
       "path": "skills/gsap-scrolltrigger",
       "installName": "gsap-scrolltrigger",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -954,6 +983,7 @@
       "path": "skills/gsap-plugins",
       "installName": "gsap-plugins",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -984,6 +1014,7 @@
       "path": "skills/gsap-timeline",
       "installName": "gsap-timeline",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1014,6 +1045,7 @@
       "path": "skills/gsap-performance",
       "installName": "gsap-performance",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1044,6 +1076,7 @@
       "path": "skills/landing-page-design",
       "installName": "landing-page-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1074,6 +1107,7 @@
       "path": "skills/better-layout",
       "installName": "better-layout",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1104,6 +1138,7 @@
       "path": "skills/better-writing",
       "installName": "better-writing",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1134,6 +1169,7 @@
       "path": "skills/variant",
       "installName": "variant",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1164,6 +1200,7 @@
       "path": "skills/fixing-accessibility",
       "installName": "fixing-accessibility",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1194,6 +1231,7 @@
       "path": "skills/fixing-motion-performance",
       "installName": "fixing-motion-performance",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1224,6 +1262,7 @@
       "path": "skills/fixing-metadata",
       "installName": "fixing-metadata",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1254,6 +1293,7 @@
       "path": "agent-skills/ui/no-ai-design-slop",
       "installName": "no-ai-design-slop",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1284,6 +1324,7 @@
       "path": "agent-skills/web-design/build-awwwards-quality-sites",
       "installName": "build-awwwards-quality-sites",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1314,6 +1355,7 @@
       "path": "agent-skills/ui/design-first-ui-prompting",
       "installName": "design-first-ui-prompting",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1344,6 +1386,7 @@
       "path": "agent-skills/web-design/product-proof-saas",
       "installName": "product-proof-saas",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1374,6 +1417,7 @@
       "path": "agent-skills/web-design/pricing-page",
       "installName": "pricing-page",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1404,6 +1448,7 @@
       "path": "agent-skills/web-design/editorial-tech",
       "installName": "editorial-tech",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1434,6 +1479,7 @@
       "path": "agent-skills/web-design/agency-grid-layout-minimal",
       "installName": "agency-grid-layout-minimal",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1464,6 +1510,7 @@
       "path": "agent-skills/web-design/beautiful-shadows",
       "installName": "beautiful-shadows",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1494,6 +1541,7 @@
       "path": "agent-skills/web-design/cinematic-scroll-storytelling",
       "installName": "cinematic-scroll-storytelling",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1524,6 +1572,7 @@
       "path": "agent-skills/web-design/orange-clean-paper-saas",
       "installName": "orange-clean-paper-saas",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1554,6 +1603,7 @@
       "path": "agent-skills/web-design/skeuomorphic-ui",
       "installName": "skeuomorphic-ui",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1584,6 +1634,7 @@
       "path": "agent-skills/web-design/glass-dark-ui",
       "installName": "glass-dark-ui",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1614,6 +1665,7 @@
       "path": "agent-skills/web-design/cinematic-gsap-lenis-motion-system",
       "installName": "cinematic-gsap-lenis-motion-system",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1644,6 +1696,7 @@
       "path": "agent-skills/web-design/tailwindcss",
       "installName": "tailwindcss",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1674,6 +1727,7 @@
       "path": "skills/accessibility",
       "installName": "accessibility",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1704,6 +1758,7 @@
       "path": "skills/performance",
       "installName": "performance",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1734,6 +1789,7 @@
       "path": "skills/prefer-container-queries",
       "installName": "prefer-container-queries",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1764,6 +1820,7 @@
       "path": "skills/antfu-design",
       "installName": "antfu-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1794,6 +1851,7 @@
       "path": "skills/micro-interaction",
       "installName": "micro-interaction",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1824,6 +1882,7 @@
       "path": "skills/page-transition-animation",
       "installName": "page-transition-animation",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1854,6 +1913,7 @@
       "path": "skills/glassmorphism",
       "installName": "glassmorphism",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1884,6 +1944,7 @@
       "path": "skills/accessible-animation",
       "installName": "accessible-animation",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1914,6 +1975,7 @@
       "path": "skills/design-engineering",
       "installName": "design-engineering",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1944,6 +2006,7 @@
       "path": "skills/modern-css-html",
       "installName": "modern-css-html",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -1974,6 +2037,7 @@
       "path": "skills/fluid-design",
       "installName": "fluid-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2004,6 +2068,7 @@
       "path": "skills/real-content-design",
       "installName": "real-content-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2034,6 +2099,7 @@
       "path": "skills/interface-affordances",
       "installName": "interface-affordances",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2064,6 +2130,7 @@
       "path": "skills/interaction-contracts",
       "installName": "interaction-contracts",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2094,6 +2161,7 @@
       "path": "skills/balise-ux-writing",
       "installName": "balise-ux-writing",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2124,6 +2192,7 @@
       "path": "skills/choreograph",
       "installName": "choreograph",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2154,6 +2223,7 @@
       "path": "plugins/accessibility-compliance/skills/wcag-audit-patterns",
       "installName": "wcag-audit-patterns",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2184,6 +2254,7 @@
       "path": "skills/best-practices",
       "installName": "best-practices",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2214,6 +2285,7 @@
       "path": "skills/core-web-vitals",
       "installName": "core-web-vitals",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2244,6 +2316,7 @@
       "path": "skills/seo",
       "installName": "seo",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2274,6 +2347,7 @@
       "path": ".claude/skills/smooth-shadow-ring",
       "installName": "smooth-shadow-ring",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2304,6 +2378,7 @@
       "path": "skills/webgl-components",
       "installName": "webgl-components",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2334,6 +2409,7 @@
       "path": "skills/svg-animation",
       "installName": "svg-animation",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2364,6 +2440,7 @@
       "path": "skills/60fps-animation",
       "installName": "60fps-animation",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2394,6 +2471,7 @@
       "path": "skills/semantic-html-first",
       "installName": "semantic-html-first",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2424,6 +2502,7 @@
       "path": "skills/subtractive-design",
       "installName": "subtractive-design",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2454,6 +2533,7 @@
       "path": "skills/interactive-hit-areas",
       "installName": "interactive-hit-areas",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2484,6 +2564,7 @@
       "path": "apps/docs/skill/build-primitive",
       "installName": "build-primitive",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2514,6 +2595,7 @@
       "path": "agent-skills/web-design/animation-on-scroll",
       "installName": "animation-on-scroll",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2544,6 +2626,7 @@
       "path": "agent-skills/web-design/animation-systems",
       "installName": "animation-systems",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2574,6 +2657,7 @@
       "path": "agent-skills/web-design/blue-cloudy-clean-modern",
       "installName": "blue-cloudy-clean-modern",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2604,6 +2688,7 @@
       "path": "agent-skills/web-design/clean-minimal-beige-light-mode",
       "installName": "clean-minimal-beige-light-mode",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2634,6 +2719,7 @@
       "path": "agent-skills/web-design/dark-blue-contrasting-clean",
       "installName": "dark-blue-contrasting-clean",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2664,6 +2750,7 @@
       "path": "agent-skills/web-design/editorial-portfolio-chapters",
       "installName": "editorial-portfolio-chapters",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2694,6 +2781,7 @@
       "path": "agent-skills/web-design/light-mode-paper-technical",
       "installName": "light-mode-paper-technical",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2724,6 +2812,7 @@
       "path": "agent-skills/web-design/operational-enterprise-ai",
       "installName": "operational-enterprise-ai",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2754,6 +2843,7 @@
       "path": "agent-skills/web-design/atmosphere-background",
       "installName": "atmosphere-background",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2784,6 +2874,7 @@
       "path": "agent-skills/web-design/background-grid-webgl",
       "installName": "background-grid-webgl",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2814,6 +2905,7 @@
       "path": "agent-skills/web-design/blue-laser-clean-glass-layout",
       "installName": "blue-laser-clean-glass-layout",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2844,6 +2936,7 @@
       "path": "agent-skills/web-design/book-serif-index",
       "installName": "book-serif-index",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2874,6 +2967,7 @@
       "path": "agent-skills/web-design/bright-green-tech-system-webgl",
       "installName": "bright-green-tech-system-webgl",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2904,6 +2998,7 @@
       "path": "agent-skills/web-design/css-border-gradient",
       "installName": "css-border-gradient",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2934,6 +3029,7 @@
       "path": "agent-skills/web-design/dark-glass-clean-layout",
       "installName": "dark-glass-clean-layout",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2964,6 +3060,7 @@
       "path": "agent-skills/web-design/dither-laser-dark-mode",
       "installName": "dither-laser-dark-mode",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -2994,6 +3091,7 @@
       "path": "agent-skills/web-design/documentary-brutalist-agency",
       "installName": "documentary-brutalist-agency",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3024,6 +3122,7 @@
       "path": "agent-skills/web-design/editorial-service-booking",
       "installName": "editorial-service-booking",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3054,6 +3153,7 @@
       "path": "agent-skills/web-design/framed-grid-layout",
       "installName": "framed-grid-layout",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3084,6 +3184,7 @@
       "path": "agent-skills/web-design/framed-tech-dark-border-gradient",
       "installName": "framed-tech-dark-border-gradient",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3114,6 +3215,7 @@
       "path": "agent-skills/web-design/funky-purple-container-tech",
       "installName": "funky-purple-container-tech",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3144,6 +3246,7 @@
       "path": "agent-skills/web-design/glass-dark-mode-clock",
       "installName": "glass-dark-mode-clock",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3174,6 +3277,7 @@
       "path": "agent-skills/web-design/high-contrast-skeuomorphic-clean",
       "installName": "high-contrast-skeuomorphic-clean",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3204,6 +3308,7 @@
       "path": "agent-skills/web-design/horizontal-scroll-scenes",
       "installName": "horizontal-scroll-scenes",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3234,6 +3339,7 @@
       "path": "agent-skills/web-design/image-first-grid-layout",
       "installName": "image-first-grid-layout",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3264,6 +3370,7 @@
       "path": "agent-skills/web-design/masked-reveal",
       "installName": "masked-reveal",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3294,6 +3401,7 @@
       "path": "agent-skills/web-design/mesh-gradient-dark-blue-clean",
       "installName": "mesh-gradient-dark-blue-clean",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3324,6 +3432,7 @@
       "path": "agent-skills/web-design/nested-container-clean-agency",
       "installName": "nested-container-clean-agency",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3354,6 +3463,7 @@
       "path": "agent-skills/web-design/progressive-blur",
       "installName": "progressive-blur",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3384,6 +3494,7 @@
       "path": "agent-skills/web-design/scroll-scrubbed-word-reveal",
       "installName": "scroll-scrubbed-word-reveal",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3414,6 +3525,7 @@
       "path": "agent-skills/web-design/split-layout-technical",
       "installName": "split-layout-technical",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3444,6 +3556,7 @@
       "path": "agent-skills/web-design/staggered-word-reveal",
       "installName": "staggered-word-reveal",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3474,6 +3587,7 @@
       "path": "agent-skills/web-design/tech-green-dark-mode-modern",
       "installName": "tech-green-dark-mode-modern",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3504,6 +3618,7 @@
       "path": "agent-skills/web-design/technical-wireframe-info-layout",
       "installName": "technical-wireframe-info-layout",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3534,6 +3649,7 @@
       "path": "agent-skills/web-design/gooey-blob-system",
       "installName": "gooey-blob-system",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3564,6 +3680,7 @@
       "path": "agent-skills/web-design/gsap-scrolltrigger-storytelling",
       "installName": "gsap-scrolltrigger-storytelling",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",
@@ -3594,6 +3711,7 @@
       "path": "agent-skills/web-design/webgl-landing-steering",
       "installName": "webgl-landing-steering",
       "usage": null,
+      "workflow": null,
       "install": [
         {
           "label": "skills.sh CLI",

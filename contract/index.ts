@@ -127,6 +127,8 @@ export const SkillRow = z.object({
     homepage: z.string().nullable(),
     installName: z.string().nullable(),
     usage: z.string().nullable(),
+    /** Multi-stage, human-in-the-loop skill: its intended process, which a single-call result does not test. */
+    workflow: z.string().nullable().optional(),
     install: z.array(InstallMethod),
     referencesInlined: z.boolean(),
     /** The repo on GitHub (yarn github-meta): owner login and name, avatar served by the site, stars when fetched. */
