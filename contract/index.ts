@@ -37,7 +37,7 @@ export const ApiErrorResponse = z.object({ ok: z.literal(false), error: z.enum(A
 // ---- POST /hit -------------------------------------------------------------------------------------------
 
 /** Events the beacon may send. Anything else is ignored (204). */
-export const HIT_EVENTS = ['view', 'copy_install', 'outbound', 'waitlist_signup', 'try_request', 'compare', 'live_open'] as const;
+export const HIT_EVENTS = ['view', 'copy_install', 'outbound', 'waitlist_signup', 'try_request', 'compare', 'live_open', 'compare_add'] as const;
 /** Beacon body. Always answered with 204 (also when ignored: bots, bad JSON, rate limit, unknown event). */
 export const HitBody = z.object({
     e: z.enum(HIT_EVENTS).default('view'),
