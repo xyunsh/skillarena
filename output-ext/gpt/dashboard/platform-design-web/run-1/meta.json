@@ -1,0 +1,19 @@
+{
+  "briefId": "dashboard",
+  "skillId": "platform-design-web",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T12:40:53.470Z",
+  "inputTokens": 27287,
+  "outputTokens": 10281,
+  "costUsd": 0,
+  "durationMs": 261728,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

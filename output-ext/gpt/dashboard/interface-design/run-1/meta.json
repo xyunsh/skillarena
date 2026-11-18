@@ -1,0 +1,19 @@
+{
+  "briefId": "dashboard",
+  "skillId": "interface-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T12:37:24.266Z",
+  "inputTokens": 23478,
+  "outputTokens": 11250,
+  "costUsd": 0,
+  "durationMs": 286065,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

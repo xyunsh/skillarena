@@ -1,0 +1,19 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "anthropic-frontend-design",
+  "run": 3,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "ca45fc496a3436251f191354091d557da31c15b5",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T12:31:55.971Z",
+  "inputTokens": 0,
+  "outputTokens": 0,
+  "costUsd": 0,
+  "durationMs": 188816,
+  "status": "failed",
+  "error": "codex exit null: alling_back\n2026-11-18T12:28:47.656041Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/\n2026-11-18T12:28:47.656059Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/\n",
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

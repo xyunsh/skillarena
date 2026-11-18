@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "interface-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T12:44:35.066Z",
+  "inputTokens": 23482,
+  "outputTokens": 8990,
+  "costUsd": 0,
+  "durationMs": 229042,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

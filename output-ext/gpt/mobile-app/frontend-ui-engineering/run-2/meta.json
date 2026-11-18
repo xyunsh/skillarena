@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "frontend-ui-engineering",
+  "run": 2,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T12:24:51.586Z",
+  "inputTokens": 19598,
+  "outputTokens": 7121,
+  "costUsd": 0,
+  "durationMs": 182087,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

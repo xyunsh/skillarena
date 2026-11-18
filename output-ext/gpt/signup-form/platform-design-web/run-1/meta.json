@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "platform-design-web",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "dc2be825d8b439caea78e9eaa8fb3ac23b0ff3e9",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T12:43:49.634Z",
+  "inputTokens": 27291,
+  "outputTokens": 6844,
+  "costUsd": 0,
+  "durationMs": 176163,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

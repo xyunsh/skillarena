@@ -1,0 +1,19 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "frontend-ui-engineering",
+  "run": 3,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T12:31:55.970Z",
+  "inputTokens": 0,
+  "outputTokens": 0,
+  "costUsd": 0,
+  "durationMs": 38176,
+  "status": "failed",
+  "error": "codex exit null:  under plugin assets/\n2026-11-18T12:31:18.490536Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/\n2026-11-18T12:31:18.525236Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\n",
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

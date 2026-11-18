@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "frontend-ui-engineering",
+  "run": 3,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "301b02b12bff98e4688e6984af6556802322bbde",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T12:30:17.877Z",
+  "inputTokens": 19593,
+  "outputTokens": 6654,
+  "costUsd": 0,
+  "durationMs": 170841,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}
