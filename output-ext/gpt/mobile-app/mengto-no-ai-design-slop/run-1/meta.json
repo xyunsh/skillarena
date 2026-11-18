@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-no-ai-design-slop",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T16:59:23.872Z",
+  "inputTokens": 21656,
+  "outputTokens": 8411,
+  "costUsd": 0,
+  "durationMs": 215133,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

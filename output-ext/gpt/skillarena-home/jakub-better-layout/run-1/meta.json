@@ -1,0 +1,19 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "jakub-better-layout",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-18T00:24:20.632Z",
+  "inputTokens": 21213,
+  "outputTokens": 6514,
+  "costUsd": 0,
+  "durationMs": 168940,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

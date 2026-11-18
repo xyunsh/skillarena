@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "emil-animate",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-09T14:59:03.959Z",
+  "inputTokens": 21698,
+  "outputTokens": 10119,
+  "costUsd": 0,
+  "durationMs": 207170,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

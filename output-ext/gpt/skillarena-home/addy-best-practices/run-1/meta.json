@@ -1,0 +1,19 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "addy-best-practices",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-18T00:34:25.359Z",
+  "inputTokens": 21419,
+  "outputTokens": 9632,
+  "costUsd": 0,
+  "durationMs": 247267,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

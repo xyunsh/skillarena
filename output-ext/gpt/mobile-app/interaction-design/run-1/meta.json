@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "interaction-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T13:02:40.888Z",
+  "inputTokens": 18779,
+  "outputTokens": 8263,
+  "costUsd": 0,
+  "durationMs": 212058,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

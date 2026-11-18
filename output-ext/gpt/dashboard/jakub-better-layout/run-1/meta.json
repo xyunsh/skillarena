@@ -1,0 +1,19 @@
+{
+  "briefId": "dashboard",
+  "skillId": "jakub-better-layout",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T12:47:42.115Z",
+  "inputTokens": 21156,
+  "outputTokens": 9170,
+  "costUsd": 0,
+  "durationMs": 235162,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "mengto-glass-dark-ui",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T12:22:58.261Z",
+  "inputTokens": 17711,
+  "outputTokens": 9934,
+  "costUsd": 0,
+  "durationMs": 258581,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

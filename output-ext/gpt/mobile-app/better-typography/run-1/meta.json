@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "better-typography",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T13:02:07.463Z",
+  "inputTokens": 24234,
+  "outputTokens": 8861,
+  "costUsd": 0,
+  "durationMs": 226073,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

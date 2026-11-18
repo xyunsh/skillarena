@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "emil-design-eng",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T16:48:51.508Z",
+  "inputTokens": 22927,
+  "outputTokens": 8318,
+  "costUsd": 0,
+  "durationMs": 215252,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

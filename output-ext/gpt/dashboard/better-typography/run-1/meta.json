@@ -1,0 +1,19 @@
+{
+  "briefId": "dashboard",
+  "skillId": "better-typography",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T12:33:47.941Z",
+  "inputTokens": 24225,
+  "outputTokens": 10741,
+  "costUsd": 0,
+  "durationMs": 273226,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

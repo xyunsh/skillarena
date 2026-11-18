@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "anthropic-frontend-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "ca45fc496a3436251f191354091d557da31c15b5",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T17:43:23.590Z",
+  "inputTokens": 18658,
+  "outputTokens": 7222,
+  "costUsd": 0,
+  "durationMs": 185301,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

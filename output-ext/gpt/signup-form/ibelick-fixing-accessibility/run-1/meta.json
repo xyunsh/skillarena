@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "ibelick-fixing-accessibility",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T19:36:18.153Z",
+  "inputTokens": 17816,
+  "outputTokens": 6533,
+  "costUsd": 0,
+  "durationMs": 170931,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "baseline",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": null,
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T12:56:02.559Z",
+  "inputTokens": 16771,
+  "outputTokens": 6761,
+  "costUsd": 0,
+  "durationMs": 173917,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "elaya-landing-page-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T16:56:36.721Z",
+  "inputTokens": 22389,
+  "outputTokens": 10474,
+  "costUsd": 0,
+  "durationMs": 267048,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

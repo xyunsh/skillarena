@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "mengto-pricing-page",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T17:37:49.370Z",
+  "inputTokens": 18205,
+  "outputTokens": 8798,
+  "costUsd": 0,
+  "durationMs": 225195,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

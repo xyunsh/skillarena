@@ -1,0 +1,19 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "gsap-scrolltrigger",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T00:23:52.726Z",
+  "inputTokens": 20781,
+  "outputTokens": 8332,
+  "costUsd": 0,
+  "durationMs": 215572,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

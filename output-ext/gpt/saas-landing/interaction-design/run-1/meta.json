@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "interaction-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-09T14:53:27.868Z",
+  "inputTokens": 18780,
+  "outputTokens": 9312,
+  "costUsd": 0,
+  "durationMs": 191618,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

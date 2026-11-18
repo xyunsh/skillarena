@@ -1,0 +1,19 @@
+{
+  "briefId": "dashboard",
+  "skillId": "baseline",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": null,
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T12:27:22.709Z",
+  "inputTokens": 16762,
+  "outputTokens": 9458,
+  "costUsd": 0,
+  "durationMs": 242215,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

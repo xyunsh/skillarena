@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "gsap-scrolltrigger",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T12:10:43.801Z",
+  "inputTokens": 21255,
+  "outputTokens": 8577,
+  "costUsd": 0,
+  "durationMs": 219927,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

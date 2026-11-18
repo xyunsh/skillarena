@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "addy-best-practices",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T19:42:26.239Z",
+  "inputTokens": 21383,
+  "outputTokens": 7002,
+  "costUsd": 0,
+  "durationMs": 180464,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

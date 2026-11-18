@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "jakub-better-layout",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T19:35:53.403Z",
+  "inputTokens": 20649,
+  "outputTokens": 6552,
+  "costUsd": 0,
+  "durationMs": 168408,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

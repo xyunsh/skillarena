@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "apple-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T19:29:33.331Z",
+  "inputTokens": 21929,
+  "outputTokens": 6327,
+  "costUsd": 0,
+  "durationMs": 164149,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

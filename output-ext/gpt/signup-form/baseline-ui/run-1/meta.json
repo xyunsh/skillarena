@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "baseline-ui",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T17:43:46.210Z",
+  "inputTokens": 17528,
+  "outputTokens": 8075,
+  "costUsd": 0,
+  "durationMs": 207918,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

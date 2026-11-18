@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "baseline",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": null,
+  "referencesInlined": false,
+  "generatedAt": "2026-11-09T14:49:04.573Z",
+  "inputTokens": 16772,
+  "outputTokens": 5215,
+  "costUsd": 0,
+  "durationMs": 109529,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

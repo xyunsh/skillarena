@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "anthropic-frontend-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "ca45fc496a3436251f191354091d557da31c15b5",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T12:58:21.388Z",
+  "inputTokens": 18663,
+  "outputTokens": 7767,
+  "costUsd": 0,
+  "durationMs": 199331,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

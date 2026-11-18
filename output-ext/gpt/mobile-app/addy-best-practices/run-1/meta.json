@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "addy-best-practices",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T17:40:17.414Z",
+  "inputTokens": 21373,
+  "outputTokens": 7817,
+  "costUsd": 0,
+  "durationMs": 200181,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "addy-best-practices",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T12:26:19.490Z",
+  "inputTokens": 21373,
+  "outputTokens": 7861,
+  "costUsd": 0,
+  "durationMs": 201226,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

@@ -1,0 +1,19 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "wshobson-wcag-audit-patterns",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-18T00:30:48.157Z",
+  "inputTokens": 19615,
+  "outputTokens": 8410,
+  "costUsd": 0,
+  "durationMs": 218344,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

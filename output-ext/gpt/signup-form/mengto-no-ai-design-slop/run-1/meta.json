@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "mengto-no-ai-design-slop",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T19:38:13.977Z",
+  "inputTokens": 21662,
+  "outputTokens": 5309,
+  "costUsd": 0,
+  "durationMs": 140571,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

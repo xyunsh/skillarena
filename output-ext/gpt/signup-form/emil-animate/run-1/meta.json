@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "emil-animate",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T19:30:32.562Z",
+  "inputTokens": 21703,
+  "outputTokens": 8721,
+  "costUsd": 0,
+  "durationMs": 223377,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

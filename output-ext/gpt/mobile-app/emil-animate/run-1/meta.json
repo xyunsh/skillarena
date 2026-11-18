@@ -1,0 +1,19 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "emil-animate",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T16:49:21.268Z",
+  "inputTokens": 21697,
+  "outputTokens": 9552,
+  "costUsd": 0,
+  "durationMs": 245008,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

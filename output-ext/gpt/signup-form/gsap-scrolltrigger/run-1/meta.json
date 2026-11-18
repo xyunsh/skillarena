@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "gsap-scrolltrigger",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T19:33:04.992Z",
+  "inputTokens": 21261,
+  "outputTokens": 5839,
+  "costUsd": 0,
+  "durationMs": 150478,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

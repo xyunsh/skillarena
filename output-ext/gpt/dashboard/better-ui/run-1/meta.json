@@ -1,0 +1,19 @@
+{
+  "briefId": "dashboard",
+  "skillId": "better-ui",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T12:31:58.032Z",
+  "inputTokens": 24866,
+  "outputTokens": 10820,
+  "costUsd": 0,
+  "durationMs": 275320,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

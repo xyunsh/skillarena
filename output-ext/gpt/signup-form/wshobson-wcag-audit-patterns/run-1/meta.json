@@ -1,0 +1,19 @@
+{
+  "briefId": "signup-form",
+  "skillId": "wshobson-wcag-audit-patterns",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-17T19:40:35.664Z",
+  "inputTokens": 20101,
+  "outputTokens": 5435,
+  "costUsd": 0,
+  "durationMs": 141685,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

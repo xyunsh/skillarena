@@ -1,0 +1,19 @@
+{
+  "briefId": "dashboard",
+  "skillId": "ibelick-fixing-accessibility",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "00db7d656719c399c091f3ea138c6f42a7fa4d98",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T12:47:45.818Z",
+  "inputTokens": 17801,
+  "outputTokens": 9241,
+  "costUsd": 0,
+  "durationMs": 235967,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

@@ -1,0 +1,19 @@
+{
+  "briefId": "dashboard",
+  "skillId": "gsap-scrolltrigger",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T12:43:46.951Z",
+  "inputTokens": 21246,
+  "outputTokens": 9857,
+  "costUsd": 0,
+  "durationMs": 252769,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

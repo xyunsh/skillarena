@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "anthropic-frontend-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "ca45fc496a3436251f191354091d557da31c15b5",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-09T14:50:16.248Z",
+  "inputTokens": 18664,
+  "outputTokens": 8815,
+  "costUsd": 0,
+  "durationMs": 181202,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

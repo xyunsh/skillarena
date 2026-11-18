@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "apple-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-09T14:56:27.714Z",
+  "inputTokens": 21402,
+  "outputTokens": 8744,
+  "costUsd": 0,
+  "durationMs": 179844,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

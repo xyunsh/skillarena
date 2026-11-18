@@ -1,0 +1,19 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "anthropic-frontend-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "ca45fc496a3436251f191354091d557da31c15b5",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T19:46:08.099Z",
+  "inputTokens": 18707,
+  "outputTokens": 8592,
+  "costUsd": 0,
+  "durationMs": 220954,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}

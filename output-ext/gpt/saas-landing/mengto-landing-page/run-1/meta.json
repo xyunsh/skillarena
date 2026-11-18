@@ -1,0 +1,19 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "mengto-landing-page",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-17T12:11:13.627Z",
+  "inputTokens": 18101,
+  "outputTokens": 9777,
+  "costUsd": 0,
+  "durationMs": 249757,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true
+}
