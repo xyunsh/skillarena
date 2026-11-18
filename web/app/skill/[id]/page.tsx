@@ -4,7 +4,7 @@ import { JsonLd } from '~/components/JsonLd';
 import { Status } from '~/components/Status';
 import { ui } from '~/lib/copy';
 import {
-    asset, briefs, commitUrl, compareUrl, fmtDate, isMobileFirst, manifest, manualInstall, runsFor, shortSha, skillMdUrl, skills, sourceUrl, upstreamFor, type Run,
+    asset, briefs, commitUrl, compareUrl, extRunsFor, extSets, fmtDate, isMobileFirst, manifest, manualInstall, runsFor, shortSha, skillMdUrl, skills, sourceUrl, upstreamFor, type Run,
 } from '~/lib/data';
 import { abs, meta } from '~/lib/seo';
 
@@ -407,6 +407,54 @@ export default async function SkillPage({ params }: Params) {
                                 </figure>
                             ))}
                         </div>
+                        {extSets.map((x) => {
+                            const xr = extRunsFor(x.id, b.id, skill.id);
+                            if (!xr.length) return null;
+                            return (
+                                <div key={x.id} className="ext-runs" id={`${x.id}-${b.id}`}>
+                                    <h3 className="ext-runs-head">
+                                        <span className="model-tag">{x.label}</span>
+                                        <span className="small muted">
+                                            Same brief and prompt, generated with <code>{x.model}</code> · {xr.length} run{xr.length > 1 ? 's' : ''}.{' '}
+                                            <a href="/about/#other-models">How</a>
+                                        </span>
+                                    </h3>
+                                    <div className="runs">
+                                        {xr.map((r) => (
+                                            <figure key={r.run} className="shot">
+                                                {r.hasShots ? (
+                                                    <>
+                                                        <div className="shot-img v-desktop">
+                                                            <img src={asset(r, 'desktop.webp')} alt={`${displayName} (${x.label}) — ${b.title}, run ${r.run}, desktop`} width={1440} height={900} loading="lazy" decoding="async" />
+                                                        </div>
+                                                        <div className="shot-img m v-mobile">
+                                                            <img src={asset(r, 'mobile.webp')} alt={`${displayName} (${x.label}) — ${b.title}, run ${r.run}, mobile`} width={390} height={844} loading="lazy" decoding="async" />
+                                                        </div>
+                                                    </>
+                                                ) : (
+                                                    <Status run={r} />
+                                                )}
+                                                <figcaption>
+                                                    <span>
+                                                        {x.label} run {r.run}
+                                                    </span>
+                                                    {r.hasShots && (
+                                                        <span className="actions">
+                                                            <a className="btn v-desktop" href={asset(r, 'desktop-full.webp')} target="_blank" rel="noopener" title={r.fullPageTruncated ? 'truncated at 8000px' : undefined}>
+                                                                {ui['action.full']}
+                                                            </a>
+                                                            <button type="button" className="btn" data-live-src={asset(r, 'index.html')} data-live-skill={skill.id} data-live-ext={x.id} data-live-brief={b.id} data-live-run={String(r.run)} data-live-name={`${displayName} · ${x.label}`}>
+                                                                {ui['action.open']}
+                                                            </button>
+                                                        </span>
+                                                    )}
+                                                </figcaption>
+                                            </figure>
+                                        ))}
+                                    </div>
+                                </div>
+                            );
+                        })}
                     </section>
                 );
             })}

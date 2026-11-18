@@ -6,7 +6,8 @@
  *
  * Env (.env): CLOUDFLARE_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET.
  * R2's S3 API needs an access key pair (R2 → Manage API tokens), not the Cloudflare API token.
- * Usage: npm run upload-assets [-- --skill a,b] [-- --brief x] [-- --dry-run] [-- --verify]
+ * Usage: npm run upload-assets [-- --skill a,b] [-- --brief x] [-- --ext gpt] [-- --dry-run] [-- --verify]
+ * --ext gpt uploads another model's results (output-ext/gpt/) to ext/gpt/<brief>/<skill>/run-N/<file>.
  *
  * Generated pages are untrusted: they are served from the asset domain, a different origin from the
  * site, and the site shows them only in sandboxed iframes. Also add a response header rule on the asset
@@ -17,7 +18,7 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { PUBLIC_FILES } from './build-manifest.ts';
-import { ROOT, listRunDirs, loadEnv, parseCli, pool, readMeta } from './lib.ts';
+import { ROOT, assetPrefix, listRunDirs, loadEnv, parseCli, pool, readMeta } from './lib.ts';
 
 const TYPES: Record<string, string> = { '.html': 'text/html; charset=utf-8', '.webp': 'image/webp', '.jpg': 'image/jpeg' };
 const STATE = path.join(ROOT, 'vendor', '.r2-uploaded.json');
@@ -40,12 +41,12 @@ const s3 = new S3Client({
 
 const state: Record<string, string> = fs.existsSync(STATE) ? JSON.parse(fs.readFileSync(STATE, 'utf8')) : {};
 const files: { key: string; file: string; sha: string }[] = [];
-for (const r of listRunDirs({ skills: cli.skills, briefs: cli.briefs })) {
+for (const r of listRunDirs({ skills: cli.skills, briefs: cli.briefs, ext: cli.ext })) {
   if (readMeta(r.dir)?.status !== 'ok') continue;
   for (const f of PUBLIC_FILES) {
     const file = path.join(r.dir, f);
     if (!fs.existsSync(file)) continue;
-    const key = `runs/${r.briefId}/${r.skillId}/run-${r.run}/${f}`;
+    const key = `${assetPrefix(cli.ext)}/${r.briefId}/${r.skillId}/run-${r.run}/${f}`;
     files.push({ key, file, sha: createHash('sha256').update(fs.readFileSync(file)).digest('hex') });
   }
 }

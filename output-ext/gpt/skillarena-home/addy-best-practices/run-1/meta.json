@@ -15,5 +15,14 @@
   "error": null,
   "stopReason": null,
   "backend": "codex-exec",
-  "costIsEstimate": true
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-18T01:06:08.738Z",
+    "fullPageHeight": 2029,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
 }

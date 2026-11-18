@@ -46,7 +46,7 @@ export function scanHtml(html: string): Finding[] {
 }
 
 const cli = parseCli();
-const runs = listRunDirs({ skills: cli.skills, briefs: cli.briefs }).filter((r) => fs.existsSync(path.join(r.dir, 'index.html')));
+const runs = listRunDirs({ skills: cli.skills, briefs: cli.briefs, ext: cli.ext }).filter((r) => fs.existsSync(path.join(r.dir, 'index.html')));
 type Agg = { runs: number; flagged: number; kinds: Map<string, Set<string>>; hostRuns: Map<string, number>; blocked: number };
 const per = new Map<string, Agg>();
 const hostSkills = new Map<string, Set<string>>();

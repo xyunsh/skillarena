@@ -116,7 +116,7 @@ async function shoot(browser: Browser, dir: string) {
 }
 
 export async function screenshot(cli: ReturnType<typeof parseCli>) {
-  const runs = listRunDirs({ skills: cli.skills, briefs: cli.briefs })
+  const runs = listRunDirs({ skills: cli.skills, briefs: cli.briefs, ext: cli.ext })
     .map((r) => ({ ...r, meta: readMeta(r.dir) }))
     .filter((r) => r.meta?.status === 'ok' && fs.existsSync(path.join(r.dir, 'index.html')))
     .filter((r) => cli.force || !r.meta!.screenshots || !fs.existsSync(path.join(r.dir, 'thumb-desktop.webp')));

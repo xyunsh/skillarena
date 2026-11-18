@@ -8,7 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { PUBLIC_FILES } from './build-manifest.ts';
-import { listRunDirs, loadEnv, parseCli, pool, readMeta } from './lib.ts';
+import { assetPrefix, listRunDirs, loadEnv, parseCli, pool, readMeta } from './lib.ts';
 
 loadEnv();
 const i = process.argv.indexOf('--base');
@@ -16,11 +16,11 @@ const base = (i > -1 ? process.argv[i + 1] : process.env.ASSET_BASE || 'https://
 const cli = parseCli();
 
 const jobs: { url: string; file: string }[] = [];
-for (const r of listRunDirs({ skills: cli.skills, briefs: cli.briefs })) {
+for (const r of listRunDirs({ skills: cli.skills, briefs: cli.briefs, ext: cli.ext })) {
   if (readMeta(r.dir)?.status !== 'ok') continue;
   for (const f of PUBLIC_FILES) {
     const file = path.join(r.dir, f);
-    if (!fs.existsSync(file)) jobs.push({ url: `${base}/runs/${r.briefId}/${r.skillId}/run-${r.run}/${f}`, file });
+    if (!fs.existsSync(file)) jobs.push({ url: `${base}/${assetPrefix(cli.ext)}/${r.briefId}/${r.skillId}/run-${r.run}/${f}`, file });
   }
 }
 console.log(`${jobs.length} file(s) to download from ${base}`);

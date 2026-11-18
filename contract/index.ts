@@ -154,6 +154,11 @@ export const Manifest = z.object({
     /** Live pages (config/live-briefs/): live[briefId][skillId] = runs in order. Not counted in totals. */
     live: z.record(z.string(), z.record(z.string(), z.array(Run))).optional(),
     liveTotals: z.object({ calls: z.number(), costUsd: z.number() }).optional(),
+    /**
+     * Another model's results (output-ext/<set>/, e.g. "gpt"): ext[set].runs[briefId][skillId] = runs in order.
+     * Shown as extra rows under the skill; not counted in totals or runsPerPair.
+     */
+    ext: z.record(z.string(), z.object({ models: z.array(z.string()), runs: z.record(z.string(), z.record(z.string(), z.array(Run))) })).optional(),
 });
 export type Manifest = z.infer<typeof Manifest>;
 

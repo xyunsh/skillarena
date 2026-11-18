@@ -144,13 +144,20 @@ export function writeMeta(dir: string, meta: RunMeta) {
   fs.writeFileSync(path.join(dir, 'meta.json'), JSON.stringify(meta, null, 2) + '\n');
 }
 
-/** Lists every existing run directory in output/, optionally filtered. */
-export function listRunDirs(filter: { skills?: string[]; briefs?: string[] } = {}) {
+/** Results from another model, made with external-jobs.ts: output-ext/<set>/<brief>/<skill>/run-N/. */
+export const OUTPUT_EXT_DIR = path.join(ROOT, 'output-ext');
+export const extSets = () => (fs.existsSync(OUTPUT_EXT_DIR) ? fs.readdirSync(OUTPUT_EXT_DIR).filter((d) => /^[a-z0-9-]+$/.test(d)).sort() : []);
+/** Where a run's public files live on the asset domain: runs/… for the main model, ext/<set>/… for another model. */
+export const assetPrefix = (ext?: string) => (ext ? `ext/${ext}` : 'runs');
+
+/** Lists every existing run directory in output/ (or output-ext/<ext>/), optionally filtered. */
+export function listRunDirs(filter: { skills?: string[]; briefs?: string[]; ext?: string } = {}) {
   const out: { briefId: string; skillId: string; run: number; dir: string }[] = [];
-  if (!fs.existsSync(OUTPUT_DIR)) return out;
-  for (const briefId of fs.readdirSync(OUTPUT_DIR)) {
+  const root = filter.ext ? path.join(OUTPUT_EXT_DIR, filter.ext) : OUTPUT_DIR;
+  if (!fs.existsSync(root)) return out;
+  for (const briefId of fs.readdirSync(root)) {
     if (filter.briefs?.length && !filter.briefs.includes(briefId)) continue;
-    const bdir = path.join(OUTPUT_DIR, briefId);
+    const bdir = path.join(root, briefId);
     if (!fs.statSync(bdir).isDirectory()) continue;
     for (const skillId of fs.readdirSync(bdir)) {
       if (filter.skills?.length && !filter.skills.includes(skillId)) continue;
@@ -188,6 +195,7 @@ export function parseCli(argv = process.argv.slice(2)) {
       all: { type: 'boolean', default: false },
       verify: { type: 'boolean', default: false },
       base: { type: 'string' },
+      ext: { type: 'string' },
     },
   });
   return {
@@ -200,6 +208,8 @@ export function parseCli(argv = process.argv.slice(2)) {
     dryRun: values['dry-run']!,
     skipFetch: values['skip-fetch']!,
     backend: (values.backend ?? runConfig.backend) as 'api' | 'cli',
+    /** --ext gpt: work on output-ext/gpt/ (another model's results) instead of output/. */
+    ext: values.ext && /^[a-z0-9-]+$/.test(values.ext) ? values.ext : undefined,
   };
 }
 

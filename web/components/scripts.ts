@@ -118,7 +118,9 @@ export const liveDialogScript = `(function () {
   function src(el) { return el.getAttribute('data-live-src') || el.getAttribute('data-live-href'); }
   function collect() {
     pages = [].slice.call(document.querySelectorAll('[data-live-skill]')).filter(function (el) { return !dlg.contains(el) && src(el) && !el.closest('[hidden]'); }).map(function (el) {
-      return { el: el, skill: el.getAttribute('data-live-skill'), brief: el.getAttribute('data-live-brief'), run: el.getAttribute('data-live-run'), name: el.getAttribute('data-live-name') || '', src: src(el) };
+      // Another model's row (data-live-ext="gpt") browses as its own row: key "<skill>~gpt", links to the same skill page.
+      var ext = el.getAttribute('data-live-ext') || '', id = el.getAttribute('data-live-skill');
+      return { el: el, skill: ext ? id + '~' + ext : id, id: id, ext: ext, brief: el.getAttribute('data-live-brief'), run: el.getAttribute('data-live-run'), name: el.getAttribute('data-live-name') || '', src: src(el) };
     });
   }
   function find(skill, brief, run) {
@@ -154,7 +156,7 @@ export const liveDialogScript = `(function () {
     title.replaceChildren();
     var a = document.createElement('a');
     a.className = 'live-skill';
-    a.href = '/skill/' + encodeURIComponent(p.skill) + '/#' + encodeURIComponent(p.brief);
+    a.href = '/skill/' + encodeURIComponent(p.id) + '/#' + encodeURIComponent(p.ext ? p.ext + '-' + p.brief : p.brief);
     a.textContent = p.name || p.skill;
     title.append(a, document.createTextNode(' · ' + (tab ? tab.getAttribute('data-brief-title') : p.brief) + ' · run ' + p.run));
     var list = inBrief(), i = list.indexOf(p);
@@ -169,6 +171,14 @@ export const liveDialogScript = `(function () {
   var cmpBtn = document.getElementById('live-cmp');
   function syncCmp() {
     if (!cur || !window.saCmp) return;
+    if (cur.ext) {
+      // The compare list holds skills (main-model results); another model's page can't be added.
+      cmpBtn.setAttribute('aria-pressed', 'false');
+      cmpBtn.disabled = true;
+      cmpBtn.title = 'Only the main results can be added to the compare list';
+      cmpBtn.querySelector('.live-cmp-text').textContent = 'Add to compare';
+      return;
+    }
     var on = saCmp.has(cur.skill);
     cmpBtn.setAttribute('aria-pressed', String(on));
     cmpBtn.disabled = !on && saCmp.full();

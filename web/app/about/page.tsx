@@ -1,7 +1,7 @@
 import { CoffeeIcon, COFFEE_URL } from '~/components/CoffeeLink';
 import { JsonLd } from '~/components/JsonLd';
 import { ui } from '~/lib/copy';
-import { briefs, manifest, skills } from '~/lib/data';
+import { briefs, extSets, manifest, skills } from '~/lib/data';
 import { abs, meta } from '~/lib/seo';
 
 const models = manifest.models.join(', ') || 'claude-opus-5-5';
@@ -97,6 +97,26 @@ export default function About() {
                     these, the one-shot pages here are still a useful view of their style, but not of the full workflow, which can produce different results. They are marked “Multi-stage” in the
                     matrix, and their pages describe the intended process.
                 </p>
+
+                {extSets.length > 0 && (
+                    <>
+                        <h2 id="other-models">Results from other models</h2>
+                        <p>
+                            Some skills also have a row of pages from another model ({extSets.map((x) => x.model).join(', ')}, labelled{' '}
+                            {extSets.map((x) => `“${x.label}”`).join(', ')}). They use the same briefs, the same generic instructions and the same skill text as the
+                            main results, with one run per brief and the no-skill row as their own control group.
+                        </p>
+                        <ul>
+                            <li>
+                                They were generated through the model’s coding agent (Codex), one fresh session per page in an empty, read-only folder, not through a
+                                direct API call. The agent adds its own instructions on top of ours, so the conditions are close to, but not the same as, the main
+                                results.
+                            </li>
+                            <li>With one run per brief, a single page says less about a skill than the main model’s {n} runs. Compare these rows with their own no-skill row.</li>
+                            <li>They are shown for reference and are not counted in the totals above.</li>
+                        </ul>
+                    </>
+                )}
 
                 <h2>Results vary</h2>
                 <p>

@@ -4,7 +4,8 @@ import { Status } from '~/components/Status';
 import { Waitlist } from '~/components/Waitlist';
 import { InlineScript } from '~/components/InlineScript';
 import { ui } from '~/lib/copy';
-import { asset, briefs, isMobileFirst, liveRunFor, manifest, runsFor, skills } from '~/lib/data';
+import { asset, briefs, extRunsFor, extSets, hasExt, isMobileFirst, liveRunFor, manifest, runsFor, skills, type Run } from '~/lib/data';
+import { Fragment } from 'react';
 
 /**
  * Skill search above the matrix: filters rows by name, id, author or description (every word must match).
@@ -15,14 +16,16 @@ const searchScript = `(function () {
   var q = document.getElementById('skill-q'), count = document.getElementById('skill-q-count'), empty = document.getElementById('skill-q-empty');
   if (!q) return;
   var rows = [].slice.call(document.querySelectorAll('.matrix tbody tr[data-search]'));
-  var total = rows.filter(function (r) { return !r.classList.contains('baseline'); }).length;
+  // Rows of another model (tr.model-row) share their skill's search text and are not counted as skills.
+  var counted = function (r) { return !r.classList.contains('baseline') && !r.classList.contains('model-row'); };
+  var total = rows.filter(counted).length;
   function apply() {
     var words = q.value.toLowerCase().trim().split(/\\s+/).filter(Boolean), n = 0;
     rows.forEach(function (r) {
       var base = r.classList.contains('baseline');
       var hit = base || words.every(function (w) { return r.getAttribute('data-search').indexOf(w) >= 0; });
       r.hidden = !hit;
-      if (hit && !base) n++;
+      if (hit && counted(r)) n++;
     });
     count.textContent = words.length ? n + ' of ' + total + ' skills' : '';
     empty.hidden = !words.length || n > 0;
@@ -70,6 +73,74 @@ const ld = [
         itemListElement: real.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.name, url: abs(`/skill/${s.id}/`) })),
     },
 ];
+
+type Skill = (typeof skills)[number];
+const searchText = (s: Skill) => [s.name, s.id, s.author, s.github?.ownerName, s.github?.owner, s.description].filter(Boolean).join(' ').toLowerCase();
+
+/**
+ * One matrix cell: the first run's thumbnail (opens the skill page at that brief) and an "Open" button for the live
+ * dialog. ext marks another model's row: its anchor on the skill page is #<ext>-<brief>, and its "SkillArena itself"
+ * pages are static (the working live page exists only for the main model).
+ */
+function MatrixCell({ skill: s, briefId, briefTitle, first, row, ext }: { skill: Skill; briefId: string; briefTitle: string; first: Run | undefined; row: number; ext?: { id: string; label: string } }) {
+    const mobile = isMobileFirst(briefId);
+    const who = s.isBaseline ? 'Baseline' : s.name;
+    const alt = `${who}${ext ? ` (${ext.label})` : ''} — ${briefTitle}`;
+    const href = `/skill/${s.id}/#${ext ? `${ext.id}-` : ''}${briefId}`;
+    const live = !ext && briefId === HOME_BRIEF ? liveRunFor(s.id) : null;
+    return (
+        <td className={mobile ? 'col-mobile' : undefined}>
+            {first?.hasShots ? (
+                <div className={mobile ? 'thumb-wrap mobile' : 'thumb-wrap'}>
+                    <a className={mobile ? 'cell mobile' : 'cell'} href={href} aria-label={alt}>
+                        <img
+                            src={asset(first, mobile ? 'thumb-mobile.webp' : 'thumb-desktop.webp')}
+                            alt={alt}
+                            width={mobile ? 300 : 600}
+                            height={mobile ? 650 : 375}
+                            loading={row < 2 && !ext ? 'eager' : 'lazy'}
+                            decoding="async"
+                            fetchPriority={row === 0 && !ext ? 'high' : undefined}
+                        />
+                    </a>
+                    {live ? (
+                        // "SkillArena itself": the working live page this skill built (/live/), in a new tab.
+                        <a
+                            className="thumb-live"
+                            href={`${live.base}index.html?ref=matrix`}
+                            target="_blank"
+                            rel="noopener"
+                            data-live-href={`${live.base}index.html?ref=matrix`}
+                            data-live-skill={s.id}
+                            data-live-brief={briefId}
+                            data-live-run="1"
+                            data-live-name={s.isBaseline ? 'No skill' : s.name}
+                        >
+                            {ui['action.open']} ↗
+                        </a>
+                    ) : (
+                        <button
+                            type="button"
+                            className="thumb-live"
+                            data-live-src={asset(first, 'index.html')}
+                            data-live-skill={s.id}
+                            data-live-ext={ext?.id}
+                            data-live-brief={briefId}
+                            data-live-run={String(first.run)}
+                            data-live-name={`${s.isBaseline ? 'No skill' : s.name}${ext ? ` · ${ext.label}` : ''}`}
+                        >
+                            {ui['action.open']}
+                        </button>
+                    )}
+                </div>
+            ) : (
+                <a href={href} style={{ textDecoration: 'none' }}>
+                    <Status run={first} compact />
+                </a>
+            )}
+        </td>
+    );
+}
 
 export default function Home() {
     const firstReal = skills.find((s) => !s.isBaseline)?.id ?? 'baseline';
@@ -124,11 +195,11 @@ export default function Home() {
                         </thead>
                         <tbody>
                             {skills.map((s, row) => (
+                                <Fragment key={s.id}>
                                 <tr
-                                    key={s.id}
                                     className={s.isBaseline ? 'baseline' : undefined}
                                     data-cmp-skill={s.id}
-                                    data-search={[s.name, s.id, s.author, s.github?.ownerName, s.github?.owner, s.description].filter(Boolean).join(' ').toLowerCase()}
+                                    data-search={searchText(s)}
                                 >
                                     <th scope="row">
                                         <a className="skill-name" href={`/skill/${s.id}/`}>
@@ -159,63 +230,25 @@ export default function Home() {
                                             </>
                                         )}
                                     </th>
-                                    {briefs.map((b) => {
-                                        const first = runsFor(b.id, s.id)[0];
-                                        const mobile = isMobileFirst(b.id);
-                                        const alt = `${s.isBaseline ? 'Baseline' : s.name} — ${b.title}`;
-                                        return (
-                                            <td key={b.id} className={mobile ? 'col-mobile' : undefined}>
-                                                {first?.hasShots ? (
-                                                    <div className={mobile ? 'thumb-wrap mobile' : 'thumb-wrap'}>
-                                                    <a className={mobile ? 'cell mobile' : 'cell'} href={`/skill/${s.id}/#${b.id}`} aria-label={alt}>
-                                                        <img
-                                                            src={asset(first, mobile ? 'thumb-mobile.webp' : 'thumb-desktop.webp')}
-                                                            alt={alt}
-                                                            width={mobile ? 300 : 600}
-                                                            height={mobile ? 650 : 375}
-                                                            loading={row < 2 ? 'eager' : 'lazy'}
-                                                            decoding="async"
-                                                            fetchPriority={row === 0 ? 'high' : undefined}
-                                                        />
-                                                    </a>
-                                                    {b.id === HOME_BRIEF && liveRunFor(s.id) ? (
-                                                        // "SkillArena itself": the working live page this skill built (/live/), in a new tab.
-                                                        <a
-                                                            className="thumb-live"
-                                                            href={`${liveRunFor(s.id)!.base}index.html?ref=matrix`}
-                                                            target="_blank"
-                                                            rel="noopener"
-                                                            data-live-href={`${liveRunFor(s.id)!.base}index.html?ref=matrix`}
-                                                            data-live-skill={s.id}
-                                                            data-live-brief={b.id}
-                                                            data-live-run="1"
-                                                            data-live-name={s.isBaseline ? 'No skill' : s.name}
-                                                        >
-                                                            {ui['action.open']} ↗
-                                                        </a>
-                                                    ) : (
-                                                        <button
-                                                            type="button"
-                                                            className="thumb-live"
-                                                            data-live-src={asset(first, 'index.html')}
-                                                            data-live-skill={s.id}
-                                                            data-live-brief={b.id}
-                                                            data-live-run={String(first.run)}
-                                                            data-live-name={s.isBaseline ? 'No skill' : s.name}
-                                                        >
-                                                            {ui['action.open']}
-                                                        </button>
-                                                    )}
-                                                    </div>
-                                                ) : (
-                                                    <a href={`/skill/${s.id}/#${b.id}`} style={{ textDecoration: 'none' }}>
-                                                        <Status run={first} compact />
-                                                    </a>
-                                                )}
-                                            </td>
-                                        );
-                                    })}
+                                    {briefs.map((b) => (
+                                        <MatrixCell key={b.id} skill={s} briefId={b.id} briefTitle={b.title} first={runsFor(b.id, s.id)[0]} row={row} />
+                                    ))}
                                 </tr>
+                                {extSets.filter((x) => hasExt(x.id, s.id)).map((x) => (
+                                    <tr key={x.id} className={s.isBaseline ? 'baseline model-row' : 'model-row'} data-search={searchText(s)}>
+                                        <th scope="row">
+                                            <span className="sr-only">{s.isBaseline ? 'No skill' : s.name}, </span>
+                                            <span className="model-tag" title={`Same briefs and prompts, generated with ${x.model} (1 run per brief)`}>
+                                                {x.label}
+                                            </span>
+                                            <span className="model-id small muted">{x.model}</span>
+                                        </th>
+                                        {briefs.map((b) => (
+                                            <MatrixCell key={b.id} skill={s} briefId={b.id} briefTitle={b.title} first={extRunsFor(x.id, b.id, s.id)[0]} row={row} ext={x} />
+                                        ))}
+                                    </tr>
+                                ))}
+                                </Fragment>
                             ))}
                         </tbody>
                     </table>

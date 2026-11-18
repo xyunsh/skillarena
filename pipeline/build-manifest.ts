@@ -8,7 +8,7 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
-import { BASELINE_ID, DATA_DIR, PUBLIC_DIR, listRunDirs, loadEnv, loadBriefs, LIVE_BRIEFS_DIR, loadSkills, loadVendorInfo, readMeta, runConfig, type RunMeta } from './lib.ts';
+import { BASELINE_ID, DATA_DIR, PUBLIC_DIR, assetPrefix, extSets, listRunDirs, loadEnv, loadBriefs, LIVE_BRIEFS_DIR, loadSkills, loadVendorInfo, readMeta, runConfig, type RunMeta } from './lib.ts';
 
 /** Files of a run that the site serves (from web/public/runs/, or from R2 when ASSET_BASE is set). */
 export const PUBLIC_FILES = ['index.html', 'desktop.webp', 'desktop-full.webp', 'mobile.webp', 'thumb-desktop.webp', 'thumb-mobile.webp', 'og.jpg'];
@@ -64,6 +64,7 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
   });
   const publicRuns = path.join(PUBLIC_DIR, 'runs');
   fs.rmSync(publicRuns, { recursive: true, force: true });
+  fs.rmSync(path.join(PUBLIC_DIR, 'ext'), { recursive: true, force: true });
   // With ASSET_BASE (e.g. https://assets.skillarena.dev) the run files are served from R2
   // (npm run upload-assets) and nothing is copied into the site.
   const assetBase = (process.env.ASSET_BASE ?? '').replace(/\/+$/, '');
@@ -172,7 +173,45 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
       hasShots,
     });
   }
-  for (const b of [...Object.values(runs), ...Object.values(live)]) for (const list of Object.values(b)) list.sort((a, c) => a.run - c.run);
+  // Another model's results (output-ext/<set>/, made with external-jobs.ts), shown as extra rows under each skill.
+  // Kept apart from runs/totals: they come from a different generator and are not part of the main comparison.
+  const ext: Record<string, { models: string[]; runs: Record<string, Record<string, ManifestRun[]>> }> = {};
+  for (const set of extSets()) {
+    const entry = (ext[set] = { models: [] as string[], runs: {} as Record<string, Record<string, ManifestRun[]>> });
+    for (const r of listRunDirs({ ext: set })) {
+      if (!known.has(r.skillId) || !briefs.some((b) => b.id === r.briefId)) continue;
+      const meta = readMeta(r.dir);
+      if (!meta) continue;
+      if (!entry.models.includes(meta.model)) entry.models.push(meta.model);
+      const hasShots = meta.status === 'ok' && (assetBase ? !!meta.screenshots : fs.existsSync(path.join(r.dir, 'thumb-desktop.webp')));
+      let base: string | null = null;
+      if (meta.status === 'ok') {
+        const rel = path.join(assetPrefix(set), r.briefId, r.skillId, `run-${r.run}`).split(path.sep).join('/');
+        if (!assetBase) {
+          const dest = path.join(PUBLIC_DIR, rel);
+          fs.mkdirSync(dest, { recursive: true });
+          for (const f of PUBLIC_FILES) if (fs.existsSync(path.join(r.dir, f))) fs.copyFileSync(path.join(r.dir, f), path.join(dest, f));
+        }
+        base = `${assetBase}/${rel}/`;
+      }
+      ((entry.runs[r.briefId] ??= {})[r.skillId] ??= []).push({
+        run: r.run,
+        status: meta.status,
+        error: meta.error,
+        model: meta.model,
+        generatedAt: meta.generatedAt,
+        costUsd: meta.costUsd,
+        outputTokens: meta.outputTokens,
+        fullPageTruncated: meta.screenshots?.fullPageTruncated ?? false,
+        base,
+        v: createHash('sha256').update(`${meta.generatedAt}|${meta.screenshots?.takenAt ?? ''}`).digest('hex').slice(0, 8),
+        hasShots,
+      });
+    }
+    if (!entry.models.length) delete ext[set];
+  }
+  for (const b of [...Object.values(runs), ...Object.values(live), ...Object.values(ext).flatMap((e) => Object.values(e.runs))])
+    for (const list of Object.values(b)) list.sort((a, c) => a.run - c.run);
 
   // Default Open Graph image: grid of first-run thumbnails (baseline row + first skills).
   const ogDir = path.join(PUBLIC_DIR, 'og');
@@ -211,6 +250,7 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
     runs,
     live,
     liveTotals: { calls: liveTotals.calls, costUsd: Number(liveTotals.costUsd.toFixed(4)) },
+    ext,
   };
   const out = path.join(DATA_DIR, 'manifest.json');
   fs.mkdirSync(path.dirname(out), { recursive: true });

@@ -68,6 +68,7 @@ interface RawManifest {
     totals: { calls: number; costUsd: number };
     live?: Record<string, Record<string, Run[]>>;
     liveTotals?: { calls: number; costUsd: number };
+    ext?: Record<string, { models: string[]; runs: Record<string, Record<string, Run[]>> }>;
 }
 
 const raw = readJson<RawManifest>('manifest.json', {
@@ -110,6 +111,16 @@ export const runsFor = (briefId: string, skillId: string): Run[] => (shown.has(s
 export const LIVE_BRIEF = 'skillarena-live';
 export const liveRunFor = (skillId: string): Run | null =>
     (shown.has(skillId) ? raw.live?.[LIVE_BRIEF]?.[skillId]?.find((r) => r.status === 'ok' && r.base) : null) ?? null;
+/**
+ * Other models' results (manifest.ext), shown as an extra row under each skill that has them.
+ * label is what the row is called; model is the exact model id the pages were generated with.
+ */
+export type ExtSet = { id: string; label: string; model: string };
+const EXT_LABELS: Record<string, string> = { gpt: 'GPT' };
+export const extSets: ExtSet[] = Object.entries(raw.ext ?? {}).map(([id, e]) => ({ id, label: EXT_LABELS[id] ?? id, model: e.models.join(', ') }));
+export const extRunsFor = (set: string, briefId: string, skillId: string): Run[] => (shown.has(skillId) ? raw.ext?.[set]?.runs[briefId]?.[skillId] ?? [] : []);
+export const hasExt = (set: string, skillId: string) => briefs.some((b) => extRunsFor(set, b.id, skillId).length > 0);
+
 const visibleRuns = briefs.flatMap((b) => skills.flatMap((s) => runsFor(b.id, s.id)));
 /** The manifest with totals recomputed over visible skills only. */
 export const manifest = {
