@@ -149,7 +149,7 @@ if (cmd === 'run') {
           skillCommit: j.skillCommit, referencesInlined: j.referencesInlined,
           generatedAt: new Date().toISOString(), inputTokens, outputTokens, costUsd: 0, durationMs: Date.now() - t0,
           status: html ? 'ok' : code === 0 ? 'invalid_html' : 'failed',
-          error: html ? null : code === 0 ? 'no <!DOCTYPE html>…</html> block in output' : `codex exit ${code}: ${err.slice(-300)}`,
+          error: html ? null : code === 0 ? 'no <!DOCTYPE html> or <html>…</html> block in output' : `codex exit ${code}: ${err.slice(-300)}`,
           stopReason: null, backend: 'codex-exec', costIsEstimate: true,
         };
         if (html) {

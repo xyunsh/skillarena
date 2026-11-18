@@ -80,8 +80,13 @@ const approxTokens = (s: string) => Math.ceil(s.length / 3);
 const costOf = (inTok: number, outTok: number) =>
   (inTok * runConfig.pricing.inputPerMTok + outTok * runConfig.pricing.outputPerMTok) / 1e6;
 
+/**
+ * The page from <!DOCTYPE html> to the last </html>, saved unchanged. If the model left out the doctype but returned a
+ * whole <html>…</html> document, that document is kept as it is (no doctype added, so it renders as the model wrote it).
+ */
 export function extractHtml(text: string): string | null {
-  const start = text.search(/<!DOCTYPE html/i);
+  let start = text.search(/<!DOCTYPE html/i);
+  if (start < 0) start = text.search(/<html[\s>]/i);
   const end = text.toLowerCase().lastIndexOf('</html>');
   if (start < 0 || end < start) return null;
   return text.slice(start, end + '</html>'.length);
@@ -322,7 +327,7 @@ export async function generate(cli: ReturnType<typeof parseCli>) {
           meta.error = null;
         } else {
           meta.status = 'invalid_html';
-          meta.error = res.stopReason === 'max_tokens' ? `truncated at max_tokens=${runConfig.maxTokens}` : 'no <!DOCTYPE html>…</html> block in output';
+          meta.error = res.stopReason === 'max_tokens' ? `truncated at max_tokens=${runConfig.maxTokens}` : 'no <!DOCTYPE html> or <html>…</html> block in output';
         }
         if (meta.status !== 'ok') fs.writeFileSync(path.join(dir, 'raw.txt'), text);
         break;

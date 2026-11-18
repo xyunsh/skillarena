@@ -10,9 +10,19 @@
   "outputTokens": 11393,
   "costUsd": 0.2528,
   "durationMs": 90765,
-  "status": "invalid_html",
-  "error": "no <!DOCTYPE html>…</html> block in output",
+  "status": "ok",
+  "error": null,
   "stopReason": "end_turn",
   "backend": "claude-cli",
-  "costIsEstimate": true
+  "costIsEstimate": true,
+  "note": "Output had no <!DOCTYPE html>; the <html>…</html> document was kept unchanged (re-extracted 2026-11-17, no new model call).",
+  "screenshots": {
+    "takenAt": "2026-11-18T00:39:11.720Z",
+    "fullPageHeight": 900,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
 }

@@ -67,7 +67,8 @@ export default function About() {
                     </li>
                     <li>The user message is the brief text, verbatim. Each skill × brief pair is generated {n} times.</li>
                     <li>
-                        The HTML from <code>&lt;!DOCTYPE html&gt;</code> to <code>&lt;/html&gt;</code> is saved unchanged. Truncated or malformed output is marked “Generation failed”.
+                        The HTML from <code>&lt;!DOCTYPE html&gt;</code> to <code>&lt;/html&gt;</code> is saved unchanged. If the model leaves out the doctype but returns a whole{' '}
+                        <code>&lt;html&gt;…&lt;/html&gt;</code> document, that document is kept as it is. Truncated or malformed output is marked “Generation failed”.
                     </li>
                 </ul>
 
