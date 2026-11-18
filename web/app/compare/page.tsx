@@ -1,7 +1,7 @@
 import { JsonLd } from '~/components/JsonLd';
 import { InlineScript } from '~/components/InlineScript';
 import { ui } from '~/lib/copy';
-import { briefs, manifest, siteSettings, skills } from '~/lib/data';
+import { briefs, extRunsFor, extSets, hasExt, manifest, siteSettings, skills } from '~/lib/data';
 import { meta } from '~/lib/seo';
 
 export const metadata = meta({
@@ -14,6 +14,16 @@ const data = {
     skills: skills.map((s) => ({ id: s.id, name: s.isBaseline ? null : s.name, isBaseline: s.isBaseline })),
     briefs: briefs.map((b) => ({ id: b.id, title: b.title, text: b.text })),
     runs: manifest.runs,
+    /** Other models' results: an entry "<skill>~<set>" in the pickers or ?skills= reads ext[set].runs. */
+    ext: Object.fromEntries(
+        extSets.map((x) => [
+            x.id,
+            {
+                label: x.label,
+                runs: Object.fromEntries(briefs.map((b) => [b.id, Object.fromEntries(skills.map((s) => [s.id, extRunsFor(x.id, b.id, s.id)]).filter(([, r]) => r.length))])),
+            },
+        ]),
+    ),
     runsPerPair: manifest.runsPerPair,
     text: {
         baseline: 'No skill (baseline)',
@@ -50,17 +60,25 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
       var grid = $('cmp-grid'), title = $('cmp-title'), title2 = title.textContent;
 
       function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
-      function skillName(id) { var s = D.skills.find(function (x) { return x.id === id; }); return !s ? id : s.isBaseline ? D.text.baseline : s.name; }
+      // "<skill>~<set>" = another model's results for that skill (D.ext[set]).
+      function split(id) { var k = id.split('~'); return { id: k[0], ext: k[1] && D.ext[k[1]] ? k[1] : '' }; }
+      function skillName(key) {
+        var k = split(key), s = D.skills.find(function (x) { return x.id === k.id; });
+        var n = !s ? k.id : s.isBaseline ? D.text.baseline : s.name;
+        return k.ext ? n + ' · ' + D.ext[k.ext].label : n;
+      }
 
       function renderPane(el, label, skillId) {
-        var brief = selBrief.value, run = Number(selRun.value);
-        var list = (D.runs[brief] || {})[skillId] || [];
-        var r = list.find(function (x) { return x.run === run; });
+        var k = split(skillId), brief = selBrief.value, run = Number(selRun.value);
+        var list = ((k.ext ? D.ext[k.ext].runs : D.runs)[brief] || {})[k.id] || [];
+        // Another model has fewer runs per brief: show its first run when the chosen one doesn't exist.
+        var r = list.find(function (x) { return x.run === run; }) || (k.ext ? list[0] : null);
+        if (r) run = r.run;
         var title = skillName(skillId);
         var briefObj = D.briefs.find(function (b) { return b.id === brief; });
         var head = '<div class="pane-head"><h2 title="' + esc(title) + '">' + label + ' · ' + esc(title) + '</h2><span class="actions" style="display:flex;gap:6px">' +
-          '<a class="btn" href="/skill/' + encodeURIComponent(skillId) + '/#' + encodeURIComponent(brief) + '">' + esc(D.text.details) + '</a>' +
-          (r && r.hasShots ? '<button type="button" class="btn" data-live-src="' + r.base + 'index.html?v=' + r.v + '" data-live-skill="' + esc(skillId) + '" data-live-brief="' + esc(brief) + '" data-live-run="' + run + '" data-live-name="' + esc(title) + '">' + esc(D.text.open) + '</button>' : '') +
+          '<a class="btn" href="/skill/' + encodeURIComponent(k.id) + '/#' + encodeURIComponent(k.ext ? k.ext + '-' + brief : brief) + '">' + esc(D.text.details) + '</a>' +
+          (r && r.hasShots ? '<button type="button" class="btn" data-live-src="' + r.base + 'index.html?v=' + r.v + '" data-live-skill="' + esc(k.id) + '"' + (k.ext ? ' data-live-ext="' + esc(k.ext) + '"' : '') + ' data-live-brief="' + esc(brief) + '" data-live-run="' + run + '" data-live-name="' + esc(title) + '">' + esc(D.text.open) + '</button>' : '') +
           '</span></div>';
         var body;
         if (r && r.hasShots) {
@@ -93,7 +111,7 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
         if (state.view !== 'desktop') p.set('view', state.view);
         history.replaceState(null, '', '/compare/?' + p.toString());
         if (window.saTrack && window.__cmpSeen !== p.toString()) { if (window.__cmpSeen) saTrack('compare'); window.__cmpSeen = p.toString(); }
-        var tryIds = ids.filter(function (id, i, a) { return id !== 'baseline' && a.indexOf(id) === i; });
+        var tryIds = ids.map(function (id) { return split(id).id; }).filter(function (id, i, a) { return id !== 'baseline' && a.indexOf(id) === i; });
         $('cmp-try').href = '/try/' + (tryIds.length ? '?skills=' + encodeURIComponent(tryIds.join(',')) : '');
       }
 
@@ -113,6 +131,31 @@ const script = `document.getElementById('cmp-form').addEventListener('submit', f
     })();
   `;
 
+/** Skill choices for the A / B pickers: the main results, then a group per other model ("<skill>~gpt"). */
+function SkillOptions() {
+    const name = (s: (typeof skills)[number]) => (s.isBaseline ? 'No skill (baseline)' : s.name);
+    return (
+        <>
+            {skills.map((s) => (
+                <option key={s.id} value={s.id}>
+                    {name(s)}
+                </option>
+            ))}
+            {extSets.map((x) => (
+                <optgroup key={x.id} label={`${x.label} (${x.model}, 1 run per brief)`}>
+                    {skills
+                        .filter((s) => hasExt(x.id, s.id))
+                        .map((s) => (
+                            <option key={s.id} value={`${s.id}~${x.id}`}>
+                                {name(s)} · {x.label}
+                            </option>
+                        ))}
+                </optgroup>
+            ))}
+        </>
+    );
+}
+
 export default function Compare() {
     return (
         <div className="wrap">
@@ -125,11 +168,7 @@ export default function Compare() {
                 <label>
                     A{' '}
                     <select id="cmp-a" defaultValue={defA}>
-                        {skills.map((s) => (
-                            <option key={s.id} value={s.id}>
-                                {s.isBaseline ? 'No skill (baseline)' : s.name}
-                            </option>
-                        ))}
+                        <SkillOptions />
                     </select>
                 </label>
                 <button type="button" className="btn" id="cmp-swap" aria-label="Swap A and B">
@@ -138,11 +177,7 @@ export default function Compare() {
                 <label>
                     B{' '}
                     <select id="cmp-b" defaultValue={defB}>
-                        {skills.map((s) => (
-                            <option key={s.id} value={s.id}>
-                                {s.isBaseline ? 'No skill (baseline)' : s.name}
-                            </option>
-                        ))}
+                        <SkillOptions />
                     </select>
                 </label>
                 <label>

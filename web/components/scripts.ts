@@ -59,7 +59,9 @@ export const compareTrayScript = `(function () {
     toggle.querySelector('.cmp-tray-n').textContent = items.length;
     listEl.replaceChildren.apply(listEl, items.map(function (x) {
       var li = document.createElement('li'), a = document.createElement('a'), rm = document.createElement('button');
-      a.href = '/skill/' + encodeURIComponent(x.skill) + '/'; a.textContent = x.name || x.skill;
+      // "<skill>~gpt" (another model's results) links to the same skill page, at that model's runs.
+      var k = x.skill.split('~');
+      a.href = '/skill/' + encodeURIComponent(k[0]) + '/' + (k[1] ? '#' + encodeURIComponent(k[1] + (x.brief ? '-' + x.brief : '')) : ''); a.textContent = x.name || x.skill;
       rm.type = 'button'; rm.className = 'cmp-tray-rm'; rm.setAttribute('data-cmp-rm', x.skill);
       rm.setAttribute('aria-label', 'Remove ' + (x.name || x.skill)); rm.textContent = '×';
       li.append(a, rm); return li;
@@ -171,14 +173,7 @@ export const liveDialogScript = `(function () {
   var cmpBtn = document.getElementById('live-cmp');
   function syncCmp() {
     if (!cur || !window.saCmp) return;
-    if (cur.ext) {
-      // The compare list holds skills (main-model results); another model's page can't be added.
-      cmpBtn.setAttribute('aria-pressed', 'false');
-      cmpBtn.disabled = true;
-      cmpBtn.title = 'Only the main results can be added to the compare list';
-      cmpBtn.querySelector('.live-cmp-text').textContent = 'Add to compare';
-      return;
-    }
+    // Another model's page goes in as its own entry ("<skill>~gpt"); /compare shows it as a separate column.
     var on = saCmp.has(cur.skill);
     cmpBtn.setAttribute('aria-pressed', String(on));
     cmpBtn.disabled = !on && saCmp.full();

@@ -236,7 +236,7 @@ export default function Home() {
                                     ))}
                                 </tr>
                                 {extSets.filter((x) => hasExt(x.id, s.id)).map((x) => (
-                                    <tr key={x.id} className={s.isBaseline ? 'baseline model-row' : 'model-row'} data-search={searchText(s)}>
+                                    <tr key={x.id} className={s.isBaseline ? 'baseline model-row' : 'model-row'} data-search={searchText(s)} data-cmp-skill={`${s.id}~${x.id}`}>
                                         <th scope="row">
                                             <span className="sr-only">{s.isBaseline ? 'No skill' : s.name}, </span>
                                             <span className="model-tag" title={`Same briefs and prompts, generated with ${x.model} (1 run per brief)`}>
