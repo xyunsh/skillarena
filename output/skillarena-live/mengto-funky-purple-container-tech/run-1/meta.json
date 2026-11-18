@@ -25,6 +25,7 @@
     "blockedRequests": []
   },
   "patches": [
-    "thumb-live-v2"
+    "thumb-live-v2",
+    "logo-home-link-v1"
   ]
 }

@@ -14,17 +14,35 @@ export function generateStaticParams() {
     return skills.map((s) => ({ id: s.id }));
 }
 
+/** skills.sh-style id: owner/repo, plus @install-name when the repo holds more than this one skill. */
+function skillSlug(s: { repo: string | null; installName: string | null; path?: string | null }) {
+    const m = s.repo?.match(/github\.com\/([^/]+\/[^/.]+)/);
+    if (!m) return null;
+    const repoName = m[1].split('/')[1].toLowerCase();
+    return s.installName && s.installName.toLowerCase() !== repoName ? `${m[1]}@${s.installName}` : m[1];
+}
+
+/** First sentence of a description, cut at a word boundary if still too long. */
+function firstSentence(t: string, max: number) {
+    const s = t.trim().split(/(?<=[.!?])\s/)[0] ?? '';
+    if (s.length <= max) return /[.!?]$/.test(s) ? s : s ? `${s}.` : '';
+    return `${s.slice(0, max).replace(/\s+\S*$/, '').replace(/[,;:]$/, '')}…`;
+}
+
 function info(id: string) {
     const skill = skills.find((s) => s.id === id);
     if (!skill) return null;
     const allRuns = briefs.flatMap((b) => runsFor(b.id, skill.id));
     const okRuns = allRuns.filter((r) => r.status === 'ok').length;
     const ogRun = briefs.map((b) => runsFor(b.id, skill.id).find((r) => r.hasShots)).find(Boolean);
+    // People search by skill name + "skill", or by the skills.sh id (owner/repo@install-name), so both go in title/description.
+    const slug = skillSlug(skill);
+    const lead = firstSentence(skill.description ?? '', 120);
     const description = skill.isBaseline
         ? `Control group: ${okRuns} pages generated from ${briefs.length} product briefs with no skill, to compare against every UI skill on SkillArena.`
-        : `See what the ${skill.name} UI skill by ${skill.author} builds: ${okRuns} pages from ${briefs.length} fixed briefs, compared with no skill. Install commands included.`;
-    const title = skill.isBaseline ? 'No skill (baseline) — control group' : `${skill.name} by ${skill.author} — UI skill results`;
-    return { skill, allRuns, okRuns, ogRun, description, title };
+        : `${lead ? `${lead} ` : ''}${skill.name}${slug ? ` (${slug})` : ''} tested: ${okRuns} example pages from ${briefs.length} briefs, side by side with no skill, plus install commands.`;
+    const title = skill.isBaseline ? 'No skill (baseline) — control group' : `${skill.name} skill by ${skill.author}: examples & install`;
+    return { skill, allRuns, okRuns, ogRun, description, title, slug };
 }
 
 export async function generateMetadata({ params }: Params) {
@@ -133,6 +151,11 @@ export default async function SkillPage({ params }: Params) {
                             </>
                         )}
                     </h1>
+                    {!skill.isBaseline && (
+                        <p className="skill-kind small muted">
+                            UI skill for Claude Code and other AI coding agents{i.slug && <> · <code>{i.slug}</code></>}
+                        </p>
+                    )}
                     {skill.isBaseline ? <p className="muted">{ui['skill.baselineNote']}</p> : skill.description && <p className="muted">{skill.description}</p>}
                     {skill.workflow && (
                         <div className="workflow-note" role="note">

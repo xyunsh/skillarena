@@ -26,6 +26,7 @@
   },
   "patches": [
     "fix-baseline-append-v1",
-    "thumb-live-v2"
+    "thumb-live-v2",
+    "logo-home-link-v1"
   ]
 }

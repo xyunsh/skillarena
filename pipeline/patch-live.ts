@@ -91,10 +91,25 @@ const FIXES: { id: string; skill: string; find: string; replace: string }[] = [
   },
 ];
 
+/**
+ * Fixes that were made by hand, page by page, because each page's markup differs: the script cannot redo them,
+ * so it checks every page still has them, records them in meta.json → patches[], and lists any page that is missing one
+ * (exit code 1). A new live page that fails a check gets the same fix by hand before upload.
+ */
+const CHECKS: { id: string; what: string; ok: (html: string) => boolean }[] = [
+  {
+    // 2026-11-09: header logo and name link to the main site in the same tab (112 pages edited, 6 already did).
+    id: 'logo-home-link-v1',
+    what: 'header logo/name must be a plain link to https://skillarena.dev/ (same tab)',
+    ok: (html) => /<a\b[^>]*\bhref="https:\/\/skillarena\.dev\/"(?![^>]*target="_blank")[^>]*>/i.test(html),
+  },
+];
+
 const { values } = parseArgs({ options: { skill: { type: 'string' }, 'dry-run': { type: 'boolean' } } });
 const only = values.skill ? values.skill.split(',') : [];
 const dir = path.join(OUTPUT_DIR, LIVE_BRIEF);
 let changed = 0, same = 0, skipped = 0;
+const missing: string[] = [];
 for (const skill of fs.readdirSync(dir).sort()) {
   if (only.length && !only.includes(skill)) continue;
   const skillDir = path.join(dir, skill);
@@ -129,18 +144,26 @@ for (const skill of fs.readdirSync(dir).sort()) {
         html = i >= 0 ? html.slice(0, i) + block + '\n' + html.slice(i) : html.replace(/<\/html>\s*$/i, `${block}\n</html>`);
       }
     }
-    if (html === before) {
+    const passed: string[] = [];
+    for (const c of CHECKS) {
+      if (c.ok(html)) passed.push(c.id);
+      else missing.push(`${skill}/${run}: ${c.what}`);
+    }
+    const meta = fs.existsSync(metaFile) ? JSON.parse(fs.readFileSync(metaFile, 'utf8')) : null;
+    const patches = meta && [...new Set([...(meta.patches ?? []).filter((x: string) => !OBSOLETE.includes(x) && !CHECKS.some((c) => c.id === x)), ...applied, ...PATCHES.map((p) => p.id), ...passed])];
+    const metaChanged = !!meta && JSON.stringify(patches) !== JSON.stringify(meta.patches ?? []);
+    if (html === before && !metaChanged) {
       same++;
       continue;
     }
     changed++;
     if (values['dry-run']) continue;
-    fs.writeFileSync(htmlFile, html);
-    if (fs.existsSync(metaFile)) {
-      const meta = JSON.parse(fs.readFileSync(metaFile, 'utf8'));
-      meta.patches = [...new Set([...(meta.patches ?? []).filter((x: string) => !OBSOLETE.includes(x)), ...applied, ...PATCHES.map((p) => p.id)])];
-      fs.writeFileSync(metaFile, JSON.stringify(meta, null, 2) + '\n');
-    }
+    if (html !== before) fs.writeFileSync(htmlFile, html);
+    if (metaChanged) fs.writeFileSync(metaFile, JSON.stringify({ ...meta, patches }, null, 2) + '\n');
   }
 }
-console.log(`${values['dry-run'] ? '[dry run] ' : ''}${changed} page(s) patched, ${same} already up to date, ${skipped} without index.html (patches: ${[...PATCHES.map((p) => p.id), ...new Set(FIXES.map((f) => f.id))].join(', ')})`);
+console.log(`${values['dry-run'] ? '[dry run] ' : ''}${changed} page(s) updated, ${same} already up to date, ${skipped} without index.html (patches: ${[...PATCHES.map((p) => p.id), ...new Set(FIXES.map((f) => f.id))].join(', ')}; checks: ${CHECKS.map((c) => c.id).join(', ')})`);
+if (missing.length) {
+  console.error(`\n${missing.length} page(s) fail a check; fix them by hand before uploading:\n  ${missing.join('\n  ')}`);
+  process.exit(1);
+}
