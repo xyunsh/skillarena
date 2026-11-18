@@ -76,7 +76,12 @@ const raw = readJson<RawManifest>('manifest.json', {
 });
 
 /** URL of a run asset with a cache-busting version. The live page is 'index.html' (R2 has no directory index). */
-export const asset = (r: Pick<Run, 'base' | 'v'>, file = '') => `${r.base}${file}?v=${r.v}`;
+export const asset = (r: Pick<Run, 'base' | 'v'>, file = '') => `${r.base}${file}?${file === 'index.html' ? PAGE_V : 'v'}=${r.v}`;
+/**
+ * Cache-busting parameter on generated page URLs. Not "v": pages can read their own query string, and the
+ * emil-prototype pages pick a variant from ?v= (a hash there showed a blank page). Images keep ?v=.
+ */
+export const PAGE_V = '_sav';
 
 /** Display settings: SITE_SETTINGS (the server's copy) or data/site-settings.json; defaults when neither exists. */
 const settingsFile = process.env.SITE_SETTINGS || path.join(DATA_DIR, 'site-settings.json');
