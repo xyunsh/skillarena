@@ -1,6 +1,6 @@
 {
-  "builtAt": "2026-11-18T00:39:19.694Z",
-  "lastGeneratedAt": "2026-11-08T14:41:24.193Z",
+  "builtAt": "2026-11-18T00:53:26.805Z",
+  "lastGeneratedAt": "2026-11-18T00:51:43.648Z",
   "models": [
     "claude-opus-5-5"
   ],
@@ -10,7 +10,7 @@
   ],
   "totals": {
     "calls": 1770,
-    "costUsd": 593.8343
+    "costUsd": 594.0281
   },
   "briefs": [
     {
@@ -12307,16 +12307,16 @@
       "mengto-light-mode-paper-technical": [
         {
           "run": 1,
-          "status": "invalid_html",
-          "error": "truncated at max_tokens=48000",
+          "status": "ok",
+          "error": null,
           "model": "claude-opus-5-5",
-          "generatedAt": "2026-11-08T07:33:16.332Z",
-          "costUsd": 0.03385,
-          "outputTokens": 406,
+          "generatedAt": "2026-11-18T00:51:43.648Z",
+          "costUsd": 0.22774,
+          "outputTokens": 10408,
           "fullPageTruncated": false,
-          "base": null,
-          "v": "39ea5b0d",
-          "hasShots": false
+          "base": "https://assets.skillarena.dev/runs/mobile-app/mengto-light-mode-paper-technical/run-1/",
+          "v": "3dd42304",
+          "hasShots": true
         },
         {
           "run": 2,
