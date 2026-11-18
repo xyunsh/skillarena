@@ -175,14 +175,19 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
   }
   // Another model's results (output-ext/<set>/, made with external-jobs.ts), shown as extra rows under each skill.
   // Kept apart from runs/totals: they come from a different generator and are not part of the main comparison.
-  const ext: Record<string, { models: string[]; runs: Record<string, Record<string, ManifestRun[]>> }> = {};
+  // A set named "<x>-live" (live briefs, e.g. gpt-live) goes into ext[x].live, like the main model's `live`.
+  type RunMap = Record<string, Record<string, ManifestRun[]>>;
+  const ext: Record<string, { models: string[]; runs: RunMap; live?: RunMap }> = {};
   for (const set of extSets()) {
-    const entry = (ext[set] = { models: [] as string[], runs: {} as Record<string, Record<string, ManifestRun[]>> });
+    const isLiveSet = set.endsWith('-live');
+    const key = isLiveSet ? set.slice(0, -'-live'.length) : set;
+    const entry = (ext[key] ??= { models: [], runs: {} });
+    const target: RunMap = isLiveSet ? (entry.live ??= {}) : entry.runs;
     for (const r of listRunDirs({ ext: set })) {
-      if (!known.has(r.skillId) || !briefs.some((b) => b.id === r.briefId)) continue;
+      if (!known.has(r.skillId) || !(isLiveSet ? liveIds.has(r.briefId) : briefs.some((b) => b.id === r.briefId))) continue;
       const meta = readMeta(r.dir);
       if (!meta) continue;
-      if (!entry.models.includes(meta.model)) entry.models.push(meta.model);
+      if (!isLiveSet && !entry.models.includes(meta.model)) entry.models.push(meta.model);
       const hasShots = meta.status === 'ok' && (assetBase ? !!meta.screenshots : fs.existsSync(path.join(r.dir, 'thumb-desktop.webp')));
       let base: string | null = null;
       if (meta.status === 'ok') {
@@ -194,7 +199,7 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
         }
         base = `${assetBase}/${rel}/`;
       }
-      ((entry.runs[r.briefId] ??= {})[r.skillId] ??= []).push({
+      ((target[r.briefId] ??= {})[r.skillId] ??= []).push({
         run: r.run,
         status: meta.status,
         error: meta.error,
@@ -208,9 +213,9 @@ export async function buildManifest({ readyOnly = false }: { readyOnly?: boolean
         hasShots,
       });
     }
-    if (!entry.models.length) delete ext[set];
   }
-  for (const b of [...Object.values(runs), ...Object.values(live), ...Object.values(ext).flatMap((e) => Object.values(e.runs))])
+  for (const [k, e] of Object.entries(ext)) if (!e.models.length) delete ext[k];
+  for (const b of [...Object.values(runs), ...Object.values(live), ...Object.values(ext).flatMap((e) => [...Object.values(e.runs), ...Object.values(e.live ?? {})])])
     for (const list of Object.values(b)) list.sort((a, c) => a.run - c.run);
 
   // Default Open Graph image: grid of first-run thumbnails (baseline row + first skills).

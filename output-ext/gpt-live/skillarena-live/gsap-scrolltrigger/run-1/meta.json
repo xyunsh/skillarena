@@ -1,0 +1,32 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "gsap-scrolltrigger",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-18T01:33:31.943Z",
+  "inputTokens": 22290,
+  "outputTokens": 8418,
+  "costUsd": 0,
+  "durationMs": 178054,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "patches": [
+    "thumb-live-v2",
+    "logo-home-link-v1"
+  ],
+  "screenshots": {
+    "takenAt": "2026-11-18T01:42:00.137Z",
+    "fullPageHeight": 2240,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

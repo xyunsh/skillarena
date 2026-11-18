@@ -1,0 +1,32 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "better-ui",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-18T01:24:57.131Z",
+  "inputTokens": 25910,
+  "outputTokens": 9586,
+  "costUsd": 0,
+  "durationMs": 203776,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "patches": [
+    "thumb-live-v2",
+    "logo-home-link-v1"
+  ],
+  "screenshots": {
+    "takenAt": "2026-11-18T01:41:38.674Z",
+    "fullPageHeight": 2164,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

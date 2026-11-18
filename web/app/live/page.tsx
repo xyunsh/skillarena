@@ -1,12 +1,46 @@
 import { GithubOwner, Stars } from '~/components/GithubOwner';
 import { ui } from '~/lib/copy';
-import { asset, liveRunFor, manifest, skills } from '~/lib/data';
+import { asset, extLiveRunFor, extSets, liveRunFor, manifest, skills, type Run } from '~/lib/data';
 import { meta } from '~/lib/seo';
 
 const list = skills.flatMap((s) => {
     const r = liveRunFor(s.id);
     return r ? [{ s, r }] : [];
 });
+/** Working pages other models built for the same live brief (manifest.ext[set].live), one section per model. */
+const extLists = extSets
+    .map((x) => ({ x, items: skills.flatMap((s) => { const r = extLiveRunFor(x.id, s.id); return r ? [{ s, r }] : []; }) }))
+    .filter((e) => e.items.length);
+
+function Card({ s, r, label }: { s: (typeof skills)[number]; r: Run; label?: string }) {
+    return (
+        <li className="live-card">
+            <div className="thumb-wrap">
+                <a className="live-shot" href={`${r.base}index.html?ref=gallery`} target="_blank" rel="noopener" aria-label={`Open the SkillArena page built with ${s.name}${label ? ` (${label})` : ''}`}>
+                    {r.hasShots ? <img src={asset(r, 'thumb-desktop.webp')} alt="" width={600} height={375} loading="lazy" /> : null}
+                </a>
+                <a className="thumb-live" href={`${r.base}index.html?ref=gallery`} target="_blank" rel="noopener" tabIndex={-1} aria-hidden="true">
+                    {ui['action.open']} ↗
+                </a>
+            </div>
+            <div className="live-body">
+                <a className="skill-name" href={`/skill/${s.id}/`}>
+                    {s.name}
+                </a>
+                <div className="live-meta">
+                    {s.isBaseline ? (
+                        <span className="tag">control group</span>
+                    ) : (
+                        <>
+                            <GithubOwner skill={s} />
+                            <Stars skill={s} />
+                        </>
+                    )}
+                </div>
+            </div>
+        </li>
+    );
+}
 
 export const metadata = meta({
     title: 'SkillArena, built by each skill',
@@ -30,36 +64,27 @@ export default function Live() {
             {list.length ? (
                 <ul className="live-grid">
                     {list.map(({ s, r }) => (
-                        <li key={s.id} className="live-card">
-                            <div className="thumb-wrap">
-                                <a className="live-shot" href={`${r.base}index.html?ref=gallery`} target="_blank" rel="noopener" aria-label={`Open the SkillArena page built with ${s.name}`}>
-                                    {r.hasShots ? <img src={asset(r, 'thumb-desktop.webp')} alt="" width={600} height={375} loading="lazy" /> : null}
-                                </a>
-                                <a className="thumb-live" href={`${r.base}index.html?ref=gallery`} target="_blank" rel="noopener" tabIndex={-1} aria-hidden="true">
-                                    {ui['action.open']} ↗
-                                </a>
-                            </div>
-                            <div className="live-body">
-                                <a className="skill-name" href={`/skill/${s.id}/`}>
-                                    {s.name}
-                                </a>
-                                <div className="live-meta">
-                                    {s.isBaseline ? (
-                                        <span className="tag">control group</span>
-                                    ) : (
-                                        <>
-                                            <GithubOwner skill={s} />
-                                            <Stars skill={s} />
-                                        </>
-                                    )}
-                                </div>
-                            </div>
-                        </li>
+                        <Card key={s.id} s={s} r={r} />
                     ))}
                 </ul>
             ) : (
                 <p className="muted">No live pages yet.</p>
             )}
+            {extLists.map(({ x, items }) => (
+                <section key={x.id} className="live-ext" id={x.id} aria-labelledby={`live-${x.id}`}>
+                    <h2 id={`live-${x.id}`}>
+                        <span className="model-tag">{x.label}</span> The same brief, built with {x.model}
+                    </h2>
+                    <p className="muted small">
+                        {items.length} skills, one run each, generated through the model’s coding agent. <a href="/about/#other-models">How these differ</a>
+                    </p>
+                    <ul className="live-grid">
+                        {items.map(({ s, r }) => (
+                            <Card key={s.id} s={s} r={r} label={x.label} />
+                        ))}
+                    </ul>
+                </section>
+            ))}
         </div>
     );
 }

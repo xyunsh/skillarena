@@ -2,7 +2,7 @@
  * Post-generation patches for the live SkillArena pages (config/live-briefs/): fixes are applied to the
  * existing generated HTML instead of regenerating it, so each page keeps the layout its skill produced.
  *
- *   yarn patch-live [--skill a,b] [--dry-run]
+ *   yarn patch-live [--skill a,b] [--dry-run] [--ext gpt-live]
  *   then: yarn upload-assets --brief skillarena-live
  *
  * Each patch is idempotent (a marked block, replaced when re-run) and recorded in meta.json → patches[].
@@ -21,7 +21,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
-import { OUTPUT_DIR } from './lib.ts';
+import { OUTPUT_DIR, OUTPUT_EXT_DIR } from './lib.ts';
 
 const LIVE_BRIEF = 'skillarena-live';
 
@@ -105,9 +105,10 @@ const CHECKS: { id: string; what: string; ok: (html: string) => boolean }[] = [
   },
 ];
 
-const { values } = parseArgs({ options: { skill: { type: 'string' }, 'dry-run': { type: 'boolean' } } });
+const { values } = parseArgs({ options: { skill: { type: 'string' }, 'dry-run': { type: 'boolean' }, ext: { type: 'string' } } });
 const only = values.skill ? values.skill.split(',') : [];
-const dir = path.join(OUTPUT_DIR, LIVE_BRIEF);
+// --ext gpt-live: patch another model's live pages (output-ext/gpt-live/skillarena-live/) the same way.
+const dir = path.join(values.ext && /^[a-z0-9-]+$/.test(values.ext) ? path.join(OUTPUT_EXT_DIR, values.ext) : OUTPUT_DIR, LIVE_BRIEF);
 let changed = 0, same = 0, skipped = 0;
 const missing: string[] = [];
 for (const skill of fs.readdirSync(dir).sort()) {

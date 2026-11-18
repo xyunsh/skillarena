@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-11-18T01:08:00.051Z",
+  "builtAt": "2026-11-18T01:43:01.448Z",
   "lastGeneratedAt": "2026-11-18T00:51:43.648Z",
   "models": [
     "claude-opus-5-5"
@@ -31298,6 +31298,325 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/wshobson-wcag-audit-patterns/run-1/",
               "v": "1adf7d10",
+              "hasShots": true
+            }
+          ]
+        }
+      },
+      "live": {
+        "skillarena-live": {
+          "addy-best-practices": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:40:35.476Z",
+              "costUsd": 0,
+              "outputTokens": 9009,
+              "fullPageTruncated": true,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/addy-best-practices/run-1/",
+              "v": "3952748f",
+              "hasShots": true
+            }
+          ],
+          "anthropic-frontend-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:21:33.351Z",
+              "costUsd": 0,
+              "outputTokens": 7658,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/anthropic-frontend-design/run-1/",
+              "v": "d0269fc3",
+              "hasShots": true
+            }
+          ],
+          "apple-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:28:14.421Z",
+              "costUsd": 0,
+              "outputTokens": 8134,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/apple-design/run-1/",
+              "v": "e0861663",
+              "hasShots": true
+            }
+          ],
+          "baseline": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:21:37.568Z",
+              "costUsd": 0,
+              "outputTokens": 7818,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/baseline/run-1/",
+              "v": "cf5caf14",
+              "hasShots": true
+            }
+          ],
+          "baseline-ui": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:21:57.064Z",
+              "costUsd": 0,
+              "outputTokens": 8822,
+              "fullPageTruncated": true,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/baseline-ui/run-1/",
+              "v": "60da0b42",
+              "hasShots": true
+            }
+          ],
+          "better-typography": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:24:52.823Z",
+              "costUsd": 0,
+              "outputTokens": 9209,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/better-typography/run-1/",
+              "v": "18bdc3af",
+              "hasShots": true
+            }
+          ],
+          "better-ui": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:24:57.131Z",
+              "costUsd": 0,
+              "outputTokens": 9586,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/better-ui/run-1/",
+              "v": "07d794b9",
+              "hasShots": true
+            }
+          ],
+          "daisyui": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:31:22.474Z",
+              "costUsd": 0,
+              "outputTokens": 8745,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/daisyui/run-1/",
+              "v": "ebe121aa",
+              "hasShots": true
+            }
+          ],
+          "elaya-landing-page-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:34:41.598Z",
+              "costUsd": 0,
+              "outputTokens": 11052,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/elaya-landing-page-design/run-1/",
+              "v": "9ade4bac",
+              "hasShots": true
+            }
+          ],
+          "emil-animate": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:30:33.886Z",
+              "costUsd": 0,
+              "outputTokens": 7695,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/emil-animate/run-1/",
+              "v": "a880d104",
+              "hasShots": true
+            }
+          ],
+          "emil-design-eng": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:27:49.468Z",
+              "costUsd": 0,
+              "outputTokens": 8116,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/emil-design-eng/run-1/",
+              "v": "ea0f2fcf",
+              "hasShots": true
+            }
+          ],
+          "frontend-ui-engineering": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:28:01.737Z",
+              "costUsd": 0,
+              "outputTokens": 8873,
+              "fullPageTruncated": true,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/frontend-ui-engineering/run-1/",
+              "v": "0505386a",
+              "hasShots": true
+            }
+          ],
+          "gsap-scrolltrigger": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:33:31.943Z",
+              "costUsd": 0,
+              "outputTokens": 8418,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/gsap-scrolltrigger/run-1/",
+              "v": "115a6762",
+              "hasShots": true
+            }
+          ],
+          "ibelick-fixing-accessibility": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:36:45.159Z",
+              "costUsd": 0,
+              "outputTokens": 9200,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/ibelick-fixing-accessibility/run-1/",
+              "v": "9cdd2803",
+              "hasShots": true
+            }
+          ],
+          "interaction-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:25:24.981Z",
+              "costUsd": 0,
+              "outputTokens": 9874,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/interaction-design/run-1/",
+              "v": "2fa214aa",
+              "hasShots": true
+            }
+          ],
+          "jakub-better-layout": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:34:19.333Z",
+              "costUsd": 0,
+              "outputTokens": 8392,
+              "fullPageTruncated": true,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/jakub-better-layout/run-1/",
+              "v": "6e520f91",
+              "hasShots": true
+            }
+          ],
+          "mengto-glass-dark-ui": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:39:29.163Z",
+              "costUsd": 0,
+              "outputTokens": 7878,
+              "fullPageTruncated": true,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/mengto-glass-dark-ui/run-1/",
+              "v": "fc09a9b3",
+              "hasShots": true
+            }
+          ],
+          "mengto-landing-page": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:30:53.311Z",
+              "costUsd": 0,
+              "outputTokens": 8151,
+              "fullPageTruncated": true,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/mengto-landing-page/run-1/",
+              "v": "0151e842",
+              "hasShots": true
+            }
+          ],
+          "mengto-no-ai-design-slop": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:36:46.912Z",
+              "costUsd": 0,
+              "outputTokens": 7086,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/mengto-no-ai-design-slop/run-1/",
+              "v": "d27a87a3",
+              "hasShots": true
+            }
+          ],
+          "mengto-pricing-page": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:37:26.203Z",
+              "costUsd": 0,
+              "outputTokens": 7555,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/mengto-pricing-page/run-1/",
+              "v": "fbecacc9",
+              "hasShots": true
+            }
+          ],
+          "wshobson-wcag-audit-patterns": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-18T01:39:30.890Z",
+              "costUsd": 0,
+              "outputTokens": 7456,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/wshobson-wcag-audit-patterns/run-1/",
+              "v": "c1011deb",
               "hasShots": true
             }
           ]

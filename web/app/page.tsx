@@ -4,7 +4,7 @@ import { Status } from '~/components/Status';
 import { Waitlist } from '~/components/Waitlist';
 import { InlineScript } from '~/components/InlineScript';
 import { ui } from '~/lib/copy';
-import { asset, briefs, extRunsFor, extSets, hasExt, isMobileFirst, liveRunFor, manifest, runsFor, skills, type Run } from '~/lib/data';
+import { asset, briefs, extLiveRunFor, extRunsFor, extSets, hasExt, isMobileFirst, liveRunFor, manifest, runsFor, skills, type Run } from '~/lib/data';
 import { Fragment } from 'react';
 
 /**
@@ -79,15 +79,15 @@ const searchText = (s: Skill) => [s.name, s.id, s.author, s.github?.ownerName, s
 
 /**
  * One matrix cell: the first run's thumbnail (opens the skill page at that brief) and an "Open" button for the live
- * dialog. ext marks another model's row: its anchor on the skill page is #<ext>-<brief>, and its "SkillArena itself"
- * pages are static (the working live page exists only for the main model).
+ * dialog. ext marks another model's row: its anchor on the skill page is #<ext>-<brief>. In the "SkillArena itself"
+ * column the button opens the working live page that model built, when there is one.
  */
 function MatrixCell({ skill: s, briefId, briefTitle, first, row, ext }: { skill: Skill; briefId: string; briefTitle: string; first: Run | undefined; row: number; ext?: { id: string; label: string } }) {
     const mobile = isMobileFirst(briefId);
     const who = s.isBaseline ? 'Baseline' : s.name;
     const alt = `${who}${ext ? ` (${ext.label})` : ''} — ${briefTitle}`;
     const href = `/skill/${s.id}/#${ext ? `${ext.id}-` : ''}${briefId}`;
-    const live = !ext && briefId === HOME_BRIEF ? liveRunFor(s.id) : null;
+    const live = briefId !== HOME_BRIEF ? null : ext ? extLiveRunFor(ext.id, s.id) : liveRunFor(s.id);
     return (
         <td className={mobile ? 'col-mobile' : undefined}>
             {first?.hasShots ? (
@@ -112,9 +112,10 @@ function MatrixCell({ skill: s, briefId, briefTitle, first, row, ext }: { skill:
                             rel="noopener"
                             data-live-href={`${live.base}index.html?ref=matrix`}
                             data-live-skill={s.id}
+                            data-live-ext={ext?.id}
                             data-live-brief={briefId}
                             data-live-run="1"
-                            data-live-name={s.isBaseline ? 'No skill' : s.name}
+                            data-live-name={`${s.isBaseline ? 'No skill' : s.name}${ext ? ` · ${ext.label}` : ''}`}
                         >
                             {ui['action.open']} ↗
                         </a>

@@ -1,0 +1,32 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "wshobson-wcag-audit-patterns",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "4bde3168b43c0655c4d00ea2726e631719908a6d",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-18T01:39:30.890Z",
+  "inputTokens": 21124,
+  "outputTokens": 7456,
+  "costUsd": 0,
+  "durationMs": 163977,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "patches": [
+    "thumb-live-v2",
+    "logo-home-link-v1"
+  ],
+  "screenshots": {
+    "takenAt": "2026-11-18T01:42:31.703Z",
+    "fullPageHeight": 2306,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

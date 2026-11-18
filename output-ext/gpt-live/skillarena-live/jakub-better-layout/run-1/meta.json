@@ -1,0 +1,32 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "jakub-better-layout",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "60bf140e43c98b248e6594487384ec967e89d98a",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-18T01:34:19.333Z",
+  "inputTokens": 22200,
+  "outputTokens": 8392,
+  "costUsd": 0,
+  "durationMs": 176857,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "patches": [
+    "thumb-live-v2",
+    "logo-home-link-v1"
+  ],
+  "screenshots": {
+    "takenAt": "2026-11-18T01:42:14.457Z",
+    "fullPageHeight": 33576,
+    "fullPageTruncated": true,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}
