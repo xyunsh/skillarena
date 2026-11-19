@@ -16,3 +16,12 @@ Skills that depend on executing scripts (not just written rules) are not generat
 | iart-gsap-web | https://github.com/iart-ai/web-animation-skills | b6dba3e | SKILL.md instructs running bundled scripts (examples/hero-timeline.js); results would not be reproducible via a plain API call. |
 | iart-ascii-animation | https://github.com/iart-ai/web-animation-skills | b6dba3e | SKILL.md instructs running bundled scripts (scripts/img-to-ascii.mjs); results would not be reproducible via a plain API call. |
 | compact-landing | https://github.com/Danilaa1/compact-landing-skill | 1d79ea7 | SKILL.md instructs running bundled scripts (scripts/pick-direction.mjs); results would not be reproducible via a plain API call. |
+
+## Not added
+
+Projects that were reviewed but are not in `config/skills.yaml`, because they don't fit the benchmark as a single standalone skill.
+
+| project | repo | reviewed | reason |
+|---|---|---|---|
+| Open Design | https://github.com/nexu-io/open-design | 2026-11-19 | A design workspace app, not one skill. Its page skills (e.g. `design-templates/web-prototype`, `saas-landing`) declare `design_system.requires: true` and copy seed assets, so they expect the app to inject a DESIGN.md first; one model call without it wouldn't show what they do. |
+| Solid Glass | https://github.com/deeplethe/solid-glass | 2026-11-19 | A shadcn/ui component library and design system with no SKILL.md. Adding it would mean writing a skill for the author, which the contributing rules don't allow. |

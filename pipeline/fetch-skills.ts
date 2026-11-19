@@ -126,9 +126,14 @@ function writeSkipped(skills: SkillEntry[]) {
   const body = rows.length
     ? rows.map(({ s, info }) => `| ${s.id} | ${s.repo} | ${info!.commit.slice(0, 7)} | ${info!.skipReason} |`).join('\n')
     : '| – | – | – | No skills skipped. |';
+  const file = path.join(ROOT, 'skipped.md');
+  // The hand-written "Not added" section (projects reviewed and left out of skills.yaml) survives regeneration.
+  const prev = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
+  const marker = prev.indexOf('\n## Not added');
+  const manual = marker >= 0 ? prev.slice(marker) : '';
   fs.writeFileSync(
-    path.join(ROOT, 'skipped.md'),
-    `# Skipped skills\n\nSkills that depend on executing scripts (not just written rules) are not generated, because a plain API call can't reproduce them.\n\n| id | repo | commit | reason |\n|---|---|---|---|\n${body}\n`,
+    file,
+    `# Skipped skills\n\nSkills that depend on executing scripts (not just written rules) are not generated, because a plain API call can't reproduce them.\n\n| id | repo | commit | reason |\n|---|---|---|---|\n${body}\n${manual}`,
   );
 }
 
