@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-11-18T01:43:01.448Z",
+  "builtAt": "2026-11-19T14:07:27.349Z",
   "lastGeneratedAt": "2026-11-18T00:51:43.648Z",
   "models": [
     "claude-opus-5-5"
@@ -30032,6 +30032,36 @@
               "v": "670b6199",
               "hasShots": true
             }
+          ],
+          "taste-brutalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:53:33.474Z",
+              "costUsd": 0,
+              "outputTokens": 6723,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/taste-brutalist/run-1/",
+              "v": "d6f5456a",
+              "hasShots": true
+            }
+          ],
+          "taste-minimalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:56:38.156Z",
+              "costUsd": 0,
+              "outputTokens": 8967,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/taste-minimalist/run-1/",
+              "v": "b9f4268f",
+              "hasShots": true
+            }
           ]
         },
         "mobile-app": {
@@ -30347,6 +30377,36 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/wshobson-wcag-audit-patterns/run-1/",
               "v": "b6f8fc35",
+              "hasShots": true
+            }
+          ],
+          "taste-brutalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:56:03.094Z",
+              "costUsd": 0,
+              "outputTokens": 6559,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/taste-brutalist/run-1/",
+              "v": "7fbe37ee",
+              "hasShots": true
+            }
+          ],
+          "taste-minimalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:57:26.555Z",
+              "costUsd": 0,
+              "outputTokens": 7858,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/taste-minimalist/run-1/",
+              "v": "fa3161b4",
               "hasShots": true
             }
           ]
@@ -30666,6 +30726,36 @@
               "v": "39241d0f",
               "hasShots": true
             }
+          ],
+          "taste-brutalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:53:47.361Z",
+              "costUsd": 0,
+              "outputTokens": 7380,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/taste-brutalist/run-1/",
+              "v": "83a7c4f4",
+              "hasShots": true
+            }
+          ],
+          "taste-minimalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:54:43.618Z",
+              "costUsd": 0,
+              "outputTokens": 10214,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/taste-minimalist/run-1/",
+              "v": "bb2d568b",
+              "hasShots": true
+            }
           ]
         },
         "signup-form": {
@@ -30981,6 +31071,36 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt/signup-form/wshobson-wcag-audit-patterns/run-1/",
               "v": "6c5e5fcd",
+              "hasShots": true
+            }
+          ],
+          "taste-brutalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:58:00.234Z",
+              "costUsd": 0,
+              "outputTokens": 5640,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/taste-brutalist/run-1/",
+              "v": "33f784d4",
+              "hasShots": true
+            }
+          ],
+          "taste-minimalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:58:52.943Z",
+              "costUsd": 0,
+              "outputTokens": 6506,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/taste-minimalist/run-1/",
+              "v": "725fe026",
               "hasShots": true
             }
           ]
@@ -31300,6 +31420,36 @@
               "v": "1adf7d10",
               "hasShots": true
             }
+          ],
+          "taste-brutalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T13:59:36.866Z",
+              "costUsd": 0,
+              "outputTokens": 6308,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/taste-brutalist/run-1/",
+              "v": "d3e94148",
+              "hasShots": true
+            }
+          ],
+          "taste-minimalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T14:01:10.793Z",
+              "costUsd": 0,
+              "outputTokens": 9262,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/taste-minimalist/run-1/",
+              "v": "e04bb51b",
+              "hasShots": true
+            }
           ]
         }
       },
@@ -31617,6 +31767,36 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/wshobson-wcag-audit-patterns/run-1/",
               "v": "c1011deb",
+              "hasShots": true
+            }
+          ],
+          "taste-brutalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T14:04:03.698Z",
+              "costUsd": 0,
+              "outputTokens": 8341,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/taste-brutalist/run-1/",
+              "v": "31eacc39",
+              "hasShots": true
+            }
+          ],
+          "taste-minimalist": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T14:04:04.590Z",
+              "costUsd": 0,
+              "outputTokens": 8407,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/taste-minimalist/run-1/",
+              "v": "9e5c02a6",
               "hasShots": true
             }
           ]

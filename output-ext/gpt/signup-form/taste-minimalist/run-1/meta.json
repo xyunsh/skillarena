@@ -1,0 +1,28 @@
+{
+  "briefId": "signup-form",
+  "skillId": "taste-minimalist",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-19T13:58:52.943Z",
+  "inputTokens": 18869,
+  "outputTokens": 6506,
+  "costUsd": 0,
+  "durationMs": 134786,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-19T14:06:42.076Z",
+    "fullPageHeight": 1202,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

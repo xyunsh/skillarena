@@ -1,0 +1,28 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "taste-minimalist",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-19T13:57:26.555Z",
+  "inputTokens": 18874,
+  "outputTokens": 7858,
+  "costUsd": 0,
+  "durationMs": 162936,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-19T14:06:33.916Z",
+    "fullPageHeight": 1324,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

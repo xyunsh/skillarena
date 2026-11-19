@@ -1,0 +1,28 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "taste-brutalist",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-19T13:56:03.094Z",
+  "inputTokens": 18707,
+  "outputTokens": 6559,
+  "costUsd": 0,
+  "durationMs": 135731,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-19T14:06:29.673Z",
+    "fullPageHeight": 1146,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}
