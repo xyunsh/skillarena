@@ -2,7 +2,10 @@ import { CoffeeIcon, COFFEE_URL } from '~/components/CoffeeLink';
 import { JsonLd } from '~/components/JsonLd';
 import { ui } from '~/lib/copy';
 import { briefs, extSets, manifest, skills } from '~/lib/data';
+import { briefFindings, keyFindings, kTok, times } from '~/lib/findings';
 import { abs, meta } from '~/lib/seo';
+
+const findings = keyFindings();
 
 const models = manifest.models.join(', ') || 'claude-opus-5-5';
 const n = manifest.runsPerPair;
@@ -45,6 +48,44 @@ export default function About() {
 
             <div>
                 <p>SkillArena gives every UI skill the same set of original product briefs and shows what a model produces with and without the skill, so you can compare before installing anything.</p>
+
+                {findings.length > 0 && (
+                    <>
+                        <h2 id="findings">What the results show so far</h2>
+                        <ul>
+                            {findings.map((f) => (
+                                <li key={f}>{f}</li>
+                            ))}
+                        </ul>
+                        <div className="table-scroll">
+                            <table>
+                                <caption className="small muted">Average output tokens per page, {models}. A skill “wrote more” when its average over its runs is above the no-skill average.</caption>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Brief</th>
+                                        <th scope="col">No skill</th>
+                                        <th scope="col">Median skill</th>
+                                        <th scope="col">Skills that wrote more</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {briefFindings.map((f) => (
+                                        <tr key={f.brief.id}>
+                                            <th scope="row">{f.brief.title}</th>
+                                            <td>{kTok(f.control)}</td>
+                                            <td>
+                                                {kTok(f.median)} ({times(f.median / f.control)})
+                                            </td>
+                                            <td>
+                                                {f.more} of {f.total}
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </>
+                )}
 
                 <h2>How a skill is “installed”</h2>
                 <ul>

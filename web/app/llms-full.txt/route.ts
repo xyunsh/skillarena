@@ -1,6 +1,7 @@
 import { briefs, manifest, skills } from '~/lib/data';
 import { abs, models, stats, text } from '~/lib/seo';
 import { manualInstall } from '~/lib/data';
+import { keyFindings, skillSummary } from '~/lib/findings';
 
 // Long-form companion to /llms.txt. Never includes SKILL.md contents (only name, author, description, links).
 export const dynamic = 'force-static';
@@ -20,6 +21,7 @@ export function GET() {
     '- Skills are pinned to a git commit. Skills that need to run bundled scripts are skipped.',
     '- Results vary between runs; compare a skill\'s runs together. SkillArena is not a ranking.',
     '',
+    ...(keyFindings().length ? ['## Key findings', ...keyFindings().map((l) => `- ${l}`), ''] : []),
     '## Briefs (sent to the model word for word)',
     ...briefs.flatMap((b, i) => ['', `### ${i + 1}. ${b.title} (id: ${b.id})`, '', b.text]),
     '',
@@ -34,6 +36,8 @@ export function GET() {
       if (s.description) out.push(`- Description: ${s.description}`);
     }
     out.push(`- Runs: ${st.ok}/${st.runs} ok, average ${st.avgOutputTokens} output tokens`);
+    const vs = skillSummary(s.id);
+    if (vs) out.push(`- Compared with no skill: ${vs}`);
     if (!s.isBaseline) {
       for (const m of s.install ?? []) out.push(`- Install (${m.label}, latest version): ${m.commands.replace(/\n/g, ' && ')}`);
       const man = manualInstall(s);

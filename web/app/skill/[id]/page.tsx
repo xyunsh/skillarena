@@ -6,6 +6,7 @@ import { ui } from '~/lib/copy';
 import {
     asset, briefs, commitUrl, compareUrl, extRunsFor, extSets, fmtDate, isMobileFirst, manifest, manualInstall, runsFor, shortSha, skillMdUrl, skills, sourceUrl, upstreamFor, type Run,
 } from '~/lib/data';
+import { skillSummary } from '~/lib/findings';
 import { abs, meta } from '~/lib/seo';
 
 type Params = { params: Promise<{ id: string }> };
@@ -134,6 +135,7 @@ export default async function SkillPage({ params }: Params) {
               ]),
     ];
     const vsHref = (briefId: string) => `/compare/?a=baseline&b=${skill.id}&brief=${briefId}`;
+    const summary = skillSummary(skill.id);
 
     return (
         <div className="wrap" data-view="desktop" id="skill-page">
@@ -256,6 +258,15 @@ export default async function SkillPage({ params }: Params) {
                     </div>
                     <p className="small muted">
                         Run 1 of {n}, same brief and model. <a href="#results">All {okRuns} pages from this skill ↓</a>
+                    </p>
+                </section>
+            )}
+
+            {summary && (
+                <section className="prose skill-glance" aria-labelledby="glance-title">
+                    <h2 id="glance-title">Compared with no skill</h2>
+                    <p>
+                        {summary} Output tokens show how much the model wrote, not whether the page is better. <a href="/about/#findings">How this compares across skills</a>
                     </p>
                 </section>
             )}

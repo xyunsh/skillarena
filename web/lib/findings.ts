@@ -1,0 +1,94 @@
+// Plain, checkable facts computed from the manifest at build time, for the About page, skill pages and llms.txt.
+// Output tokens measure how much the model wrote, not how good the page is; every sentence built here says so or links to it.
+import { briefs, runsFor, skills, type Brief } from './data';
+
+const BASE = 'baseline';
+const real = skills.filter((s) => !s.isBaseline);
+
+const okTokens = (briefId: string, skillId: string) => runsFor(briefId, skillId).filter((r) => r.status === 'ok').map((r) => r.outputTokens ?? 0);
+const mean = (xs: number[]) => (xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : NaN);
+const median = (xs: number[]) => {
+    const s = [...xs].sort((a, b) => a - b);
+    const m = s.length >> 1;
+    return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+};
+
+/** "12.6k" */
+export const kTok = (n: number) => `${(n / 1000).toFixed(1)}k`;
+/** "1.4×" */
+export const times = (r: number) => `${r.toFixed(r >= 10 ? 0 : r >= 2 ? 1 : 2).replace(/(\.\d*?)0+$/, '$1').replace(/\.$/, '')}×`;
+
+const avgOn = (briefId: string, skillId: string) => mean(okTokens(briefId, skillId));
+const avgAll = (skillId: string) => mean(briefs.flatMap((b) => okTokens(b.id, skillId)));
+
+export interface BriefFinding {
+    brief: Brief;
+    control: number;
+    median: number;
+    more: number;
+    less: number;
+    total: number;
+}
+
+/** Per brief: the no-skill average, the median skill average, and how many skills wrote more / less than no skill. */
+export const briefFindings: BriefFinding[] = briefs
+    .map((brief) => {
+        const control = avgOn(brief.id, BASE);
+        const avgs = real.map((s) => avgOn(brief.id, s.id)).filter((x) => !Number.isNaN(x));
+        return {
+            brief,
+            control,
+            median: avgs.length ? median(avgs) : NaN,
+            more: avgs.filter((x) => x > control).length,
+            less: avgs.filter((x) => x < control).length,
+            total: avgs.length,
+        };
+    })
+    .filter((f) => !Number.isNaN(f.control) && f.total > 0);
+
+const overallAvgs = real.map((s) => ({ s, avg: avgAll(s.id) })).filter((x) => !Number.isNaN(x.avg));
+const controlAll = avgAll(BASE);
+const byAvg = [...overallAvgs].sort((a, b) => a.avg - b.avg);
+
+/** Across all briefs: how many skills averaged fewer output tokens than no skill, and the extremes. */
+export const overall = {
+    control: controlAll,
+    total: overallAvgs.length,
+    below: overallAvgs.filter((x) => x.avg < controlAll).length,
+    smallest: byAvg[0] ? { name: byAvg[0].s.name, id: byAvg[0].s.id, avg: byAvg[0].avg } : null,
+    largest: byAvg.at(-1) ? { name: byAvg.at(-1)!.s.name, id: byAvg.at(-1)!.s.id, avg: byAvg.at(-1)!.avg } : null,
+};
+
+/** One-line findings for llms.txt and the About page. Empty when there is no control group to compare against. */
+export function keyFindings(): string[] {
+    if (Number.isNaN(controlAll) || !briefFindings.length) return [];
+    const sorted = [...briefFindings].sort((a, b) => b.more / b.total - a.more / a.total);
+    const most = sorted[0];
+    const least = sorted.at(-1)!;
+    const lines = [
+        `Whether a skill makes the model write more depends on the brief. On "${most.brief.title}", ${most.more} of ${most.total} skills produced more output tokens than no skill (median ${times(most.median / most.control)} the no-skill average). On "${least.brief.title}", ${least.less} of ${least.total} produced fewer.`,
+        `Across all ${briefs.length} briefs, ${overall.below} of ${overall.total} skills averaged fewer output tokens per page than no skill (${kTok(controlAll)}).${overall.smallest && overall.largest ? ` The lowest average was ${overall.smallest.name} (${kTok(overall.smallest.avg)}), the highest ${overall.largest.name} (${kTok(overall.largest.avg)}).` : ''}`,
+        'Output tokens show how much a skill changes what the model writes (and what a generation costs), not whether the page is better. Compare the pages themselves to judge quality.',
+    ];
+    return lines;
+}
+
+/** A sentence comparing one skill with no skill, for its page. Null for the baseline or when data is missing. */
+export function skillSummary(skillId: string): string | null {
+    if (skillId === BASE || Number.isNaN(controlAll)) return null;
+    const mine = avgAll(skillId);
+    if (Number.isNaN(mine)) return null;
+    const per = briefs
+        .map((b) => ({ b, mine: avgOn(b.id, skillId), base: avgOn(b.id, BASE) }))
+        .filter((x) => !Number.isNaN(x.mine) && !Number.isNaN(x.base) && x.base > 0)
+        .map((x) => ({ ...x, ratio: x.mine / x.base }));
+    if (!per.length) return null;
+    const more = per.filter((x) => x.ratio > 1).length;
+    const far = [...per].sort((a, b) => Math.abs(Math.log(b.ratio)) - Math.abs(Math.log(a.ratio)))[0];
+    const r = mine / controlAll;
+    const below = r < 1 ? `, one of the ${overall.below} skills (of ${overall.total}) that wrote less than no skill overall` : '';
+    return (
+        `Across ${per.length} briefs, pages with this skill averaged ${kTok(mine)} output tokens, ${times(r)} the no-skill average of ${kTok(controlAll)}${below}. ` +
+        `It wrote more than no skill on ${more} of ${per.length} briefs; the biggest difference was on ${far.b.title} (${times(far.ratio)} no skill).`
+    );
+}

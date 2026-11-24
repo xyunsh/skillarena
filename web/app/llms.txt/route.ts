@@ -1,4 +1,5 @@
 import { briefs, manifest } from '~/lib/data';
+import { keyFindings } from '~/lib/findings';
 import { abs, models, real, stats, text } from '~/lib/seo';
 
 // https://llmstxt.org — a short, link-rich summary for LLMs and AI search. Full detail: /llms-full.txt.
@@ -13,6 +14,7 @@ export function GET() {
     '',
     `Totals: ${manifest.totals.calls} generated pages, ${real.length} skills plus the control group. Last generated ${String(manifest.lastGeneratedAt ?? '').slice(0, 10)}.`,
     '',
+    ...(keyFindings().length ? ['## Key findings', ...keyFindings().map((l) => `- ${l}`), `- Per-brief numbers: ${u('/about/#findings')}`, ''] : []),
     '## Pages',
     `- [Matrix](${u('/')}): every skill × brief, first run of each`,
     `- [Compare](${u('/compare/')}): two skills side by side on one brief (query: ?a=<skill>&b=<skill>&brief=<brief>&run=<n>)`,

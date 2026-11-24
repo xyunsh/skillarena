@@ -202,6 +202,12 @@ details.brief-text p { white-space: pre-wrap; background: var(--surface); border
 /* Same 1240px container as every page; only the running text keeps a readable line length. */
 .prose p, .prose ul, .prose ol, .prose pre, .prose dl, .prose blockquote { max-width: 760px; }
 .prose h2 { margin-top: 2em; }
+.prose .table-scroll { max-width: 760px; overflow-x: auto; margin: 1em 0; }
+.prose table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
+.prose caption { caption-side: bottom; text-align: left; padding-top: 6px; }
+.prose th, .prose td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.prose thead th { font-weight: 600; }
+.prose tbody th { font-weight: 400; }
 .prose li { margin-bottom: .4em; }
 .faq dt { font-weight: 600; margin-top: 1.1em; }
 .faq dd { margin: .3em 0 0; color: var(--ink-2); }
