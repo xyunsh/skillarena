@@ -1,0 +1,28 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "emil-animation-performance",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-24T12:12:21.433Z",
+  "inputTokens": 20524,
+  "outputTokens": 7770,
+  "costUsd": 0,
+  "durationMs": 160395,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-24T12:31:42.260Z",
+    "fullPageHeight": 1216,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}
