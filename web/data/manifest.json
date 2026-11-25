@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-11-24T12:32:51.491Z",
+  "builtAt": "2026-11-25T22:13:31.808Z",
   "lastGeneratedAt": "2026-11-18T00:51:43.648Z",
   "models": [
     "claude-opus-5-5"
@@ -30092,6 +30092,66 @@
               "v": "c4b6e1df",
               "hasShots": true
             }
+          ],
+          "emil-mobile-native": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:50:35.974Z",
+              "costUsd": 0,
+              "outputTokens": 11171,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/emil-mobile-native/run-1/",
+              "v": "42464c73",
+              "hasShots": true
+            }
+          ],
+          "emil-prototype": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:51:10.718Z",
+              "costUsd": 0,
+              "outputTokens": 12481,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/emil-prototype/run-1/",
+              "v": "5a40001c",
+              "hasShots": true
+            }
+          ],
+          "emil-pick-ui-library": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:53:03.813Z",
+              "costUsd": 0,
+              "outputTokens": 10568,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/emil-pick-ui-library/run-1/",
+              "v": "9bd07853",
+              "hasShots": true
+            }
+          ],
+          "emil-remove-animations": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:53:33.345Z",
+              "costUsd": 0,
+              "outputTokens": 8431,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/emil-remove-animations/run-1/",
+              "v": "3c24dce0",
+              "hasShots": true
+            }
           ]
         },
         "mobile-app": {
@@ -30467,6 +30527,66 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/emil-animation-performance/run-1/",
               "v": "44a25b6c",
+              "hasShots": true
+            }
+          ],
+          "emil-mobile-native": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:54:03.530Z",
+              "costUsd": 0,
+              "outputTokens": 8397,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/emil-mobile-native/run-1/",
+              "v": "f7551d6b",
+              "hasShots": true
+            }
+          ],
+          "emil-prototype": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:56:32.353Z",
+              "costUsd": 0,
+              "outputTokens": 10195,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/emil-prototype/run-1/",
+              "v": "1d7f305d",
+              "hasShots": true
+            }
+          ],
+          "emil-pick-ui-library": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:55:56.528Z",
+              "costUsd": 0,
+              "outputTokens": 6912,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/emil-pick-ui-library/run-1/",
+              "v": "168a2839",
+              "hasShots": true
+            }
+          ],
+          "emil-remove-animations": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:56:32.708Z",
+              "costUsd": 0,
+              "outputTokens": 7192,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/emil-remove-animations/run-1/",
+              "v": "d68b1282",
               "hasShots": true
             }
           ]
@@ -30846,6 +30966,66 @@
               "v": "05f33086",
               "hasShots": true
             }
+          ],
+          "emil-mobile-native": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:46:56.756Z",
+              "costUsd": 0,
+              "outputTokens": 11095,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/emil-mobile-native/run-1/",
+              "v": "e8496d22",
+              "hasShots": true
+            }
+          ],
+          "emil-prototype": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:46:48.027Z",
+              "costUsd": 0,
+              "outputTokens": 10712,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/emil-prototype/run-1/",
+              "v": "6b2fd686",
+              "hasShots": true
+            }
+          ],
+          "emil-pick-ui-library": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:46:45.203Z",
+              "costUsd": 0,
+              "outputTokens": 10569,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/emil-pick-ui-library/run-1/",
+              "v": "647d06e2",
+              "hasShots": true
+            }
+          ],
+          "emil-remove-animations": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:49:27.557Z",
+              "costUsd": 0,
+              "outputTokens": 7891,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/emil-remove-animations/run-1/",
+              "v": "13a5670a",
+              "hasShots": true
+            }
           ]
         },
         "signup-form": {
@@ -31221,6 +31401,66 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt/signup-form/emil-animation-performance/run-1/",
               "v": "4e4212d6",
+              "hasShots": true
+            }
+          ],
+          "emil-mobile-native": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:58:37.993Z",
+              "costUsd": 0,
+              "outputTokens": 7796,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/emil-mobile-native/run-1/",
+              "v": "65cb042b",
+              "hasShots": true
+            }
+          ],
+          "emil-prototype": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:00:02.857Z",
+              "costUsd": 0,
+              "outputTokens": 10219,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/emil-prototype/run-1/",
+              "v": "431fe814",
+              "hasShots": true
+            }
+          ],
+          "emil-pick-ui-library": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T12:58:51.855Z",
+              "costUsd": 0,
+              "outputTokens": 6709,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/emil-pick-ui-library/run-1/",
+              "v": "06b325cc",
+              "hasShots": true
+            }
+          ],
+          "emil-remove-animations": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:00:51.116Z",
+              "costUsd": 0,
+              "outputTokens": 6394,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/emil-remove-animations/run-1/",
+              "v": "2c651690",
               "hasShots": true
             }
           ]
@@ -31600,6 +31840,66 @@
               "v": "911c1f28",
               "hasShots": true
             }
+          ],
+          "emil-mobile-native": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:02:04.891Z",
+              "costUsd": 0,
+              "outputTokens": 9419,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/emil-mobile-native/run-1/",
+              "v": "ec562414",
+              "hasShots": true
+            }
+          ],
+          "emil-prototype": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:03:12.046Z",
+              "costUsd": 0,
+              "outputTokens": 9226,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/emil-prototype/run-1/",
+              "v": "87834471",
+              "hasShots": true
+            }
+          ],
+          "emil-pick-ui-library": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:03:28.749Z",
+              "costUsd": 0,
+              "outputTokens": 7635,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/emil-pick-ui-library/run-1/",
+              "v": "02c9d0b7",
+              "hasShots": true
+            }
+          ],
+          "emil-remove-animations": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:04:04.973Z",
+              "costUsd": 0,
+              "outputTokens": 5712,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/emil-remove-animations/run-1/",
+              "v": "2fcffc93",
+              "hasShots": true
+            }
           ]
         }
       },
@@ -31977,6 +32277,66 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/emil-animation-performance/run-1/",
               "v": "09eb0232",
+              "hasShots": true
+            }
+          ],
+          "emil-mobile-native": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:07:14.101Z",
+              "costUsd": 0,
+              "outputTokens": 9115,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/emil-mobile-native/run-1/",
+              "v": "798ef9c2",
+              "hasShots": true
+            }
+          ],
+          "emil-prototype": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:07:36.177Z",
+              "costUsd": 0,
+              "outputTokens": 10180,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/emil-prototype/run-1/",
+              "v": "aac633d2",
+              "hasShots": true
+            }
+          ],
+          "emil-pick-ui-library": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:07:06.417Z",
+              "costUsd": 0,
+              "outputTokens": 8738,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/emil-pick-ui-library/run-1/",
+              "v": "195cb8f3",
+              "hasShots": true
+            }
+          ],
+          "emil-remove-animations": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-25T13:09:41.723Z",
+              "costUsd": 0,
+              "outputTokens": 7505,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/emil-remove-animations/run-1/",
+              "v": "42c62e82",
               "hasShots": true
             }
           ]
