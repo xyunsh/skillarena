@@ -24,6 +24,7 @@
     "generate": "tsx pipeline/generate.ts",
     "github-meta": "tsx pipeline/github-meta.ts",
     "manifest": "tsx pipeline/build-manifest.ts",
+    "headlines": "tsx pipeline/headlines.ts",
     "og": "tsx pipeline/og.ts",
     "pipeline": "tsx pipeline/run-all.ts",
     "scan": "tsx pipeline/scan-skill.ts",

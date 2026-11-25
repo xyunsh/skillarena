@@ -1,0 +1,2964 @@
+{
+ "briefs": {
+  "dashboard": {
+   "addy-accessibility": [
+    "Operations Dashboard",
+    "Operations dashboard",
+    "Ember & Oak Coffee"
+   ],
+   "addy-best-practices": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee — Operations"
+   ],
+   "addy-core-web-vitals": [
+    "Brew & Co. Operations",
+    "Bean & Barrel Coffee",
+    "Daily Grind Co."
+   ],
+   "addy-performance": [
+    "Good evening, owner",
+    "Ember & Bean Coffee Co.",
+    "Overview"
+   ],
+   "addy-seo": [
+    "Coffee Chain Operations Dashboard",
+    "Operations overview: all 4 coffee shops",
+    "Coffee Chain Operations Overview"
+   ],
+   "antfu-design": [
+    "Good morning, Dana",
+    "Overview",
+    "Good morning, Sam"
+   ],
+   "anthropic-canvas-design": [
+    "Good morning. Here's the daily grind.",
+    "Ember & Oak Coffee",
+    "Ember & Grain"
+   ],
+   "anthropic-frontend-design": [
+    "Fern & Ferry Coffee",
+    "Lantern Coffee",
+    "Larkspur Coffee"
+   ],
+   "apple-design": [
+    "Good morning.",
+    "Ember & Oak Coffee",
+    "Overview"
+   ],
+   "balise-ux-writing": [
+    "Operations overview",
+    "Operations overview",
+    "Operations Sample data"
+   ],
+   "baseline": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Bean & Bloom Coffee Co."
+   ],
+   "baseline-ui": [
+    "Operations overview",
+    "Operations overview",
+    "Operations overview"
+   ],
+   "bencium-innovative": [
+    null,
+    "Friday, 6 November",
+    "Friday, 6 November"
+   ],
+   "better-typography": [
+    "Operations overview",
+    "Daily Grind Co.",
+    "Ember & Bean operations"
+   ],
+   "better-ui": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Ember & Bean"
+   ],
+   "daisyui": [
+    "Good morning, Morgan",
+    "Good morning, Jordan",
+    "Overview"
+   ],
+   "elaya-landing-page-design": [
+    "Good afternoon, Mara",
+    "Good afternoon, Marisol",
+    "Good afternoon, Maya. Here is how the shops are doing."
+   ],
+   "emil-animate": [
+    "Ember & Bean",
+    "Daybreak Coffee",
+    "Ember & Oak Coffee"
+   ],
+   "emil-animation-performance": [
+    "Ember & Oak Coffee",
+    "Bean & Ember",
+    "Brewline Coffee"
+   ],
+   "emil-break-ui": [
+    "Operations overview",
+    null,
+    "Good afternoon"
+   ],
+   "emil-choreograph": [
+    "Ember & Bean — Operations",
+    "Good afternoon, Jordan",
+    "Good morning, Sam"
+   ],
+   "emil-design-eng": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee"
+   ],
+   "emil-mobile-native": [
+    "Bean & Bloom",
+    "Ember & Bean",
+    "Ember & Oak Coffee"
+   ],
+   "emil-pick-ui-library": [
+    "Daily Grind Co.",
+    "Ember & Oak Coffee",
+    "Operations"
+   ],
+   "emil-prototype": [
+    "Overview",
+    null,
+    "Overview"
+   ],
+   "emil-remove-animations": [
+    "Bean & Ember Coffee",
+    "Ember & Bean",
+    "Ember & Oak Coffee"
+   ],
+   "flornkm-smooth-shadow-ring": [
+    "Ember & Oak Coffee",
+    "Ember & Bean",
+    "Daily Grind Co."
+   ],
+   "flornkm-webgl-components": [
+    "Ember & Bean — Operations",
+    "Ember & Oak Coffee",
+    "Ember & Bean"
+   ],
+   "frontend-ui-engineering": [
+    "Operations overview",
+    "Operations overview",
+    "Operations overview"
+   ],
+   "gsap-core": [
+    "Operations overview",
+    "Ember & Oat Coffee",
+    "Ember & Bean Coffee"
+   ],
+   "gsap-performance": [
+    "Good afternoon, Jordan",
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee"
+   ],
+   "gsap-plugins": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Hearth & Bean Coffee"
+   ],
+   "gsap-scrolltrigger": [
+    "Ember & Oak Coffee",
+    "Ember & Bean Coffee",
+    "Ember & Bean"
+   ],
+   "gsap-timeline": [
+    "Ember & Bean",
+    "Ember & Bean",
+    "Ember & Oak Coffee"
+   ],
+   "humane-functionalism": [
+    "Daily operations",
+    "Ember & Oak Coffee",
+    "Nordlys Coffee"
+   ],
+   "iart-60fps-animation": [
+    "Bean & Ember Coffee Co.",
+    "Ember & Bean",
+    "Brewline Coffee Co."
+   ],
+   "iart-accessible-animation": [
+    "Operations overview",
+    "Ember & Oak Coffee",
+    "Bean & Bloom Coffee"
+   ],
+   "iart-glassmorphism": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee"
+   ],
+   "iart-micro-interaction": [
+    "Ember & Bean Coffee",
+    "Ember & Oak Coffee",
+    "Bean & Brick Coffee"
+   ],
+   "iart-page-transition-animation": [
+    "Ember & Bean",
+    "Ember & Bean Coffee Co.",
+    "Ember & Oat Coffee Co."
+   ],
+   "iart-svg-animation": [
+    "Bean & Bloom Coffee",
+    "Brewline Ops",
+    "Ember & Bean"
+   ],
+   "ibelick-fixing-accessibility": [
+    "Bean & Barrel Coffee Co.",
+    "Operations dashboard",
+    "Operations overview"
+   ],
+   "ibelick-fixing-metadata": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Operations overview"
+   ],
+   "ibelick-fixing-motion-performance": [
+    "Ember & Bean",
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee"
+   ],
+   "interaction-design": [
+    "Ember & Oak Coffee",
+    "Ember & Oak",
+    "Ember & Oak Coffee"
+   ],
+   "interface-design": [
+    "November 6, and the rush held up.",
+    "Good afternoon, Rosa",
+    "Good afternoon, Mara. The rush is behind you."
+   ],
+   "jakub-better-layout": [
+    "Ember & Bean · Operations",
+    "Ember & Oak Coffee",
+    "Today"
+   ],
+   "jakub-better-writing": [
+    "Overview",
+    "Ember & Oak Coffee",
+    "Overview"
+   ],
+   "jakub-variant": [
+    "Overview",
+    "Overview",
+    "Ember & Oak Coffee"
+   ],
+   "kemiljk-design-engineering": [
+    "Ember & Oak Coffee",
+    "Operations overview",
+    "Ember & Bean — Operations"
+   ],
+   "kemiljk-fluid-design": [
+    "Operations",
+    "Ember & Oak Coffee",
+    "Ember & Oak"
+   ],
+   "kemiljk-interaction-contracts": [
+    "Ember & Oak Coffee",
+    "Bean & Bloom Coffee",
+    "Daily Grind Co."
+   ],
+   "kemiljk-interface-affordances": [
+    "Daily Grind Co.",
+    "Ember & Bean — Operations",
+    "Bean & Bloom Coffee"
+   ],
+   "kemiljk-modern-css-html": [
+    "Bean & Bloom Coffee",
+    "Bean & Barrel Operations",
+    "Ember & Bean"
+   ],
+   "kemiljk-real-content-design": [
+    "Ember & Oak Coffee",
+    "Fernwood Coffee Sample data",
+    "Four Corners Coffee Sample data"
+   ],
+   "kemiljk-semantic-html-first": [
+    "Operations overview",
+    "Daily Grind Co.",
+    "Operations overview"
+   ],
+   "kemiljk-subtractive-design": [
+    "Overview",
+    "Daily Grind Coffee",
+    "Ember Coffee"
+   ],
+   "mengto-agency-grid-layout-minimal": [
+    "Daily operations.",
+    "Saturday is running ahead of last week.",
+    "Four cafés, one quiet ledger."
+   ],
+   "mengto-animation-on-scroll": [
+    "Bean & Brew Co.",
+    "Ember & Oak Coffee",
+    "Operations Dashboard"
+   ],
+   "mengto-animation-systems": [
+    "Ember & Bean",
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee"
+   ],
+   "mengto-atmosphere-background": [
+    "Ember & Oak Coffee Co.",
+    "Ember & Bean",
+    "Ember & Bean"
+   ],
+   "mengto-background-grid-webgl": [
+    "Ember & Bean Operations",
+    "Ember & Bean Coffee",
+    "Ember & Bean — Operations"
+   ],
+   "mengto-beautiful-shadows": [
+    "Good morning, Jordan",
+    "Operations overview",
+    "Bean & Ember Coffee"
+   ],
+   "mengto-blue-cloudy-clean-modern": [
+    "Your four cafés, calm and clear .",
+    "Good afternoon, Mara. Your cafés are running warm today.",
+    "Good morning. Your cafés are running quietly well ."
+   ],
+   "mengto-blue-laser-clean-glass-layout": [
+    "Good morning, Morgan. Four shops, one clear view.",
+    "Good morning. Here's how the shops are brewing.",
+    "Good morning, Jordan. Here's how the chain is brewing."
+   ],
+   "mengto-book-serif-index": [
+    "Ember & Oak Coffee Houses",
+    "Hartwell & Crane Roasters",
+    "The Roastery Ledger"
+   ],
+   "mengto-bright-green-tech-system-webgl": [
+    "Four stores. One live signal .",
+    "Four stores, one pulse. Revenue is up on the day.",
+    "Northgrain Ops"
+   ],
+   "mengto-build-awwwards-quality-sites": [
+    "Good afternoon. Four shops, one pour.",
+    "Good afternoon. Saturday is pouring well.",
+    "How the four shops are pouring today."
+   ],
+   "mengto-cinematic-gsap-lenis-motion-system": [
+    "Good afternoon. Here's how the shops are brewing.",
+    "Good afternoon. Here's how the shops are pouring.",
+    "How the four cafés are brewing today."
+   ],
+   "mengto-cinematic-scroll-storytelling": [
+    "Good afternoon. Here’s how the shops are doing.",
+    "Four shops, one morning at a glance.",
+    "Good afternoon, Mara."
+   ],
+   "mengto-clean-minimal-beige-light-mode": [
+    "Good morning. Here's how the shops are brewing.",
+    "A calm read on every cup poured today.",
+    "Good morning. Here's how the shops are running."
+   ],
+   "mengto-css-border-gradient": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Ember & Bean"
+   ],
+   "mengto-dark-blue-contrasting-clean": [
+    "Good afternoon. Here's how the shops are pouring.",
+    "Good afternoon. Here's how the chain is brewing.",
+    "Good morning, Maya."
+   ],
+   "mengto-dark-glass-clean-layout": [
+    "Good afternoon. Four stores, one calm view.",
+    "Good morning. Here's the floor.",
+    "Good afternoon, Mara. Four shops, one steady pour."
+   ],
+   "mengto-design-first-ui-prompting": [
+    "Operations overview",
+    "Operations",
+    "Good afternoon, here’s how the shops are doing."
+   ],
+   "mengto-dither-laser-dark-mode": [
+    "Good afternoon. Here's the floor.",
+    "Good morning, here's the floor.",
+    "Network overview"
+   ],
+   "mengto-documentary-brutalist-agency": [
+    null,
+    "Four shops. One ledger.",
+    "Sunday took $0 across four bars."
+   ],
+   "mengto-editorial-portfolio-chapters": [
+    "Good morning. Sunday, Nov 8",
+    "Operations",
+    "Good morning. Here's how the shops are doing."
+   ],
+   "mengto-editorial-service-booking": [
+    "Four cafés, one morning’s ledger.",
+    "The day's pour , at a glance.",
+    "The day's ledger, poured across four shops."
+   ],
+   "mengto-editorial-tech": [
+    "The morning rush, measured across four counters.",
+    "The daily ledger.",
+    "Four rooms, one steady pour."
+   ],
+   "mengto-framed-grid-layout": [
+    "Ledger & Bean — daily overview",
+    "Ember & Bean Coffee Co.",
+    "Grounds & Co. Dashboard"
+   ],
+   "mengto-framed-tech-dark-border-gradient": [
+    "Operations overview",
+    "Four shops. One ledger.",
+    "Good afternoon. Here's how the chain is brewing."
+   ],
+   "mengto-funky-purple-container-tech": [
+    "Good afternoon, the beans are moving.",
+    "Good morning. Your chain is brewing hot.",
+    "Four stores, one roast signal."
+   ],
+   "mengto-glass-dark-mode-clock": [
+    "Sunday, 8 November. Day running at — .",
+    "Today's service, calibrated.",
+    "Four bars, one calibrated day."
+   ],
+   "mengto-glass-dark-ui": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Brewline Coffee · Operations"
+   ],
+   "mengto-gooey-blob-system": [
+    "Good morning, Sam.",
+    "Good morning — here’s how your cafés are brewing.",
+    "Good morning, here's how your four cafés are pouring."
+   ],
+   "mengto-gsap-scrolltrigger-storytelling": [
+    "Good afternoon. Here's how your four shops are brewing.",
+    "Good afternoon. Here's today.",
+    "Ember & Bean"
+   ],
+   "mengto-high-contrast-skeuomorphic-clean": [
+    "Operations Overview",
+    "Owner Console",
+    "Ember & Grind Coffee"
+   ],
+   "mengto-horizontal-scroll-scenes": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee",
+    "Copperleaf Coffee"
+   ],
+   "mengto-image-first-grid-layout": [
+    "Four rooms, one steady pour.",
+    "Good afternoon, Maya. The houses are warm.",
+    "Four stores, one steady pour."
+   ],
+   "mengto-landing-page": [
+    "Ember & Oak Coffee",
+    "Brewline Coffee · Operations",
+    "Ember & Oak Coffee"
+   ],
+   "mengto-light-mode-paper-technical": [
+    "Operations, four shops at a glance.",
+    "Good morning, Dana. Here's how the shops are brewing.",
+    "Operations overview"
+   ],
+   "mengto-masked-reveal": [
+    "Good morning. Here's how the beans are moving today.",
+    "Here’s how the beans are moving today.",
+    "Good afternoon. Here's how the cafés are brewing today."
+   ],
+   "mengto-mesh-gradient-dark-blue-clean": [
+    "Four shops, one steady pour.",
+    "Good afternoon. Here's how the shops are pouring.",
+    "Four shops, one clear read."
+   ],
+   "mengto-nested-container-clean-agency": [
+    "Good morning. Here's how the shops are brewing.",
+    "Four bars, one steady pour.",
+    "Every cup, every store, at a glance."
+   ],
+   "mengto-no-ai-design-slop": [
+    "Operations",
+    "Operations",
+    "Ember & Oak Coffee"
+   ],
+   "mengto-operational-enterprise-ai": [
+    "Sales overview",
+    "Daily overview",
+    "Four shops, one ledger."
+   ],
+   "mengto-orange-clean-paper-saas": [
+    "Good afternoon — here's your shop pulse",
+    "Good afternoon, Maya. Here's how the shops are brewing.",
+    "Good afternoon, here's how the cafés are doing."
+   ],
+   "mengto-pricing-page": [
+    "Good afternoon 👋",
+    "Ember & Oak Coffee",
+    "Good afternoon 👋"
+   ],
+   "mengto-product-proof-saas": [
+    "Overview",
+    "Good afternoon — here's how the shops are doing",
+    "Good afternoon. Here's how the shops are doing."
+   ],
+   "mengto-progressive-blur": [
+    "Brewline Ops",
+    "Good afternoon, Sam",
+    "Bean & Bloom"
+   ],
+   "mengto-scroll-scrubbed-word-reveal": [
+    "Daily Grind Co.",
+    "Ember & Oak Coffee",
+    "Operations overview"
+   ],
+   "mengto-skeuomorphic-ui": [
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee Co.",
+    "Hearth & Bean"
+   ],
+   "mengto-split-layout-technical": [
+    "Daily takings, across the chain.",
+    "Sunday is running ahead of last week.",
+    "Four rooms, one pour."
+   ],
+   "mengto-staggered-word-reveal": [
+    "Good morning. Here's how your cafés are brewing.",
+    "Good afternoon. Here’s how the beans are moving.",
+    "Good morning. Here's how your cafés are brewing."
+   ],
+   "mengto-tailwindcss": [
+    "Ember & Bean Coffee",
+    "Ember & Bean 4 of 4 open",
+    "Good morning."
+   ],
+   "mengto-tech-green-dark-mode-modern": [
+    "Ember & Bean Coffee Co.",
+    "Ember & Bean — Chain overview",
+    "Ember & Oak / Operations"
+   ],
+   "mengto-technical-wireframe-info-layout": [
+    "Four sites, one pour.",
+    "Four stores, one system view.",
+    "Four counters, one pour."
+   ],
+   "mengto-webgl-landing-steering": [
+    "Ember & Oak Coffee",
+    "Good morning, here's your chain today",
+    "Ember & Oak Coffee Co."
+   ],
+   "million-interactive-hit-areas": [
+    "Hearth & Bean",
+    "Ember & Oak Coffee",
+    "Ember & Bean"
+   ],
+   "platform-design-web": [
+    "Operations overview",
+    "Operations overview",
+    "Ember & Bean Operations"
+   ],
+   "prefer-container-queries": [
+    "Ember & Bean",
+    "Grindhouse Coffee",
+    "Daily Grind Co."
+   ],
+   "prototyper-build-primitive": [
+    "Good afternoon, Sam",
+    "Good evening — here's how the shops did",
+    "Operations overview"
+   ],
+   "taste-brutalist": [
+    "Daily Ops Report",
+    "DAILY OPS / 04 ®",
+    "Grind / 04 ®"
+   ],
+   "taste-minimalist": [
+    "Good morning, Mara. Here is how the shops are doing.",
+    "Good evening. Here is how the four shops did today.",
+    "Good morning, Marisol. Here is how the shops are doing."
+   ],
+   "taste-soft": [
+    "Good afternoon. Here's the pour.",
+    "Good morning. The bar is humming.",
+    "Good afternoon, Mara."
+   ],
+   "uupm-banner-design": [
+    "Ember & Bean Operations",
+    "Ember & Oak Coffee",
+    "Ember & Oak Coffee"
+   ],
+   "wshobson-wcag-audit-patterns": [
+    "Operations dashboard",
+    "Operations overview",
+    "Operations overview"
+   ]
+  },
+  "mobile-app": {
+   "addy-accessibility": [
+    "Good morning, Sam",
+    "Good morning, Sam 🌿",
+    "Good morning, Sam"
+   ],
+   "addy-best-practices": [
+    "Hello, Sam",
+    "Hello, Sam",
+    "Good morning, Sam"
+   ],
+   "addy-core-web-vitals": [
+    "Good morning, Maya",
+    "Good morning, Alex",
+    "Good morning, Maya"
+   ],
+   "addy-performance": [
+    "Good morning, Maya 🌿",
+    "Good morning, Sam 🌿",
+    "Good morning, Maya 🌿"
+   ],
+   "addy-seo": [
+    "My Plants",
+    "Good morning, Sam",
+    "Good morning, Maya"
+   ],
+   "antfu-design": [
+    "Good morning, Mira",
+    "Good morning , Sam 🌿",
+    "Good morning, Mia"
+   ],
+   "anthropic-canvas-design": [
+    "Good morning, Mira.",
+    "Good morning , Mira.",
+    "Good morning, Ada."
+   ],
+   "anthropic-frontend-design": [
+    "3 plants need water today",
+    null,
+    null
+   ],
+   "apple-design": [
+    "My Plants",
+    "Good morning",
+    "My Plants"
+   ],
+   "balise-ux-writing": [
+    "My plants",
+    "Good morning, Sam",
+    "Hello, Sam"
+   ],
+   "baseline": [
+    "Good morning, Sam",
+    "Good morning, Maya",
+    "Good morning, Sam 🌿"
+   ],
+   "baseline-ui": [
+    "Good morning, Alex",
+    "Good morning, Alex",
+    "Good morning, Alex"
+   ],
+   "bencium-innovative": [
+    "Good morning, Sam.",
+    "Good morning, Sam .",
+    null
+   ],
+   "better-typography": [
+    "Good morning, Maya",
+    "Good morning, Maya",
+    "Good morning, Maya"
+   ],
+   "better-ui": [
+    "Good morning, Mia",
+    "Good morning, Sam",
+    "Good morning, Mia"
+   ],
+   "daisyui": [
+    "Good morning, Alex 🌿",
+    "Good morning, Alex",
+    "Good morning, Alex 🌿"
+   ],
+   "elaya-landing-page-design": [
+    "Good morning, Mara",
+    "Good morning, Mira",
+    "Good morning, Maya"
+   ],
+   "emil-animate": [
+    "Good morning, Maya",
+    "Good morning, Mira",
+    "Good morning, Mia"
+   ],
+   "emil-animation-performance": [
+    "Good morning, Maya",
+    "Good morning, Maya",
+    "Good morning, Sam"
+   ],
+   "emil-break-ui": [
+    null,
+    null,
+    null
+   ],
+   "emil-choreograph": [
+    "Good morning, Alex",
+    "Good morning, Alex",
+    "Good morning, Alex"
+   ],
+   "emil-design-eng": [
+    "Good morning, Alex",
+    "${greet}, Maya",
+    "Good morning, Maya"
+   ],
+   "emil-mobile-native": [
+    "Good morning, Maya",
+    "Good morning, Sam",
+    "Good morning, Sam"
+   ],
+   "emil-pick-ui-library": [
+    "Good morning, Mira",
+    "Good morning, Maya 🌿",
+    "Good morning, Alex"
+   ],
+   "emil-prototype": [
+    "${greet()}, Maya",
+    "Good morning, Maya",
+    "${greet()}, Maya"
+   ],
+   "emil-remove-animations": [
+    "Good morning, Sam",
+    "Good morning, Sam",
+    "${greeting()}, Mia"
+   ],
+   "flornkm-smooth-shadow-ring": [
+    "Good morning, Maya",
+    "Good morning, Sam 🌿",
+    "Good morning, Maya 🌿"
+   ],
+   "flornkm-webgl-components": [
+    "Good morning, Maya",
+    "Good morning, Sam",
+    "Good morning, Maya"
+   ],
+   "frontend-ui-engineering": [
+    "Good morning, Sam",
+    "Hello, Maya",
+    "Good morning, Maya"
+   ],
+   "gsap-core": [
+    "Good morning, Maya 🌿",
+    "Good morning, Sam",
+    "Good morning, Maya"
+   ],
+   "gsap-performance": [
+    "Good morning, Sam 🌿",
+    "Good morning, Sam 🌿",
+    "Good morning, Sam"
+   ],
+   "gsap-plugins": [
+    "Good morning, Alex",
+    "Good morning, Alex",
+    "Good morning, Maya"
+   ],
+   "gsap-scrolltrigger": [
+    "Good morning, Alex",
+    "Good morning , Mei 🌿",
+    "Good morning, Maya"
+   ],
+   "gsap-timeline": [
+    "Good morning, Alex",
+    "Good morning , Maya 🌿",
+    "Good morning, Maya"
+   ],
+   "humane-functionalism": [
+    "Hello",
+    null,
+    "Good morning, Maja"
+   ],
+   "iart-60fps-animation": [
+    "Good morning, Maya",
+    "Good morning, Maya 🌿",
+    "Good morning, Maya 🌿"
+   ],
+   "iart-accessible-animation": [
+    "Good morning, Maya",
+    "Good morning, Alex 🌿",
+    "Good morning, Maya"
+   ],
+   "iart-glassmorphism": [
+    "Good morning, Maya 🌿",
+    "Good morning, Alex",
+    "Good morning, Maya 🌿"
+   ],
+   "iart-micro-interaction": [
+    "Good morning, Alex",
+    "Good morning, Alex 🌿",
+    "Good morning, Maya 🌿"
+   ],
+   "iart-page-transition-animation": [
+    "Good morning, Robin",
+    "Good morning, Alex 🌿",
+    "My Plants"
+   ],
+   "iart-svg-animation": [
+    "Good morning, Maya",
+    "Good morning, Maya",
+    "Good morning , Maya"
+   ],
+   "ibelick-fixing-accessibility": [
+    "Good morning, Alex",
+    "Good morning, Maya",
+    "Good morning, Sam"
+   ],
+   "ibelick-fixing-metadata": [
+    "Good morning, Alex",
+    "Good morning , Maya 🌿",
+    "Good morning, Sam"
+   ],
+   "ibelick-fixing-motion-performance": [
+    "Good morning, Maya",
+    "Good morning, Mia",
+    "Good morning, Sam"
+   ],
+   "interaction-design": [
+    "Good morning, Mia",
+    "Good morning, Sam",
+    "Good morning, Sam"
+   ],
+   "interface-design": [
+    "Good morning, Mira",
+    null,
+    "Good morning, Mara"
+   ],
+   "jakub-better-layout": [
+    "My Plants",
+    "Good morning, Sam",
+    "Good morning, Sam"
+   ],
+   "jakub-better-writing": [
+    "My plants",
+    "My plants",
+    "Good morning, Robin"
+   ],
+   "jakub-variant": [
+    "Good morning, Mira",
+    "Good morning, Maya",
+    "My Plants"
+   ],
+   "kemiljk-design-engineering": [
+    "Hello",
+    "Good morning, Sam",
+    "Good morning, Mira"
+   ],
+   "kemiljk-fluid-design": [
+    "Good morning, Mia",
+    "Good morning, Mia",
+    "Good morning, Maya"
+   ],
+   "kemiljk-interaction-contracts": [
+    "My Plants",
+    "My Plants",
+    "Good morning"
+   ],
+   "kemiljk-interface-affordances": [
+    "Good morning, Sam",
+    "Good morning, Sam",
+    "Good morning, Robin"
+   ],
+   "kemiljk-modern-css-html": [
+    "Good morning, Sam 🌿",
+    "Good morning, Maya",
+    "Good morning, Maya"
+   ],
+   "kemiljk-real-content-design": [
+    "Good morning",
+    "Good morning, Sam",
+    "Good morning, Sam"
+   ],
+   "kemiljk-semantic-html-first": [
+    "Good morning, Sam",
+    "Good morning, Maya",
+    "Good morning, Sam 🌿"
+   ],
+   "kemiljk-subtractive-design": [
+    null,
+    null,
+    null
+   ],
+   "mengto-agency-grid-layout-minimal": [
+    "My Plants .",
+    "Good morning, Mara.",
+    "Good morning, Mira."
+   ],
+   "mengto-animation-on-scroll": [
+    "Good morning , Maya 🌿",
+    "Good morning, Maya",
+    "Good morning , Alex 🌿"
+   ],
+   "mengto-animation-systems": [
+    "Good morning , Maya",
+    "Good morning, Sam 🌿",
+    "Good morning , Alex 🌿"
+   ],
+   "mengto-atmosphere-background": [
+    "Good morning, Mira",
+    "Good morning , Alex",
+    "Good morning, Maya"
+   ],
+   "mengto-background-grid-webgl": [
+    "Maya 🌿",
+    "Good morning, Maya",
+    "Good morning, Maya"
+   ],
+   "mengto-beautiful-shadows": [
+    "Good morning, Sam",
+    "Good morning, Sam",
+    "Good morning, Maya"
+   ],
+   "mengto-blue-cloudy-clean-modern": [
+    "Good morning, Mira",
+    "Good morning, Mira",
+    null
+   ],
+   "mengto-blue-laser-clean-glass-layout": [
+    "Good morning, Maya.",
+    "Good morning, Mira.",
+    "Good morning, Maya Your jungle is thriving."
+   ],
+   "mengto-book-serif-index": [
+    "Good morning, Eleanor.",
+    "Good morning, Mara.",
+    "Good morning, dear Keeper."
+   ],
+   "mengto-bright-green-tech-system-webgl": [
+    "Good morning , Mara.",
+    "Good morning, Alex.",
+    "Good morning, Alex"
+   ],
+   "mengto-build-awwwards-quality-sites": [
+    "Good morning, Mara.",
+    "Good morning, Mara",
+    "Good morning , Mara."
+   ],
+   "mengto-cinematic-gsap-lenis-motion-system": [
+    "Good morning, Mira",
+    "Good morning, Mira 🌿",
+    "Good morning, Maya"
+   ],
+   "mengto-cinematic-scroll-storytelling": [
+    "Good morning, Maya",
+    "Good morning, Maya. Your garden is thirsty.",
+    "Good morning , Mira"
+   ],
+   "mengto-clean-minimal-beige-light-mode": [
+    "Good morning, Maya.",
+    "Good morning, Maya.",
+    "3 plants need watering today."
+   ],
+   "mengto-css-border-gradient": [
+    "Good morning, Mia",
+    "Good morning, Maya",
+    "Good morning, Maya"
+   ],
+   "mengto-dark-blue-contrasting-clean": [
+    null,
+    null,
+    null
+   ],
+   "mengto-dark-glass-clean-layout": [
+    "Good morning, Jules. 3 plants are thirsty today.",
+    "Good morning, Mara.",
+    "Good morning, Alex — your jungle."
+   ],
+   "mengto-design-first-ui-prompting": [
+    "Good morning, Maya",
+    "Good morning, Maya",
+    "Good morning, Alex"
+   ],
+   "mengto-dither-laser-dark-mode": [
+    "Good morning, Maya",
+    "Good morning, Alex. Your jungle is thirsty.",
+    "3 plants need watering today"
+   ],
+   "mengto-documentary-brutalist-agency": [
+    "0 plants need water today.",
+    "Good morning, Sam.",
+    "Good Morning, Sam."
+   ],
+   "mengto-editorial-portfolio-chapters": [
+    "Good morning, Juno.",
+    "Good morning , Juno.",
+    "3 plants need water today."
+   ],
+   "mengto-editorial-service-booking": [
+    "Good morning, Mara",
+    "Good morning , Mara",
+    "Good morning, Mara."
+   ],
+   "mengto-editorial-tech": [
+    "Good morning, Ada.",
+    "Good morning, Mira.",
+    "Good morning, Mara."
+   ],
+   "mengto-framed-grid-layout": [
+    "Good morning , Alex",
+    "Good morning, Alex",
+    "Good morning, Maya"
+   ],
+   "mengto-framed-tech-dark-border-gradient": [
+    "Good morning, Alex. Your jungle is waiting.",
+    "Good morning, Alex.",
+    "Good morning, Mara."
+   ],
+   "mengto-funky-purple-container-tech": [
+    "Good morning, Mira 🌿",
+    "Morning, Juno.",
+    "Good morning, Jules"
+   ],
+   "mengto-glass-dark-mode-clock": [
+    "Good morning , Mira",
+    "Good morning , Alex. 3 plants need water today.",
+    "Good morning , Alex"
+   ],
+   "mengto-glass-dark-ui": [
+    "Hi, Maya 🌿",
+    "Good morning, Maya",
+    "Good morning , Maya 🌿"
+   ],
+   "mengto-gooey-blob-system": [
+    "Good morning, Alex",
+    "Good morning , Mara 🌿",
+    "Good morning, Jamie"
+   ],
+   "mengto-gsap-scrolltrigger-storytelling": [
+    "Good morning , Maya 🌿",
+    "3 plants need watering today",
+    "Good morning , Maya"
+   ],
+   "mengto-high-contrast-skeuomorphic-clean": [
+    "Good morning, Maya",
+    "Good morning, Alex.",
+    "Good morning, Mira"
+   ],
+   "mengto-horizontal-scroll-scenes": [
+    "Good morning, Alex",
+    "My Plants",
+    "Good morning, Mira"
+   ],
+   "mengto-image-first-grid-layout": [
+    "Hi Maya, 3 plants are thirsty today.",
+    "Good morning, your jungle awaits.",
+    "Good morning, Mara."
+   ],
+   "mengto-landing-page": [
+    "Good morning, Maya",
+    "Good morning, Maya",
+    "Good morning, Maya"
+   ],
+   "mengto-light-mode-paper-technical": [
+    "Good morning, Alex.",
+    "Good morning, Mira. Your jungle is thirsty.",
+    "3 plants need watering today."
+   ],
+   "mengto-masked-reveal": [
+    "Good morning, Maya",
+    "Good morning, Maya.",
+    "Good morning, Ana."
+   ],
+   "mengto-mesh-gradient-dark-blue-clean": [
+    "Good morning, Alex.",
+    "3 plants need watering today.",
+    "3 plants need water today."
+   ],
+   "mengto-nested-container-clean-agency": [
+    "Good morning, Alex.",
+    "Good morning, Maya",
+    "Good morning, Maya."
+   ],
+   "mengto-no-ai-design-slop": [
+    "Good morning, Maya",
+    "Hello, Mira",
+    "Good morning, Maya"
+   ],
+   "mengto-operational-enterprise-ai": [
+    "Good morning, Maya",
+    "Good morning, Alex",
+    "Good morning, Sam"
+   ],
+   "mengto-orange-clean-paper-saas": [
+    "Good morning, Maya Your jungle is thriving.",
+    "Good morning, Mia Your jungle is thirsty.",
+    "Good morning, Maya 🌿"
+   ],
+   "mengto-pricing-page": [
+    "Good morning, Maya",
+    "Good morning, Maya",
+    "Good morning, Maya"
+   ],
+   "mengto-product-proof-saas": [
+    "Good morning, Sam",
+    "Good morning, Sam",
+    "Good morning, Sam"
+   ],
+   "mengto-progressive-blur": [
+    "My Plants",
+    "Good morning, Sam",
+    "Good morning , Maya"
+   ],
+   "mengto-scroll-scrubbed-word-reveal": [
+    "Hello, Mara",
+    "Good morning , Mira",
+    "Good morning, Mira"
+   ],
+   "mengto-skeuomorphic-ui": [
+    "Good morning, Sam",
+    "Good morning, Maya",
+    "Good morning , Mira 🌿"
+   ],
+   "mengto-split-layout-technical": [
+    "Good morning, Mira.",
+    "Good afternoon, Mira.",
+    "Good morning, Alex."
+   ],
+   "mengto-staggered-word-reveal": [
+    "Good morning, Maya.",
+    "Good morning, Mara.",
+    "Good morning, Maya."
+   ],
+   "mengto-tailwindcss": [
+    "Good morning, Alex",
+    "Good morning, Alex",
+    "Good morning, Maya"
+   ],
+   "mengto-tech-green-dark-mode-modern": [
+    "Good morning, Alex",
+    "Hi Alex, your jungle check‑in.",
+    "Hi, Mira Your jungle check‑in"
+   ],
+   "mengto-technical-wireframe-info-layout": [
+    "Good morning, Mara.",
+    "Good morning, Mara. Your jungle checks in.",
+    "Good morning, Mira. Your greenhouse report."
+   ],
+   "mengto-webgl-landing-steering": [
+    "Good morning, Alex",
+    "Good morning, Jamie",
+    "Good morning, Maya 🌿"
+   ],
+   "million-interactive-hit-areas": [
+    "Good morning, Sam",
+    "Good morning, Alex 🌿",
+    "Good morning, Sam"
+   ],
+   "platform-design-web": [
+    "Good morning, Maya",
+    "Hello, Alex",
+    "Hello, Sam"
+   ],
+   "prefer-container-queries": [
+    "Good morning, Maya",
+    "Good morning, Sam",
+    "Good morning, Sam 🌿"
+   ],
+   "prototyper-build-primitive": [
+    "Good morning, Jamie",
+    "Good morning, Jules",
+    "Good morning, Maya"
+   ],
+   "taste-brutalist": [
+    "GOOD MORNING , ROWAN.",
+    "Good Morning , Sam ®",
+    "GOOD MORNING, ROBIN"
+   ],
+   "taste-minimalist": [
+    "Good morning , Mara.",
+    "Good morning , Mira. Your plants are thirsty.",
+    "Good morning , Mara."
+   ],
+   "taste-soft": [
+    "Good morning, Maya.",
+    "Good morning , Mira.",
+    "Good morning, Mira ."
+   ],
+   "uupm-banner-design": [
+    "Good morning, Maya 🌿",
+    "Good morning, Maya",
+    "Good morning, Maya 🌿"
+   ],
+   "wshobson-wcag-audit-patterns": [
+    "Good morning, Alex",
+    "Good morning, Alex",
+    "My Plants"
+   ]
+  },
+  "saas-landing": {
+   "addy-accessibility": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?” Tempo finds it for you.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "addy-best-practices": [
+    "Stop asking \"when works for everyone?\"",
+    "Stop asking when works for you? Tempo finds the time.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "addy-core-web-vitals": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone? ”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "addy-performance": [
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "Stop asking “when are you free?” Tempo already knows.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "addy-seo": [
+    "The shared calendar that finds a time everyone is free",
+    "The shared calendar that finds a time everyone is free",
+    "The shared team calendar that finds a time everyone is free"
+   ],
+   "antfu-design": [
+    "Stop asking \"when works?\" Tempo already knows.",
+    "Stop asking \"when works for you?\" Tempo finds it.",
+    "Stop asking \"when works for you?\""
+   ],
+   "anthropic-canvas-design": [
+    "Stop asking “when works?”",
+    "Find the hour everyone is free.",
+    "The hour everyone already has."
+   ],
+   "anthropic-frontend-design": [
+    "Stop asking when everyone’s free.",
+    "Everyone’s free Thursday at 2.",
+    "Stop asking when everyone’s free."
+   ],
+   "apple-design": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for you?”",
+    "Stop asking “When works for you?”"
+   ],
+   "balise-ux-writing": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “When works for everyone?”",
+    "Stop asking “when are you free?” Tempo finds the time."
+   ],
+   "baseline": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when are you free? ”",
+    "Stop asking “when works for everyone? ”"
+   ],
+   "baseline-ui": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”"
+   ],
+   "bencium-innovative": [
+    "Stop asking “when works?” Thursday, 2:30.",
+    "Stop asking whether Thursday works.",
+    "Stop asking when everyone is free."
+   ],
+   "better-typography": [
+    "Stop asking “When works for everyone?” Tempo already knows.",
+    "Stop asking “When works for everyone?” Tempo already knows.",
+    "Stop asking “when works for everyone?” Tempo already knows."
+   ],
+   "better-ui": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking \"when are you free?\"",
+    "Stop asking “when works for you?”"
+   ],
+   "daisyui": [
+    "Stop asking “when are you free?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when are you free?”"
+   ],
+   "elaya-landing-page-design": [
+    "Find a time everyone is free without the reply all thread",
+    "Book the meeting everyone can make, without the back and forth",
+    "Find a time that works for everyone, automatically"
+   ],
+   "emil-animate": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for you?”"
+   ],
+   "emil-animation-performance": [
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works for everyone?”",
+    "Stop asking \"when works for everyone?\""
+   ],
+   "emil-break-ui": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”",
+    null
+   ],
+   "emil-choreograph": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works for you?”"
+   ],
+   "emil-design-eng": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when are you free?”",
+    "Stop asking “when works for you?”"
+   ],
+   "emil-mobile-native": [
+    "Stop asking “when are you free? ”",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "emil-pick-ui-library": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for everyone?” Tempo knows."
+   ],
+   "emil-prototype": [
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "The meeting time everyone can make — found in a second.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "emil-remove-animations": [
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "flornkm-smooth-shadow-ring": [
+    "Stop asking “when are you free?” Tempo already knows.",
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking \"when works for you?\""
+   ],
+   "flornkm-webgl-components": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone? ”",
+    "Stop asking “when works for you?”"
+   ],
+   "frontend-ui-engineering": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking \"when works for everyone?\"",
+    "Stop asking “when works for everyone?”"
+   ],
+   "gsap-core": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "gsap-performance": [
+    "Stop asking “when works for everyone? ”",
+    "Stop asking \"when works?\" Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "gsap-plugins": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”"
+   ],
+   "gsap-scrolltrigger": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for everyone? ”",
+    "Stop asking “when works for everyone? ”"
+   ],
+   "gsap-timeline": [
+    "Stop asking “when works?”",
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works for you?” Tempo finds it."
+   ],
+   "humane-functionalism": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "iart-60fps-animation": [
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when are you free?” Tempo already knows.",
+    "Stop asking “when works for you?” Tempo already knows."
+   ],
+   "iart-accessible-animation": [
+    "Stop asking “ when works ?”",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "iart-glassmorphism": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking \"when works for everyone?\"",
+    "Stop asking \"when works for you?\""
+   ],
+   "iart-micro-interaction": [
+    "Stop asking “when works?” Tempo finds it.",
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "Stop asking “when works for you?” Tempo already knows."
+   ],
+   "iart-page-transition-animation": [
+    "Stop asking \"when works for you?\" Tempo already knows.",
+    "Stop asking “when works for everyone ?”",
+    "Stop asking \"when works?\" Tempo knows."
+   ],
+   "iart-svg-animation": [
+    "Stop asking “when are you free?”",
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works for you?” Tempo already knows."
+   ],
+   "ibelick-fixing-accessibility": [
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "ibelick-fixing-metadata": [
+    "Stop asking “when are you free?” Tempo knows.",
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "ibelick-fixing-motion-performance": [
+    "Stop asking “when works for everyone? ”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “ when works? ”"
+   ],
+   "interaction-design": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when are you free?”",
+    "Stop asking “when works?”"
+   ],
+   "interface-design": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Everyone's free at 2:30 .",
+    "Stop asking “does Thursday work?” Tempo already knows."
+   ],
+   "jakub-better-layout": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "jakub-better-writing": [
+    "Find a time that works for everyone .",
+    "Find a time that works for everyone, automatically",
+    "Stop asking “when works for everyone?”"
+   ],
+   "jakub-variant": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "kemiljk-design-engineering": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "kemiljk-fluid-design": [
+    "Stop asking “when works?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”"
+   ],
+   "kemiljk-interaction-contracts": [
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?” Tempo already knows."
+   ],
+   "kemiljk-interface-affordances": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?” Tempo already knows."
+   ],
+   "kemiljk-modern-css-html": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for you?” Tempo finds the time."
+   ],
+   "kemiljk-real-content-design": [
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "Stop asking \"when works for everyone?\"",
+    "Stop asking “when are you free?” Tempo finds it."
+   ],
+   "kemiljk-semantic-html-first": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "kemiljk-subtractive-design": [
+    "Stop asking when everyone is free.",
+    "Stop asking “when works for you?”",
+    "Stop asking when everyone is free."
+   ],
+   "mengto-agency-grid-layout-minimal": [
+    "Stop asking “when works?” Tempo knows.",
+    "Everyone free. Found for you, automatically.",
+    "Everyone’s free at 2:30."
+   ],
+   "mengto-animation-on-scroll": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for you?”"
+   ],
+   "mengto-animation-systems": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”"
+   ],
+   "mengto-atmosphere-background": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-background-grid-webgl": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "mengto-beautiful-shadows": [
+    "Stop asking \"when works for everyone?\"",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when are you free?”"
+   ],
+   "mengto-blue-cloudy-clean-modern": [
+    "Stop scheduling. Let Tempo find the time.",
+    "Find the time when everyone is free.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-blue-laser-clean-glass-layout": [
+    "Stop asking “when works for you?”",
+    "Stop asking \"when works for you?\"",
+    "Stop asking “when are you free?”"
+   ],
+   "mengto-book-serif-index": [
+    "The hour everyone is free, found for you.",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when are you free? ”"
+   ],
+   "mengto-bright-green-tech-system-webgl": [
+    "Stop asking “when works?” Tempo knows.",
+    "Stop asking \"when works?\" Tempo knows.",
+    "Stop asking “when are you free?”"
+   ],
+   "mengto-build-awwwards-quality-sites": [
+    "Everyone’s free Wednesday at 2:30.",
+    "Everyone’s free at 2:30pm .",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-cinematic-gsap-lenis-motion-system": [
+    "Stop asking when everyone's free.",
+    "Stop asking “when works for you?”",
+    "Stop asking when everyone’s free."
+   ],
+   "mengto-cinematic-scroll-storytelling": [
+    "Stop asking when everyone's free.",
+    "Everyone's free at 2:30. Tempo already checked.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-clean-minimal-beige-light-mode": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for you?”",
+    "Stop asking “when are you free?”"
+   ],
+   "mengto-css-border-gradient": [
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-dark-blue-contrasting-clean": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "mengto-dark-glass-clean-layout": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”"
+   ],
+   "mengto-design-first-ui-prompting": [
+    "Stop asking “when works for everyone? ”",
+    "Stop asking “when works for everyone? ”",
+    "Stop asking “when works for everyone? ”"
+   ],
+   "mengto-dither-laser-dark-mode": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo finds the time.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-documentary-brutalist-agency": [
+    "Stop asking “When are you free?” Tempo knows.",
+    "Find the hour everyone is free.",
+    "Everyone's free at 2:30. Tempo found it."
+   ],
+   "mengto-editorial-portfolio-chapters": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo knows."
+   ],
+   "mengto-editorial-service-booking": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-editorial-tech": [
+    "Stop asking “when are you free? ”",
+    "Everyone’s free at 2:30. Tempo found it.",
+    "Stop asking “when works?” Tempo knows."
+   ],
+   "mengto-framed-grid-layout": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "mengto-framed-tech-dark-border-gradient": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "mengto-funky-purple-container-tech": [
+    "Stop asking \"when works?\" Tempo knows.",
+    "Stop asking “when are you free?”",
+    "Stop asking “when works?” Tempo knows."
+   ],
+   "mengto-glass-dark-mode-clock": [
+    "The meeting time finds itself.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-glass-dark-ui": [
+    "Stop asking \"when works for everyone?\"",
+    "Stop asking \"when works for you?\"",
+    "Stop asking “when works for you?” Tempo already knows."
+   ],
+   "mengto-gooey-blob-system": [
+    "Stop asking “when works for everyone? ”",
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Everyone's free. Tempo already found when."
+   ],
+   "mengto-gsap-scrolltrigger-storytelling": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works?” Tempo knows.",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-high-contrast-skeuomorphic-clean": [
+    "Stop asking “when works?” Tempo finds it.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when are you free?”"
+   ],
+   "mengto-horizontal-scroll-scenes": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when are you free ?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-image-first-grid-layout": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo knows."
+   ],
+   "mengto-landing-page": [
+    "Find a time when everyone’s free — in one click.",
+    "Stop asking “when works for everyone?”",
+    "Find a time that works for everyone , in one click."
+   ],
+   "mengto-light-mode-paper-technical": [
+    "Stop asking \"when works?\" Tempo knows.",
+    "Stop asking “when works?” Tempo knows.",
+    "Stop polling. Tempo finds the time everyone is free."
+   ],
+   "mengto-masked-reveal": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking when everyone is free."
+   ],
+   "mengto-mesh-gradient-dark-blue-clean": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "mengto-nested-container-clean-agency": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for you?”"
+   ],
+   "mengto-no-ai-design-slop": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “does Tuesday work for everyone?”",
+    "Stop asking “does Tuesday work for everyone?”"
+   ],
+   "mengto-operational-enterprise-ai": [
+    "Stop asking “when works?” Tempo finds it.",
+    "Stop asking “when works?” Tempo finds the time .",
+    "Stop asking “when works?” Tempo finds it."
+   ],
+   "mengto-orange-clean-paper-saas": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "mengto-pricing-page": [
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works?” Tempo finds the time.",
+    "Stop asking “when works for you?” Tempo finds the time."
+   ],
+   "mengto-product-proof-saas": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “does Tuesday work?” Tempo finds the time.",
+    "Stop asking “does Tuesday work?”"
+   ],
+   "mengto-progressive-blur": [
+    "Stop asking “when works?”",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-scroll-scrubbed-word-reveal": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "mengto-skeuomorphic-ui": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "mengto-split-layout-technical": [
+    "Stop asking when works for everyone.",
+    "The hour when everyone is free, found for you.",
+    "Stop asking “when works for everyone? ”"
+   ],
+   "mengto-staggered-word-reveal": [
+    "Stop asking when everyone is free.",
+    "Stop asking when everyone is free.",
+    "Stop asking when everyone is free."
+   ],
+   "mengto-tailwindcss": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for you?”"
+   ],
+   "mengto-tech-green-dark-mode-modern": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop polling. Tempo finds the time everyone is free.",
+    "Stop polling. Tempo finds the time everyone is free."
+   ],
+   "mengto-technical-wireframe-info-layout": [
+    "Everyone's calendar. One open slot. Found for you.",
+    "Five calendars. One open hour. Found.",
+    "Stop asking “when works?” Tempo already knows."
+   ],
+   "mengto-webgl-landing-steering": [
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works?” Tempo knows."
+   ],
+   "million-interactive-hit-areas": [
+    "Stop asking “when works for you?” Tempo already knows.",
+    "Stop asking “when works?” Tempo already knows.",
+    "Stop asking “when works for you?” Tempo already knows."
+   ],
+   "platform-design-web": [
+    "Stop asking “when works for everyone?” Tempo already knows.",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”"
+   ],
+   "prefer-container-queries": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking \"when works for everyone?\""
+   ],
+   "prototyper-build-primitive": [
+    "Stop asking “when are you free?” Tempo knows.",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for you?”"
+   ],
+   "taste-brutalist": [
+    "Stop asking when. Meet.",
+    "NO MORE “WHEN ARE YOU free ?” ™",
+    "NO MORE “WHEN ARE YOU FREE ? ”"
+   ],
+   "taste-minimalist": [
+    "Stop asking “when works for you?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking \"when are you free?\""
+   ],
+   "taste-soft": [
+    "Stop asking “when works?”",
+    "Stop asking “when works?” Tempo knows.",
+    "Stop asking “when works for everyone? ”"
+   ],
+   "uupm-banner-design": [
+    "Stop asking “when are you free?”",
+    "Stop asking “when works for everyone? ”",
+    "Stop asking “when works for you?”"
+   ],
+   "wshobson-wcag-audit-patterns": [
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?”",
+    "Stop asking “when works for everyone?” Tempo already knows."
+   ]
+  },
+  "signup-form": {
+   "addy-accessibility": [
+    "A summer of building real things with code",
+    "Code, create & explore at Pixel Pioneers Camp",
+    "Two weeks to go from curious to creator."
+   ],
+   "addy-best-practices": [
+    "A summer of building real things with code.",
+    "Turn screen time into build time .",
+    "Turn summer screen time into creative coding time ."
+   ],
+   "addy-core-web-vitals": [
+    "Code something awesome this summer.",
+    "A summer of building things kids are proud of",
+    "Two weeks of building real things with code."
+   ],
+   "addy-performance": [
+    "Summer is for building cool things.",
+    "Where curious kids become confident coders .",
+    "A summer of building real things with code."
+   ],
+   "addy-seo": [
+    "Online coding summer camp where kids build real projects",
+    "Online Coding Summer Camp for Curious Kids",
+    "Online Coding Summer Camp for Kids in Grades 3–10"
+   ],
+   "antfu-design": [
+    "Summer coding camp, built for curious kids.",
+    "Two weeks of building real things with code.",
+    "Three weeks to build something real ."
+   ],
+   "anthropic-canvas-design": [
+    "A summer spent building things.",
+    "Two weeks to build something real.",
+    "Two weeks to turn curiosity into working code."
+   ],
+   "anthropic-frontend-design": [
+    "Spend the summer making things move.",
+    "Three weeks online. One project your kid built.",
+    "Three weeks to build something they made up."
+   ],
+   "apple-design": [
+    "Spend summer building things that move.",
+    "A summer of building real things.",
+    "Two weeks to build something they're proud of."
+   ],
+   "balise-ux-writing": [
+    "Spend the summer building things that work.",
+    "Two weeks of building things kids actually want to make.",
+    "Spend the summer building things with code"
+   ],
+   "baseline": [
+    "Spend the summer building things that actually work.",
+    "Where kids turn ideas into real code.",
+    "A summer of building real things with code."
+   ],
+   "baseline-ui": [
+    "Two weeks of building real projects, from home.",
+    "A summer of building real things with code",
+    "A summer of building real things with code"
+   ],
+   "bencium-innovative": [
+    "Long summer days, first real programs.",
+    "Two weeks. One real thing they built.",
+    "Long afternoons, one small program at a time."
+   ],
+   "better-typography": [
+    "A summer where kids build things that run.",
+    "Two weeks of building things that actually work",
+    "Byte Camp: where kids build things that run"
+   ],
+   "better-ui": [
+    "Spend the summer building things that move.",
+    "Two weeks of code, built by curious kids.",
+    "Spend the summer building something real."
+   ],
+   "daisyui": [
+    "A summer of building, not just watching.",
+    "A summer of building real things with code.",
+    "A summer of building things kids are proud of."
+   ],
+   "elaya-landing-page-design": [
+    "Two weeks to build something your kid is proud to show",
+    "Your child builds a real game this summer",
+    "A summer of real coding for curious kids"
+   ],
+   "emil-animate": [
+    "Three weeks to build something real.",
+    "Three weeks to build something real.",
+    "Two weeks to go from player to maker."
+   ],
+   "emil-animation-performance": [
+    "Two weeks to go from curious to creator .",
+    "Two weeks to build their first real project.",
+    "Spend summer building , not just scrolling."
+   ],
+   "emil-break-ui": [
+    null,
+    "Two weeks to go from curious to creator.",
+    null
+   ],
+   "emil-choreograph": [
+    "Build something real this summer.",
+    "Two weeks to build something they're proud of.",
+    "Two weeks to go from curious to creator."
+   ],
+   "emil-design-eng": [
+    "A summer spent building , not just watching.",
+    "Where kids build things they're proud of .",
+    "A summer of building real things."
+   ],
+   "emil-mobile-native": [
+    "Spend the summer building things that actually run.",
+    "Build real things this summer. From home.",
+    "Your kid's best summer ships code."
+   ],
+   "emil-pick-ui-library": [
+    "Two weeks to go from curious to creator .",
+    "Kids build real things this summer .run()",
+    "Spend summer building real things with code."
+   ],
+   "emil-prototype": [
+    "Two weeks of building real projects, live with mentors.",
+    "Two weeks to build something real.",
+    "Two weeks of building real things with code."
+   ],
+   "emil-remove-animations": [
+    "Two weeks to go from curious to creator.",
+    "Two weeks to build something real.",
+    "Two weeks to build something they're proud of."
+   ],
+   "flornkm-smooth-shadow-ring": [
+    "Spend summer building things that actually run.",
+    "A summer where kids build real things .",
+    "Two weeks to go from curious to shipping"
+   ],
+   "flornkm-webgl-components": [
+    "Build something real this summer.",
+    "Two weeks of building real things with code.",
+    "A summer of building , not just watching."
+   ],
+   "frontend-ui-engineering": [
+    "Two weeks of building real things, live and online.",
+    "Two weeks to build something they're proud of.",
+    "Two weeks of building real things with code."
+   ],
+   "gsap-core": [
+    "Where kids turn curiosity into code.",
+    "Spend summer building things that actually work.",
+    "A summer of building cool stuff with code."
+   ],
+   "gsap-performance": [
+    "Where curious kids build real things with code.",
+    "Spend summer building things that run()",
+    "Turn screen time into build time."
+   ],
+   "gsap-plugins": [
+    "Where kids turn curiosity into code.",
+    "Code something awesome this summer.",
+    "Two weeks to go from curious to creator."
+   ],
+   "gsap-scrolltrigger": [
+    "Two weeks of code, creativity & friends — from home.",
+    "Two weeks to go from curious to creator . run()",
+    "Two weeks to build something real in code ."
+   ],
+   "gsap-timeline": [
+    "Two weeks to go from curious to creator",
+    "Build, break & invent this summer.",
+    "Code something they're proud of"
+   ],
+   "humane-functionalism": [
+    "Two weeks of building things that actually work.",
+    "Two weeks of building real things with code",
+    "Two weeks to build something real."
+   ],
+   "iart-60fps-animation": [
+    "Build something real this summer.",
+    "Code, create, and build something real this summer.",
+    "Where curious kids build real things ."
+   ],
+   "iart-accessible-animation": [
+    "Where curious kids build real things",
+    "Code something real this summer.",
+    "Spend the summer building things that move, beep & ship."
+   ],
+   "iart-glassmorphism": [
+    "Code, create & launch this summer.",
+    "Pixel Pines Coding Camp",
+    "Ten days to turn screen time into build time."
+   ],
+   "iart-micro-interaction": [
+    "Code something awesome this summer.",
+    "A summer of building real things with code.",
+    "Code, create & launch something real this summer."
+   ],
+   "iart-page-transition-animation": [
+    "Two weeks to go from curious to coder.",
+    "Two weeks of building real things with code.",
+    "Spend the summer building real things ."
+   ],
+   "iart-svg-animation": [
+    "Where kids turn ideas into code.",
+    "Two weeks of building real things with code.",
+    "A summer where kids build real things"
+   ],
+   "ibelick-fixing-accessibility": [
+    "Build, play & invent this summer with code .",
+    "A summer of building cool things with code",
+    "Build real projects. Make real friends."
+   ],
+   "ibelick-fixing-metadata": [
+    "Where curious kids learn to code this summer",
+    "A summer where kids build the things they love.",
+    "Turn screen time into creation time."
+   ],
+   "ibelick-fixing-motion-performance": [
+    "Code something real this summer",
+    "Two weeks to go from curious to creator.",
+    "Where kids turn curiosity into code."
+   ],
+   "interaction-design": [
+    "Two weeks to go from curious to creator.",
+    "Where kids build real things with code",
+    "Code something real this summer"
+   ],
+   "interface-design": [
+    "Three weeks of making things that run.",
+    "Three weeks to build something they’re proud of.",
+    "Two weeks to ship their first real thing"
+   ],
+   "jakub-better-layout": [
+    "Two weeks to build something they’re proud of",
+    "Build real projects this summer, from home.",
+    "Two weeks to go from curious to creator ."
+   ],
+   "jakub-better-writing": [
+    "Two weeks to build something real .",
+    "Two weeks to build something they made themselves",
+    "Two weeks to build something they made themselves"
+   ],
+   "jakub-variant": [
+    "Two weeks of building things that actually run.",
+    "Two weeks to code something real.",
+    "Two weeks of live coding, from first idea to finished project"
+   ],
+   "kemiljk-design-engineering": [
+    "Two weeks. One real project. Built by your kid.",
+    "Two weeks to go from curious to creator.",
+    "Build something real this summer"
+   ],
+   "kemiljk-fluid-design": [
+    "Two weeks to build something they're proud of.",
+    "Two weeks to build something real.",
+    "A summer where kids build the things they love."
+   ],
+   "kemiljk-interaction-contracts": [
+    "Two weeks to build something real.",
+    "Two weeks to build something real.",
+    "Where kids build real things with code."
+   ],
+   "kemiljk-interface-affordances": [
+    "A summer of building real things with code.",
+    "Spend summer building , not just scrolling.",
+    "A summer of building real things with code."
+   ],
+   "kemiljk-modern-css-html": [
+    "Spend the summer building things that actually work.",
+    "A summer of building , not just watching.",
+    "Code, create & level up this summer"
+   ],
+   "kemiljk-real-content-design": [
+    "Two weeks to build something they made themselves.",
+    "Two weeks to build something they made .",
+    "Two weeks to build something they made themselves."
+   ],
+   "kemiljk-semantic-html-first": [
+    "Where kids build the things they love to play.",
+    "Spend summer building , not just scrolling.",
+    "Build real projects. Make real friends."
+   ],
+   "kemiljk-subtractive-design": [
+    "A summer of building things that work.",
+    "Kids build real things with code this summer.",
+    "A summer of building things kids actually want to make."
+   ],
+   "mengto-agency-grid-layout-minimal": [
+    "Build something real this summer.",
+    "Two weeks to build something real.",
+    "Build things that move. Summer, in code."
+   ],
+   "mengto-animation-on-scroll": [
+    "Build something real this summer.",
+    "Two weeks to turn curious kids into creators .",
+    "A summer of building real things with code."
+   ],
+   "mengto-animation-systems": [
+    "Where kids build real things with code.",
+    "Build real things this summer. Learn to code by making.",
+    "A summer of building real things with code."
+   ],
+   "mengto-atmosphere-background": [
+    "Where curious kids learn to build with code.",
+    "A summer of building real things with code.",
+    "Two weeks to go from curious to creator."
+   ],
+   "mengto-background-grid-webgl": [
+    "Two weeks to go from curious to creator.",
+    "Code something real this summer.",
+    "Two weeks to build something real."
+   ],
+   "mengto-beautiful-shadows": [
+    "A summer of building real things — from home.",
+    "A summer of building real things with code.",
+    "A summer spent building things that actually run."
+   ],
+   "mengto-blue-cloudy-clean-modern": [
+    "A summer to build something of their own.",
+    "A summer spent building things that take flight",
+    "A summer where kids learn to build their own worlds."
+   ],
+   "mengto-blue-laser-clean-glass-layout": [
+    "A summer spent building real things with code.",
+    "Two weeks. One real project. Built by your kid.",
+    "A summer where kids build things that actually run."
+   ],
+   "mengto-book-serif-index": [
+    "Where young minds learn to write in code.",
+    "Write your first chapter in code.",
+    "A summer spent writing small worlds in code."
+   ],
+   "mengto-bright-green-tech-system-webgl": [
+    "Spend summer building real things in code.",
+    "Two weeks. Real code. Shipped projects.",
+    "Kids don't just learn code here. They ship it."
+   ],
+   "mengto-build-awwwards-quality-sites": [
+    "Build something that wasn’t there in June.",
+    "Build something brilliant this summer.",
+    "Spend the summer building something that blinks back."
+   ],
+   "mengto-cinematic-gsap-lenis-motion-system": [
+    "Build the thing they've been imagining.",
+    "Build something they'll still be proud of in September.",
+    "Summer is for building things that blink."
+   ],
+   "mengto-cinematic-scroll-storytelling": [
+    "A summer of making, one line at a time.",
+    "A summer spent building things that move.",
+    "Summer is for building things that move."
+   ],
+   "mengto-clean-minimal-beige-light-mode": [
+    "Two weeks of building, from idea to shipped .",
+    "Three weeks of building, from anywhere.",
+    "A summer of building real things with code."
+   ],
+   "mengto-css-border-gradient": [
+    "A summer of building real things with code.",
+    "Three weeks to go from curious to creator.",
+    "Two weeks to go from curious to creator."
+   ],
+   "mengto-dark-blue-contrasting-clean": [
+    "Build something real this summer.",
+    "Build real things this summer, from home.",
+    "Where kids build real things with code."
+   ],
+   "mengto-dark-glass-clean-layout": [
+    "A summer spent building real things — from home.",
+    "Summer is for building things that actually run.",
+    "Three weeks. One real project. Zero boredom."
+   ],
+   "mengto-design-first-ui-prompting": [
+    "Two weeks to build something real .",
+    "Code something real this summer.",
+    "Build something real this summer."
+   ],
+   "mengto-dither-laser-dark-mode": [
+    "A summer spent building real things.",
+    "Three weeks. One real project. Shipped by your kid.",
+    "Build real things this summer. Live."
+   ],
+   "mengto-documentary-brutalist-agency": [
+    "Ten days. Real code. Shipped.",
+    "Kids write real code. This summer.",
+    "Code all summer."
+   ],
+   "mengto-editorial-portfolio-chapters": [
+    "Two weeks to build something real.",
+    "Build something real this summer.",
+    "Build something real this summer."
+   ],
+   "mengto-editorial-service-booking": [
+    "Three weeks to build something real , from the kitchen table.",
+    "A quiet summer of making things that actually run.",
+    "A quiet summer of making things that run."
+   ],
+   "mengto-editorial-tech": [
+    "A summer spent building things that run.",
+    "Summer is for building things.",
+    "Summer, compiled by kids ."
+   ],
+   "mengto-framed-grid-layout": [
+    "Three weeks to build something real.",
+    "Three weeks of building real things with code.",
+    "A summer of building real things with code."
+   ],
+   "mengto-framed-tech-dark-border-gradient": [
+    "Build real things. Learn how they work. All summer long.",
+    "Build real things. Ship by Friday. Learn for life.",
+    "Four weeks. Real projects. Zero commute."
+   ],
+   "mengto-funky-purple-container-tech": [
+    "Spend summer building things that actually run.",
+    "Four weeks to build something wildly their own.",
+    "Code the weird stuff this summer."
+   ],
+   "mengto-glass-dark-mode-clock": [
+    "Two weeks to calibrate a coder.",
+    "Three weeks to calibrate a young coder.",
+    "Two weeks to calibrate a young coder."
+   ],
+   "mengto-glass-dark-ui": [
+    "Code your summer into something amazing.",
+    "Spend summer building things that actually run.",
+    "Code something amazing this summer."
+   ],
+   "mengto-gooey-blob-system": [
+    "Two weeks to go from curious to coder.",
+    "Two weeks to build something real.",
+    "Two weeks to build something they're proud of."
+   ],
+   "mengto-gsap-scrolltrigger-storytelling": [
+    "Three weeks. One real project. Endless curiosity.",
+    "Three weeks to go from curious to creator.",
+    "Two weeks. One laptop. Endless things to build."
+   ],
+   "mengto-high-contrast-skeuomorphic-clean": [
+    "Three weeks. One real project. Built by your kid.",
+    "Build real things. Ship them by Friday.",
+    "Three weeks. One real project they'll be proud of."
+   ],
+   "mengto-horizontal-scroll-scenes": [
+    "Two weeks to go from curious to creator.",
+    "Build real things this summer. From home.",
+    "Two weeks of building real things with code."
+   ],
+   "mengto-image-first-grid-layout": [
+    "Spend summer building things that run.",
+    "A summer spent building things that actually run.",
+    "Spend summer building things that actually run."
+   ],
+   "mengto-landing-page": [
+    "Your kid builds a real project this summer, live and online.",
+    "Your kid builds a real project in two weeks — not just watches videos.",
+    "Your kid builds a real project this summer, from home."
+   ],
+   "mengto-light-mode-paper-technical": [
+    "Three weeks. One real project. Built by them.",
+    "Build real things. Ship them by Friday .",
+    "Two weeks. One real project. Built live."
+   ],
+   "mengto-masked-reveal": [
+    "Where curious kids build their first real projects.",
+    "A summer where kids build things that run on real code.",
+    "Two weeks of summer that turn curious kids into creators."
+   ],
+   "mengto-mesh-gradient-dark-blue-clean": [
+    "Build real things. Ship them this summer.",
+    "A summer spent building real things with code.",
+    "Build real things this summer, from anywhere."
+   ],
+   "mengto-nested-container-clean-agency": [
+    "Two weeks to build something real.",
+    "Summer, written in code.",
+    "Two weeks to build something real."
+   ],
+   "mengto-no-ai-design-slop": [
+    "Two weeks of summer. One thing your kid built.",
+    "Two weeks of summer. One thing your kid built themselves.",
+    "Two weeks of summer. One thing they built themselves."
+   ],
+   "mengto-operational-enterprise-ai": [
+    "Two weeks to build something real.",
+    "Two weeks. One real project. Built by your kid.",
+    "Two weeks to build something real."
+   ],
+   "mengto-orange-clean-paper-saas": [
+    "Where curious kids ship their first code.",
+    "Three weeks. One real project. A creator for life.",
+    "A summer spent building things they’re proud of."
+   ],
+   "mengto-pricing-page": [
+    "The summer your kid builds something real.",
+    "Two weeks. One real project your kid built.",
+    "Two weeks to go from playing to building ."
+   ],
+   "mengto-product-proof-saas": [
+    "Two weeks of building real projects, live from home.",
+    "Two weeks of live coding. One project your kid actually finishes.",
+    "Two weeks. One real project your kid built themselves."
+   ],
+   "mengto-progressive-blur": [
+    "Spend summer building things that run() .",
+    "A summer where kids build real things with code.",
+    "Where curious kids ship real code ."
+   ],
+   "mengto-scroll-scrubbed-word-reveal": [
+    "A summer where kids build the thing, not just watch it.",
+    "A summer spent building , not scrolling.",
+    "Two weeks to build something they're proud of."
+   ],
+   "mengto-skeuomorphic-ui": [
+    "Where curious kids build real things with code.",
+    "Build real things. Have a blast doing it.",
+    "Build real things this summer."
+   ],
+   "mengto-split-layout-technical": [
+    "A summer spent building real things.",
+    "A summer spent building real things.",
+    "Three weeks to build something real."
+   ],
+   "mengto-staggered-word-reveal": [
+    "A summer spent building things that actually work.",
+    "A summer where kids build the things they love to play.",
+    "A summer spent building things that actually work."
+   ],
+   "mengto-tailwindcss": [
+    "A summer of building things they're proud of.",
+    "A summer where kids build the things they love.",
+    "A summer of building real things with code."
+   ],
+   "mengto-tech-green-dark-mode-modern": [
+    "Kids learn to build real things with code.",
+    "Build real things. Ship them by August.",
+    "Build real things this summer, from home"
+   ],
+   "mengto-technical-wireframe-info-layout": [
+    "Six weeks to ship something real.",
+    "Take code apart. Build it back better.",
+    "Build something that actually runs."
+   ],
+   "mengto-webgl-landing-steering": [
+    "Turn screen time into build time.",
+    "Build a game, a robot, or a website this summer.",
+    "Two weeks to go from curious to creator ."
+   ],
+   "million-interactive-hit-areas": [
+    "Code something amazing this summer.",
+    "Code Camp Summer Builders",
+    "Spend summer building things that actually run run()"
+   ],
+   "platform-design-web": [
+    "Two weeks of building, debugging, and having a blast.",
+    "Spend summer building , not just scrolling.",
+    "A summer where kids build real things with code"
+   ],
+   "prefer-container-queries": [
+    "A summer where kids build things they're proud of.",
+    "A summer of building real things with code.",
+    "A summer where your kid builds real things."
+   ],
+   "prototyper-build-primitive": [
+    "A summer of building real things with code.",
+    "Spend summer building things they're proud of.",
+    "Two weeks to build something they're proud of."
+   ],
+   "taste-brutalist": [
+    "Code Camp ™ /26",
+    "BUILD NOTHING REAL. ™",
+    "Build things ® that run."
+   ],
+   "taste-minimalist": [
+    "Two weeks of building real things with code.",
+    "Two weeks of building real things, from home.",
+    "Three weeks of building real things, from home."
+   ],
+   "taste-soft": [
+    "Two weeks to build something real.",
+    "Build the things they imagine .",
+    "Where curious kids learn to build things ."
+   ],
+   "uupm-banner-design": [
+    "Build something real this summer",
+    "Build real things this summer { }",
+    "Two weeks to build real code they're proud of."
+   ],
+   "wshobson-wcag-audit-patterns": [
+    "Build, play & invent at CodeSprout Camp",
+    "Code something amazing this summer",
+    "Spend summer building the things you love."
+   ]
+  },
+  "skillarena-home": {
+   "addy-accessibility": [
+    "See what a UI skill actually changes.",
+    "Same brief. Different skill. See what changes.",
+    "See what a skill actually changes."
+   ],
+   "addy-best-practices": [
+    "Same brief. Different skill. See what changes.",
+    "See what a skill actually changes in agent-built UI.",
+    "See what a skill actually changes."
+   ],
+   "addy-core-web-vitals": [
+    "Every page here came from one brief .",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "addy-performance": [
+    "Same brief. Different skill.",
+    "See what a skill actually changes",
+    "See what a skill actually changes in your agent's UI."
+   ],
+   "addy-seo": [
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See the difference.",
+    "Compare UI skills for AI coding agents"
+   ],
+   "antfu-design": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Every page here was built from one brief ."
+   ],
+   "anthropic-canvas-design": [
+    "One brief. Many skills. Every page is the evidence.",
+    "One brief. Many skills. Every page, evidence.",
+    "Same brief. Same model. Different skill."
+   ],
+   "anthropic-frontend-design": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. Every page."
+   ],
+   "apple-design": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill."
+   ],
+   "balise-ux-writing": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill."
+   ],
+   "baseline": [
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. Spot the difference.",
+    "Same brief. Different skill."
+   ],
+   "baseline-ui": [
+    "See what a UI skill actually changes in your agent’s output",
+    "See what a UI skill actually changes",
+    "Same brief. Different skill. See what changes."
+   ],
+   "bencium-innovative": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill."
+   ],
+   "better-typography": [
+    "One brief. Many skills. See the difference.",
+    "Same brief. Different skill. See the difference.",
+    "One brief. Many skills. Judge the difference."
+   ],
+   "better-ui": [
+    "Same brief. Different skill. See the difference.",
+    "See what a UI skill actually changes.",
+    "Same brief. Same agent. Only the skill changes."
+   ],
+   "daisyui": [
+    "Same brief. Different skill. See what changes.",
+    "Every page here was built from the same brief.",
+    "See what a skill actually changes."
+   ],
+   "elaya-landing-page-design": [
+    "Same brief, different skill. See what actually changes.",
+    "This cell is empty",
+    "Same brief, same model. Only the skill changes."
+   ],
+   "emil-animate": [
+    "One brief. Many skills. Spot the difference.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "emil-animation-performance": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "See what a skill actually changes in the UI your agent builds."
+   ],
+   "emil-break-ui": [
+    "Same brief. Different skill.",
+    "See what a skill actually changes.",
+    "One brief. Every skill. See what changes."
+   ],
+   "emil-choreograph": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill."
+   ],
+   "emil-design-eng": [
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill."
+   ],
+   "emil-mobile-native": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill."
+   ],
+   "emil-pick-ui-library": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. Every page."
+   ],
+   "emil-prototype": [
+    "Same brief. Different skill. See what actually changes.",
+    "Same brief. Different skill. See what actually changes.",
+    "Every page here was built from the same brief. Only the skill changed."
+   ],
+   "emil-remove-animations": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "flornkm-smooth-shadow-ring": [
+    "Same brief. Different skill.",
+    "Same brief. Same agent. Different skill.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "flornkm-webgl-components": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "frontend-ui-engineering": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Same model. Only the skill changes.",
+    "Same brief. Same model. Different skill."
+   ],
+   "gsap-core": [
+    "Same brief. Different skill.",
+    "One brief. Many skills. See the difference.",
+    "Same brief. Different skill."
+   ],
+   "gsap-performance": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See the difference.",
+    "One brief. Many skills. See the difference."
+   ],
+   "gsap-plugins": [
+    "One brief. Many skills. Spot the difference.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "gsap-scrolltrigger": [
+    "One brief. Many skills. Every page compared.",
+    "Same brief. Different skill. See what changes.",
+    "One brief. Many skills. Spot the difference."
+   ],
+   "gsap-timeline": [
+    "Same brief. Different skill. See the gap.",
+    "One brief. Every skill. Side by side.",
+    "One brief. Many skills. Every page is proof."
+   ],
+   "humane-functionalism": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "iart-60fps-animation": [
+    "Every page here was built from the same brief.",
+    "Same brief. Different skill. See the difference.",
+    "Every page here came from one brief ."
+   ],
+   "iart-accessible-animation": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill."
+   ],
+   "iart-glassmorphism": [
+    "Same brief. Different skill. See what changes.",
+    "One brief. Many skills. Every page, side by side.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "iart-micro-interaction": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See what actually changes.",
+    "Same brief. Same model. Only the skill changes."
+   ],
+   "iart-page-transition-animation": [
+    "Same brief. Different skill. Every page on this site.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill."
+   ],
+   "iart-svg-animation": [
+    "Same brief. Different skill.",
+    "One brief. Every skill. Side by side.",
+    "Same brief. Different skill."
+   ],
+   "ibelick-fixing-accessibility": [
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See the difference.",
+    "See what a UI skill actually changes."
+   ],
+   "ibelick-fixing-metadata": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See the difference.",
+    "See what a skill actually changes."
+   ],
+   "ibelick-fixing-motion-performance": [
+    "Same brief. Different skill. See what changes.",
+    "See what a skill actually changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "interaction-design": [
+    "One brief. Many skills. See the difference.",
+    "Same brief. Same agent. Different skill.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "interface-design": [
+    "Same brief. Different skill. Every page is the evidence.",
+    "Same brief. Same model. Only the skill changes.",
+    "Same brief. Same model. Only the skill changes."
+   ],
+   "jakub-better-layout": [
+    "See what a UI skill actually changes.",
+    "Same brief. Different skill. See what changes.",
+    "See what a UI skill actually changes."
+   ],
+   "jakub-better-writing": [
+    "Same brief. Different skill.",
+    "See what a UI skill actually changes",
+    "Same brief. Different skill. See what changes."
+   ],
+   "jakub-variant": [
+    "See what a UI skill actually does to your agent's output.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "kemiljk-design-engineering": [
+    "One brief. Many skills. See what actually changes.",
+    "One brief. Many skills. Spot the difference.",
+    "One brief. Many skills. See the difference."
+   ],
+   "kemiljk-fluid-design": [
+    "One brief. Many skills. Spot the difference.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "kemiljk-interaction-contracts": [
+    "Same brief. Different skill. See the difference.",
+    "Every page here was built from one brief .",
+    "Same brief. Different skill. See the difference."
+   ],
+   "kemiljk-interface-affordances": [
+    "See what a skill actually changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "kemiljk-modern-css-html": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "kemiljk-real-content-design": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "kemiljk-semantic-html-first": [
+    "Same brief. Different skill. See what changes.",
+    "See what a skill actually changes .",
+    "Same brief. Different skill. See the difference."
+   ],
+   "kemiljk-subtractive-design": [
+    "Same brief. Different skill.",
+    "One brief. Many skills. See the difference.",
+    "Same brief. Different skill."
+   ],
+   "mengto-agency-grid-layout-minimal": [
+    "One brief. Many skills. Side by side.",
+    "One brief. Many skills. Every page, compared.",
+    "One brief. Different skills. Every page here."
+   ],
+   "mengto-animation-on-scroll": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill."
+   ],
+   "mengto-animation-systems": [
+    "One product brief. Every skill, side by side.",
+    "Same brief. Different skill.",
+    "One brief. Different skills. See what changes."
+   ],
+   "mengto-atmosphere-background": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill."
+   ],
+   "mengto-background-grid-webgl": [
+    "See what a skill actually changes.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill."
+   ],
+   "mengto-beautiful-shadows": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "mengto-blue-cloudy-clean-modern": [
+    "One brief. Many skills. See what actually changes.",
+    "One brief. Every skill. See the difference.",
+    "One brief. Every skill. See the difference."
+   ],
+   "mengto-blue-laser-clean-glass-layout": [
+    "Same brief. Different skill.",
+    "One brief. Many skills. Side by side.",
+    "One brief. Many skills. See what changes."
+   ],
+   "mengto-book-serif-index": [
+    "One brief. Many hands. Every page differs.",
+    "One brief. Many skills. Every page, compared.",
+    "One brief. Many skills. Every page, compared."
+   ],
+   "mengto-bright-green-tech-system-webgl": [
+    "One brief. Many skills. Every page differs.",
+    "Same brief. Different skill. See the delta.",
+    "Same brief. Different skill . Every page on this site."
+   ],
+   "mengto-build-awwwards-quality-sites": [
+    "Same brief. Different skill.",
+    "One brief. Six skills. No cherry-picking.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "mengto-cinematic-gsap-lenis-motion-system": [
+    "One brief. Many skills. Every page compared.",
+    "One brief. Many skills. See the difference.",
+    "One brief. Many skills. Nothing else changed."
+   ],
+   "mengto-cinematic-scroll-storytelling": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill."
+   ],
+   "mengto-clean-minimal-beige-light-mode": [
+    "Same brief. Different skill. Every page, side by side.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what actually changes."
+   ],
+   "mengto-css-border-gradient": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Every page here was built from one brief. Only the skill changed."
+   ],
+   "mengto-dark-blue-contrasting-clean": [
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "mengto-dark-glass-clean-layout": [
+    "Every page here was built from the same brief. Only the skill changed.",
+    "Same brief. Different skill. See what changes.",
+    "One brief. Different skills. See what changes."
+   ],
+   "mengto-design-first-ui-prompting": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill."
+   ],
+   "mengto-dither-laser-dark-mode": [
+    "Same brief. Different skill. Every page.",
+    "Same brief. Different skill. See the difference.",
+    "One brief. Many skills. See what actually changes."
+   ],
+   "mengto-documentary-brutalist-agency": [
+    "Same brief. Different skill.",
+    "One brief. Every skill. Side by side.",
+    "One brief. Many skills. See the difference."
+   ],
+   "mengto-editorial-portfolio-chapters": [
+    "One brief. Many skills. Every page here is the proof.",
+    "Same brief. Different skill.",
+    "Same brief. Different skill. Judge the pages."
+   ],
+   "mengto-editorial-service-booking": [
+    "One brief. Many skills. Every page you see.",
+    "One brief. Many skills. Every page is the evidence.",
+    null
+   ],
+   "mengto-editorial-tech": [
+    "One brief. A different skill each time.",
+    "One brief. Many skills. Every page, generated.",
+    "One brief. Many skills. Every page here."
+   ],
+   "mengto-framed-grid-layout": [
+    "One brief. Many skills. Every page, side by side.",
+    "One brief. Many skills. Every page compared.",
+    "Same brief. Different skill. Every page, side by side."
+   ],
+   "mengto-framed-tech-dark-border-gradient": [
+    "Same brief. Different skill. See the delta.",
+    "One brief. Many skills. Zero guesswork.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "mengto-funky-purple-container-tech": [
+    "One brief. Many skills. Every page, compared.",
+    "One brief. Many skills. Every page proves it.",
+    "One brief. Every skill. See the difference."
+   ],
+   "mengto-glass-dark-mode-clock": [
+    "One brief. Every skill, calibrated.",
+    "One brief. Many skills. Measured.",
+    "One brief. Every skill. Measured."
+   ],
+   "mengto-glass-dark-ui": [
+    "Same brief. Different skill. See what actually changes.",
+    "Same brief. Different skill. See what actually changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "mengto-gooey-blob-system": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "mengto-gsap-scrolltrigger-storytelling": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "mengto-high-contrast-skeuomorphic-clean": [
+    "Same brief. Different skill.",
+    "One brief. Many skills. Every page on this site.",
+    "One brief. Every skill. No excuses."
+   ],
+   "mengto-horizontal-scroll-scenes": [
+    "Every page here was built from the same brief.",
+    "Same brief. Different skill. See what changes.",
+    "One brief. Many skills. Every page."
+   ],
+   "mengto-image-first-grid-layout": [
+    "One brief. Every skill. Side by side.",
+    "One brief. Every skill. Side by side.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "mengto-landing-page": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "mengto-light-mode-paper-technical": [
+    "Same brief. Different skill. See the difference .",
+    "Every page here came from one brief . Only the skill changed.",
+    "One brief. Six skills. Every page, compared."
+   ],
+   "mengto-masked-reveal": [
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See what changes.",
+    "One brief. Many skills. See what actually changes."
+   ],
+   "mengto-mesh-gradient-dark-blue-clean": [
+    "One brief. Every skill. See the difference.",
+    "One brief. Many skills. Nothing else changes.",
+    "Same brief. Different skill. See the gap."
+   ],
+   "mengto-nested-container-clean-agency": [
+    "Same brief. Different skill. See the gap.",
+    "One brief. Many skills. Every page compared.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "mengto-no-ai-design-slop": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "mengto-operational-enterprise-ai": [
+    "One brief. Many skills. Only the skill changes.",
+    "Same brief. Same agent. Only the skill changes.",
+    "One brief. Many skills. Every page on view."
+   ],
+   "mengto-orange-clean-paper-saas": [
+    "Same brief. Different skill. See the difference.",
+    "One brief. Many skills. See the difference.",
+    "One brief. Many skills. Every page compared."
+   ],
+   "mengto-pricing-page": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "See what a UI skill actually changes before you install it."
+   ],
+   "mengto-product-proof-saas": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Same agent. Different skill.",
+    "One brief. Many skills. See what changed."
+   ],
+   "mengto-progressive-blur": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "mengto-scroll-scrubbed-word-reveal": [
+    "One brief. Different skills. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "One brief. Many skills. Same agent."
+   ],
+   "mengto-skeuomorphic-ui": [
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "mengto-split-layout-technical": [
+    "One brief. Many skills. Every page is the evidence.",
+    "One brief. Many skills.",
+    "Same brief. Different skill. Every page."
+   ],
+   "mengto-staggered-word-reveal": [
+    "Same brief. Different skill. Every page.",
+    "Same brief. Different skill. See what changes.",
+    "One brief. Many skills. See what changes."
+   ],
+   "mengto-tailwindcss": [
+    "Same brief. Different skill.",
+    "One brief. Many skills. See what actually changes.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "mengto-tech-green-dark-mode-modern": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See the difference.",
+    "One brief. Many skills. Every page, compared."
+   ],
+   "mengto-technical-wireframe-info-layout": [
+    "One brief. Many skills. Side by side.",
+    "One brief. Many skills. Every page differs.",
+    "One brief. Many skills. Every page differs."
+   ],
+   "mengto-webgl-landing-steering": [
+    "Same brief. Different skill.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill."
+   ],
+   "million-interactive-hit-areas": [
+    "See what a skill actually changes in AI-built UI.",
+    "Same brief. Different skill. See what changes.",
+    "One brief. Many skills. Every page here was built by an agent."
+   ],
+   "platform-design-web": [
+    "Same brief. Same model. Different skill.",
+    "One brief. Many skills. See what changes.",
+    "See what a skill actually changes in AI-built UI."
+   ],
+   "prefer-container-queries": [
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See what changes.",
+    "One brief. Many skills. Every page compared."
+   ],
+   "prototyper-build-primitive": [
+    "Same brief. Different skill. See the difference.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. See the difference."
+   ],
+   "taste-brutalist": [
+    "One brief. Many skills ® Compared.",
+    "ONE BRIEF. EVERY SKILL. NO GUESSING.",
+    "One brief. Same every skill differs ."
+   ],
+   "taste-minimalist": [
+    "One brief. Many skills. Every page, side by side.",
+    "Same brief. Different skill. See what changes.",
+    "Same brief. Different skill. Judge the difference."
+   ],
+   "taste-soft": [
+    "Same brief. Different skill.",
+    "One brief. Many skills.",
+    "Same brief. Different skill. See what changes."
+   ],
+   "uupm-banner-design": [
+    "Same brief. Different skill. See the difference.",
+    "One brief. Every skill. Spot the difference.",
+    "One brief. Many skills. Every page is the proof."
+   ],
+   "wshobson-wcag-audit-patterns": [
+    "See what a UI skill actually changes.",
+    "See what a UI skill actually changes.",
+    "See what a skill actually changes in AI‑built UI."
+   ]
+  }
+ }
+}
