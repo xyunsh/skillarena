@@ -1,0 +1,28 @@
+{
+  "briefId": "signup-form",
+  "skillId": "emil-prototype",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-25T13:00:02.857Z",
+  "inputTokens": 20963,
+  "outputTokens": 10219,
+  "costUsd": 0,
+  "durationMs": 210503,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-25T21:33:30.015Z",
+    "fullPageHeight": 1260,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

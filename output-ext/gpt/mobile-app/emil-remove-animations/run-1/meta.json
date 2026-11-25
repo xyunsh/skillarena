@@ -1,0 +1,28 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "emil-remove-animations",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-25T12:56:32.708Z",
+  "inputTokens": 19809,
+  "outputTokens": 7192,
+  "costUsd": 0,
+  "durationMs": 149177,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-25T21:33:15.314Z",
+    "fullPageHeight": 1224,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

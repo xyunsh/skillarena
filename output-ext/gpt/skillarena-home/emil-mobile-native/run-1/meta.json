@@ -1,0 +1,28 @@
+{
+  "briefId": "skillarena-home",
+  "skillId": "emil-mobile-native",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-25T13:02:04.891Z",
+  "inputTokens": 21409,
+  "outputTokens": 9419,
+  "costUsd": 0,
+  "durationMs": 193034,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-25T21:33:34.784Z",
+    "fullPageHeight": 2214,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

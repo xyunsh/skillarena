@@ -1,0 +1,32 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "emil-prototype",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-25T13:07:36.177Z",
+  "inputTokens": 21162,
+  "outputTokens": 10180,
+  "costUsd": 0,
+  "durationMs": 210123,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "patches": [
+    "thumb-live-v2",
+    "logo-home-link-v1"
+  ],
+  "screenshots": {
+    "takenAt": "2026-11-25T21:33:54.912Z",
+    "fullPageHeight": 2250,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}
