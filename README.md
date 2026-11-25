@@ -8,6 +8,8 @@ SkillArena gives every UI skill (a `SKILL.md` for AI coding agents such as Claud
 
 <sub>One brief, four results: run 1 of 3 for each, Claude Opus 5.5. [Compare any two skills →](https://skillarena.dev/compare/?ref=github)</sub>
 
+<a href="https://www.claudeai.directory/launches/skillarena" target="_blank" rel="noopener"><img src="https://www.claudeai.directory/badge/skillarena" alt="SkillArena - Listed on Claude AI Directory" width="220" height="54" /></a>
+
 ## How it works
 
 - **5 fixed briefs**: a SaaS landing page, an analytics dashboard, a mobile app screen, a sign-up form, and SkillArena's own home page. Each is sent word for word.
