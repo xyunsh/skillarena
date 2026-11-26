@@ -1,0 +1,12 @@
+{
+  "daisyui": {
+    "author": "Pouya Saadeghi",
+    "url": "https://github.com/saadeghi",
+    "date": "2026-11-26",
+    "paragraphs": [
+      "Fewer output tokens doesn't mean the skill did less. The no-skill page invents one-time-use class names like .logo-mark and .nav-cta, so on a real site every new page adds more of them, and every edit means reading the CSS and checking which pages use a class.",
+      "The daisyUI page has zero custom CSS. Its classes, components and design tokens are reusable across the whole project: a smaller button is just btn-sm, the agent doesn't need to read or write a CSS file, and changing one page can't break the style of another.",
+      "For a real project, install Tailwind CSS and daisyUI as Node dependencies instead of using the CDN files (these pages use the CDN only because each run has to be a single HTML file)."
+    ]
+  }
+}

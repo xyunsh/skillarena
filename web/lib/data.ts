@@ -14,6 +14,10 @@ const readJson = <T,>(file: string, fallback: T): T => {
     return t ? (JSON.parse(t) as T) : fallback;
 };
 
+/** Notes from a skill's author, shown on its page with permission (data/author-notes.json, keyed by skill id). */
+export interface AuthorNote { author: string; url: string; date: string; paragraphs: string[] }
+export const authorNotes = readJson<Record<string, AuthorNote>>('author-notes.json', {});
+
 export interface Run {
     run: number;
     status: 'ok' | 'failed' | 'invalid_html';

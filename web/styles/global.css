@@ -396,3 +396,7 @@ h2[id] { scroll-margin-top: 84px; }
 .ext-runs { scroll-margin-top: 84px; }
 .live-ext { margin-top: 48px; }
 .live-ext h2 { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.author-note { margin-top: 20px; padding: 14px 18px; border-left: 3px solid var(--ink-3); background: var(--surface); border-radius: 0 10px 10px 0; max-width: 760px; }
+.author-note h3 { margin: 0 0 8px; font-size: 15px; }
+.author-note p { margin: 0 0 8px; }
+.author-note p:last-child { margin-bottom: 0; }

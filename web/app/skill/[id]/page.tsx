@@ -4,7 +4,7 @@ import { JsonLd } from '~/components/JsonLd';
 import { Status } from '~/components/Status';
 import { ui } from '~/lib/copy';
 import {
-    asset, briefs, commitUrl, compareUrl, extRunsFor, extSets, fmtDate, isMobileFirst, manifest, manualInstall, runsFor, shortSha, skillMdUrl, skills, sourceUrl, upstreamFor, type Run,
+    asset, authorNotes, briefs, commitUrl, compareUrl, extRunsFor, extSets, fmtDate, isMobileFirst, manifest, manualInstall, runsFor, shortSha, skillMdUrl, skills, sourceUrl, upstreamFor, type Run,
 } from '~/lib/data';
 import { skillHeadlineNote, skillSummary } from '~/lib/findings';
 import { abs, meta } from '~/lib/seo';
@@ -137,6 +137,7 @@ export default async function SkillPage({ params }: Params) {
     const vsHref = (briefId: string) => `/compare/?a=baseline&b=${skill.id}&brief=${briefId}`;
     const summary = skillSummary(skill.id);
     const headlineNote = skillHeadlineNote(skill.id);
+    const authorNote = authorNotes[skill.id];
 
     return (
         <div className="wrap" data-view="desktop" id="skill-page">
@@ -270,6 +271,17 @@ export default async function SkillPage({ params }: Params) {
                         {summary} Output tokens show how much the model wrote, not whether the page is better. <a href="/about/#findings">How this compares across skills</a>
                     </p>
                     {headlineNote && <p>{headlineNote}</p>}
+                    {authorNote && (
+                        <aside className="author-note" aria-label={`Note from ${authorNote.author}`}>
+                            <h3>From the skill’s author</h3>
+                            {authorNote.paragraphs.map((t) => (
+                                <p key={t}>{t}</p>
+                            ))}
+                            <p className="small muted">
+                                — <a href={authorNote.url} rel="noopener" target="_blank">{authorNote.author}</a>, by email ({fmtDate(authorNote.date)}), shared with permission
+                            </p>
+                        </aside>
+                    )}
                 </section>
             )}
 
