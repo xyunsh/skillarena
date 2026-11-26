@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-11-25T22:13:31.808Z",
+  "builtAt": "2026-11-26T00:37:48.878Z",
   "lastGeneratedAt": "2026-11-18T00:51:43.648Z",
   "models": [
     "claude-opus-5-5"
@@ -30152,6 +30152,66 @@
               "v": "3c24dce0",
               "hasShots": true
             }
+          ],
+          "anthropic-canvas-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T11:57:10.202Z",
+              "costUsd": 0,
+              "outputTokens": 10188,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/anthropic-canvas-design/run-1/",
+              "v": "3e8a2236",
+              "hasShots": true
+            }
+          ],
+          "bencium-innovative": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:22:04.502Z",
+              "costUsd": 0,
+              "outputTokens": 6493,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/bencium-innovative/run-1/",
+              "v": "aa3b16e3",
+              "hasShots": true
+            }
+          ],
+          "humane-functionalism": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T11:53:41.547Z",
+              "costUsd": 0,
+              "outputTokens": 7182,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/humane-functionalism/run-1/",
+              "v": "e6df5652",
+              "hasShots": true
+            }
+          ],
+          "taste-soft": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:21:55.666Z",
+              "costUsd": 0,
+              "outputTokens": 11901,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/dashboard/taste-soft/run-1/",
+              "v": "89f0be20",
+              "hasShots": true
+            }
           ]
         },
         "mobile-app": {
@@ -30587,6 +30647,66 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/emil-remove-animations/run-1/",
               "v": "d68b1282",
+              "hasShots": true
+            }
+          ],
+          "anthropic-canvas-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T11:57:09.968Z",
+              "costUsd": 0,
+              "outputTokens": 7317,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/anthropic-canvas-design/run-1/",
+              "v": "f2c9439d",
+              "hasShots": true
+            }
+          ],
+          "bencium-innovative": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:23:36.331Z",
+              "costUsd": 0,
+              "outputTokens": 4334,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/bencium-innovative/run-1/",
+              "v": "45a20c0c",
+              "hasShots": true
+            }
+          ],
+          "humane-functionalism": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T11:56:57.516Z",
+              "costUsd": 0,
+              "outputTokens": 7117,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/humane-functionalism/run-1/",
+              "v": "b41235d2",
+              "hasShots": true
+            }
+          ],
+          "taste-soft": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:24:48.784Z",
+              "costUsd": 0,
+              "outputTokens": 8435,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/mobile-app/taste-soft/run-1/",
+              "v": "fb28860b",
               "hasShots": true
             }
           ]
@@ -31026,6 +31146,66 @@
               "v": "13a5670a",
               "hasShots": true
             }
+          ],
+          "anthropic-canvas-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T11:54:38.594Z",
+              "costUsd": 0,
+              "outputTokens": 10076,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/anthropic-canvas-design/run-1/",
+              "v": "0f3461de",
+              "hasShots": true
+            }
+          ],
+          "bencium-innovative": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:19:48.164Z",
+              "costUsd": 0,
+              "outputTokens": 5505,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/bencium-innovative/run-1/",
+              "v": "27512de5",
+              "hasShots": true
+            }
+          ],
+          "humane-functionalism": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T11:54:30.579Z",
+              "costUsd": 0,
+              "outputTokens": 9646,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/humane-functionalism/run-1/",
+              "v": "6cfc9863",
+              "hasShots": true
+            }
+          ],
+          "taste-soft": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:22:47.802Z",
+              "costUsd": 0,
+              "outputTokens": 14494,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/saas-landing/taste-soft/run-1/",
+              "v": "55e54e09",
+              "hasShots": true
+            }
           ]
         },
         "signup-form": {
@@ -31461,6 +31641,66 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt/signup-form/emil-remove-animations/run-1/",
               "v": "2c651690",
+              "hasShots": true
+            }
+          ],
+          "anthropic-canvas-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T11:59:32.414Z",
+              "costUsd": 0,
+              "outputTokens": 6849,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/anthropic-canvas-design/run-1/",
+              "v": "eee7a43b",
+              "hasShots": true
+            }
+          ],
+          "bencium-innovative": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:25:00.586Z",
+              "costUsd": 0,
+              "outputTokens": 3938,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/bencium-innovative/run-1/",
+              "v": "45ae1edd",
+              "hasShots": true
+            }
+          ],
+          "humane-functionalism": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T11:59:01.552Z",
+              "costUsd": 0,
+              "outputTokens": 5971,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/humane-functionalism/run-1/",
+              "v": "df6c9154",
+              "hasShots": true
+            }
+          ],
+          "taste-soft": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:25:42.895Z",
+              "costUsd": 0,
+              "outputTokens": 8434,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/signup-form/taste-soft/run-1/",
+              "v": "6ef956e1",
               "hasShots": true
             }
           ]
@@ -31900,6 +32140,66 @@
               "v": "2fcffc93",
               "hasShots": true
             }
+          ],
+          "anthropic-canvas-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T12:01:12.809Z",
+              "costUsd": 0,
+              "outputTokens": 6305,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/anthropic-canvas-design/run-1/",
+              "v": "cd21be71",
+              "hasShots": true
+            }
+          ],
+          "bencium-innovative": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:26:46.580Z",
+              "costUsd": 0,
+              "outputTokens": 5019,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/bencium-innovative/run-1/",
+              "v": "e193603e",
+              "hasShots": true
+            }
+          ],
+          "humane-functionalism": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T12:01:13.331Z",
+              "costUsd": 0,
+              "outputTokens": 11909,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/humane-functionalism/run-1/",
+              "v": "b9e6d485",
+              "hasShots": true
+            }
+          ],
+          "taste-soft": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:28:07.755Z",
+              "costUsd": 0,
+              "outputTokens": 9666,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt/skillarena-home/taste-soft/run-1/",
+              "v": "0ca1a2f2",
+              "hasShots": true
+            }
           ]
         }
       },
@@ -32337,6 +32637,66 @@
               "fullPageTruncated": false,
               "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/emil-remove-animations/run-1/",
               "v": "42c62e82",
+              "hasShots": true
+            }
+          ],
+          "anthropic-canvas-design": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T12:03:54.662Z",
+              "costUsd": 0,
+              "outputTokens": 7706,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/anthropic-canvas-design/run-1/",
+              "v": "435b714a",
+              "hasShots": true
+            }
+          ],
+          "bencium-innovative": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:30:13.855Z",
+              "costUsd": 0,
+              "outputTokens": 6002,
+              "fullPageTruncated": true,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/bencium-innovative/run-1/",
+              "v": "da874da5",
+              "hasShots": true
+            }
+          ],
+          "humane-functionalism": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-24T12:03:51.949Z",
+              "costUsd": 0,
+              "outputTokens": 7603,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/humane-functionalism/run-1/",
+              "v": "1b13d30e",
+              "hasShots": true
+            }
+          ],
+          "taste-soft": [
+            {
+              "run": 1,
+              "status": "ok",
+              "error": null,
+              "model": "gpt-6.1-sol",
+              "generatedAt": "2026-11-19T15:32:06.565Z",
+              "costUsd": 0,
+              "outputTokens": 11628,
+              "fullPageTruncated": false,
+              "base": "https://assets.skillarena.dev/ext/gpt-live/skillarena-live/taste-soft/run-1/",
+              "v": "44b06cab",
               "hasShots": true
             }
           ]

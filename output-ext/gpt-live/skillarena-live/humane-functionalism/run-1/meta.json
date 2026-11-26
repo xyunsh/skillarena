@@ -1,0 +1,32 @@
+{
+  "briefId": "skillarena-live",
+  "skillId": "humane-functionalism",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-24T12:03:51.949Z",
+  "inputTokens": 21292,
+  "outputTokens": 7603,
+  "costUsd": 0,
+  "durationMs": 157647,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "patches": [
+    "thumb-live-v2",
+    "logo-home-link-v1"
+  ],
+  "screenshots": {
+    "takenAt": "2026-11-26T00:33:54.050Z",
+    "fullPageHeight": 2356,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

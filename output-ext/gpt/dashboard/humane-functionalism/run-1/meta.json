@@ -1,0 +1,28 @@
+{
+  "briefId": "dashboard",
+  "skillId": "humane-functionalism",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "87129c9747468e380adc28a98226fdffcd55ce9b",
+  "referencesInlined": true,
+  "generatedAt": "2026-11-24T11:53:41.547Z",
+  "inputTokens": 20264,
+  "outputTokens": 7182,
+  "costUsd": 0,
+  "durationMs": 149677,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-26T00:32:59.814Z",
+    "fullPageHeight": 1353,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

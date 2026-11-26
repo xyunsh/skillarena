@@ -1,0 +1,28 @@
+{
+  "briefId": "mobile-app",
+  "skillId": "anthropic-canvas-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-24T11:57:09.968Z",
+  "inputTokens": 19595,
+  "outputTokens": 7317,
+  "costUsd": 0,
+  "durationMs": 151372,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-26T00:33:06.190Z",
+    "fullPageHeight": 1217,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

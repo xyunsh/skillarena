@@ -1,0 +1,28 @@
+{
+  "briefId": "saas-landing",
+  "skillId": "anthropic-canvas-design",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-24T11:54:38.594Z",
+  "inputTokens": 19597,
+  "outputTokens": 10076,
+  "costUsd": 0,
+  "durationMs": 206723,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-26T00:33:13.748Z",
+    "fullPageHeight": 3079,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}

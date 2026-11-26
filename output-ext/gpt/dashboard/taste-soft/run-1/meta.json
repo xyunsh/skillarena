@@ -1,0 +1,28 @@
+{
+  "briefId": "dashboard",
+  "skillId": "taste-soft",
+  "run": 1,
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "skillCommit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+  "referencesInlined": false,
+  "generatedAt": "2026-11-19T15:21:55.666Z",
+  "inputTokens": 19370,
+  "outputTokens": 11901,
+  "costUsd": 0,
+  "durationMs": 243567,
+  "status": "ok",
+  "error": null,
+  "stopReason": null,
+  "backend": "codex-exec",
+  "costIsEstimate": true,
+  "screenshots": {
+    "takenAt": "2026-11-26T00:33:06.313Z",
+    "fullPageHeight": 1481,
+    "fullPageTruncated": false,
+    "networkIdleTimedOut": false,
+    "scrolledForReveal": true,
+    "hiddenAfterScroll": 0,
+    "blockedRequests": []
+  }
+}
